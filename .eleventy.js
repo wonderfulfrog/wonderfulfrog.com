@@ -10,6 +10,10 @@ module.exports = (eleventyConfig) => {
     // Optional (default is set): If your site deploys to a subdirectory, change `pathPrefix`, for example with with GitHub pages
     pathPrefix: "/",
 
+    markdownTemplateEngine: "njk",
+    dataTemplateEngine: "njk",
+    htmlTemplateEngine: "njk",
+
     dir: {
       output: "dist",
       input: "src",

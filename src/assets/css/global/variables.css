@@ -1,0 +1,5 @@
+/* Global variables */
+:root {
+  --transition-duration: 250ms;
+  --transition-timing: ease;
+}

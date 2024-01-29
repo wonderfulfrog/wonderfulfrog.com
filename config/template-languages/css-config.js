@@ -1,18 +1,18 @@
-// CSS and JavaScript as first-class citizens in Eleventy: https://pepelsbey.dev/articles/eleventy-css-js/
+// CSS and JavaScript as first-class citizens in Eleventy: https://pepelsbey.dev/articles/eleventy-css-js/
 
-const postcss = require('postcss');
-const postcssImport = require('postcss-import');
-const postcssImportExtGlob = require('postcss-import-ext-glob');
-const autoprefixer = require('autoprefixer');
-const cssnano = require('cssnano');
+const postcss = require("postcss");
+const postcssImport = require("postcss-import");
+const postcssImportExtGlob = require("postcss-import-ext-glob");
+const autoprefixer = require("autoprefixer");
+const cssnano = require("cssnano");
 
-module.exports = eleventyConfig => {
-  eleventyConfig.addTemplateFormats('css');
+module.exports = (eleventyConfig) => {
+  eleventyConfig.addTemplateFormats("css");
 
-  eleventyConfig.addExtension('css', {
-    outputFileExtension: 'css',
+  eleventyConfig.addExtension("css", {
+    outputFileExtension: "css",
     compile: async (content, path) => {
-      if (path !== './src/assets/css/global.css') {
+      if (path !== "./src/assets/css/global.css") {
         return;
       }
 
@@ -21,13 +21,13 @@ module.exports = eleventyConfig => {
           postcssImportExtGlob,
           postcssImport,
           autoprefixer,
-          cssnano
+          cssnano,
         ]).process(content, {
-          from: path
+          from: path,
         });
 
         return output.css;
       };
-    }
+    },
   });
 };

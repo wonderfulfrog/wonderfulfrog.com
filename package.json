@@ -6,14 +6,19 @@
   "author": "Devin Haska",
   "license": "MIT",
   "scripts": {
-    "dev": "eleventy --serve --watch"
+    "dev": "eleventy --serve --watch",
+    "lint": "eslint src/ config/"
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
     "autoprefixer": "^10.4.17",
     "cssnano": "^6.0.3",
+    "eslint": "8.56.0",
+    "eslint-config-prettier": "9.1.0",
+    "eslint-plugin-prettier": "5.1.3",
     "postcss": "^8.4.33",
     "postcss-import": "^16.0.0",
-    "postcss-import-ext-glob": "^2.1.1"
+    "postcss-import-ext-glob": "^2.1.1",
+    "prettier": "3.2.4"
   }
 }

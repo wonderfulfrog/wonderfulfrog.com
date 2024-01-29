@@ -1,18 +1,20 @@
-module.exports = eleventyConfig => {
-  eleventyConfig.addWatchTarget('./src/assets');
+module.exports = (eleventyConfig) => {
+  eleventyConfig.addWatchTarget("./src/assets");
 
-    // 	--------------------- Custom Template Languages ---------------------
-  eleventyConfig.addPlugin(require('./config/template-languages/css-config.js'));
+  // 	--------------------- Custom Template Languages ---------------------
+  eleventyConfig.addPlugin(
+    require("./config/template-languages/css-config.js"),
+  );
 
   return {
     // Optional (default is set): If your site deploys to a subdirectory, change `pathPrefix`, for example with with GitHub pages
-    pathPrefix: '/',
+    pathPrefix: "/",
 
     dir: {
-      output: 'dist',
-      input: 'src',
-      includes: '_includes',
-      layouts: '_layouts'
-    }
+      output: "dist",
+      input: "src",
+      includes: "_includes",
+      layouts: "_layouts",
+    },
   };
 };

@@ -1,6 +1,4 @@
 module.exports = {
-  top: [
-  ],
-  bottom: [
-  ]
+  top: [],
+  bottom: [],
 };

@@ -1,0 +1,19 @@
+{
+  "name": "wonderfulfrog.com",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/wonderfulfrog/wonderfulfrog.com",
+  "author": "Devin Haska",
+  "license": "MIT",
+  "scripts": {
+    "dev": "eleventy --serve --watch"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "autoprefixer": "^10.4.17",
+    "cssnano": "^6.0.3",
+    "postcss": "^8.4.33",
+    "postcss-import": "^16.0.0",
+    "postcss-import-ext-glob": "^2.1.1"
+  }
+}

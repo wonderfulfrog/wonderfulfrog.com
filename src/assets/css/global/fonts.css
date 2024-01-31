@@ -1,0 +1,82 @@
+@supports not (font-variation-settings: normal) {
+  @font-face {
+    font-family: Quattro;
+    font-style: normal;
+    font-display: swap;
+    font-weight: 450;
+    src:
+      local(""),
+      url("/assets/fonts/quattro/iAWriterQuattroS-Regular.woff2")
+        format("woff2");
+  }
+
+  @font-face {
+    font-family: Quattro;
+    font-style: bold;
+    font-display: swap;
+    font-weight: 650;
+    src:
+      local(""),
+      url("/assets/fonts/quattro/iAWriterQuattroS-Bold.woff2") format("woff2");
+  }
+
+  @font-face {
+    font-family: Quattro;
+    font-style: italic;
+    font-display: swap;
+    font-weight: 450;
+    src:
+      local(""),
+      url("/assets/fonts/quattro/iAWriterQuattroS-Italic.woff2") format("woff2");
+  }
+
+  @font-face {
+    font-family: Quattro;
+    font-style: italic;
+    font-display: swap;
+    font-weight: 650;
+    src:
+      local(""),
+      url("/assets/fonts/quattro/iAWriterQuattroS-BoldItalic.woff2")
+        format("woff2");
+  }
+
+  @font-face {
+    font-family: AnekLatin;
+    font-style: bold;
+    font-display: swap;
+    font-weight: 700;
+    src:
+      local(""),
+      url("/assets/fonts/aneklatin/AnekLatin-Bold.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: AnekLatin;
+    font-style: bold;
+    font-display: swap;
+    font-weight: 800;
+    src:
+      local(""),
+      url("/assets/fonts/aneklatin/AnekLatin-ExtraBold.ttf") format("truetype");
+  }
+}
+
+@supports (font-variation-settings: normal) {
+  @font-face {
+    font-family: Quattro;
+    src: url("/assets/fonts/quattro/iAWriterQuattroV.ttf") format("truetype");
+    font-weight: 450 600;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: AnekLatin;
+    src: url("/assets/fonts/aneklatin/AnekLatin-VariableFont_wdth,wght.ttf")
+      format("truetype");
+    font-weight: 700 800;
+    font-style: normal;
+    font-display: swap;
+  }
+}

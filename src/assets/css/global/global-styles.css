@@ -4,3 +4,41 @@
   Low-specificity, global styles that apply to the whole
   project: https://cube.fyi/css.html
 */
+body {
+  font-family:
+    Quattro,
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    "system-ui",
+    "Segoe UI",
+    Roboto,
+    "Helvetica Neue",
+    Arial,
+    "Noto Sans",
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol",
+    "Noto Color Emoji";
+}
+
+h1 {
+  font-family: AnekLatin;
+  font-weight: 800;
+}
+
+h2,
+h3 {
+  font-family: AnekLatin;
+  font-weight: 700;
+}
+
+h3 {
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration-color: black;
+  text-decoration-thickness: 2px;
+}

@@ -6,6 +6,11 @@ module.exports = (eleventyConfig) => {
     require("./config/template-languages/css-config.js"),
   );
 
+  // 	--------------------- Passthrough File Copy -----------------------
+  ["src/assets/fonts/"].forEach((path) =>
+    eleventyConfig.addPassthroughCopy(path),
+  );
+
   return {
     // Optional (default is set): If your site deploys to a subdirectory, change `pathPrefix`, for example with with GitHub pages
     pathPrefix: "/",

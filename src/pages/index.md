@@ -19,6 +19,8 @@ _**This is bold and italic text.**_
 
 Here is [a link](https://wonderfulfrog.com)
 
+![](https://wonderfulfrog.b-cdn.net/Pasted%20image%2020231125192543.png)
+
 ---
 
 **Advertisement :)**

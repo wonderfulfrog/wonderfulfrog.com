@@ -4,41 +4,105 @@
   Low-specificity, global styles that apply to the whole
   project: https://cube.fyi/css.html
 */
+html {
+  scrollbar-color: var(--color-primary) var(--color-indiglo-800);
+}
+
 body {
-  font-family:
-    Quattro,
-    ui-sans-serif,
-    system-ui,
-    -apple-system,
-    "system-ui",
-    "Segoe UI",
-    Roboto,
-    "Helvetica Neue",
-    Arial,
-    "Noto Sans",
-    sans-serif,
-    "Apple Color Emoji",
-    "Segoe UI Emoji",
-    "Segoe UI Symbol",
-    "Noto Color Emoji";
+  accent-color: var(--color-primary);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body), var(--font-fallback);
+  font-size: var(--font-size-body);
+  font-weight: var(--font-weight-body);
+  letter-spacing: var(--font-tracking-body);
+  line-height: var(--font-line-height-body);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-display);
 }
 
 h1 {
-  font-family: AnekLatin;
-  font-weight: 800;
+  font-size: var(--font-size-heading-1);
+  font-weight: var(--font-weight-heading-1);
+  letter-spacing: var(--font-tracking-heading-1);
 }
 
-h2,
-h3 {
-  font-family: AnekLatin;
-  font-weight: 700;
+h2 {
+  font-size: var(--font-size-heading-2);
+  font-weight: var(--font-weight-heading-2);
+  letter-spacing: var(--font-tracking-heading-2);
 }
 
 h3 {
+  font-size: var(--font-size-heading-3);
+  font-weight: var(--font-weight-heading-3);
+  letter-spacing: var(--font-tracking-heading-3);
   text-transform: uppercase;
 }
 
 a {
-  text-decoration-color: black;
+  color: currentColor;
+  text-decoration-color: var(--color-primary);
   text-decoration-thickness: 2px;
+}
+
+a:hover,
+a:active,
+a:focus-visible {
+  text-decoration-color: var(--color-primary-highlight);
+}
+
+a:visited {
+  text-decoration-color: var(--color-primary-subtle);
+}
+
+ul li::marker {
+  color: var(--color-primary-faded);
+}
+
+ol li::marker {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+blockquote {
+  border-inline-start: 2px solid var(--color-primary-faded);
+  margin-inline-start: 0;
+  padding-inline: 1rem;
+}
+
+blockquote > * + * {
+  margin-block-start: 1rem;
+  margin-inline-start: 1rem;
+}
+
+:focus-visible {
+  outline: 3px solid;
+  outline-color: var(--color-primary);
+  outline-offset: 0.3ch;
+}
+
+strong {
+  font-weight: 650;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+
+  *,
+  ::after,
+  ::before {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
 }

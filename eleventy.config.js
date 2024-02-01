@@ -1,4 +1,5 @@
 const markdown = require("./config/plugins/markdown.js");
+const imageShortcode = require("./config/shortcodes/image.js");
 
 module.exports = (eleventyConfig) => {
   eleventyConfig.addWatchTarget("./src/assets");
@@ -14,6 +15,7 @@ module.exports = (eleventyConfig) => {
 
   // 	--------------------- Markdown -----------------------
   eleventyConfig.setLibrary("md", markdown);
+  eleventyConfig.addShortcode("image", imageShortcode);
 
   return {
     // Optional (default is set): If your site deploys to a subdirectory, change `pathPrefix`, for example with with GitHub pages

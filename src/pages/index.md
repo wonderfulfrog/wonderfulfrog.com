@@ -19,7 +19,11 @@ _**This is bold and italic text.**_
 
 Here is [a link](https://wonderfulfrog.com)
 
-![](https://wonderfulfrog.b-cdn.net/Pasted%20image%2020231125192543.png)
+{% image "https://wonderfulfrog.b-cdn.net/Pasted%20image%2020231125194810.png", "" %}
+{% image "https://wonderfulfrog.b-cdn.net/Pasted%20image%2020231125193029.png", "" %}
+{% image "https://wonderfulfrog.b-cdn.net/Pasted%20image%2020231125194601.png", "" %}
+
+dsfgkjsldfgj
 
 ---
 
@@ -248,7 +252,7 @@ This is HTML abbreviation example.
 
 It converts "HTML", but keep intact partial entries like "xxxHTMLyyy" and so on.
 
-*[HTML]: Hyper Text Markup Language
+\*[HTML]: Hyper Text Markup Language
 
 ### [Custom containers](https://github.com/markdown-it/markdown-it-container)
 

@@ -96,6 +96,14 @@ abbr {
   text-decoration-color: var(--color-primary);
 }
 
+img[width] {
+  width: auto;
+}
+
+img[width][height] {
+  height: auto;
+}
+
 @media (prefers-reduced-motion: reduce) {
   html:focus-within {
     scroll-behavior: auto;

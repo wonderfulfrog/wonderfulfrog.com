@@ -1,3 +1,4 @@
+const { entries, values, minifyCss } = require("./config/filters/index.js");
 const markdown = require("./config/plugins/markdown.js");
 const imageShortcode = require("./config/shortcodes/image.js");
 
@@ -7,6 +8,11 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addPlugin(
     require("./config/template-languages/css-config.js"),
   );
+
+  // 	--------------------- Custom Filters -----------------------
+  eleventyConfig.addFilter("minifyCss", minifyCss);
+  eleventyConfig.addFilter("entries", entries);
+  eleventyConfig.addFilter("values", values);
 
   // 	--------------------- Passthrough File Copy -----------------------
   ["src/assets/fonts/"].forEach((path) =>
@@ -28,6 +34,7 @@ module.exports = (eleventyConfig) => {
     dir: {
       output: "dist",
       input: "src",
+      data: "data",
       includes: "_includes",
       layouts: "_layouts",
     },

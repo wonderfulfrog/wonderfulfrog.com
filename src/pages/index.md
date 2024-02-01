@@ -7,6 +7,8 @@ permalink: /index.html
 
 This is the root page.
 
+This is regular text.
+
 **This is bold text.**
 
 _This is italic text._

@@ -7,6 +7,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" href="/assets/css/global.css" />
+    {% for preload in preloads %}
+    <link
+      rel="preload"
+      as="{{ preload.as }}"
+      href="{{ preload.href }}"
+      {%
+      if
+      preload.crossorigin
+      %}crossorigin{%
+      endif
+      %}
+    />
+    {% endfor %} {% set fontCss %} {% include "css/fontFace.njk" %} {% include
+    "css/fontVariables.njk" %}{% endset %}
+    <style>
+      {{ fontCss | minifyCss | safe }}
+    </style>
   </head>
 
   <body>

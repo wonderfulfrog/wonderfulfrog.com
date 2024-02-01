@@ -1,0 +1,19 @@
+{% set allFonts = fonts | values %}
+{% for font in allFonts %}
+    {% set weights = font.weights | values %}
+    {% for fontEntry in weights %}
+        {% if fontEntry.url %}
+            {% set family = font.family %}
+            {% set localName = font.family %}
+            {% set postScriptName = [font.family, fontEntry.variant] | join("-") | replace(" ", "") %}
+            @font-face {
+                font-family: {{ family }};
+                font-style: {{ fontEntry.style }};
+                font-weight: {{ fontEntry.weight }};
+                {% if fontEntry.display %}font-display: {{ fontEntry.display }};{% endif %}
+                src: local("{{ localName }}"), local("{{ postScriptName }}"), url("{{ fontEntry.url }}") format("{{ fontEntry.format }}")
+            }
+        {% endif %}
+    {% endfor %}
+{% endfor %}
+

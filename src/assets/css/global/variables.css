@@ -25,32 +25,6 @@
   --color-primary-subtle: var(--color-indiglo-500);
   --color-primary-faded: var(--color-indiglo-600);
   --color-secondary: #ed5215;
-
-  --font-display: AnekLatin;
-  --font-body: Quattro;
-  --font-fallback: ui-sans-serif, system-ui, -apple-system, "system-ui",
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-
-  --font-size-heading-1: 3rem;
-  --font-size-heading-2: 2rem;
-  --font-size-heading-3: 1.5rem;
-  --font-size-body: 1.125rem;
-
-  --font-weight-heading-1: 800;
-  --font-weight-heading-2: 700;
-  --font-weight-heading-3: 700;
-  --font-weight-body: 450;
-
-  --font-tracking-heading-1: -5%;
-  --font-tracking-heading-2: -5%;
-  --font-tracking-heading-3: -5%;
-  --font-tracking-body: -3%;
-
-  --font-line-height-heading-1: 3rem;
-  --font-line-height-heading-2: 2rem;
-  --font-line-height-heading-3: 1.5rem;
-  --font-line-height-body: 2rem;
 }
 
 @media (prefers-color-scheme: dark) {

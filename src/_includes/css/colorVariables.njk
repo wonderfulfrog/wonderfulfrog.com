@@ -1,0 +1,13 @@
+{% set allColors = colors | entries %}
+
+html {
+{% for color in allColors %}
+    {% set colorName = color | first %}
+    {% set colorRanges = color | last | entries %}
+    {% for colorValue in colorRanges %}
+        {% set value = colorValue | first %}
+        {% set hex = colorValue | last %}
+        --color-{{ colorName }}-{{ value }}: {{ hex }};
+    {% endfor %}
+{% endfor %}
+}

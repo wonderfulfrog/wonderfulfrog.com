@@ -24,6 +24,10 @@
     <style>
       {{ fontCss | minifyCss | safe }}
     </style>
+    {% set colorCss %} {% include "css/colorVariables.njk" %} {% endset %}
+    <style>
+      {{ colorCss | minifyCss | safe }}
+    </style>
   </head>
 
   <body>

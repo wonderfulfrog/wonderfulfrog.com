@@ -32,11 +32,12 @@ module.exports = (eleventyConfig) => {
     htmlTemplateEngine: "njk",
 
     dir: {
-      output: "dist",
-      input: "src",
-      data: "data",
+      assets: "assets",
+      data: "_data",
       includes: "_includes",
+      input: "src",
       layouts: "_layouts",
+      output: "dist",
     },
   };
 };

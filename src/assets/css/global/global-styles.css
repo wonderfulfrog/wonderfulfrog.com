@@ -16,7 +16,7 @@ body {
   font-size: 1.125rem;
   font-weight: var(--font-weight-body-regular);
   letter-spacing: -0.03rem;
-  line-height: 1.5rem;
+  line-height: 2rem;
 }
 
 h1,
@@ -97,10 +97,6 @@ strong {
 
 abbr {
   text-decoration-color: var(--color-primary);
-}
-
-img[width] {
-  width: auto;
 }
 
 img[width][height] {

@@ -1,38 +1,32 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- charset/http-equiv/viewport -->
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link rel="stylesheet" href="/assets/css/global.css" />
-    {% for preload in preloads %}
-    <link
-      rel="preload"
-      as="{{ preload.as }}"
-      href="{{ preload.href }}"
-      {%
-      if
-      preload.crossorigin
-      %}crossorigin{%
-      endif
-      %}
-    />
-    {% endfor %} {% set fontCss %} {% include "css/fontFace.njk" %} {% include
-    "css/fontVariables.njk" %}{% endset %}
-    <style>
-      {{ fontCss | minifyCss | safe }}
-    </style>
-    {% set colorCss %} {% include "css/colorVariables.njk" %} {% endset %}
-    <style>
-      {{ colorCss | minifyCss | safe }}
-    </style>
-  </head>
-
-  <body>
-    {% include "partials/header.html" %}
-    <main id="main" class="wrapper flow">{{ content | safe }}</main>
-    {% include "partials/footer.html" %}
-  </body>
+    <head>
+        <!-- charset/http-equiv/viewport -->
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/assets/css/global.css" />
+        {% for preload in preloads %}
+            <link rel="preload"
+                  as="{{ preload.as }}"
+                  href="{{ preload.href }}"
+                  {% if preload.crossorigin %}crossorigin{% endif %} />
+        {% endfor %}
+        {% set fontCss %}
+            {% include "css/fontFace.njk" %}
+            {% include "css/fontVariables.njk" %}
+        {% endset %}
+        <style>{{ fontCss | minifyCss | safe }}</style>
+        {% set colorCss %}
+            {% include "css/colorVariables.njk" %}
+        {% endset %}
+        <style>{{ colorCss | minifyCss | safe }}</style>
+    </head>
+    <body>
+        {% include "partials/header.html" %}
+        <main id="main" class="wrapper flow">
+            {{ content | safe }}
+        </main>
+        {% include "partials/footer.html" %}
+    </body>
 </html>

@@ -1,0 +1,14 @@
+---
+layout: base
+---
+
+<p>{{ date }}</p>
+
+<h1>{{ title }}</h1>
+
+<ul>
+  {% for category in categories %}
+  <li>#{{ category }}</li>
+  {% endfor %}
+</ul>
+{{ content | safe }}

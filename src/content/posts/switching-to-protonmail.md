@@ -5,14 +5,6 @@ excerpt: The beginning of a quest to take back my data.
 categories: [email, protonmail]
 ---
 
-{{ date }}
-
-{% for category in categories %}
-{{ category }}
-{% endfor %}
-
-# Switching from Gmail to Protonmail
-
 I've been an avid Gmail user since its inception sometime in 2004. I remember hunting for a beta invite back when they were highly coveted. I have received 25,467 emails and sent 1,738. The first email I sent was to a local shop to buy my old G3 iMac.
 
 {% image "https://cdn.wonderfulfrog.com/Pasted%20image%2020231125192342.png", "A screenshot of the 'Welcome to Gmail' email everyone received when they first opened their account" %}

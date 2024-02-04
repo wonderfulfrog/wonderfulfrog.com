@@ -3,8 +3,8 @@
   --transition-duration: 250ms;
   --transition-timing: ease;
 
-  --color-light: var(--color-neutrals-white);
-  --color-dark: var(--color-neutrals-black);
+  --color-light: var(--color-neutral-50);
+  --color-dark: var(--color-neutral-950);
 
   --color-bg: var(--color-light);
   --color-text: var(--color-dark);

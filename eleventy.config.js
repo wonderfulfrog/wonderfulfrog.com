@@ -21,7 +21,7 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addFilter("values", values);
 
   // 	--------------------- Passthrough File Copy -----------------------
-  ["src/assets/fonts/"].forEach((path) =>
+  ["src/assets/fonts/", "src/assets/images"].forEach((path) =>
     eleventyConfig.addPassthroughCopy(path),
   );
 

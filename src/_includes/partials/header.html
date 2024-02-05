@@ -1,3 +1,14 @@
-<header>
-    {% include "partials/menu.html" %}
+<header class="navbar">
+    <nav class="wrapper flex items-center">
+        <div class="[ flex items-center ] [ site-logo ]">
+            <a class="[ flex items-center justify-center ] [ logo ]" href="#">
+                <img src="/assets/images/logo.svg" width="32" height="32" alt="" />
+            </a>
+            <a class="[ flex ] [ wordmark ]" href="#">
+                <span>wonderful</span>
+                <span>frog</span>
+            </a>
+        </div>
+        {% include "partials/menu.html" %}
+    </nav>
 </header>

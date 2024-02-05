@@ -1,0 +1,51 @@
+.site-logo {
+  gap: 0.5rem;
+}
+
+.site-logo .logo {
+  background-color: var(--color-light);
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
+  border-color: var(--color-dark);
+  border-width: 1px;
+  border-style: solid;
+  box-shadow: 0 2px 0 var(--color-dark);
+}
+
+.site-logo .wordmark {
+  text-decoration: none;
+}
+
+.site-logo .wordmark > span {
+  text-shadow:
+    -1px 1px 0 var(--shadow-color),
+    0 1px 0 var(--shadow-color),
+    -1px -1px 0 var(--shadow-color),
+    1px -1px 0 var(--shadow-color),
+    1px 1px 0 var(--shadow-color),
+    -1px 2px 0 var(--shadow-color),
+    0px 2px 0 var(--shadow-color),
+    1px 2px 0 var(--shadow-color),
+    -1px 3px 0 var(--shadow-color),
+    0px 3px 0 var(--shadow-color),
+    1px 3px 0 var(--shadow-color);
+  color: white;
+  font-family: var(--font-family-display);
+  font-size: 1.5rem;
+  letter-spacing: -0.05em;
+  transition: transform var(--transition-duration);
+}
+
+.site-logo .wordmark > span:hover {
+  transform: translateY(-2px);
+}
+
+.site-logo .wordmark > :nth-child(1) {
+  --shadow-color: var(--color-dark);
+}
+
+.site-logo .wordmark > :nth-child(2) {
+  --shadow-color: var(--color-primary-faded);
+  z-index: 1;
+}

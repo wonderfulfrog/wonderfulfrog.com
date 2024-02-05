@@ -2,9 +2,13 @@
 layout: base
 ---
 
-<p>{{ date }}</p>
-<h1>{{ title }}</h1>
-<ul>
-    {% for category in categories %}<li>#{{ category }}</li>{% endfor %}
-</ul>
-{{ content | safe }}
+<article class="flow">
+    <header class="flow" style="--flow-space: 1rem">
+        <time class="date" datetime="{{ date }}">{{ date | formatDate("MMMM D, YYYY") }}</time>
+        <h1>{{ title }}</h1>
+        <ul class="categories">
+            {% for category in categories %}<li>{{ category }}</li>{% endfor %}
+        </ul>
+    </header>
+    {{ content | safe }}
+</article>

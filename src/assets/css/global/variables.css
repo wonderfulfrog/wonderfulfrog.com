@@ -8,6 +8,7 @@
 
   --color-bg: var(--color-light);
   --color-text: var(--color-dark);
+  --color-text-soft: var(--color-neutral-600);
   --color-primary: var(--color-aqua-400);
   --color-primary-highlight: var(--color-aqua-300);
   --color-primary-subtle: var(--color-aqua-500);

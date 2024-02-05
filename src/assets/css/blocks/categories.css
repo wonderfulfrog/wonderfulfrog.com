@@ -1,0 +1,14 @@
+.categories {
+  color: var(--color-text-soft);
+  display: flex;
+  gap: 1rem;
+  list-style-type: none;
+  margin-block-end: 0;
+  padding: 0;
+}
+
+.categories li::before {
+  content: "#";
+  margin-inline-end: 0.125rem;
+  user-select: none;
+}

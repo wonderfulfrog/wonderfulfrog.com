@@ -3,4 +3,5 @@
 
 @import "global/global-styles.css";
 
+@import-glob "blocks/*.css";
 @import-glob "utils/*.css";

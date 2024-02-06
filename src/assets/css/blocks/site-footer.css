@@ -1,0 +1,38 @@
+.footer {
+  background-color: var(--color-bg-soft);
+  margin-block-start: 1.5rem;
+  padding-block: 1.5rem;
+}
+
+.footer-links {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-gap {
+  gap: 0.5rem;
+}
+
+.footer-grid {
+  display: grid;
+}
+
+.footer-socials {
+  grid-column: 1 / -1;
+}
+
+.footer-pages .footer-links {
+  flex-direction: column;
+}
+
+@media (min-width: 32rem) {
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .footer-pages .footer-links {
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: flex-end;
+  }
+}

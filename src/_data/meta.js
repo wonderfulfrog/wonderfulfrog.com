@@ -18,7 +18,6 @@ module.exports = {
     feed: "",
   },
   social: {
-    rss: "",
     github: "",
     mastodon: "",
   },

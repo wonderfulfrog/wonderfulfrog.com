@@ -73,11 +73,11 @@ ul li::marker {
 }
 
 ol li::marker {
-  color: rgba(0, 0, 0, 0.6);
+  color: var(--color-text-soft);
 }
 
 blockquote {
-  border-inline-start: 2px solid var(--color-text-soft);
+  border-inline-start: 2px solid var(--color-bg-faded);
   margin-inline-start: 0;
   padding-inline: 1rem;
 }
@@ -103,6 +103,11 @@ abbr {
 
 img[width][height] {
   height: auto;
+}
+
+hr {
+  border-style: solid;
+  color: var(--color-bg-faded);
 }
 
 @media (prefers-reduced-motion: reduce) {

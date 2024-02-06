@@ -7,6 +7,7 @@
   --color-dark: var(--color-neutral-950);
 
   --color-bg: var(--color-light);
+  --color-bg-faded: var(--color-neutral-300);
   --color-bg-soft: var(--color-neutral-100);
   --color-text: var(--color-dark);
   --color-text-soft: var(--color-neutral-600);
@@ -20,7 +21,10 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --color-bg: var(--color-dark);
+    --color-bg-soft: var(--color-neutral-900);
+    --color-bg-faded: var(--color-neutral-800);
     --color-text: var(--color-light);
+    --color-text-soft: var(--color-neutral-500);
 
     --color-primary: var(--color-aqua-300);
     --color-primary-highlight: var(--color-aqua-200);

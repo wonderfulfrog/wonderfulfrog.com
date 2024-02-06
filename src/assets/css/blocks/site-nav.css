@@ -2,6 +2,7 @@
   backdrop-filter: blur(3px);
   background-color: color-mix(in srgb, var(--color-bg) 60%, transparent);
   background-image: linear-gradient(var(--color-bg) 20%, transparent);
+  container: navbar / inline-size;
   padding-block: 1.5rem;
   position: sticky;
   top: 0;

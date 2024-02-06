@@ -15,10 +15,7 @@ const minifyCss = async (css) => {
   return output.css;
 };
 
-const formatDate = (date, format) => {
-  console.log(date);
-  return dayjs.utc(date).format(format);
-};
+const formatDate = (date, format) => dayjs.utc(date).format(format);
 
 module.exports = {
   entries,

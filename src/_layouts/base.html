@@ -13,14 +13,12 @@
                   href="{{ preload.href }}"
                   {% if preload.crossorigin %}crossorigin{% endif %} />
         {% endfor %}
-        {% set fontCss %}
+        {% set css %}
             {% include "css/fontFace.njk" %}
             {% include "css/fontVariables.njk" %}
-        {% endset %}
-        {% set colorCss %}
             {% include "css/colorVariables.njk" %}
         {% endset %}
-        <style>{{ fontCss | minifyCss | safe }}{{ colorCss | minifyCss | safe }}</style>
+        <style>{{ css | minifyCss | safe }}</style>
     </head>
     <body>
         {% include "partials/header.html" %}

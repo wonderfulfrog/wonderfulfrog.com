@@ -1,3 +1,28 @@
-<footer>
-    Footer.
+{% set socialLinks = meta.social | entries %}
+<footer class="[ footer ]">
+    <div class="[ wrapper ] [ flex justify-between ]">
+        <div class="[ flow ]">
+            <p>&copy; {{ meta.author }} 2018-2024.</p>
+            <nav>
+                <ul class="[ footer-links ] [ flex list-none ]">
+                    {% for link in socialLinks %}
+                        {% set key = link | first %}
+                        {% set url = link | last %}
+                        <li>
+                            <a href="{{ url }}" target="_blank" rel="external noreferrer noopener">{{ key }}</a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </nav>
+        </div>
+        <nav>
+            <ul class="[ footer-links ] [ flex list-none ]">
+                {% for link in navigation.bottom %}
+                    <li>
+                        <a href="{{ link.url }}">{{ link.text }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </nav>
+    </div>
 </footer>

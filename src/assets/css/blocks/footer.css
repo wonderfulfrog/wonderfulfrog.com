@@ -1,0 +1,11 @@
+.footer {
+  background-color: var(--color-bg-soft);
+  margin-block-start: 1.5rem;
+  padding-block: 1.5rem;
+}
+
+.footer-links {
+  margin: 0;
+  padding: 0;
+  gap: 0.5rem;
+}

@@ -7,6 +7,7 @@
   --color-dark: var(--color-neutral-950);
 
   --color-bg: var(--color-light);
+  --color-bg-soft: var(--color-neutral-100);
   --color-text: var(--color-dark);
   --color-text-soft: var(--color-neutral-600);
   --color-primary: var(--color-aqua-400);

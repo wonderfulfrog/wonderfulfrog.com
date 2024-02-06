@@ -13,5 +13,19 @@ module.exports = {
       url: "/catalogue",
     },
   ],
-  bottom: [],
+  bottom: [
+    {
+      text: "Colophon",
+      url: "/colophon",
+    },
+    { text: "Blogroll", url: "/blogroll" },
+    {
+      text: "/uses",
+      url: "/uses",
+    },
+    {
+      text: "/now",
+      url: "/now",
+    },
+  ],
 };

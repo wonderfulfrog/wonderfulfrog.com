@@ -15,5 +15,11 @@ module.exports = {
   blog: {
     name: "wonderfulfrog",
     description: "Devin Haska's digital garden.",
+    feed: "",
+  },
+  social: {
+    rss: "",
+    github: "",
+    mastodon: "",
   },
 };

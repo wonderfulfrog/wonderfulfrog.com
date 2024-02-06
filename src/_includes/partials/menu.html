@@ -1,4 +1,4 @@
-<ul>
+<ul class="[ flex ] [ links ]">
     {% for item in navigation.top %}
         <li>
             <a class="nav" href="{{ item.url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}>{{ item.text }}</a>

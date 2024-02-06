@@ -7,3 +7,8 @@
   top: 0;
   z-index: 1;
 }
+
+.navbar .links {
+  list-style-type: none;
+  gap: 1.5rem;
+}

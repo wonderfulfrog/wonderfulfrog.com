@@ -1,0 +1,79 @@
+{% set spacingValues = spacing | entries %}
+
+{% for spaceValue in spacingValues %}
+    {% set key = spaceValue | first | replace(".", "\\\.") | safe %}
+    {% set value = spaceValue | last %}
+    .gap-{{ key }} {
+        gap: {{ value }}px;
+    }
+
+    .p-{{ key }} {
+        padding: {{ value }}px;
+    }
+
+    .px-{{ key }} {
+        padding-inline: {{ value }}px;
+    }
+
+    .py-{{ key }} {
+        padding-block: {{ value }}px;
+    }
+
+    .pl-{{ key }} {
+        padding-inline-start: {{ value }}px;
+    }
+
+    .pr-{{ key }} {
+        padding-inline-end: {{ value }}px;
+    }
+
+    .pt-{{ key }} {
+        padding-block-start: {{ value }}px;
+    }
+
+    .pb-{{ key }} {
+        padding-block-end: {{ value }}px;
+    }
+
+    .m-{{ key }} {
+        margin: {{ value }}px;
+    }
+
+    .mx-{{ key }} {
+        margin-inline: {{ value }}px;
+    }
+
+    .my-{{ key }} {
+        margin-block: {{ value }}px;
+    }
+
+    .ml-{{ key }} {
+        margin-inline-start: {{ value }}px;
+    }
+
+    .mr-{{ key }} {
+        margin-inline-end: {{ value }}px;
+    }
+
+    .mt-{{ key }} {
+        margin-block-start: {{ value }}px;
+    }
+
+    .mb-{{ key }} {
+        margin-block-end: {{ value }}px;
+    }
+
+    .w-{{ key }} {
+        width: {{ value }}px;
+    }
+
+    .h-{{ key }} {
+        height: {{ value }}px;
+    }
+
+    .size-{{ key }} {
+        width: {{ value }}px;
+        height: {{ value }}px;
+    }
+{% endfor %}
+

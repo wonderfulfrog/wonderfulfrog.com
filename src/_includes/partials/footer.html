@@ -1,9 +1,9 @@
 {% set socialLinks = meta.social | entries %}
-<footer class="[ footer ]">
-    <div class="[ footer-grid footer-gap wrapper ]">
+<footer class="[ footer ][ mt-1.5 py-1.5 ]">
+    <div class="[ footer-grid wrapper ][ gap-0.5 ]">
         <p>&copy; {{ meta.author }} 2018-2024.</p>
         <nav class="[ footer-pages ]">
-            <ul class="[ footer-links ] [ flex list-none ]">
+            <ul class="[ flex-col list-none p-0 m-0 gap-0.5 ]">
                 {% for link in navigation.bottom %}
                     <li>
                         <a href="{{ link.url }}">{{ link.text }}</a>
@@ -12,7 +12,7 @@
             </ul>
         </nav>
         <nav class="[ footer-socials ]">
-            <ul class="[ footer-links footer-gap ] [ flex list-none items-center ]">
+            <ul class="[ flex list-none gap-0.5 m-0 p-0 ]">
                 <li>
                     <span class="visually-hidden">RSS</span>
                     <a href="#" target="_blank">{% include "svgs/rss.svg" %}</a>

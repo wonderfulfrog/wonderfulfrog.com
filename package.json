@@ -6,6 +6,7 @@
   "author": "Devin Haska",
   "license": "MIT",
   "scripts": {
+    "debug": "DEBUG=Eleventy* eleventy --serve --watch",
     "dev": "eleventy --serve --watch",
     "lint": "eslint src/ config/"
   },

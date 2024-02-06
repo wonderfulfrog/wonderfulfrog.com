@@ -17,11 +17,10 @@
             {% include "css/fontFace.njk" %}
             {% include "css/fontVariables.njk" %}
         {% endset %}
-        <style>{{ fontCss | minifyCss | safe }}</style>
         {% set colorCss %}
             {% include "css/colorVariables.njk" %}
         {% endset %}
-        <style>{{ colorCss | minifyCss | safe }}</style>
+        <style>{{ fontCss | minifyCss | safe }}{{ colorCss | minifyCss | safe }}</style>
     </head>
     <body>
         {% include "partials/header.html" %}

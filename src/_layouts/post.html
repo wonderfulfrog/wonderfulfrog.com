@@ -7,7 +7,11 @@ layout: base
         <time class="[ date ]" datetime="{{ date }}">{{ date | formatDate("MMMM D, YYYY") }}</time>
         <h1>{{ title }}</h1>
         <ul class="[ categories ]">
-            {% for category in categories %}<li>{{ category }}</li>{% endfor %}
+            {% for category in categories %}
+                <li>
+                    <a href="/tag/{{ category }}">{{ category }}</a>
+                </li>
+            {% endfor %}
         </ul>
     </header>
     {{ content | safe }}

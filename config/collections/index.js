@@ -26,7 +26,24 @@ const getAllPostCategories = (collection) => {
   return categories;
 };
 
+const getPostsByCategory = (collection) => {
+  const posts = getAllPosts(collection);
+  const categories = Object.keys(getAllPostCategories(collection));
+
+  const postsByCategory = {};
+  categories.forEach((category) => {
+    const categoryPosts = posts.filter((post) =>
+      post.data.categories.includes(category),
+    );
+
+    postsByCategory[category] = categoryPosts;
+  });
+
+  return postsByCategory;
+};
+
 module.exports = {
   getAllPosts,
   getAllPostCategories,
+  getPostsByCategory,
 };

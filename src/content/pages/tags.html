@@ -1,0 +1,19 @@
+---
+title: All tags
+permalink: /tags/index.html
+layout: base
+---
+
+<section class="[ flow ]">
+    <h1>Tags</h1>
+    {% set categories = collections.categories | entries %}
+    <ol class="[ flex gap-1 list-none p-0 mb-0 ]">
+        {% for tag in categories %}
+            {% set key = tag | first %}
+            {% set count = tag | last %}
+            <li>
+                <a href="/tag/{{ key }}" class="[ pill ] [ px-1 py-0.5 ]">{{ key }} <span class="[ pill-count ]">{{ count }}</span></a>
+            </li>
+        {% endfor %}
+    </ol>
+</section>

@@ -1,0 +1,17 @@
+.pill {
+  background-color: var(--color-bg-soft);
+  border-radius: 0.5rem;
+}
+
+.pill:hover {
+  background-color: var(--color-text);
+  color: var(--color-bg);
+}
+
+a.pill {
+  text-decoration: none;
+}
+
+.pill-count {
+  color: var(--color-text-soft);
+}

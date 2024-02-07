@@ -1,4 +1,9 @@
 const {
+  getAllPosts,
+  getAllPostCategories,
+} = require("./config/collections/index.js");
+const { dir } = require("./config/constants.js");
+const {
   entries,
   formatDate,
   minifyCss,
@@ -37,13 +42,6 @@ module.exports = (eleventyConfig) => {
     dataTemplateEngine: "njk",
     htmlTemplateEngine: "njk",
 
-    dir: {
-      assets: "assets",
-      data: "_data",
-      includes: "_includes",
-      input: "src",
-      layouts: "_layouts",
-      output: "dist",
-    },
+    dir,
   };
 };

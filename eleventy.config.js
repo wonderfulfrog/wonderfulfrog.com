@@ -14,10 +14,14 @@ const imageShortcode = require("./config/shortcodes/image.js");
 
 module.exports = (eleventyConfig) => {
   eleventyConfig.addWatchTarget("./src/assets");
+
   // 	--------------------- Custom Template Languages ---------------------
   eleventyConfig.addPlugin(
     require("./config/template-languages/css-config.js"),
   );
+
+  eleventyConfig.addCollection("posts", getAllPosts);
+  eleventyConfig.addCollection("categories", getAllPostCategories);
 
   // 	--------------------- Custom Filters -----------------------
   eleventyConfig.addFilter("entries", entries);

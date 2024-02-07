@@ -2,11 +2,11 @@
 layout: base
 ---
 
-<article class="flow">
-    <header class="flow" style="--flow-space: 1rem">
-        <time class="date" datetime="{{ date }}">{{ date | formatDate("MMMM D, YYYY") }}</time>
+<article class="[ flow ]">
+    <header class="[ flow ]" style="--flow-space: 1rem">
+        <time class="[ date ]" datetime="{{ date }}">{{ date | formatDate("MMMM D, YYYY") }}</time>
         <h1>{{ title }}</h1>
-        <ul class="categories">
+        <ul class="[ categories ]">
             {% for category in categories %}<li>{{ category }}</li>{% endfor %}
         </ul>
     </header>

@@ -8,14 +8,13 @@
             {% set month = postsInMonth | first %}
             <div class="[ flex ]">
                 {% if isFirstMonthOfList %}<h2>{{ year }}</h2>{% endif %}
-                <h2 class="[ archive-month ]">{{ month }}</h2>
             </div>
             {% set allPosts = postsInMonth | last %}
             {% for post in allPosts %}
                 <div class="[ flex items-center justify-between ]">
                     <a href="{{ post.url }}">{{ post.data.title }}</a>
                     <div class="[ archive-divider ] [ mx-0.5 ]"></div>
-                    <div>{{ post.date | formatDate("Do") }}</div>
+                    <div>{{ post.date | formatDate("MM/DD") }}</div>
                 </div>
             {% endfor %}
         {% endfor %}

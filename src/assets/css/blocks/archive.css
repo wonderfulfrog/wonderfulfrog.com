@@ -1,0 +1,10 @@
+.archive-divider {
+  border-color: var(--color-bg-faded);
+  border-width: 1px;
+  border-style: dashed;
+  flex: 1;
+}
+
+.archive-month {
+  margin-left: auto;
+}

@@ -9,6 +9,7 @@ const {
   formatDate,
   minifyCss,
   values,
+  organizeByDate,
 } = require("./config/filters/index.js");
 const markdown = require("./config/plugins/markdown.js");
 const imageShortcode = require("./config/shortcodes/image.js");
@@ -29,6 +30,7 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addFilter("entries", entries);
   eleventyConfig.addFilter("formatDate", formatDate);
   eleventyConfig.addFilter("minifyCss", minifyCss);
+  eleventyConfig.addFilter("organizeByDate", organizeByDate);
   eleventyConfig.addFilter("values", values);
 
   // 	--------------------- Passthrough File Copy -----------------------

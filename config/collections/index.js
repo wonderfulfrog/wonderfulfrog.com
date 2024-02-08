@@ -32,9 +32,9 @@ const getPostsByCategory = (collection) => {
 
   const postsByCategory = {};
   categories.forEach((category) => {
-    const categoryPosts = posts.filter((post) =>
-      post.data.categories.includes(category),
-    );
+    const categoryPosts = posts.filter((post) => {
+      return post.data.categories.includes(category);
+    });
 
     postsByCategory[category] = categoryPosts;
   });

@@ -2,6 +2,7 @@ const {
   getAllPosts,
   getAllPostCategories,
   getPostsByCategory,
+  getAllCatalogue,
 } = require("./config/collections/index.js");
 const { dir } = require("./config/constants.js");
 const {
@@ -25,6 +26,7 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addCollection("posts", getAllPosts);
   eleventyConfig.addCollection("categories", getAllPostCategories);
   eleventyConfig.addCollection("postsByCategory", getPostsByCategory);
+  eleventyConfig.addCollection("catalogue", getAllCatalogue);
 
   // 	--------------------- Custom Filters -----------------------
   eleventyConfig.addFilter("entries", entries);

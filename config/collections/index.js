@@ -42,8 +42,16 @@ const getPostsByCategory = (collection) => {
   return postsByCategory;
 };
 
+const getAllCatalogue = (collection) => {
+  const items = collection.getFilteredByGlob(
+    path.join(dir.input, "content/catalogue/**/*.md"),
+  );
+  return items.reverse();
+};
+
 module.exports = {
-  getAllPosts,
+  getAllCatalogue,
   getAllPostCategories,
+  getAllPosts,
   getPostsByCategory,
 };

@@ -1,4 +1,4 @@
-const path = require("path");
+const path = require("path").posix;
 const { dir } = require("../constants.js");
 
 const getAllPosts = (collection) => {

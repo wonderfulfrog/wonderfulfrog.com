@@ -4,7 +4,7 @@
  * See more here: https://www.aleksandrhovhannisyan.com/blog/configuring-web-fonts-in-11ty-with-global-data/
  */
 
-const path = require("path");
+const path = require("path").posix;
 
 const FONT_STYLE = {
   NORMAL: "normal",

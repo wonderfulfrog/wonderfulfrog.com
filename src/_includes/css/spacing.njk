@@ -1,8 +1,5 @@
-{% set spacingValues = spacing | entries %}
-
-{% for spaceValue in spacingValues %}
-    {% set key = spaceValue | first | replace(".", "\\\.") | safe %}
-    {% set value = spaceValue | last %}
+{% for keyRaw, value in spacing %}
+    {% set key = keyRaw | replace(".", "\\\.") | safe %}
     .gap-{{ key }} {
         gap: {{ value }}px;
     }

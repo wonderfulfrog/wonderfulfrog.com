@@ -1,12 +1,6 @@
-{% set allColors = colors | entries %}
-
 html {
-{% for color in allColors %}
-    {% set colorName = color | first %}
-    {% set colorRanges = color | last | entries %}
-    {% for colorValue in colorRanges %}
-        {% set value = colorValue | first %}
-        {% set hex = colorValue | last %}
+{% for colorName, colorValues in colors %}
+    {% for value, hex in colorValues %}
         --color-{{ colorName }}-{{ value }}: {{ hex }};
     {% endfor %}
 {% endfor %}

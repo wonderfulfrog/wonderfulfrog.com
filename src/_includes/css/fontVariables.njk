@@ -1,15 +1,10 @@
 {% set allFonts = fonts | entries %}
 
 html {
-{% for font in allFonts %}
-    {% set fontType = font | first %}
-    {% set fontConfig = font | last %}
+{% for fontType, fontConfig in fonts %}
     {% set fallbackFonts = fontConfig.fallbacks | join(", ") %}
     --font-family-{{ fontType }}: {{ fontConfig.family }}, {{ fallbackFonts }};
-    {% set weights = fontConfig.weights | entries %}
-    {% for weight in weights %}
-        {% set weightName = weight | first %}
-        {% set weightConfig = weight | last %}
+    {% for weightName, weightConfig in fontConfig.weights %}
         {% if weightConfig.style != "italic" %}
             --font-weight-{{ fontType }}-{{ weightName | lower }}: {{ weightConfig.weight }};
         {% endif %}

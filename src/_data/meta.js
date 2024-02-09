@@ -18,8 +18,8 @@ module.exports = {
     feed: "",
   },
   social: {
-    github: "",
-    mastodon: "",
-    lastfm: "",
+    github: "https://github.com/wonderfulfrog",
+    mastodon: "https://mastodon.social/@wonderfulfrog",
+    lastfm: "https://www.last.fm/user/wonderfulfrog",
   },
 };

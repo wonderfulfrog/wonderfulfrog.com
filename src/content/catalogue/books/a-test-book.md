@@ -1,7 +1,6 @@
 ---
 title: Here is my test book
+date: 2023-02-02
 ---
-
-# A test book
 
 Here we go!!

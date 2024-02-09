@@ -1,12 +1,12 @@
 ---
+eleventyComputed:
+    title: "Tag: {{ tag }}"
+layout: base
 pagination:
     data: collections.postsByCategory
     size: 1
     alias: tag
 permalink: /tag/{{ tag }}/index.html
-layout: "base"
-eleventyComputed:
-    title: "Tag: {{ tag }}"
 ---
 
 {% set posts = collections.postsByCategory[tag] %}

@@ -39,8 +39,6 @@ const organizeByDate = (collection) => {
     collectionByDate[year][month].push(item);
   });
 
-  console.log(collectionByDate);
-
   return collectionByDate;
 };
 

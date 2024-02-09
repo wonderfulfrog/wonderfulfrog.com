@@ -20,5 +20,6 @@ module.exports = {
   social: {
     github: "",
     mastodon: "",
+    lastfm: "",
   },
 };

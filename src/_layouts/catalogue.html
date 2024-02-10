@@ -1,0 +1,16 @@
+---
+layout: base
+---
+
+<article class="[ catalogue ]">
+    <section class="[ meta ] [ flex justify-between mb-1 ]">
+        <div>
+            <h1>{{ title }}</h1>
+            <h2>{{ subtitle }}</h2>
+        </div>
+        {% if image %}
+            <div>{% image image, "", "" %}</div>
+        {% endif %}
+    </section>
+    {{ content | safe }}
+</article>

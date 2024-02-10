@@ -5,6 +5,7 @@ const advancedFormat = require("dayjs/plugin/advancedFormat");
 const postcss = require("postcss");
 const cssnano = require("cssnano");
 
+const keys = Object.keys;
 const values = Object.values;
 const entries = Object.entries;
 
@@ -24,19 +25,12 @@ const organizeByDate = (collection) => {
 
   collection.forEach((item) => {
     const year = formatDate(item.date, "YYYY");
-    const month = formatDate(item.date, "MMMM");
 
     if (!collectionByDate[year]) {
-      return (collectionByDate[year] = {
-        [month]: [item],
-      });
+      return (collectionByDate[year] = [item]);
     }
 
-    if (!collectionByDate[year][month]) {
-      return (collectionByDate[year][month] = [item]);
-    }
-
-    collectionByDate[year][month].push(item);
+    collectionByDate[year].push(item);
   });
 
   return collectionByDate;
@@ -45,6 +39,7 @@ const organizeByDate = (collection) => {
 module.exports = {
   entries,
   formatDate,
+  keys,
   minifyCss,
   organizeByDate,
   values,

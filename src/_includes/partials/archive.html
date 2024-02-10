@@ -1,0 +1,17 @@
+{% set itemsByYear = items | organizeByDate %}
+{% set years = itemsByYear | keys | sort("desc") %}
+<section>
+    {% for year in years %}
+        {% set itemsInYear = itemsByYear[year] %}
+        <div class="[ flex ]">
+            <h2>{{ year }}</h2>
+        </div>
+        {% for item in itemsInYear %}
+            <div class="[ flex items-center justify-between ]">
+                <a href="{{ item.url }}">{{ item.data.title }}</a>
+                <div class="[ archive-divider ] [ mx-0.5 ]"></div>
+                <div>{{ item.date | formatDate("MM/DD") }}</div>
+            </div>
+        {% endfor %}
+    {% endfor %}
+</section>

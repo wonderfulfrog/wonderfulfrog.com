@@ -4,9 +4,9 @@ layout: base
 title: Posts
 ---
 
-{% set posts = collections.posts | organizeByDate %}
 <h1>All posts</h1>
 <p>
     View all <a href="/tags">tags</a>
 </p>
-{% include "partials/posts.html" %}
+{% set items = collections.posts %}
+{% include "partials/archive.html" %}

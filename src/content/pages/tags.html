@@ -12,7 +12,7 @@ title: All tags
             {% set key = tag | first %}
             {% set count = tag | last %}
             <li>
-                <a href="/tag/{{ key }}" class="[ pill ] [ px-1 py-0.5 ]">{{ key }} <span class="[ pill-count ]">{{ count }}</span></a>
+                <a href="/tag/{{ key }}" class="[ pill ] [ flex px-1 py-0.5 gap-0.5 ]">{{ key }} <span class="[ pill-count ]">{{ count }}</span></a>
             </li>
         {% endfor %}
     </ol>

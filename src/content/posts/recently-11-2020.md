@@ -1,0 +1,94 @@
+---
+title: Recently
+date: 2020-11-06
+excerpt: November 2020.
+categories: ["recently"]
+---
+
+{% image "https://cdn.wonderfulfrog.com/e460bb30-2ef1-4a3c-af6d-f7ff9c696bac.jpeg", "A frog recounting his struggles about trying his hardest, and feeling like it’s never enough. By Cat's Cafe.", "" %}
+
+Well, now it’s November. That happened. Here’s some things that caught my interest this month.
+
+## Hades
+
+Really enjoyed my time with the latest from Supergiant — [Hades][hades]. It’s been in early access for a while now, and finally dropped in October. It has all the polish and finesse you’d expect, and all the fun too. I tend to avoid roguelikes — games that use some (or all) of the concepts from the original Rogue, like permadeath (losing your character forever), random maps and items, etc. Hades does away with permadeath (mostly), and every run ends up feeling like you’re progressing anyway. The items (boons) you find along the way are all lost when you die, but there are currencies like Darkness and Gems that persist through death. These can be used for permanent upgrades that increase your power level gradually. It stops the game from feeling like you’re throwing stuff at the wall and hoping it sticks, and more like taking a step up the stairs every death. The roguelike mechanics are even baked into the story — the ever-changing (read: random) rooms are always different to prevent would-be escapees from ever leaving the underworld.
+
+The soundtrack is of course all aces again. Darren Korb can do no wrong in my eyes, and this keeps the streak going. The soundtrack is classic Korb with some metal leanings this time around. The Scourge of the Furies has been stuck in my head for weeks.
+
+At \$20 or so, the game was a steal. I’ve completed one run and that was enough for me, although I imagine after some time I’ll be going back again. It kept me busy for 15 hours easy.
+
+## Plastic Recycling
+
+I’ve always tried my best to reduce and reuse, and of course recycle as much possible. So it was incredibly disheartening to learn that [the majority of plastics recycling is a complete and total sham][plastics-sham].
+
+The majority of our (Canada’s) recycling was not so much recycled as it was shipped off to other countries instead (in this case China, and then parts of Southeast Asia). It wasn’t recycled at all, just shoved off wholesale for some other country to deal with. Now those countries won’t take our plastic waste anymore, so we have are forced to deal with it.
+
+If you are anything like me, you’d look for the recycling symbol on any piece of plastic, and breathe a sigh of relief knowing it can be recycled. Well as it turns out, a lot of plastics _cannot_ be recycled, at least in any economically viable way. [So long as we _thought_ it was working though, nobody would look into it][recycling-lie].
+
+Now that the jig is up and the plastics industry is onto it, surely they’ve come up with a new strategy, right? Nope. They’re blaming us — the consumers — and putting the impetus on us to solve the problem. It’s the same response when they faced backlash back in the 80s, just with a different coat of paint. When in reality, the average person cannot make a noticeable impact alone. It should be up to the industries that produce so much plastic to cut down and reduce the amounts created.
+
+All that said, there is still viability in recycling _some_ plastics, like from soda bottles and milk jugs. Things like plastic film, bags, and wrappings though are better off sent to the bin. At least that way they end up in _our_ landfills and not some other country.
+
+Ultimately the best course of action for a consume is to focus on the first two R’s: reduce and reuse.
+
+## [Spotify Not Playing Fair][spotify-not-playing-fair]
+
+Spotify (among other corporations) banded together to form the [Coalition for App Fairness][app-fairness-coalition] — a coalition that seeks to ensure that competition exists and users have a choice on how to use their device. It advocates for consumer choice, and aims its sights specifically toward Apple and its 30% tax of all revenue from sales in the App Store. Developers have been trying to find ways around this tax, and Apple has been happy to close any loophole. It’s been this game of cat and mouse, where the cat has literally trillions of dollars to throw at the problem.
+
+Meanwhile though, Spotify has decided they aren’t actually interested in playing fair after all. They are making it difficult to export your playlists and other content, and are only interested in getting you locked into the platform. It’s surprisingly anti-competitive behavior coming from a company that frequently cries at Apple’s own anti-competitive behavior. Apple’s 30% cut _is_ bullshit, but for Spotify to behave like this is completely hypocritical.
+
+A late month update shows that Spotify is now allowing users to transfer their playlists, but only playlists they have made themselves, and not ones generated by Spotify.
+
+## Susan Kare
+
+Our workplace was recently graced with a talk from icon legend — Susan Kare. She is responsible for all the charm and whimsy from one of my favorite operating systems (System 7). It was really great to listen to her recount stories from those days, and dig into her process of how she came up with an icon design. She touched upon the idea of working within constraints (in her early days, she only had access to black and white colors), which resonated with me. If I think back to some of my creative breakthroughs, I believe that constraints tend to bring out the best, rather than limit potential.
+
+## The Game Industry Needs to Unionize
+
+Cyberpunk 2077 was in the news for getting delayed again. Delays are frequent and almost expected in the gaming industry, so this came as no surprise. It's has been delayed twice now (it was originally announced back in 2017), so what’s another month? What has got me frustrated though was that prior to this delay [CD Projekt Red decided that crunch was required to ship the game on time][cyberpunk-crunch].
+
+Crunch — for those unfamiliar — is when a studio goes into overtime to ship a product. It typically means 6 to 7 workdays with long hours (12+), and sleeping in the office is not outside the realm of possibility. It’s a horrible practice that needs to stop, but is still prevalent even today, especially with AAA game studios.
+
+What’s especially frustrating is that not only was the crunch effectively useless (why crunch if you’re going to delay anyway), but the studio co-founder [Marcin Iwiński said he was committed to avoiding crunch “no matter what”][marcin-iwinski].
+
+But it keeps going — there was a rumor going around that the developers [“wanted a 6 day workweek instead of a delay”][6-day-work-week], but it turns out those conversations never happened.
+
+And let’s not forget the [legions of gamers rushing to defend a company][gamers-defending-companies] that does not need defending nor should it be defended. Companies are not your friend. Never have been, and never will.
+
+The gaming industry by and large needs to unionize. A common practice for these larger studios is to lay off the entire QA and development team when the game ships. That’s of course after crunching for weeks. Developers are not the only ones getting the short end of the stick either. A few years ago (2016-2017), [video game voice actors went on strike][voice-actors-strike] to put an end to an industry and largely doesn’t care about its employees. They eventually won and got the benefits they wanted after 11 months.
+
+The silver lining in this ugly business (at least for CDPR employees) is that the company’s employees have profit-sharing as part of their compensation, and this game is very likely to sell like gangbusters. They’ll end up with a big fat cheque for sure, but the way they got there should never have happened.
+
+I’ll end this section on [a positive note][respawn-cares] with a AAA studio that actually gives a shit about their employees.
+
+## [Becoming RBG][becoming-rbg]
+
+My partner bought this book shortly after her passing (RIP), and I got around to reading it after being curious. I feel like I had some birds-eye levels of knowledge on Ruth Bader Ginsburg, but this book proved I knew barely even that.
+
+I feel like my review will end up simply summarizing her story, so I’ll just say that I found it completely engrossing. Her story is so incredible and inspiring. Speaking of incredible, “incredible woman” is a moniker my partner uses when describing — well, incredible women — and I feel like it could not be more apt here. She was one of a kind, and a tour de force.
+
+The format makes for a fun read — I feel like this book is tailored to younger audiences — but the artwork injects a personality that I feel like is not far from RBG’s own sense of humor and wit.
+
+I wish I had read this book before (and well before) her passing. I’m eager to read another book about her from the same publisher called “I Dissent” (her dissenting opinion in the Supreme Court being a common occurrence).
+
+## The Rest
+
+Now that the election has been called, my anxiety is falling back to normal. I capped off my first week of November with some splurging on Bandcamp Friday, because spending money typically helps me feel better, if only for a little.
+
+Next week I've got some much needed vacation. Really looking forward to that. I've got a stack of books with my name on it, as well as some crafting projects.
+
+Stay safe out there, and remain patient. ✌️
+
+[catscafe]: https://www.catscafecomics.com
+[hades]: https://www.supergiantgames.com/games/hades/
+[plastics-sham]: https://www.npr.org/2020/09/11/912150085/waste-land
+[recycling-lie]: https://www.cbc.ca/documentaries/the-passionate-eye/recycling-was-a-lie-a-big-lie-to-sell-more-plastic-industry-experts-say-1.5735618
+[spotify-not-playing-fair]: https://mjtsai.com/blog/2020/10/12/spotify-not-playing-fair/
+[app-fairness-coalition]: https://appfairness.org/
+[cyberpunk-crunch]: https://www.theverge.com/2020/9/29/21494499/cyberpunk-2077-development-crunch-time-cd-projekt-red
+[marcin-iwinski]: https://kotaku.com/cd-projekt-red-boss-again-promises-that-cyberpunk-devs-1835518344
+[6-day-work-week]: https://twitter.com/jasonschreier/status/1314675754937053185?s=21
+[gamers-defending-companies]: https://www.forbes.com/sites/erikkain/2020/10/12/its-time-to-stop-defending-cd-projekt-red-over-cyberpunk-2077-crunch/?sh=2c32039d7e6c
+[voice-actors-strike]: https://www.polygon.com/2017/9/25/16363872/video-game-voice-actors-strike-sag-aftra-agreement
+[respawn-cares]: https://twitter.com/jonshiring/status/1314304030735179776
+[becoming-rbg]: https://www.simonandschuster.com/books/Becoming-RBG/Debbie-Levy/9781534424555

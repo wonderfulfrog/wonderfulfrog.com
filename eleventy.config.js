@@ -12,6 +12,7 @@ const {
   values,
   organizeByDate,
   keys,
+  filterByCategory,
 } = require("./config/filters/index.js");
 const markdown = require("./config/plugins/markdown.js");
 const imageShortcode = require("./config/shortcodes/image.js");
@@ -31,6 +32,7 @@ module.exports = (eleventyConfig) => {
 
   // 	--------------------- Custom Filters -----------------------
   eleventyConfig.addFilter("entries", entries);
+  eleventyConfig.addFilter("filterByCategory", filterByCategory);
   eleventyConfig.addFilter("formatDate", formatDate);
   eleventyConfig.addFilter("keys", keys);
   eleventyConfig.addFilter("minifyCss", minifyCss);

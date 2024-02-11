@@ -5,14 +5,12 @@ title: All tags
 ---
 
 <section class="[ flow ]">
-    <h1>Tags</h1>
-    {% set categories = collections.categories | entries %}
-    <ol class="[ flex gap-1 list-none p-0 mb-0 ]">
-        {% for tag in categories %}
-            {% set key = tag | first %}
-            {% set count = tag | last %}
+    <h1>{{ title }}</h1>
+    <ol class="[ flex flex-wrap gap-0.5 list-none p-0 mb-0 ]">
+        {% for category in collections.categories %}
             <li>
-                <a href="/tag/{{ key }}" class="[ pill ] [ flex px-1 py-0.5 gap-0.5 ]">{{ key }} <span class="[ pill-count ]">{{ count }}</span></a>
+                <a href="{{ category.href }}"
+                   class="[ pill ] [ flex px-1 py-0.5 gap-0.5 ]">{{ category.title }} <span class="[ pill-count ]">{{ category.count }}</span></a>
             </li>
         {% endfor %}
     </ol>

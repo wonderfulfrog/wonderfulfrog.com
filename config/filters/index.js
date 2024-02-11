@@ -36,8 +36,13 @@ const organizeByDate = (collection) => {
   return collectionByDate;
 };
 
+const filterByCategory = (collection, category) => {
+  return collection.filter((item) => item.data.categories.includes(category));
+};
+
 module.exports = {
   entries,
+  filterByCategory,
   formatDate,
   keys,
   minifyCss,

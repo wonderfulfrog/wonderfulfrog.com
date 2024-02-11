@@ -5,6 +5,7 @@
   flex: 1;
 }
 
-.archive-month {
-  margin-left: auto;
+.archive-date {
+  color: var(--color-text-soft);
+  letter-spacing: 0.05em;
 }

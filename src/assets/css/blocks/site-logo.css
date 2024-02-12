@@ -2,17 +2,6 @@
   gap: 0.5rem;
 }
 
-.site-logo .logo {
-  background-color: var(--color-light);
-  border-radius: 50%;
-  width: 52px;
-  height: 52px;
-  border-color: var(--color-dark);
-  border-width: 1px;
-  border-style: solid;
-  box-shadow: 0 2px 0 var(--color-dark);
-}
-
 .site-logo .wordmark {
   text-decoration: none;
 }
@@ -30,7 +19,7 @@
     -1px 3px 0 var(--shadow-color),
     0px 3px 0 var(--shadow-color),
     1px 3px 0 var(--shadow-color);
-  color: white;
+  color: var(--color-white);
   font-family: var(--font-family-display);
   font-size: 1.5rem;
   letter-spacing: -0.05em;
@@ -42,24 +31,10 @@
 }
 
 .site-logo .wordmark > :nth-child(1) {
-  --shadow-color: var(--color-dark);
-}
-
-.site-logo .wordmark > :nth-child(2) {
-  --shadow-color: var(--color-primary-faded);
+  --shadow-color: var(--color-shadow);
   z-index: 1;
 }
 
-@container (max-width: 32em) {
-  .site-logo .wordmark {
-    /* Visually hide wordmark on smaller screens */
-    clip: rect(0 0 0 0);
-    height: auto;
-    margin: 0;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
-    white-space: nowrap;
-  }
+.site-logo .wordmark > :nth-child(2) {
+  --shadow-color: var(--color-primary);
 }

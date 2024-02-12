@@ -36,4 +36,27 @@ const colors = {
   },
 };
 
-module.exports = colors;
+const colorSchemes = {
+  light: {
+    primary: "188deg 84% 35%",
+    secondary: "8 84% 50%",
+    background: "0 0% 98%",
+    surface: "188 27% 94%",
+    border: "188 48% 80%",
+    text: "0 0% 4%",
+    fadeText: "188 12% 32%",
+    shadow: "188deg 100% 18%",
+  },
+  dark: {
+    primary: "188deg 84% 28%",
+    secondary: "8 84% 43%",
+    background: "0 0% 4%",
+    surface: "202 10% 10%",
+    border: "208 27% 15%",
+    text: "0 0% 98%",
+    fadeText: "188 12% 70%",
+    shadow: "188deg 100% 18%",
+  },
+};
+
+module.exports = { colors, colorSchemes };

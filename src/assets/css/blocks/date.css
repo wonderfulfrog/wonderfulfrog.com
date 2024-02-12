@@ -1,3 +1,7 @@
 .date {
-  color: var(--color-text-soft);
+  color: var(--color-fadeText);
+}
+
+.date svg {
+  color: var(--color-shadow);
 }

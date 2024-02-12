@@ -14,13 +14,16 @@
             <ul class="[ flex list-none gap-0.5 m-0 p-0 ]">
                 <li>
                     <span class="[ visually-hidden ]">RSS</span>
-                    <a href="#" target="_blank">{% include "svgs/rss.svg" %}</a>
+                    <a href="#" target="_blank" aria-label="View RSS feed">{% include "svgs/rss.svg" %}</a>
                 </li>
                 {% for key, url in meta.social %}
                     {% set alt = key | capitalize %}
                     <li>
                         <span class="[ visually-hidden ]">{{ alt }}</span>
-                        <a href="{{ url }}" target="_blank" rel="external noreferrer noopener">{% include "svgs/social-" + key + ".svg" %}</a>
+                        <a href="{{ url }}"
+                           target="_blank"
+                           rel="external noreferrer noopener"
+                           aria-label="View {{ alt }} page">{% include "svgs/social-" + key + ".svg" %}</a>
                     </li>
                 {% endfor %}
             </ul>

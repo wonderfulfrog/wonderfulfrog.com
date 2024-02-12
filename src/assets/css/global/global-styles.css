@@ -10,7 +10,7 @@ html {
 
 body {
   accent-color: var(--color-primary);
-  background-color: var(--color-bg);
+  background-color: var(--color-background);
   color: var(--color-text);
   font-family: var(--font-family-body);
   font-size: 1.125rem;
@@ -44,6 +44,13 @@ h2 {
 }
 
 h3 {
+  font-size: 1.5rem;
+  font-weight: var(--font-weight-display-bold);
+  letter-spacing: -0.05rem;
+  line-height: 1.5rem;
+}
+
+h4 {
   font-size: 1.125rem;
   font-weight: var(--font-weight-display-bold);
   letter-spacing: -0.05rem;
@@ -55,31 +62,36 @@ a {
   color: currentColor;
   text-decoration-color: var(--color-primary);
   text-decoration-thickness: 2px;
-  transition: text-decoration-color var(--transition-duration);
+  transition:
+    color var(--transition-duration),
+    text-decoration-color var(--transition-duration);
+}
+
+a:visited {
+  text-decoration-color: var(--color-shadow);
 }
 
 a:hover,
 a:active,
 a:focus-visible {
-  text-decoration-color: var(--color-primary-highlight);
-}
-
-a:visited {
-  text-decoration-color: var(--color-primary-subtle);
+  color: var(--color-primary);
+  text-decoration-color: var(--color-primary);
 }
 
 ul li::marker {
-  color: var(--color-primary-faded);
+  color: var(--color-primary);
 }
 
 ol li::marker {
-  color: var(--color-text-soft);
+  color: var(--color-fadeText);
 }
 
 blockquote {
-  border-inline-start: 2px solid var(--color-bg-faded);
+  border-inline-start: 2px solid var(--color-primary);
   margin-inline-start: 0;
+  margin-inline-end: 0;
   padding-inline: 1rem;
+  background-color: var(--color-surface);
 }
 
 blockquote > * + * {
@@ -107,7 +119,23 @@ img[width][height] {
 
 hr {
   border-style: solid;
-  color: var(--color-bg-faded);
+  color: var(--color-surface);
+}
+
+pre {
+  overflow-x: auto;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-inline: 0;
+  gap: var(--spacing-1);
+}
+
+figure figcaption {
+  color: var(--color-fadeText);
 }
 
 @media (prefers-reduced-motion: reduce) {

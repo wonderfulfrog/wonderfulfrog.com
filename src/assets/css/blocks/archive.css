@@ -1,11 +1,11 @@
 .archive-divider {
-  border-color: var(--color-bg-faded);
+  border-color: var(--color-surface);
   border-width: 1px;
   border-style: dashed;
   flex: 1;
 }
 
 .archive-date {
-  color: var(--color-text-soft);
+  color: var(--color-fadeText);
   letter-spacing: 0.05em;
 }

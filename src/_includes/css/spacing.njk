@@ -74,3 +74,9 @@
     }
 {% endfor %}
 
+:root {
+{% for keyRaw, value in spacing %}
+    {% set key = keyRaw | replace(".", "-") %}
+    --spacing-{{ key }}: {{ value }}px;
+{% endfor %}
+}

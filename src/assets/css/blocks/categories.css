@@ -1,14 +1,23 @@
 .categories {
-  color: var(--color-text-soft);
-  display: flex;
-  gap: 1rem;
-  list-style-type: none;
-  margin-block-end: 0;
-  padding: 0;
+  color: var(--text-color);
 }
 
-.categories li::before {
+.categories li {
+  --text-color: var(--color-fadeText);
+}
+
+.categories > li > a {
+  color: var(--text-color);
+  text-decoration-color: var(--text-color);
+}
+
+.categories li:has(a:hover) {
+  --text-color: var(--color-primary);
+}
+
+.categories > li > a::before {
   content: "#";
-  margin-inline-end: 0.125rem;
+  color: var(--text-color);
   user-select: none;
+  transition: color var(--transition-duration);
 }

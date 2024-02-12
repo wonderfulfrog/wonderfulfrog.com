@@ -6,7 +6,7 @@
  */
 .wrapper {
   width: 90vw;
-  width: clamp(16rem, 90vw, 80ch);
+  width: clamp(16rem, 90vw, 65ch);
   margin-left: auto;
   margin-right: auto;
   padding-left: 1.5rem;

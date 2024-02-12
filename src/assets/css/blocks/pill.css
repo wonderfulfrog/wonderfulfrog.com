@@ -1,12 +1,12 @@
 .pill {
-  background-color: var(--color-bg-soft);
+  background-color: var(--color-surface);
   border-radius: 1rem;
   transition: transform var(--transition-duration);
 }
 
 .pill:hover {
   background-color: var(--color-text);
-  color: var(--color-bg);
+  color: var(--color-primary);
   transform: translateY(-2px);
 }
 
@@ -19,5 +19,9 @@ a.pill {
 }
 
 .pill-count {
-  color: var(--color-text-soft);
+  color: var(--color-fadeText);
+}
+
+.pill:hover .pill-count {
+  color: var(--color-border);
 }

@@ -18,16 +18,16 @@
                   {% if preload.crossorigin %}crossorigin{% endif %} />
         {% endfor %}
         {% set css %}
+            {% include "css/colorVariables.njk" %}
             {% include "css/fontFace.njk" %}
             {% include "css/fontVariables.njk" %}
-            {% include "css/colorVariables.njk" %}
             {% include "css/spacing.njk" %}
         {% endset %}
         <style>{{ css | minifyCss | safe }}</style>
     </head>
-    <body>
+    <body class="[ flex-col ]">
         {% include "partials/header.html" %}
-        <main id="main" class="[ flow wrapper ]">
+        <main id="main" class="[ flow flex-1 wrapper ]">
             {{ content | safe }}
         </main>
         {% include "partials/footer.html" %}

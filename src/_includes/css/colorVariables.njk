@@ -1,7 +1,29 @@
-html {
-{% for colorName, colorValues in colors %}
-    {% for value, hex in colorValues %}
-        --color-{{ colorName }}-{{ value }}: {{ hex }};
-    {% endfor %}
+{% set colorSchemes = colors.colorSchemes %}
+{% set lightScheme = colorSchemes.light %}
+{% set darkScheme = colorSchemes.dark %}
+
+:root {
+{% for colorName, value in lightScheme %}
+    --{{ colorName }}: {{ value }};
+    --color-{{ colorName }}: hsl({{ value }});
 {% endfor %}
+}
+
+{% for colorName, value in lightScheme %}
+.bg-{{ colorName }} {
+    background-color: var(--color-{{ colorName }});
+}
+
+.text-{{ colorName }} {
+    color: var(--color-{{ colorName }});
+}
+{% endfor %}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+{% for colorName, value in darkScheme %}
+    --{{ colorName }}: {{ value }};
+    --color-{{ colorName }}: hsl({{ value }});
+{% endfor %}
+    }
 }

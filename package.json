@@ -27,9 +27,7 @@
     "postcss": "^8.4.33",
     "postcss-import": "^16.0.0",
     "postcss-import-ext-glob": "^2.1.1",
-    "prettier": "3.2.4"
-  },
-  "dependencies": {
+    "prettier": "3.2.4",
     "slugify": "^1.6.6"
   }
 }

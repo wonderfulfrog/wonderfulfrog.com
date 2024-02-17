@@ -1,0 +1,14 @@
+---
+title: Reply All
+url: https://gimletmedia.com/shows/reply-all
+rating: 3
+image: https://cdn.wonderfulfrog.com/reply-all.jpeg
+date: 2021-08-25T00:07:00Z
+---
+
+There are too many episodes to this podcast, but I have been shared a few interesting ones from my partner. I was never a regular listener, and have not listened since it [effectively imploded](https://www.vulture.com/article/gimlet-reply-all-controversy-spotify-test-kitchen.html)
+
+## Favourite episodes
+
+- [The Case of the Missing Hit](https://pca.st/episode/cc572c51-e2bd-41fe-a138-d4f8ecba3549)
+    This is a real journey. There are so many fun twists and turns.

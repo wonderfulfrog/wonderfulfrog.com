@@ -2,7 +2,7 @@
 title: "2021 Ranked: Games"
 date: 2022-01-18T20:52:22.166Z
 excerpt: All of the games I played in 2021. Ranked.
-categories: ["rankings"]
+tags: ["rankings"]
 ---
 
 As we move onto the year ahead that will be 2022 (please don’t be the sequel everyone expects it to be), I always like to look at the past year and see what caught my attention. Let’s look at all the games I played in 2021. Keep in mind these didn’t all come out that year. Meanwhile I’ll rank them all.

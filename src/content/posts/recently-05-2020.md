@@ -2,7 +2,7 @@
 title: Recently
 date: 2020-05-18
 excerpt: May 2020.
-categories: ["recently"]
+tags: ["recently"]
 ---
 
 A bad habit of mine is not updating my site with some new writing. After reading Tom MacWright's "[How to blog](https://macwright.org/2019/02/06/how-to-blog.html)" (and the rest of his fantastic site), I decided that I like the idea of writing on a schedule. So, I'm going to do my darnedest to makes sure I write something at least once a month. I like the title of "Recently", so I'm opting to steal that.

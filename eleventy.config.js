@@ -1,9 +1,4 @@
-const {
-  getAllPosts,
-  getAllPostCategories,
-  getPostsByCategory,
-  getAllCatalogue,
-} = require("./config/collections/index.js");
+const { postsByTag } = require("./config/collections/index.js");
 const { dir } = require("./config/constants.js");
 const {
   entries,
@@ -13,6 +8,9 @@ const {
   organizeByDate,
   keys,
   filterByCategory,
+  allTags,
+  allTagCounts,
+  filter,
 } = require("./config/filters/index.js");
 const markdown = require("./config/plugins/markdown.js");
 const imageShortcode = require("./config/shortcodes/image.js");
@@ -25,14 +23,13 @@ module.exports = (eleventyConfig) => {
     require("./config/template-languages/css-config.js"),
   );
 
-  eleventyConfig.addCollection("posts", getAllPosts);
-  eleventyConfig.addCollection("categories", getAllPostCategories);
-  eleventyConfig.addCollection("postsByCategory", getPostsByCategory);
-  eleventyConfig.addCollection("catalogue", getAllCatalogue);
+  // 	--------------------- Custom Collections -----------------------
+  eleventyConfig.addCollection("postsByTag", postsByTag);
 
   // 	--------------------- Custom Filters -----------------------
+  eleventyConfig.addFilter("allTagCounts", allTagCounts);
   eleventyConfig.addFilter("entries", entries);
-  eleventyConfig.addFilter("filterByCategory", filterByCategory);
+  eleventyConfig.addFilter("filter", filter);
   eleventyConfig.addFilter("formatDate", formatDate);
   eleventyConfig.addFilter("keys", keys);
   eleventyConfig.addFilter("minifyCss", minifyCss);

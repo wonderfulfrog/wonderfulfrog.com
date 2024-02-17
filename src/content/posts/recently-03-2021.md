@@ -2,7 +2,7 @@
 title: Recently
 date: 2021-03-05
 excerpt: February 2021.
-categories: ["recently", "valheim"]
+tags: ["recently", "valheim"]
 ---
 
 {% image "https://cdn.wonderfulfrog.com/forestsunrise.png", "A screenshot of Valheim with a sunrise coming through a thick, dense forest." , "" %}

@@ -1,9 +1,8 @@
 ---
 title: Recently
-draft: false
 date: 2021-04-01T19:03:49.841Z
 excerpt: March 2021.
-categories: ["recently", "valheim"]
+tags: ["recently", "valheim"]
 ---
 
 {% image "https://cdn.wonderfulfrog.com/coolbow.png", "My Valheim character under the moon." %}

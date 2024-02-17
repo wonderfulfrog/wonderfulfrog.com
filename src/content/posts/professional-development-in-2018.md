@@ -2,7 +2,7 @@
 title: Professional development in 2018
 date: 2019-01-07
 excerpt: A look back at what happened in 2018 - professionally.  For me.
-categories: ["personal", "career", "growth", "react"]
+tags: ["personal", "career", "growth", "react"]
 ---
 
 In 2018 I received the opportunity to develop my professional skills and further my career development. I’d like to highlight some developments and things I wish to focus on and improve in the next year.

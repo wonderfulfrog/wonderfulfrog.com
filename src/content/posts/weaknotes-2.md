@@ -1,9 +1,8 @@
 ---
 title: Week 2
 date: 2021-08-22T22:58:02.387Z
-draft: false
 excerpt: Bit of a weird week.
-categories: ["weaknotes"]
+tags: ["weaknotes"]
 ---
 
 {% image "https://cdn.wonderfulfrog.com/noblewarrior_d2rbeta.png", "Like Link in Zelda, I have NobleWarrior the ever-living Paladin. Never the same character, but I always make a new one every so often.", "" %}

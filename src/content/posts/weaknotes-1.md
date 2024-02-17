@@ -1,9 +1,8 @@
 ---
 title: Week 1
 date: 2021-08-15T19:01:49.565Z
-draft: false
 excerpt: A new week, a new format.
-categories: ["weaknotes"]
+tags: ["weaknotes"]
 ---
 
 I'm trying a new format with my writing. When it comes time to write my monthly log, I usually have either too much or not enough to write about. I'm taking a page from a [few][weaknotes1] [other blogs][weaknotes2] I found that use "weaknotes", which are Twitter-like posts of short (possibly random) thoughts.

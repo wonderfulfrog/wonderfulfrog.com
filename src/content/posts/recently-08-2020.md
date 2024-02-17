@@ -2,7 +2,7 @@
 title: Recently
 date: 2020-08-02
 excerpt: August 2020.
-categories: ["recently"]
+tags: ["recently"]
 ---
 
 I’ve been focusing on my mental health lately. It’s been largely ignored and I’ve decided I need to fix that.

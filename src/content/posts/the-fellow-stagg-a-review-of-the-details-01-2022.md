@@ -2,7 +2,7 @@
 title: "The Fellow Stagg: A Review of the Details"
 date: 2022-01-22T21:35:22.320Z
 excerpt: Is it the Apple of kettles?
-categories: ["tea", "reviews"]
+tags: ["tea", "reviews"]
 ---
 
 {% image "https://cdn.wonderfulfrog.com/stagg-kettle.jpg", "A drawing of a Fellow Stagg kettle", "" %}

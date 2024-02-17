@@ -2,7 +2,7 @@
 title: Take The Power Back (Over My Music)
 date: 2020-07-26
 excerpt: One guy's struggle to regain ownership of some MP3 files.
-categories: ["music", "beets", "plex"]
+tags: ["music", "beets", "plex"]
 ---
 
 TODO: Come up with a YouTube shortcode for this video: qKSNABST4b0

@@ -2,7 +2,7 @@
 title: Recently
 date: 2022-02-01T23:49:47.158Z
 excerpt: February 2022.
-categories: ["recently"]
+tags: ["recently"]
 ---
 
 {% image "https://cdn.wonderfulfrog.com/lastfm-feb-2022.jpeg", "My most-played music last month.", "" %}

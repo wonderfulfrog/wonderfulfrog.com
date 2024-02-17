@@ -2,7 +2,7 @@
 title: Give In to Feel Good
 date: 2020-08-16
 excerpt: Procrastination isn’t just about laziness, is it?
-categories: ["procrastination", "mental health"]
+tags: ["procrastination", "mental health"]
 ---
 
 Procrastination is something I struggle with every single day. I find it often strikes as critical thoughts:

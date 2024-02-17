@@ -2,7 +2,7 @@
 title: Recently
 date: 2020-06-02
 excerpt: June 2020.
-categories: ["recently"]
+tags: ["recently"]
 ---
 
 {% image "https://cdn.wonderfulfrog.com/wolfgang.jpg", "Wolfgang reading a book in an idyllic forest paradise", "" %}

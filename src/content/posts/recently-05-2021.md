@@ -3,7 +3,7 @@ title: Recently
 draft: false
 date: 2021-05-01T19:03:49.841Z
 excerpt: April 2021.
-categories: ["recently"]
+tags: ["recently"]
 ---
 
 {% image "https://cdn.wonderfulfrog.com/mistergotcha.png", "The Nib's 'Mister Gotcha' comic" %}

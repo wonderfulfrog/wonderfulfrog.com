@@ -2,7 +2,7 @@
 title: My vinyl journey
 date: 2018-12-09
 excerpt: A cautionary tale of getting into collecting records.
-categories: ["music", "vinyl", "collecting"]
+tags: ["music", "vinyl", "collecting"]
 ---
 
 **Update 04/16/2019**: See the updates section at the bottom for further discussion.

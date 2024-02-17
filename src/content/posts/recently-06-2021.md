@@ -1,9 +1,8 @@
 ---
 title: Recently
-draft: false
 date: 2021-06-01T19:03:49.841Z
 excerpt: May 2021.
-categories: ["recently"]
+tags: ["recently"]
 ---
 
 {% image "https://cdn.wonderfulfrog.com/coffee_time_with_dexter.jpg", "Miitopia: where you end up in cafe enjoying your coffee, with Dexter from Dexter's Lab being your barista.", "" %}

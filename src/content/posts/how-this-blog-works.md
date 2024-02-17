@@ -2,7 +2,7 @@
 title: How this blog works
 date: 2019-04-13
 excerpt: Everything powering this blog explained.
-categories: ["gatsbyjs", "ssg", "react"]
+tags: ["gatsbyjs", "ssg", "react"]
 ---
 
 ---

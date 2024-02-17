@@ -2,7 +2,7 @@
 title: Remember to be nice
 date: 2021-01-12
 excerpt: Open source is often a thankless job.
-categories: ["open source", "signal"]
+tags: ["open source", "signal"]
 ---
 
 [Signal][signal] is seeing a jump in activity after [WhatsApp recently made adjustments to their privacy policy][policychanges]. Coming from a paid, closed source, feature rich application like WhatsApp to an open source app like Signal can be a little jarring. Where is that favourite feature of mine? Why haven’t they prioritized it? So [Signal has to come out and remind people in the community to be nice][benice]. The developers only have so much free time.

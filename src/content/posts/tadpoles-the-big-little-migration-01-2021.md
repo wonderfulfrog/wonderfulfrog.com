@@ -2,7 +2,7 @@
 title: "Tadpoles: The Big Little Migration"
 date: 2021-01-10
 excerpt: A short film about frogs.
-categories: ["short film", "frogs"]
+tags: ["short film", "frogs"]
 ---
 
 TODO: YouTube: 5S-lZtE1J6M

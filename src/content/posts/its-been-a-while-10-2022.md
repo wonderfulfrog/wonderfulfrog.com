@@ -2,7 +2,7 @@
 title: "It's Been a While"
 date: 2022-10-02T03:07:55.330Z
 excerpt: February 2022 - September 2022.
-categories: ["gba", "updates", "burnout"]
+tags: ["gba", "updates", "burnout"]
 ---
 
 {% image "https://cdn.wonderfulfrog.com/unknown.jpg", "An AI generated image using the prompt 'a frog playing a game boy in watercolor'.", "" %}

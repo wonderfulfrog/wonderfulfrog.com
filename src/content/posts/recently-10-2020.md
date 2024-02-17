@@ -2,7 +2,7 @@
 title: Recently
 date: 2020-10-04
 excerpt: October 2020.
-categories: ["recently"]
+tags: ["recently"]
 ---
 
 It’s been a rough month, and it’s only the 4th. The [six-month COVID-19 wall][covid-wall] is hitting me hard. It’s hard to feel like doing more than existing right now. I’m glad I’ve been talking to a counsellor about things. It’s hard to even get the motivation to write this post.

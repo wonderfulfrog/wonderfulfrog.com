@@ -5,5 +5,4 @@ title: Catalogue
 ---
 
 <h1>Catalogue yo</h1>
-{% set items = collections.catalogue %}
-{% include "partials/archive.html" %}
+{% for item in collections.catalogue %}{{ item.data.tags | dump }}{% endfor %}

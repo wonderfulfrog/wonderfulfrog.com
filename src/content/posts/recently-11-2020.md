@@ -2,7 +2,7 @@
 title: Recently
 date: 2020-11-06
 excerpt: November 2020.
-categories: ["recently"]
+tags: ["recently"]
 ---
 
 {% image "https://cdn.wonderfulfrog.com/e460bb30-2ef1-4a3c-af6d-f7ff9c696bac.jpeg", "A frog recounting his struggles about trying his hardest, and feeling like it’s never enough. By Cat's Cafe.", "" %}

@@ -4,13 +4,14 @@ permalink: /tags/index.html
 title: All tags
 ---
 
+{% set tags = collections.post | allTagCounts %}
 <section class="[ flow ]">
     <h1>{{ title }}</h1>
     <ol class="[ flex flex-wrap gap-0.5 list-none p-0 mb-0 ]">
-        {% for category in collections.categories %}
+        {% for tag in tags %}
             <li>
-                <a href="{{ category.href }}"
-                   class="[ pill ] [ flex px-1 py-0.5 gap-0.5 ]">{{ category.title }} <span class="[ pill-count ]">{{ category.count }}</span></a>
+                <a href="/tags/{{ tag.tag | slugify }}"
+                   class="[ pill ] [ flex px-1 py-0.5 gap-0.5 ]">{{ tag.tag }} <span class="[ pill-count ]">{{ tag.count }}</span></a>
             </li>
         {% endfor %}
     </ol>

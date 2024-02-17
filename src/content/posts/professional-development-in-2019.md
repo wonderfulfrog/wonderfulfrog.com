@@ -2,7 +2,7 @@
 title: Professional development in 2019
 date: 2020-01-23
 excerpt: A look back at what happened in 2019 - professionally.  For me.
-categories: ["career", "growth", "personal", "react", "swift"]
+tags: ["career", "growth", "personal", "react", "swift"]
 ---
 
 {% image "https://cdn.wonderfulfrog.com/dude-pretending-to-read.png", "A dude sitting on a chair with legs crossed casually pretending to read but seemingly looking off into the distance with a confident smile, or perhaps to look at a neat dog. From Open Doodles.", "" %}

@@ -2,7 +2,7 @@
 title: Checking In
 date: 2021-11-24T07:03:52.766Z
 excerpt: Kept you waiting, huh?
-categories: ["checking in"]
+tags: ["checking in"]
 ---
 I’ve dropped my regular writing habit as of late. I wanted to write a quick post to say I’m doing alright. What’s happened recently?
 

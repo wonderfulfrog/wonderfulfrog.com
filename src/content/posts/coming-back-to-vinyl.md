@@ -2,7 +2,7 @@
 title: Coming back to vinyl
 date: 2019-09-14
 excerpt: Sometimes minimalism goes too far.
-categories: ["vinyl", "collecting", "minimalism"]
+tags: ["vinyl", "collecting", "minimalism"]
 ---
 
 This is an update to my post from a few months ago about a cautionary tale into collecting vinyl. I stand by the post, but I wanted to mention that I’m back into the hobby. What happened?

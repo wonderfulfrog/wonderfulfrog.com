@@ -2,7 +2,7 @@
 title: Recently
 date: 2020-12-07
 excerpt: December 2020.
-categories: ["recently"]
+tags: ["recently"]
 ---
 
 {% image "https://wonderfulfrog.b-cdn.net/tumblr_594d8523021106f126390d49d5a0a1a0_1db9a35a_1280.jpg", "Little Big Things by Cat's Cafe", "" %}

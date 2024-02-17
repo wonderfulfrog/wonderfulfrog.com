@@ -2,7 +2,7 @@
 title: Switching from Gmail to ProtonMail
 date: 2018-11-24
 excerpt: The beginning of a quest to take back my data.
-categories: [email, protonmail]
+tags: [email, protonmail]
 ---
 
 I've been an avid Gmail user since its inception sometime in 2004. I remember hunting for a beta invite back when they were highly coveted. I have received 25,467 emails and sent 1,738. The first email I sent was to a local shop to buy my old G3 iMac.

@@ -2,7 +2,7 @@
 title: Recently
 date: 2020-09-02
 excerpt: September 2020.
-categories: ["recently"]
+tags: ["recently"]
 ---
 
 Been feeling kind of low lately. Struggling to feel engaged and get started on some of my personal projects. Facing my inner demons as it were, and trying to get back on my feet. On the other hand, I’m working hard on my personal fitness, so that’s going well! 💪

@@ -3,7 +3,7 @@ title: Recently
 draft: false
 date: 2021-07-05T00:11:37+00:00
 excerpt: June 2021.
-categories: ["recently"]
+tags: ["recently"]
 ---
 
 The west coast just got over the heat dome. In my neck of the woods, that was easily the hottest it’s ever been here. Our car at one point said 46ºC. We were ill-equipped to deal with the heat — no AC and living on the top floor of our building. To beat the heat we ended up booking a hotel for a few days. It was an expensive solution, but the sanity gained more than made up for it.

@@ -1,9 +1,8 @@
 ---
 title: Week 3
 date: 2021-08-30T00:07:20.030Z
-draft: false
 excerpt: The One Where Apple Sucks A Lot.
-categories: ["weaknotes"]
+tags: ["weaknotes"]
 ---
 
 {% image "https://cdn.wonderfulfrog.com/podophobia.png", "", "" %}

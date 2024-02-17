@@ -2,7 +2,7 @@
 title: Recently
 date: 2020-07-04
 excerpt: July 2020.
-categories: ["recently"]
+tags: ["recently"]
 ---
 
 {% image "https://wonderfulfrog.b-cdn.net/lady-actually-reading.svg", "Lady reading her book in what must be eventually pretty uncomfortable, but at least she has a nice cactus. From Open Doodles.", "" %}

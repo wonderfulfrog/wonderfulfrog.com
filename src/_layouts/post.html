@@ -9,9 +9,9 @@ layout: base
         {{ date | formatDate("MMMM D, YYYY") }}</time>
         <h1>{{ title }}</h1>
         <ul class="[ categories ] [ flex gap-1 list-none p-0 ]">
-            {% for category in categories %}
+            {% for tag in tags | filter(["post"]) %}
                 <li>
-                    <a class="[ flex ]" href="/tags/{{ category }}">{{ category }}</a>
+                    <a class="[ flex ]" href="/tags/{{ tag | slugify }}">{{ tag }}</a>
                 </li>
             {% endfor %}
         </ul>

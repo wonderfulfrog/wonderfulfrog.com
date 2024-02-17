@@ -2,7 +2,7 @@
 title: Recently
 date: 2021-02-01
 excerpt: January 2021.
-categories: ["recently"]
+tags: ["recently"]
 ---
 
 It’s been a rough month. I’ve been struggling. I feel tired all the time and don’t know why. Smarter heads than me suggest it’s stress — with world events being what they are.

@@ -2,8 +2,9 @@
 title: Stray Thoughts 3
 date: 2021-10-12T16:54:44.498Z
 excerpt: Sweater weather is here!
-categories: ["stray thoughts"]
+tags: ["stray thoughts"]
 ---
+
 I've been fortunate to have vacation time for a few days. It was much needed R&R after a long haul of a project. I got to spend time with my partner — we had a special day where we did everything she wanted! There was plenty of tea shopping.
 
 I picked up [Metroid Dread](https://www.nintendo.com/games/detail/metroid-dread-switch/) on Friday. I'm a few hours in now. Here are my thoughts where I am:

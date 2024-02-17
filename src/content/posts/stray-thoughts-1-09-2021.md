@@ -2,7 +2,7 @@
 title: Stray Thoughts 1
 date: 2021-09-27T19:42:32.596Z
 excerpt: I can't decide what to call my weekly posts anymore.
-categories: ["stray thoughts"]
+tags: ["stray thoughts"]
 ---
 
 {% image "https://cdn.wonderfulfrog.com/collage.jpeg", "My popular last.fm scrobbles from the last week. From the top left: David Bowie - The Next Day, Turnstile - GLOW ON, Sleigh Bells - Texis, Angels & Airwaves - Lifeforms, Thrice - Horizons/East, Deafheaven - Infinite Granite, Japanese Breakfast - Jubilee, The Slang - Divide, Tyler, The Creator - IGOR", "" %}

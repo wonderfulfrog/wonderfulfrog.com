@@ -2,7 +2,7 @@
 title: What’s Next?
 date: 2020-09-13
 excerpt: From one framework to another.
-categories: ["nextjs", "gatsbyjs", "tailwind"]
+tags: ["nextjs", "gatsbyjs", "tailwind"]
 ---
 
 This site is now powered by NextJS. This is the site rebuild I have been talking about for some time, but it didn’t turn out the way I was planning.

@@ -3,7 +3,7 @@ title: My vim setup
 draft: false
 date: 2021-04-18T20:24:10.177Z
 excerpt: Everybody does it differently.
-categories: ["vim", "development"]
+tags: ["vim", "development"]
 ---
 
 {% image "https://cdn.wonderfulfrog.com/vimsetup.png", "A screenshot of my `vim` setup in action.", "" %}

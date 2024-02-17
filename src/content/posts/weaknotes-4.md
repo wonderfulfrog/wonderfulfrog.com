@@ -1,9 +1,8 @@
 ---
 title: Week 4
 date: 2021-09-13T00:07:20.030Z
-draft: false
 excerpt: It's the fourth one.
-categories: ["weaknotes"]
+tags: ["weaknotes"]
 ---
 
 {% image "https://cdn.wonderfulfrog.com/C0664BF8-4E3C-4285-8F5C-BECD7E0347B1.jpeg", "", "" %}

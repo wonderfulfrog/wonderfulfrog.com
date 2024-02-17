@@ -2,7 +2,7 @@
 title: Thoughts on the Apple Watch
 date: 2019-05-20
 excerpt: My experience with the Series 3 Apple Watch, 11 months later.
-categories: ["apple watch", "apple"]
+tags: ["apple watch", "apple"]
 ---
 
 Since I started going to the gym regularly and kept watch on what foods I ate, I became more interested in monitoring my calories burned during workouts. Initially I thought I should get a Fitbit, but I wasn’t too fond of their lineup at the time. At the time of writing they also _still_ don’t sync to Apple or Android Health. When the Apple Watch was initially revealed I toyed with the idea of buying one, but had yet to come up with a compelling reason to buy it. Given my newfound interest in fitness and health, and that I had given the Watch a few months to bake - it seemed like now (June 2018) was good a time as ever to jump in. I decided one hot day that it was time for me to jump into the world of wearable tech.

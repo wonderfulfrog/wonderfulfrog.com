@@ -2,7 +2,7 @@
 title: Stray Thoughts 2
 date: 2021-10-03T22:35:21.592Z
 excerpt: Are collected thoughts really stray?
-categories: ["stray thoughts"]
+tags: ["stray thoughts"]
 ---
 
 {% image "https://cdn.wonderfulfrog.com/collage2.jpg", "This week's top last.fm artists." , "" %}

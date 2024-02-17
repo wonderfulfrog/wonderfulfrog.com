@@ -2,7 +2,7 @@
 title: How does React's Suspense work?
 date: 2019-10-26
 excerpt: The Suspense is killing me.
-categories: ["react"]
+tags: ["react"]
 ---
 
 First and foremost, this post is writing about stuff that is part of the Experimental branch of React, so by the time you read this it could be out of date. I’ll try to keep things up to date as they develop.

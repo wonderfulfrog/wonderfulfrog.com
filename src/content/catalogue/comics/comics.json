@@ -1,0 +1,5 @@
+{
+  "layout": "catalogue",
+  "tags": "comic",
+  "permalink": "comics/{{ page.fileSlug }}/index.html"
+}

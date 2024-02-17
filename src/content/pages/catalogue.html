@@ -5,5 +5,5 @@ title: Catalogue
 ---
 
 <h1>Catalogue</h1>
-{% set items = collections.catalogue %}
+{% set items = collections.catalogue | reverse %}
 {% include "partials/catalogue.html" %}

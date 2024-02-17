@@ -4,7 +4,6 @@ const advancedFormat = require("dayjs/plugin/advancedFormat");
 
 const postcss = require("postcss");
 const cssnano = require("cssnano");
-const { default: slugify } = require("slugify");
 
 const keys = Object.keys;
 const values = Object.values;

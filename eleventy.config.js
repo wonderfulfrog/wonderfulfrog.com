@@ -1,4 +1,7 @@
-const { postsByTag } = require("./config/collections/index.js");
+const {
+  postsByTag,
+  catalogueByType,
+} = require("./config/collections/index.js");
 const { dir } = require("./config/constants.js");
 const {
   entries,
@@ -7,8 +10,6 @@ const {
   values,
   organizeByDate,
   keys,
-  filterByCategory,
-  allTags,
   allTagCounts,
   filter,
 } = require("./config/filters/index.js");
@@ -25,6 +26,7 @@ module.exports = (eleventyConfig) => {
 
   // 	--------------------- Custom Collections -----------------------
   eleventyConfig.addCollection("postsByTag", postsByTag);
+  eleventyConfig.addCollection("catalogueByType", catalogueByType);
 
   // 	--------------------- Custom Filters -----------------------
   eleventyConfig.addFilter("allTagCounts", allTagCounts);

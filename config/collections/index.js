@@ -13,6 +13,23 @@ const postsByTag = (collection) => {
   return postsByTag;
 };
 
+const catalogueByType = (collection) => {
+  const allItems = collection.getFilteredByTag("catalogue");
+
+  const catalogueByType = {};
+
+  for (const item of allItems) {
+    const type = item.data.tags[1];
+    if (!type) continue;
+
+    catalogueByType[type] ??= [];
+    catalogueByType[type].push(item);
+  }
+
+  return catalogueByType;
+};
+
 module.exports = {
   postsByTag,
+  catalogueByType,
 };

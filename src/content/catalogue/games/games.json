@@ -1,5 +1,5 @@
 {
   "layout": "catalogue",
-  "tags": "games",
+  "tags": "game",
   "permalink": "games/{{ page.fileSlug }}/index.html"
 }

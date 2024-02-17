@@ -4,5 +4,6 @@ permalink: /catalogue/index.html
 title: Catalogue
 ---
 
-<h1>Catalogue yo</h1>
-{% for item in collections.catalogue %}{{ item.data.tags | dump }}{% endfor %}
+<h1>Catalogue</h1>
+{% set items = collections.catalogue %}
+{% include "partials/catalogue.html" %}

@@ -8,7 +8,7 @@ layout: base
           datetime="{{ date }}">
         {% include "svgs/calendar.svg" %}
     {{ date | formatDate("MMMM Do YYYY") }}</time>
-    <section class="[ meta ] [ mb-1 ]">
+    <section class="[ catalogue-meta ] [ gap-1 mb-1 ]">
         {% if image %}
             {% image image, "", "" %}
         {% endif %}
@@ -16,7 +16,7 @@ layout: base
             <h1>{{ title }}</h1>
             <h2 class="[ text-fadeText my-0.5 ]">{{ year }}</h2>
             {% if filteredTags | length > 0 %}
-                <ul class="[ flex list-none p-0 gap-0.5 ]">
+                <ul class="[ flex list-none p-0 gap-0.5 mb-0 ]">
                     {% for tag in filteredTags %}<li class="[ bg-surface radius-1 px-1 py-0.5 ]">{{ tag }}</li>{% endfor %}
                 </ul>
             {% endif %}

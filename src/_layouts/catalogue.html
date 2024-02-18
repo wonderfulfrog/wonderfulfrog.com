@@ -3,14 +3,14 @@ layout: base
 ---
 
 <article class="[ catalogue ] [ flow ]">
-    <section class="[ meta ] [ flex justify-between mb-1 ]">
+    <section class="[ catalogue-meta ] [ gap-1 mb-1 ]">
+        {% if image %}
+            {% image image, "", "" %}
+        {% endif %}
         <div>
             <h1>{{ title }}</h1>
             <h2 class="[ text-fadeText ]">{{ subtitle }}</h2>
         </div>
-        {% if image %}
-            <div>{% image image, "", "" %}</div>
-        {% endif %}
     </section>
     {{ content | safe }}
 </article>

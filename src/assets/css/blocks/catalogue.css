@@ -1,5 +1,5 @@
-.catalogue .meta picture {
-  inline-size: 10rem;
+.catalogue {
+  container-type: inline-size;
 }
 
 .catalogue-type {
@@ -9,6 +9,23 @@
 
 .catalogue-meta {
   display: grid;
-  grid-template-columns: auto 1fr;
-  font-size: 0.875rem;
+  grid-template-columns: 1fr 200px;
+}
+
+.catalogue-meta picture {
+  max-width: 200px;
+}
+
+.catalogue-meta > *:first-child {
+  order: 1;
+}
+
+@container (max-width: 32rem) {
+  .catalogue-meta {
+    grid-template-columns: 1fr;
+  }
+
+  .catalogue-meta > *:first-child {
+    order: initial;
+  }
 }

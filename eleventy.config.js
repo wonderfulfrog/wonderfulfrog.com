@@ -12,6 +12,7 @@ const {
   keys,
   allTagCounts,
   filter,
+  pluralize,
 } = require("./config/filters/index.js");
 const markdown = require("./config/plugins/markdown.js");
 const imageShortcode = require("./config/shortcodes/image.js");
@@ -37,6 +38,7 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addFilter("minifyCss", minifyCss);
   eleventyConfig.addFilter("organizeByDate", organizeByDate);
   eleventyConfig.addFilter("values", values);
+  eleventyConfig.addFilter("pluralize", pluralize);
 
   // 	--------------------- Passthrough File Copy -----------------------
   ["src/assets/fonts/", "src/assets/images"].forEach((path) =>

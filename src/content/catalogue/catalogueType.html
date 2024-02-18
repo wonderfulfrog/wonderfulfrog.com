@@ -1,11 +1,18 @@
 ---
 layout: base
-permalink: /catalogue/index.html
-title: Catalogue
+pagination:
+    data: collections.catalogueByType
+    size: 1
+    alias: type
+    filter:
+        - catalogue
+eleventyExcludeFromCollections: true
+permalink: /catalogue/{{ type | pluralize | slugify }}/index.html
+eleventyComputed:
+    title: Catalogue - {{ type | pluralize | capitalize }}
 ---
 
-<h1>Catalogue</h1>
-{% set items = collections.catalogue | reverse %}
+<h1>{{ type | pluralize | capitalize }}</h1>
 {% set catalogueTypes = collections.catalogueByType | keys %}
 <ul class="[ flex list-none gap-0.5 p-0 ]">
     {% for type in catalogueTypes %}
@@ -15,4 +22,5 @@ title: Catalogue
         </li>
     {% endfor %}
 </ul>
+{% set items = collections.catalogueByType[ type ] %}
 {% include "partials/catalogue.html" %}

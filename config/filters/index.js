@@ -4,6 +4,7 @@ const advancedFormat = require("dayjs/plugin/advancedFormat");
 
 const postcss = require("postcss");
 const cssnano = require("cssnano");
+const pluralizeBase = require("pluralize");
 
 const keys = Object.keys;
 const values = Object.values;
@@ -34,10 +35,6 @@ const organizeByDate = (collection) => {
   });
 
   return collectionByDate;
-};
-
-const filterByCategory = (collection, category) => {
-  return collection.filter((item) => item.data.categories.includes(category));
 };
 
 const allTags = (collection, ignore = []) => {
@@ -77,15 +74,19 @@ const filter = (collection, filters = []) => {
   return collection.filter((item) => !filters.includes(item));
 };
 
+const pluralize = (string, count = 0) => {
+  return pluralizeBase(string, count);
+};
+
 module.exports = {
+  allTagCounts,
+  allTags,
   entries,
-  filterByCategory,
+  filter,
   formatDate,
   keys,
   minifyCss,
   organizeByDate,
+  pluralize,
   values,
-  allTags,
-  allTagCounts,
-  filter,
 };

@@ -1,8 +1,14 @@
-.catalogue .meta img {
+.catalogue .meta picture {
   inline-size: 10rem;
 }
 
 .catalogue-type {
   font-size: 0.8rem;
   border-radius: 0.5rem;
+}
+
+.catalogue-meta {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  font-size: 0.875rem;
 }

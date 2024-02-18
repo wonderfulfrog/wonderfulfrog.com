@@ -4,6 +4,14 @@
         gap: {{ value }}px;
     }
 
+    .row-gap-{{ key }} {
+        row-gap: {{ value }}px;
+    }
+
+    .column-gap-{{ key }} {
+        column-gap: {{ value }}px;
+    }
+
     .p-{{ key }} {
         padding: {{ value }}px;
     }
@@ -71,6 +79,10 @@
     .size-{{ key }} {
         width: {{ value }}px;
         height: {{ value }}px;
+    }
+
+    .radius-{{ key }} {
+        border-radius: {{ value }}px;
     }
 {% endfor %}
 

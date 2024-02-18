@@ -10,24 +10,15 @@ layout: base
     <section class="[ meta ] [ flex justify-between mb-1 gap-1 ]">
         <div>
             <h1>{{ title }}</h1>
-            {% if subtitle %}<h2 class="[ text-fadeText my-1 ]">{{ subtitle }}</h2>{% endif %}
-            <hr />
-            <div class="[ catalogue-meta ] [ column-gap-1 row-gap-0.5 ]">
-                <div>
-                    <strong>Author</strong>
-                </div>
-                <div>{{ author }}</div>
-                <div>
-                    <strong>ISBN</strong>
-                </div>
-                <div>{{ isbn }}</div>
-            </div>
-            <hr />
-            <ul class="[ flex list-none p-0 gap-0.5 ]">
-                {% for tag in tags | filter(["catalogue", "book"]) %}
-                    <li class="[ bg-surface radius-1 px-1 py-0.5 ]">{{ tag }}</li>
-                {% endfor %}
-            </ul>
+            {% if subtitle %}<h3 class="[ text-fadeText my-0.5 ]">{{ subtitle }}</h3>{% endif %}
+            {% if author %}<span class="[ text-fadeText ]">by</span> {{ author }}{% endif %}
+            {% if tags | filter(["catalogue", "book"]) | length > 0 %}
+                <ul class="[ flex list-none p-0 gap-0.5 ]">
+                    {% for tag in tags | filter(["catalogue", "book"]) %}
+                        <li class="[ bg-surface radius-1 px-1 py-0.5 ]">{{ tag }}</li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
         </div>
         {% if image %}
             <div>{% image image, "", "" %}</div>

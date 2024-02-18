@@ -1,0 +1,11 @@
+---
+title: Her Story
+subtitle: PC
+date: 2024-01-07
+image: https://cdn.wonderfulfrog.com/Her_Story_store_art.jpg
+tags: ["pc"]
+---
+
+I played this game with my wife and a buddy, and we had a great time getting sucked into this game. We beat it in one night. The way the story unfolded made you really feel like a detective - connecting leads and loose connections to form a whole narrative. The keyword search is very limiting. There are only at most 5 results per search query. It requires you to be specific but not too much. It's a fine line to walk.
+
+It's very possible to finish this one in an evening, which is a great way to wind down the day and enjoy a great story.

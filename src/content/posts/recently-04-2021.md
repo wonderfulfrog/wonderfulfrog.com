@@ -3,6 +3,7 @@ title: Recently
 date: 2021-04-01T19:03:49.841Z
 excerpt: March 2021.
 tags: ["recently", "valheim"]
+youtube: true
 ---
 
 {% image "https://cdn.wonderfulfrog.com/coolbow.png", "My Valheim character under the moon." %}
@@ -27,7 +28,7 @@ Been keeping busy on the games front lately! The Switch is a wonderful console. 
 
 Our group finished what I would consider to be the “campaign” of the game: the 5 bosses. We wrapped up about mid-March, slaying the mighty Yalguth after a long, hard battle. It was a lot of fun because it required coordination and resource management.
 
-![Our heroes stand triumphant and display their grisly trophy!](/images/theend.png "Our heroes stand triumphant and display their grisly trophy!")
+{% image "https://cdn.wonderfulfrog.com/theend.png", "Our heroes stand triumphant and display their grisly trophy!", "Our heroes stand triumphant and display their grisly trophy!" %}
 
 Since we finished all the bosses, we’ve fallen off the game. Without the next boss to work toward, the game became resource-gathering and base-building. A fun activity, but does not appeal to everyone. Without my friends playing, I don’t find myself all that interested.
 
@@ -35,7 +36,7 @@ For $20 though, some of the best times I’ve had with a game in recent memory. 
 
 There are updates planned for Valheim that could be pretty exciting (like the Mistlands, Firelands, and Deep North being implemented), which might pull our group back in.
 
-![The summoning area for Yagluth, the final boss. He wants totems from his Fuling followers.](/images/yagluthsummon.png "The summoning area for Yagluth, the final boss. He wants totems from his Fuling followers.")
+{% image "https://cdn.wonderfulfrog.com/yagluthsummon.png", "The summoning area for Yagluth, the final boss. He wants totems from his Fuling followers.", "The summoning area for Yagluth, the final boss. He wants totems from his Fuling followers." %}
 
 ### Stardew Valley
 
@@ -75,10 +76,10 @@ Tomorrow (April 2nd) is Bandcamp Friday!!
 
 ## Watching
 
-TODO: YouTube: VrKW58MS12g
+{% youtube "VrKW58MS12g", "Glitterbomb Trap Catches Phone Scammer (who gets arrested)" %}
 
 It never ceases to amaze me how far Mark Rober will go to be annoying to package thieves and scammers. The interesting part of this video is showing how deep the rabbit hole goes with these scammer ring. Rober teamed up with other YouTubers to show all of this — I found Jim Browning’s video incredibly interesting because it showed me a fascinating part of the ring: the money mule.
 
-TODO: YouTube: Xvjjpzyiig4
+{% youtube "Xvjjpzyiig4", "Catching Money Mules ft. Mark Rober" %}
 
 See everyone next month. ✌️

@@ -3,9 +3,10 @@ title: Take The Power Back (Over My Music)
 date: 2020-07-26
 excerpt: One guy's struggle to regain ownership of some MP3 files.
 tags: ["music", "beets", "plex"]
+youtube: true
 ---
 
-TODO: Come up with a YouTube shortcode for this video: qKSNABST4b0
+{% youtube "qKSNABST4b0", "Rage Against The Machine - Take The Power Back (Audio)" %}
 
 When did Rage Against the Machine [get so political](https://www.nme.com/news/music/tom-morello-twitter-respond-to-people-only-just-realising-rage-against-the-machine-are-political-2685353), anyway?
 

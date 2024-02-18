@@ -3,6 +3,7 @@ title: Recently
 date: 2021-03-05
 excerpt: February 2021.
 tags: ["recently", "valheim"]
+youtube: true
 ---
 
 {% image "https://cdn.wonderfulfrog.com/forestsunrise.png", "A screenshot of Valheim with a sunrise coming through a thick, dense forest." , "" %}
@@ -57,7 +58,7 @@ We recently discovered that with the Star acquisition from Disney that Futurama 
 
 Here’s my favorite bit ever:
 
-TODO: YouTube: pjsQ-seC31U
+{% youtube "sE8aVgOxjJU", "Futurama - No good, it's full of steam!" %}
 
 ## Playing
 

@@ -4,6 +4,7 @@ subtitle: PlayStation Portable
 date: 2016-03-16
 image: https://cdn.wonderfulfrog.com/p3p.jpg
 tags: ["psp", "persona"]
+youtube: true
 ---
 
 My completion time was somewhere around 72 hours. It's hard to talk about such a story-dense game without spoiling too much - but what I will say about the story is that it's probably one of the best I've ever experienced. The game is likely not for everyone... the playtime alone might turn some people off. I think of it more like a large book - it'll take you a while to get through - but the major plot points keep you engrossed. You get attached to the characters - because of the game length. By the end of the game they are all close friends.
@@ -16,13 +17,13 @@ The battle system is not without its shortcomings - it feels a little unforgivin
 
 I can't end it without mentioning the music. Second to the story, it's top-notch, definitely some of the best I've heard in any game full stop. I have a feeling the music in a vacuum won't have the same impact as when its heard in-game. Regardless, here are a few favourites:
 
-TODO: YouTube: https://www.youtube.com/watch?v=6jFaoLrLzd4
+{% youtube "6jFaoLrLzd4", "Persona 3 OST - Mass Destruction" %}
 
-https://www.youtube.com/watch?v=e2Gyaqf7EoU
+{% youtube "e2Gyaqf7EoU", "Persona 3 OST - Iwatodai Dorm" %}
 
-https://www.youtube.com/watch?v=sFH7O9huUYU
+{% youtube "sFH7O9huUYU", "Paulownian Mall - Persona 3" %}
 
-https://www.youtube.com/watch?v=yoVn6Eh6rus
+{% youtube "yoVn6Eh6rus", "Persona 3 OST: Unavoidable Battle" %}
 
 If you're looking for an RPG with a top-notch story, this is the one. If you're looking for one with compelling gameplay... keep looking I'd say.
 

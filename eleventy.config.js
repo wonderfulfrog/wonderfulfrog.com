@@ -16,6 +16,7 @@ const {
 } = require("./config/filters/index.js");
 const markdown = require("./config/plugins/markdown.js");
 const imageShortcode = require("./config/shortcodes/image.js");
+const liteYoutube = require("./config/shortcodes/youtube.js");
 
 module.exports = (eleventyConfig) => {
   eleventyConfig.addWatchTarget("./src/assets");
@@ -47,7 +48,10 @@ module.exports = (eleventyConfig) => {
 
   // 	--------------------- Markdown -----------------------
   eleventyConfig.setLibrary("md", markdown);
+
+  // 	--------------------- Shortcodes -----------------------
   eleventyConfig.addShortcode("image", imageShortcode);
+  eleventyConfig.addShortcode("youtube", liteYoutube);
 
   return {
     // Optional (default is set): If your site deploys to a subdirectory, change `pathPrefix`, for example with with GitHub pages

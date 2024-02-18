@@ -4,6 +4,7 @@ draft: false
 date: 2021-05-01T19:03:49.841Z
 excerpt: April 2021.
 tags: ["recently"]
+youtube: true
 ---
 
 {% image "https://cdn.wonderfulfrog.com/mistergotcha.png", "The Nib's 'Mister Gotcha' comic" %}
@@ -16,7 +17,7 @@ Have you been feeling “blah” lately? You’re not depressed or overly anxiou
 
 I’ve been reading a lot of articles and posts on Apple and the App Store: Apple vs. Epic, antitrust lawsuits, Apple crushing competitors. There’s a lot to unpack, and I plan to in another post. For now though I want to leave you with MKBHD’s excellent “Apple vs. The Paradox of Choice”. This is what happens when we put too much trust into one company without any checks and balances.
 
-TODO YouTube: qNAo0UdYF6g
+{% youtube "qNAo0UdYF6g", "Apple vs The Paradox of Choice!" %}
 
 You know the state of the video game industry is in a bad spot when [Sony is patenting an AI that will play video games for you][sonyai]. The intent appears to be innocent at first — it will learn how you play and assist you — but the larger implication I feel is that it will play games _for you_, as in you sit there and watch and it’ll do everything. Because games are too grind-y these days, right? Even though it was the game industry itself that got us to this point. The relentless pursuit of maximizing retention and engagement propels into games that are playing themselves.
 
@@ -32,7 +33,7 @@ The second season is not as great. They zeroed into the family drama aspect of t
 
 I recommend though for anyone with Apple TV+.
 
-TODO YouTube: ijKAtzQY1wc
+{% youtube "ijKAtzQY1wc", "Yasuke | Official Trailer | Netflix" %}
 
 I discovered [Yasuke][yasuke] as a new album from Flying Lotus (which is _phenomenal_), but the premise and protagonist sold me on it. I’ve only seen one episode, but I’m hungry for more.
 

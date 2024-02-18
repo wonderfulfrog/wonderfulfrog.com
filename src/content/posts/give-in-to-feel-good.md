@@ -3,6 +3,7 @@ title: Give In to Feel Good
 date: 2020-08-16
 excerpt: Procrastination isn’t just about laziness, is it?
 tags: ["procrastination", "mental health"]
+youtube: true
 ---
 
 Procrastination is something I struggle with every single day. I find it often strikes as critical thoughts:
@@ -17,7 +18,7 @@ The thoughts I get all the time are like a form of anxiety. I don’t cope well 
 
 [This thread on Hacker News](https://news.ycombinator.com/item?id=24120275) prompted my journey into my own procrastination, and [this video](https://www.youtube.com/watch?v=mhFQA998WiA) from the thread helped me look at procrastination in a different way. This was a lightbulb moment for me. To me my source of procrastination is not myself being lazy or uninterested, but being critical. I’m a perfectionist (and I’ve come to realize I don’t like that), and I am plagued by reasons I shouldn’t start a task. This helps me at least identify the problem.
 
-TODO: YouTube shortcode: mhFQA998WiA
+{% youtube "mhFQA998WiA", "Teaching Talk: Helping Students Who Procrastinate (Tim Pychyl)" %}
 
 I have some actionable goals that I want to try:
 

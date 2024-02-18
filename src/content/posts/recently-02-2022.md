@@ -3,6 +3,7 @@ title: Recently
 date: 2022-02-01T23:49:47.158Z
 excerpt: February 2022.
 tags: ["recently"]
+youtube: true
 ---
 
 {% image "https://cdn.wonderfulfrog.com/lastfm-feb-2022.jpeg", "My most-played music last month.", "" %}
@@ -25,7 +26,7 @@ Again, the immune system is a violent thing, and it's hard to explain without re
 
 ## Playing
 
-TODO: YouTube: vFhzUdVs9-E
+{% youtube "vFhzUdVs9-E", "The Witcher 3: Hillarious goat quest" %}
 
 I started [The Witcher 3](https://store.steampowered.com/app/292030/The_Witcher_3_Wild_Hunt/) last month. I'm determined to get through it and find out what the fuss is about. It's got its hooks in me good. It suffers from classic open-world tropes like an overabundance of quests, too many locations to visit, weird janky physics, and plenty of other funky bugs.
 

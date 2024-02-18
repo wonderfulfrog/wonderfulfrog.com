@@ -4,6 +4,7 @@ subtitle: PlayStation 3
 date: 2017-02-26
 image: https://cdn.wonderfulfrog.com/PG_Vanquish_box_artwork.png
 tags: ["ps3"]
+year: 2010
 ---
 
 Vanquish is definitely a product of its time. If you don't remember the mid to late naughties in video games, they were rife with cover shooters. Think Gears of War or Uncharted. You're given big open areas with some very inconspicuous cover spots. Vanquish followed the same trend, but to its benefit it at least tried to subvert the genre by changing things up. You can try to play this game like a traditional shooter, but you'll get destroyed quickly. Instead, Vanquish gives you Sam Gideon - an agent from DARPA who has been given the Augmented Reaction Suit. The suit allows you to literally slide around while firing at enemies - and also allows you to enter "AR Mode" (think bullet-time) while sliding. Yes, the [power slide](https://www.youtube.com/watch?v=tXYqv_FS9yk) is a legitimate and viable combat maneuver! It leads to a pretty fluid combat system where you regularly feel pretty awesome effortlessly sliding between enemies and scoring some easy headshots thanks to the slowdown mode. The problem though is that while it's a cool mechanic, it doesn't break away from the feeling that this is still a cover shooter. Maybe back in '07 this would be okay, but playing it in 2017 it feels very samey and not super exciting.

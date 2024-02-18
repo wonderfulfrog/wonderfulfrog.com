@@ -4,6 +4,7 @@ subtitle: PC
 date: 2017-01-29
 image: https://cdn.wonderfulfrog.com/HyperLightDrifterBoxArt.png
 tags: ["pc"]
+year: 2016
 ---
 
 I think the best part of the game is its atmosphere and combat. The game contains no text (besides tutorial button prompts) and no spoken dialog. Therefore, the story is largely up to the player to interpret, if they desire. Right from the get-go, you're immediately immersed into the world. The sound design - particularly the soundtrack - draws you in. In moments of quiet - typically exploration - the music is subdued and atmospheric, underscoring your journey in this torn world. As you launch into combat, things pick up a bit... then, when it's boss battle time, additional instrumentation enters - a pumping track gets you energized against a tough foe. The whole soundtrack has a very unsettling feeling, which matches the overall atmosphere of the game. It's a strange world and there's mysterious things afoot. Some kind of corruption is tainting everything...

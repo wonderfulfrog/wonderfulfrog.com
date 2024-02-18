@@ -4,6 +4,7 @@ subtitle: Nintendo 3DS
 date: 2015-04-26
 image: https://cdn.wonderfulfrog.com/Laytonvsaceattorneycover.jpg
 tags: ["3ds"]
+year: 2014
 ---
 
 What a dream come true. Two of my favorite franchises blended into one game! As the title implies, it's Layton and Wright action! If you're a fan of either game series, this one will have something for you. There are plenty of puzzles to tackle, but also plenty of court moments. It feels like it's got something for fans of either series (or both!). The court sequences feature a hint system like in the Professor Layton games, so if court battles are not your forte, it's alright as long as you hunt for the Hint Coins! The story was great. Once it got going I couldn't put it down. This game really felt like a crossover, and not just "Professor Layton in the AA universe" or vice-versa. Yes, Phoenix will tackle puzzles and yes, Layton will be in the court room. Even the music shared that crossover feel, as themes/tropes from both series can be heard intertwined.

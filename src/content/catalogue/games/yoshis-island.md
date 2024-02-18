@@ -3,7 +3,8 @@ title: "Super Mario World 2: Yoshi's Island"
 subtitle: Super Nintendo
 date: 2012-02-26
 image: https://cdn.wonderfulfrog.com/Yoshi's_Island_(Super_Mario_World_2)_box_art.jpg
-tags: ["snes"]
+tags: ["snes", "platformer"]
+year: 1995
 ---
 
 Super Mario World 2: Yoshi's Island was released on the Super Nintendo in 1995.  It was actually a prequel to the original Super Mario World, and tells the story of how the Mario twins (Mario is the last name, yes) came to be.  The premise is that a stork carrying the twins is assaulted by Kamek, who is a servant to the mighty (then a child) King Bowser.  In the fray, the stork loses both babies, and Kamek ends up with only Luigi.  Mario plunges to his doom, only to land (somehow safely) on top of one of the Yoshis on Yoshi's Island.  It then befalls onto the Yoshi clan to reunite the brothers and restore the balance, or something along those lines. The stories for these games (read: platformers) were not altogether that creative back in the '90s.  Not that it mattered much really.

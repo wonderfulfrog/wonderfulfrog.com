@@ -8,20 +8,19 @@ layout: base
           datetime="{{ date }}">
         {% include "svgs/calendar.svg" %}
     {{ date | formatDate("MMMM Do YYYY") }}</time>
-    <section class="[ meta ] [ flex justify-between mb-1 gap-1 ]">
+    <section class="[ meta ] [ mb-1 ]">
+        {% if image %}
+            {% image image, "", "" %}
+        {% endif %}
         <div>
             <h1>{{ title }}</h1>
-            {% if subtitle %}<h3 class="[ text-fadeText my-0.5 ]">{{ subtitle }}</h3>{% endif %}
-            {% if author %}<span class="[ text-fadeText ]">by</span> {{ author }}{% endif %}
+            <h2 class="[ text-fadeText my-0.5 ]">{{ year }}</h2>
             {% if filteredTags | length > 0 %}
                 <ul class="[ flex list-none p-0 gap-0.5 ]">
                     {% for tag in filteredTags %}<li class="[ bg-surface radius-1 px-1 py-0.5 ]">{{ tag }}</li>{% endfor %}
                 </ul>
             {% endif %}
         </div>
-        {% if image %}
-            <div>{% image image, "", "" %}</div>
-        {% endif %}
     </section>
     {{ content | safe }}
 </article>

@@ -3,7 +3,8 @@ title: Fallout 4
 subtitle: PC
 date: 2015-12-02
 image: https://cdn.wonderfulfrog.com/Fallout_4_cover_art.jpg
-tags: ["pc"]
+tags: ["pc", "role-playing", "action"]
+year: 2015
 ---
 
 I ran into two different gamebreaking bugs while playing the game and ended up reloading a save from hours before. I had to replay quite a bit of the game, but in the end it was worth it. Anyone thinking about picking up the game soon I'd be prepared for some annoying bugs - or better yet wait for a few patches first.

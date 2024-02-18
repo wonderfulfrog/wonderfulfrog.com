@@ -4,6 +4,7 @@ subtitle: Nintendo Wii U
 date: 2015-04-21
 image: https://cdn.wonderfulfrog.com/DKC5_box_art.jpg
 tags: ["wii u"]
+year: 2014
 ---
 
 Another challenging game. DKCTF nails the difficulty perfectly. As mentioned before, every failure feels like it's 100% the fault of the player. The controls are spot on and frankly should be the model for any platformer going forward. There are various control schemes to suit practically any player. My only minor gripe was that the buttons for each scheme were not customizable -- but the default options are fine. Going from the first level to the last is fairly short experience, but in typical DKC fashion the meat of the game comes from replaying levels and grabbing all the collectables. If that's not really your thing then you've still got a solid platformer that should scratch the itch. Visually the game is amazing to look at... I mean just look at this:

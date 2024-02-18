@@ -5,6 +5,7 @@ date: 2016-03-16
 image: https://cdn.wonderfulfrog.com/p3p.jpg
 tags: ["psp", "persona"]
 youtube: true
+year: 2009
 ---
 
 My completion time was somewhere around 72 hours. It's hard to talk about such a story-dense game without spoiling too much - but what I will say about the story is that it's probably one of the best I've ever experienced. The game is likely not for everyone... the playtime alone might turn some people off. I think of it more like a large book - it'll take you a while to get through - but the major plot points keep you engrossed. You get attached to the characters - because of the game length. By the end of the game they are all close friends.

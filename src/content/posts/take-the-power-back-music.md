@@ -72,11 +72,9 @@ I separated my library into two major categories: **my music**, and **Apple Musi
 
 Unsure of how to find my Apple Music music, I started by googling when the service started, which was [June 30th, 2015](https://en.wikipedia.org/wiki/Apple_Music). Then I sorted my entire library by date and looked at everything before and after that date.
 
-<Aside>
-
+<aside>
 My first piece of Apple Music music was Foal’s “What Went Down”. I added that on July 2nd, 2015. I guess I took a few days to figure out what to add to my library?
-
-</Aside>
+</aside>
 
 Before we get much further, I should mention that I have over 130GB of music (somewhere around 19,000 songs). Sorting by the Date Added field showed me that I had about 6,098 songs to comb over. I knew that mixed into those 6,000+ songs were music I had the files to. I needed a way to filter those tracks out. Now what?
 
@@ -86,11 +84,11 @@ Well, turns out iTunes — sorry — Music(.app) — has a handy feature called 
 - Matched (uploaded and updated using iTunes Match)
 - Uploaded (uploaded tracks saved using iTunes Match)
 
-{% image "https://cdn.wonderfulfrog.com/amm.png" , "Smart Playlist filters", "" %}
+{% image "https://cdn.wonderfulfrog.com/amm.png" , "Smart Playlist filters", "The various settings to get my 'Apple Music music'" %}
 
 I also added a filter to show music only from May 18th 2018. This date is important because it was the day I re-subscribed to Apple Music after not using it past the free trial. That cut down my list to 2,221 songs. Thus, I had my Apple Music music.
 
-{% image "https://cdn.wonderfulfrog.com/stats.png" , "2,221 total songs", "" %}
+{% image "https://cdn.wonderfulfrog.com/stats.png" , "2,221 total songs", "2,221 total songs - wow!" %}
 
 I also made another Smart Playlist to find all of my Purchased music (1,107 songs), and downloaded those. A grand total of about 3,300 songs from Apple.
 

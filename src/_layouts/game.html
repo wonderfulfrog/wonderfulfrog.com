@@ -13,6 +13,8 @@ layout: base
         <div>
             <h1>{{ title }}</h1>
             <h2 class="[ text-fadeText my-0.5 ]">{{ year }}</h2>
+            {% import "macros/tags.njk" as tags %}
+            {{ tags.list(filteredTags) }}
         </div>
     </section>
     {{ content | safe }}

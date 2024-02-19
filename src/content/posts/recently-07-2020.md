@@ -5,7 +5,7 @@ excerpt: July 2020.
 tags: ["recently"]
 ---
 
-{% image "https://wonderfulfrog.b-cdn.net/lady-actually-reading.svg", "Lady reading her book in what must be eventually pretty uncomfortable, but at least she has a nice cactus. From Open Doodles.", "" %}
+{% image "https://wonderfulfrog.b-cdn.net/lady-actually-reading.svg", "Lady reading her book in what must be eventually pretty uncomfortable, but at least she has a nice cactus. From Open Doodles.", "Lady reading her book in what must be eventually pretty uncomfortable, but at least she has a nice cactus. From Open Doodles." %}
 
 My [CHIP-8 emulator](https://github.com/devinwl/chip-8) took a back seat last month. I haven’t made any progress on it since late May. I hope to return to it, but right now my interests have shifted to different projects.
 

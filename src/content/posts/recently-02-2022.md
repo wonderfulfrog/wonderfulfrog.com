@@ -6,7 +6,7 @@ tags: ["recently"]
 youtube: true
 ---
 
-{% image "https://cdn.wonderfulfrog.com/lastfm-feb-2022.jpeg", "My most-played music last month.", "" %}
+{% image "https://cdn.wonderfulfrog.com/lastfm-feb-2022.jpeg", "My popular albums from last.fm this month. Failure - Wild Type Droid, The Weeknd - Dawn FM, Ladyhawke - Time Flies, Magdelena Bay - Mercurial World, Drop Nineteens - National Coma, Ramones - Ramones, Daft Punk - Random Access Memories, David Bowie - Toy, and Drop Nineteens - Delaware", "From last.fm" %}
 
 I'd like to get back into the habit of writing these. I'll start one month late for some reason, though.
 

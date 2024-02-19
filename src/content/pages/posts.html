@@ -8,5 +8,5 @@ title: Posts
 <p>
     View all <a href="/tags">tags</a>
 </p>
-{% set items = collections.post %}
+{% set items = collections.post | reverse %}
 {% include "partials/archive.html" %}

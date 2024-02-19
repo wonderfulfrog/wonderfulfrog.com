@@ -127,15 +127,19 @@ pre {
 }
 
 figure {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   margin-inline: 0;
-  gap: var(--spacing-1);
 }
 
 figure figcaption {
   color: var(--color-fadeText);
+  font-size: 0.8rem;
+  line-height: 1.125rem;
+  text-align: center;
+}
+
+picture source,
+picture img {
+  border-radius: 1rem;
 }
 
 @media (prefers-reduced-motion: reduce) {

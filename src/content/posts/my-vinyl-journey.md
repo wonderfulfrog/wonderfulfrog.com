@@ -9,7 +9,7 @@ tags: ["music", "vinyl", "collecting"]
 
 I’m here to tell you vinyl collecting isn’t all its cracked up to be. Like many hobbies, it takes time and dedication to truly appreciate. I’m here to offer a cautionary tale to anyone looking to start the hobby. It’s important to make sure you want to do it for the right reasons - something I didn’t do when I started.
 
-{% image "https://cdn.wonderfulfrog.com/mmb.jpg", "Record cover of Mogwai's Mr. Beast" %}
+{% image "https://cdn.wonderfulfrog.com/mmb.jpg", "Record cover of Mogwai's Mr. Beast", "Mogwai's Mr. Beast" %}
 
 At some point in 2008 I decided to begin my vinyl journey. After hearing about records making a quiet comeback from my friend I thought I might see what this was all about on a whim. After perusing the local music store’s then-growing record collection I came out with [Mogwai's Mr. Beast](https://itunes.apple.com/ca/album/mr-beast/794356427). When I returned home I asked my parents for their old record player. My Mom returned my request with surprise.
 
@@ -25,11 +25,11 @@ At some point in 2008 I decided to begin my vinyl journey. After hearing about r
 
 Off to the garage we went. Beneath a pile of old DVDs and other relics of another age - there it was. With the player was a giant container of records. I lugged the two with anticipation and enthusiasm upstairs. The record player was Dual's CS 728Q.
 
-{% image "https://cdn.wonderfulfrog.com/dual.png", "Poster for the Dual CS 728Q record player" %}
+{% image "https://cdn.wonderfulfrog.com/dual.png", "Poster for the Dual CS 728Q record player", "The subtle off-white colouring, the tasteful thickness of it..." %}
 
 I didn't have a sound system at the time - so my setup was a messy daisy-chain of cords that eventually lead to a pair a cheap computer speakers. I excitedly rummaged through my parents collection looking for one album in particular. With a pleased grin I found it. I was looking for [Pink Floyd's Wish You Were Here](https://itunes.apple.com/ca/album/wish-you-were-here/1065973975).
 
-{% image "https://cdn.wonderfulfrog.com/wywh.png", "Record cover of Pink Floyd's Wish You Were Here" %}
+{% image "https://cdn.wonderfulfrog.com/wywh.png", "Record cover of Pink Floyd's Wish You Were Here", "Pink Floyd's Wish You Were Here" %}
 
 I admired the gatefold LP for some time before placing it on the platter. Pressing the start button the record started turning. The tone arm swung over and locked into place, hovering over the record. Gently it lowered itself until it landed with a subtle popping sound. It was at this point I realized what a phono preamp was - and without having one means there is very little sound. Undeterred, I cranked the volume on my tinny little speakers. It wasn't much but I could hear it! David Gilmour's wailing guitar pumping through the needle to my speakers. It was a magical moment for me. I listened to the whole album on those horrible speakers, completely enthralled in the medium.
 
@@ -41,7 +41,7 @@ As with most things I get interested in, I launched into this new hobby with rec
 
 With my new desire to acquire any and all kinds of vinyl I wandered into shops and would eat up anything that looked remotely interesting. About a year into the hobby I started to notice that more and more of my favourite artists were releasing brand new pressings of their upcoming albums. The writing was on the wall - the record companies were taking notice of the resurgence of vinyl and were preparing to go in swinging. I didn’t think much of it at the time of course.
 
-{% image "https://cdn.wonderfulfrog.com/djf.png", "Record cover of Dinosaur Jr.'s Farm" %}
+{% image "https://cdn.wonderfulfrog.com/djf.png", "Record cover of Dinosaur Jr.'s Farm", "Dinosaur Jr.'s Farm" %}
 
 It was also around this time I started to notice more of the minor annoyances with vinyl - chiefly the maintenance aspect. By virtue of the way the medium works, anything like dust, dirt, or small particles are the enemy. They cause pops and cracks, or worse skips. My brand new records started showing these symptoms after a few plays. Again though I falsely convinced myself this was all part of the charm and just needed to be accepted; the worrying never stopped though. I would often have to convince myself the record would be fine and to just play it. For the large part I was still enjoying the hobby, but starting to realize some of the downsides that came with it.
 
@@ -49,7 +49,7 @@ It was also around this time I started to notice more of the minor annoyances wi
 
 During this time I can recall a particularly vivid memory relating to a record purchase. In 2009 Animal Collective released their breakout album [Merriweather Post Pavilion](https://itunes.apple.com/ca/album/merriweather-post-pavilion/300683110). I remember picking it up at the store after months of anticipation (and listening to low-quality album leaks). After the usual ritual of gatefold admiration, I put the record on the platter and hit start. With headphones hooked up, I put on my pair of Sony MDRV6s and laid down on the bed. I closed my eyes. Soon the opening notes of In the Flowers began. I lost myself on a sonic odyssey - interrupted only by the necessity to flip the record over. It was one point in my life where I recall listening to an album front to back without _any_ distractions. Despite my slow-growing annoyance with vinyl as a hobby, this is one memory I always look on fondly.
 
-{% image "https://cdn.wonderfulfrog.com/acmpp.jpg", "Record cover of Animal Collective's Merriweather Post Pavilion" %}
+{% image "https://cdn.wonderfulfrog.com/acmpp.jpg", "Record cover of Animal Collective's Merriweather Post Pavilion", "Animal Collective's Merriweather Peace Pavilion" %}
 
 ## Annoyance turns to irritation
 

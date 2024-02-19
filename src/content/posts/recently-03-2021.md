@@ -6,7 +6,7 @@ tags: ["recently", "valheim"]
 youtube: true
 ---
 
-{% image "https://cdn.wonderfulfrog.com/forestsunrise.png", "A screenshot of Valheim with a sunrise coming through a thick, dense forest." , "" %}
+{% image "https://cdn.wonderfulfrog.com/forestsunrise.png", "A screenshot of Valheim with a sunrise coming through a thick, dense forest." , "Look at them god rays" %}
 
 Like Christmas, I am always shocked at how fast February goes by, even though it’s the same length (except Leap Years) every year.
 
@@ -62,7 +62,7 @@ Here’s my favorite bit ever:
 
 ## Playing
 
-{% image "https://cdn.wonderfulfrog.com/moonrise.png", "My mighty viking with the moon as a backdrop." , "" %}
+{% image "https://cdn.wonderfulfrog.com/moonrise.png", "My mighty viking with the moon as a backdrop." , "Look at them... moon rays" %}
 
 Without a doubt (and likely to my partner’s dismay) the majority of my time the past few weeks has been in [Valheim](https://www.valheimgame.com). I initially felt like the survival aspects of the game weren’t for me, having had enough of it in Minecraft. What sucked me right in though was the sheer quality of this Early Access title (can you believe it’s a team of **five people**?). The aesthetic of retro, low-poly models combined with a modern lightning engine creates this nostalgic but fresh vibe that fits in a game of its kind.
 
@@ -70,24 +70,24 @@ Progressing in the game is done by destroying one of the five major bosses, with
 
 A group of us (6) decided to get the game on a Friday evening, and before I knew it it was 1AM. Then it was 1AM Saturday. It kept going on like this. I lived and breathed the game. It sucks you in quick if you’re not careful.
 
-{% image "https://cdn.wonderfulfrog.com/newheim.png", "My cozy viking home." , "" %}
+{% image "https://cdn.wonderfulfrog.com/newheim.png", "My cozy viking home." , "If there exists a survival game, I will build a cottage in it" %}
 
 Here are some screenshots of our journey to take down The Elder, the second boss of the game. His summoning location was far away from our little home of “Newheim” (which replaced our old village, now referred to as “Oldheim”), across the great sea. We built our first boat capable of holding more than one or two people and set sail.
 
-{% image "https://cdn.wonderfulfrog.com/sailingtoelder.png", "A group of six hapless Vikings sailing their way to slay an unknown evil." , "" %}
+{% image "https://cdn.wonderfulfrog.com/sailingtoelder.png", "A group of six hapless Vikings sailing their way to slay an unknown evil." , "To boldly go where no Viking has gone before..." %}
 
-{% image "https://cdn.wonderfulfrog.com/elderdistance.png", "Our map showing the distance from our main base to The Elder." , "" %}
+{% image "https://cdn.wonderfulfrog.com/elderdistance.png", "Our map showing the distance from our main base to The Elder." , "1 day later..." %}
 
 After a day’s journey (which is about 30 minutes), we broke shore at what we called “Elderheim” (we have an incredibly clever naming scheme, if you haven’t noticed). We hastily built a small house and a portal to allow us to return to the island if we died (which we did, multiple times).
 
-{% image "https://cdn.wonderfulfrog.com/elderheim.png", "A screenshot of Valheim showing a hastily built shelter in the pouring rain." , "" %}
+{% image "https://cdn.wonderfulfrog.com/elderheim.png", "A screenshot of Valheim showing a hastily built shelter in the pouring rain." , "The black forest is aptly named" %}
 
 With our base deployed and our bellies full of food, we set out to summon The Elder and take them out. I don’t have any shots of us during the fight, but you can rest assured it was a delightful, flailing mess. We all died at least once or twice. We ran out of arrows mid fight and had to speedily drop them on the ground to share.
 
 In the end though, we triumphed!
 
-{% image "https://cdn.wonderfulfrog.com/elderdown.png", "The corpse of the mighty Elder!" , "" %}
+{% image "https://cdn.wonderfulfrog.com/elderdown.png", "The corpse of the mighty Elder!" , "Triumph!" %}
 
 We’ve since taken down the third boss and are on our way to number four. The Mountain has proved to be a tough biome to survive, and if our brief excursion into the Plains has been any indication — the fun is only just beginning.
 
-{% image "https://cdn.wonderfulfrog.com/stones.png", "The severed head of The Elder attached to a sacrificial stone altar. With this we gain strange new magical powers." , "" %}
+{% image "https://cdn.wonderfulfrog.com/stones.png", "The severed head of The Elder attached to a sacrificial stone altar. With this we gain strange new magical powers." , "And now, the mountain beckons us..." %}

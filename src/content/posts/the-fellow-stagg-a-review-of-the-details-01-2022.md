@@ -5,7 +5,7 @@ excerpt: Is it the Apple of kettles?
 tags: ["tea", "reviews"]
 ---
 
-{% image "https://cdn.wonderfulfrog.com/stagg-kettle.jpg", "A drawing of a Fellow Stagg kettle", "" %}
+{% image "https://cdn.wonderfulfrog.com/stagg-kettle.jpg", "My drawing of a Fellow Stagg kettle shaded with Copic markers" %}
 
 The Fellow Stagg is without a doubt the most money I will ever spend on a kettle. It’s been lauded in coffee circles, but how does it stack up on the small things? Let’s sweat over those details.
 

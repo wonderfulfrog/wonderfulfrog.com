@@ -9,7 +9,7 @@ This is an update to my post from a few months ago about a cautionary tale into 
 
 I believe this all started because of my ruthless quest for minimalism. I don’t mean in the popular sense of owning no furniture like that photo of Steve Jobs, but speaking more in a sense of values. If something isn’t providing me any value, why should I continue to own it? That was the conclusion I arrived at when it came to evaluating my vinyl collection.
 
-{% image "https://cdn.wonderfulfrog.com/CB867BB6-6F62-44AC-B1F4-B9B8D290D75C.jpeg", "Steve Jobs sitting cross-legged in his living room with sparse furniture", "" %}
+{% image "https://cdn.wonderfulfrog.com/CB867BB6-6F62-44AC-B1F4-B9B8D290D75C.jpeg", "Steve Jobs sitting cross-legged in his living room with sparse furniture", "Not my idea of minimalism" %}
 
 After talking with my partner, she said something along the lines of it being okay to collect things. It sounds silly, but that single bit of permission and validation told me that the collection does indeed bring my joy and value. It cemented the fact that the collection is now a part of who I am — it helps define my identity as an avid music listener. Once someone told me it’s okay, it completed changed my perception. Perhaps all I was looking for to begin with was permission to collect them?
 

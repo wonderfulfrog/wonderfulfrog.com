@@ -6,7 +6,7 @@ tags: ["recently", "valheim"]
 youtube: true
 ---
 
-{% image "https://cdn.wonderfulfrog.com/coolbow.png", "My Valheim character under the moon." %}
+{% image "https://cdn.wonderfulfrog.com/coolbow.png", "My Valheim character under the moon.", "The lighting in this game is so good!" %}
 
 Right up until the end of the month things were looking up pandemic-wise, but our province announced that more restrictions are going to be in place for the next few weeks. Cases have been trending upward for the younger age groups (20-30s). It felt like up until this announcement that were was a chance that summer might mean a vaccine for people in my age range. Not to mention that AstraZeneca has been suspended recently in Canada. Back to waiting.
 

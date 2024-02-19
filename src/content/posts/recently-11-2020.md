@@ -5,7 +5,7 @@ excerpt: November 2020.
 tags: ["recently"]
 ---
 
-{% image "https://cdn.wonderfulfrog.com/e460bb30-2ef1-4a3c-af6d-f7ff9c696bac.jpeg", "A frog recounting his struggles about trying his hardest, and feeling like it’s never enough. By Cat's Cafe.", "" %}
+{% image "https://cdn.wonderfulfrog.com/e460bb30-2ef1-4a3c-af6d-f7ff9c696bac.jpeg", "A frog recounting his struggles about trying his hardest, and feeling like it’s never enough. By Cat's Cafe.", "Mood." %}
 
 Well, now it’s November. That happened. Here’s some things that caught my interest this month.
 

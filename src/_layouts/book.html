@@ -2,7 +2,7 @@
 layout: base
 ---
 
-{% set filteredTags = tags | filter([tags[0], tags[1]]) %}
+{% set filteredTags = tags | filterCatalogueTags %}
 <article class="[ catalogue ] [ flow ]">
     <time class="[ date ] [ flex items-center gap-0.5 my-1 ]"
           datetime="{{ date }}">

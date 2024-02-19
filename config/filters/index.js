@@ -78,11 +78,19 @@ const pluralize = (string, count = 0) => {
   return pluralizeBase(string, count);
 };
 
+const filterCatalogueTags = (tags) => {
+  // In the case of catalogue items, the 0-index is "catalogue"
+  // and the 1-index is the catalogueType. We don't need to
+  // show those in the front-end.
+  return filter(tags, [tags[0], tags[1]]);
+};
+
 module.exports = {
   allTagCounts,
   allTags,
   entries,
   filter,
+  filterCatalogueTags,
   formatDate,
   keys,
   minifyCss,

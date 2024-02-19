@@ -4,9 +4,8 @@ layout: base
 
 <article class="[ flow ]">
     <header class="[ flow ]" style="--flow-space: 1rem">
-        <time class="[ date ][ flex items-center gap-0.5 ]" datetime="{{ date }}">
-            {% include "svgs/calendar.svg" %}
-        {{ date | formatDate("MMMM D, YYYY") }}</time>
+        {% from "macros/date.njk" import format %}
+        {{ format(date) }}
         <h1>{{ title }}</h1>
         <ul class="[ categories ] [ flex gap-1 list-none p-0 ]">
             {% for tag in tags | filter(["post"]) %}

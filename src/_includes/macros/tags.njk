@@ -1,0 +1,7 @@
+{% macro list(tags) %}
+            {% if tags | length > 0 %}
+                <ul class="[ flex list-none p-0 gap-0.5 mb-0 ]">
+                    {% for tag in tags %}<li class="[ bg-surface radius-1 px-1 py-0.5 ]">{{ tag }}</li>{% endfor %}
+                </ul>
+            {% endif %}
+{% endmacro %}

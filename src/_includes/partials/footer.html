@@ -14,7 +14,7 @@
             <ul class="[ flex list-none gap-0.5 m-0 p-0 ]">
                 <li>
                     <span class="[ visually-hidden ]">RSS</span>
-                    <a href="#" target="_blank" aria-label="View RSS feed">{% include "svgs/rss.svg" %}</a>
+                    <a href="/rss.xml" target="_blank" aria-label="View RSS feed">{% include "svgs/rss.svg" %}</a>
                 </li>
                 {% for key, url in meta.social %}
                     {% set alt = key | capitalize %}

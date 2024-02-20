@@ -42,6 +42,8 @@ My mouse is a [Keychron M3][keychronm3]. It love it because there is zero brandi
 
 My desk is the [Autonomous SmartDesk Pro][smartdesk] with a 53" bamboo top. It's a solid desk, but their customer support burned me pretty hard so I've sworn off the company.
 
+My speakers of choice are a pair of [Sonos One SL][sonosonesl]s mounted to my walls. They're expensive, but work extremely well with AirPlay 2. And I can seamlessly add other Sonos speakers to my listening experience.
+
 ## Music
 
 I've tried every streaming service out there that's available in Canada (RIP to [Rdio][rdio], you were the real one), and I've given up and settled with [Apple Music][applemusic]. At least it integrates decently well with the ecosystem.
@@ -61,6 +63,8 @@ For wired headphones I have my [Sony MDR-7506][sonymdr7506]s. Just plain good so
 I use [Last.fm][lastfm] for tracking my music listening history. They've been around for a long time. I find their reports insightful and chock-full of interesting data. I love being able to go back several years and see what I was listening to.
 
 [MusicBox][musicbox] is a wonderful app for keeping track of music to listen to later. It supports tagging and rating, and integrates well with iOS's Share Sheet. Supports Apple Music and Spotify. You can add songs, albums, and even playlists!
+
+[Sleeve][sleeveapp] for showing what music is playing. Integrates with Last.fm for easy scrobbling, and syncs my loved tracks on Apple Music and Last.fm.
 
 ## Photography
 
@@ -105,6 +109,8 @@ I use the [Template][obsidiantemplate] plugin quite a bit - helps with notes wit
 The [Actions URI][obsidianactions] plugin integrates well with iOS's Shortcuts, which lets me create a note and populate it with data from a single tap!
 
 [Figma][figma] for all things design. It's the industry standard.
+
+[Raycast][raycast] for doing computer-related things. I love using it for launching apps, currency conversions, word definitions, window management, joining meetings, and I'm sure something else I'm forgetting. I couldn't care less about the AI junk, but it does everything else great.
 
 ## Other Gear
 
@@ -172,3 +178,6 @@ For better or worse, I love [AirTag][airtag]s. Makes it easy to find stuff that 
 [reactnative]: https://reactnative.dev
 [reanimated]: https://docs.swmansion.com/react-native-reanimated
 [expo]: https://expo.dev
+[raycast]: https://www.raycast.com
+[sleeveapp]: https://replay.software/sleeve
+[sonosonesl]: https://www.sonos.com/en-ca/shop/one-sl-b-stock-shadow

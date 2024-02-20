@@ -122,6 +122,17 @@ hr {
   color: var(--color-surface);
 }
 
+code {
+  background-color: var(--color-surface);
+  color: var(--color-primary);
+  border-color: var(--color-border);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 0.5em;
+  padding-block: 0.15em;
+  padding-inline: 0.25em;
+}
+
 pre {
   overflow-x: auto;
 }

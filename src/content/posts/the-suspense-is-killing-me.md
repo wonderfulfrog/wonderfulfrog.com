@@ -11,7 +11,7 @@ React’s recent post on [Concurrent Mode](https://reactjs.org/docs/concurrent-m
 
 What is Suspense exactly? Suspense suspends components until they are ready. How does it know when components are ready? Turns out it’s a lot like [Error Boundaries](https://reactjs.org/docs/error-boundaries.html). When `throw Error` happens, an Error Boundary catches the error so the whole app doesn’t crash. Suspense works similarly, except instead of errors, it’s looking for a `Promise` object. This is a little weird to most web developers I imagine… since when did we start `throw`ing promises? Once I understood that though, I started to get how a `<Suspense />` component can tell when data is loaded. Once the Promise (or Promises) resolves, the component is ready. There is an example on the React blog post:
 
-```js
+```jsx
 const resource = fetchProfileData();
 
 function ProfilePage() {
@@ -50,7 +50,7 @@ Another nifty element of Suspense is the ability to control how the UI loads bas
 
 Another option is to nest Suspense options. This allows for a gradual reveal of the UI in the event a data fetch returns earlier than other requests. It gives the developer complete control over how the UI renders. Returning to the example above in its current configuration, the `<ProfileDetails />` component will load and unlock the top level `<Suspense />` wrapper. That will render the `<ProfileDetails />` component and render the next `<Suspense>` block’s `fallback` until the components inside load. Alternatively, the `<Suspense>` block that wraps the `<ProfileTimeline />` component could be removed to produce this:
 
-```js
+```jsx
 function ProfilePage() {
   return (
     <Suspense fallback={<h1>Loading profile...</h1>}>

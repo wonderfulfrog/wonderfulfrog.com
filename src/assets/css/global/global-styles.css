@@ -122,7 +122,7 @@ hr {
   color: var(--color-surface);
 }
 
-code {
+:not(pre) > code {
   background-color: var(--color-surface);
   color: var(--color-primary);
   border-color: var(--color-border);

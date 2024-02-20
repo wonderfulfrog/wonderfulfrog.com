@@ -1,0 +1,68 @@
+/* Adapted from the Tokyo Night theme on GitHub
+ * https://github.com/folke/tokyonight.nvim/blob/main/extras/prism/tokyonight_night.js
+ */
+
+pre:has(code) {
+  background-color: #1a1b26;
+  border-radius: 0.5em;
+  padding: 1em;
+  color: #c0caf5;
+}
+
+pre:has(code) .token.prolog,
+pre:has(code) .token.builtin {
+  color: #f7768e;
+}
+
+pre:has(code) .token.function {
+  color: #7aa2f7;
+}
+
+pre:has(code) .token.symbol {
+  color: #2ac3de;
+}
+
+pre:has(code) .token.punctuation {
+  color: #bb9af7;
+}
+
+pre:has(code) .token.string,
+pre:has(code) .token.char,
+pre:has(code) .token.tag,
+pre:has(code) .token.selector {
+  color: #9ece6a;
+}
+
+pre:has(code) .token.keyword {
+  color: #9d7cd8;
+}
+
+pre:has(code) .token.operator {
+  color: #89ddff;
+}
+
+pre:has(code) .token.constant,
+pre:has(code) .token.boolean {
+  color: #ff9e64;
+}
+
+pre:has(code) .token.variable {
+  color: #c0caf5;
+}
+
+pre:has(code) .token.comment {
+  color: #565f89;
+  font-style: italic;
+}
+
+pre:has(code) .token.attr-name {
+  color: #73daca;
+}
+
+pre:has(code) .token.class-name {
+  color: #ff757f;
+}
+
+pre:has(code) .token.plain-text {
+  color: #c0caf5;
+}

@@ -23,6 +23,9 @@ const imageShortcode = async (
     formats: [...formats, null],
     outputDir: "dist/assets/images",
     urlPath: "/assets/images",
+    sharpOptions: {
+      animated: true,
+    },
   });
 
   const lowsrc = metadata.jpeg[metadata.jpeg.length - 1];

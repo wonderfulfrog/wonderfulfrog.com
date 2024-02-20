@@ -10,5 +10,8 @@ permalink: /tags/{{ tag | slugify }}/index.html
 ---
 
 <h1>Tag: {{ tag }}</h1>
+<p>
+    All posts tagged with "{{ tag }}", or go back to <a href="/tags">all tags</a>.
+</p>
 {% set items = collections.postsByTag[ tag ] %}
 {% include "partials/archive.html" %}

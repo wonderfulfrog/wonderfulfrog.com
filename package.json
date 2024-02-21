@@ -8,7 +8,8 @@
   "scripts": {
     "debug": "DEBUG=Eleventy* eleventy --serve --watch",
     "dev": "eleventy --serve --watch",
-    "lint": "eslint src/ config/"
+    "lint": "eslint src/ config/",
+    "build": "eleventy"
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",

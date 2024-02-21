@@ -27,11 +27,6 @@ module.exports = (eleventyConfig) => {
   // 	--------------------- Plugins ---------------------
   eleventyConfig.addPlugin(pluginRss);
 
-  // 	--------------------- Custom Template Languages ---------------------
-  eleventyConfig.addPlugin(
-    require("./config/template-languages/css-config.js"),
-  );
-
   // 	--------------------- Custom Collections -----------------------
   eleventyConfig.addCollection("postsByTag", postsByTag);
   eleventyConfig.addCollection("catalogueByType", catalogueByType);

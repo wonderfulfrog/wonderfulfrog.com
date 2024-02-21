@@ -1,5 +1,5 @@
 {
-  "layout": "catalogue",
+  "layout": "podcast",
   "tags": "podcast",
   "permalink": "catalogue/podcasts/{{ page.fileSlug }}/index.html"
 }

@@ -1,31 +1,13 @@
-.catalogue {
-  container-type: inline-size;
-}
-
 .catalogue-type {
   font-size: 0.8rem;
   border-radius: 0.5rem;
 }
 
 .catalogue-meta {
-  display: grid;
-  grid-template-columns: 1fr 200px;
+  text-align: center;
 }
 
-.catalogue-meta picture {
-  max-width: 200px;
-}
-
-.catalogue-meta > *:first-child {
-  order: 1;
-}
-
-@container (max-width: 32rem) {
-  .catalogue-meta {
-    grid-template-columns: 1fr;
-  }
-
-  .catalogue-meta > *:first-child {
-    order: initial;
-  }
+.catalogue source,
+.catalogue img {
+  max-width: 50%;
 }

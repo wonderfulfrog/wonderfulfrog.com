@@ -22,5 +22,5 @@ eleventyComputed:
         </li>
     {% endfor %}
 </ul>
-{% set items = collections.catalogueByType[ type ] %}
+{% set items = collections.catalogueByType[ type ] | reverse %}
 {% include "partials/catalogue.html" %}

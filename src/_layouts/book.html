@@ -6,17 +6,20 @@ layout: base
 <article class="[ catalogue ] [ flow ]">
     {% from "macros/date.njk" import format %}
     {{ format(date) }}
-    <section class="[ catalogue-meta ] [ gap-1 mb-1 ]">
+    <section class="[ catalogue-meta ] [ flow ]">
         {% if image %}
             {% image image, "", "" %}
         {% endif %}
-        <div>
-            <h1>{{ title }}</h1>
-            {% if subtitle %}<h3 class="[ text-fadeText my-0.5 ]">{{ subtitle }}</h3>{% endif %}
-            {% if author %}<span class="[ text-fadeText ]">by</span> {{ author }}{% endif %}
-            {% import "macros/tags.njk" as tags %}
-            {{ tags.list(filteredTags) }}
-        </div>
+        <h1>{{ title }}</h1>
+        {% if subtitle %}<h3 class="[ text-fadeText my-0.5 ]">{{ subtitle }}</h3>{% endif %}
+        {% if author %}
+            <p>
+                <span class="[ text-fadeText ]">by</span> {{ author }}
+            </p>
+        {% endif %}
+        {% import "macros/tags.njk" as tags %}
+        {{ tags.list(filteredTags) }}
     </section>
+    <hr class="[ my-3 ]" />
     {{ content | safe }}
 </article>

@@ -19,7 +19,7 @@ module.exports = class {
     const rawCss = fs.readFileSync(rawFilepath);
 
     return {
-      permalink: `assets/css/styles.css`,
+      permalink: `css/styles.css`,
       rawFilepath,
       rawCss,
     };

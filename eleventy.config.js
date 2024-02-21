@@ -22,7 +22,7 @@ const imageShortcode = require("./config/shortcodes/image.js");
 const liteYoutube = require("./config/shortcodes/youtube.js");
 
 module.exports = (eleventyConfig) => {
-  eleventyConfig.addWatchTarget("./src/assets");
+  eleventyConfig.addWatchTarget("./src/css");
 
   // 	--------------------- Plugins ---------------------
   eleventyConfig.addPlugin(pluginRss);

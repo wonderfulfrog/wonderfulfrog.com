@@ -1,0 +1,24 @@
+---
+layout: base
+permalink: /blogroll/index.html
+title: Blogroll
+---
+
+<section class="[ flow ]">
+    <h1>Blogroll</h1>
+    <p>A collection of my favourite sites, in no particular order.</p>
+    <p>
+        If you're looking for more cool sites, visit <a href="https://blogroll.org"
+    target="_blank"
+    rel="external noreferrer noopener">blogroll.org</a>!
+    </p>
+    <ul>
+        {% for item in blogroll %}
+            <li>
+                <a href="{{ item.url }}"
+                   target="_blank"
+                   rel="external noreferrer noopener">{{ item.title }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+</section>

@@ -29,6 +29,8 @@ Technologies I have focused on in the last few years include:
 
 I have a passion for the intersection of development and design. A title I associate with would be **Creative Developer**. I'm happiest when I'm at the front of the front-end, getting into nitty-gritty details with an emphasis on motion. CSS is my homebase (and yes, it's a programming language).
 
+I try my best to champion accessibility wherever I can. I incoporate accessibility testing tools into my workflow while carrying out my day-to-day work.
+
 ## Hobbies
 
 I tend to hop from interest to interest, fully engrossing myself and then moving on after a few weeks. That said, I do have some mainstays that I have a regular interest in, such as:

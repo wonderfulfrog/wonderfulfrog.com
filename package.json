@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "debug": "DEBUG=Eleventy* eleventy --serve --watch",
-    "dev": "eleventy --serve --watch",
+    "dev": "eleventy --serve --watch --quiet",
     "lint": "eslint src/ config/",
     "build": "eleventy"
   },

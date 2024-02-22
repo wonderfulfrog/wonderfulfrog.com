@@ -1,9 +1,6 @@
-.site-logo {
-  gap: 0.5rem;
-}
-
 .site-logo .wordmark {
   text-decoration: none;
+  margin-block-start: -6px;
 }
 
 .site-logo .wordmark > span {

@@ -1,0 +1,21 @@
+/*
+SWITCHER
+More info: https://every-layout.dev/layouts/switcher/
+A layout that allows you to lay **2** items next to each other
+until there is not enough horizontal space to allow that.
+*/
+
+.switcher {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.switcher > * {
+  flex-grow: 1;
+  flex-basis: calc((32rem - 100%) * 999);
+}
+
+.switcher > :nth-last-child(n + 3),
+.switcher > :nth-last-child(n + 3) ~ * {
+  flex-basis: 100%;
+}

@@ -1,0 +1,16 @@
+/*
+REPEL
+A little layout that pushes items away from each other where
+there is space in the viewport and stacks on small viewports
+*/
+.repel {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--spacing-0\.5);
+}
+
+.repel[data-nowrap] {
+  flex-wrap: nowrap;
+}

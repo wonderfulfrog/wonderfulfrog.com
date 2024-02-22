@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: "layouts/base"
 imageAlt: ""
 imageCaption: ""
 ---
@@ -27,4 +27,9 @@ imageCaption: ""
     {% from "macros/date.njk" import format %}
     {{ format(date) }}
     {% block content %}{{ content | safe }}{% endblock %}
+    {% if url %}
+        <a href="{{ url }}" class="[ flex mt-1 items-center gap-0.5 ]" target="_blank" rel="external noreferrer noopener">
+            {% include "svgs/link.svg" %}{{ linkTitle }}
+        </a>
+    {% endif %}
 </article>

@@ -1,5 +1,4 @@
 ---
-layout: base
 permalink: /uses/index.html
 title: /uses
 ---

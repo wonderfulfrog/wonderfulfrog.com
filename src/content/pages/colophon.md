@@ -1,5 +1,4 @@
 ---
-layout: base
 permalink: /colophon/index.html
 title: Colophon
 ---

@@ -7,4 +7,5 @@ isbn: 9781459822290
 rating: 4
 image: https://cdn.wonderfulfrog.com/the-monster-sisters-vol-2.jpg
 date: 2021-09-11
+tags: ["adventure"]
 ---

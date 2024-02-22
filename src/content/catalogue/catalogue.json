@@ -1,5 +1,5 @@
 {
-  "layout": "catalogue",
+  "layout": "layouts/catalogue",
   "tags": "catalogue",
   "permalink": "catalogue/index.html"
 }

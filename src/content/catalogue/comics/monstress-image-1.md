@@ -7,6 +7,7 @@ year: 2017
 image: https://cdn.wonderfulfrog.com/monstress-vol-1.jpeg
 rating: 3
 date: 2021-09-19T07:28:12.065Z
+tags: ["fantasy"]
 ---
 
 The first 75% of the volume is quite confusing. It’s like reading the second or third volume in a series without reading the first. I get starting with a mystery as a hook, but when every second word is something new, I get confused!

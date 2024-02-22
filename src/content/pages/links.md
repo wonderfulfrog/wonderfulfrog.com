@@ -1,5 +1,4 @@
 ---
-layout: base
 permalink: /links/index.html
 title: Links
 ---

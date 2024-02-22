@@ -3,7 +3,6 @@ const dir = {
   data: "_data",
   includes: "_includes",
   input: "src",
-  layouts: "_layouts",
   output: "dist",
 };
 

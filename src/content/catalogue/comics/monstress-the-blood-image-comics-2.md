@@ -8,6 +8,7 @@ image: https://cdn.wonderfulfrog.com/monstress-vol-2-tp_77ea1f170a.jpg
 isbn: 9781534300415
 rating: 3
 date: 2021-09-20T00:22:01.235Z
+tags: ["fantasy"]
 ---
 
 I love the cast of the story. We are introduced to some new characters with a heavy nautical theme. Old Tooth the shark-person looks straight out of the 90s (remember Street Sharks?). The artwork continues to be the main selling point for me.

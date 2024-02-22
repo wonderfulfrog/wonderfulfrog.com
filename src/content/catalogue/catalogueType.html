@@ -14,7 +14,7 @@ eleventyComputed:
 
 <h1>{{ type | pluralize | capitalize }}</h1>
 {% set catalogueTypes = collections.catalogueByType | keys %}
-<ul class="[ flex list-none gap-0.5 p-0 ]">
+<ul class="[ cluster list-none p-0 ]" style="--gap: var(--spacing-0\.5)">
     {% for type in catalogueTypes %}
         <li>
             <a class="[ pill ] [ flex px-1 py-0.5 gap-0.5 ]"

@@ -7,7 +7,7 @@ title: All tags
 {% set tags = collections.post | allTagCounts %}
 <section class="[ flow ]">
     <h1>{{ title }}</h1>
-    <ol class="[ flex flex-wrap gap-0.5 list-none p-0 mb-0 ]">
+    <ol class="[ cluster list-none p-0 ]" style="--gap: var(--spacing-0\.5)">
         {% for tag in tags %}
             <li>
                 <a href="/tags/{{ tag.tag | slugify }}"

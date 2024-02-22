@@ -8,7 +8,7 @@ title: Catalogue
 <p>A collection of my thoughts on various forms of media that I consume.</p>
 {% set items = collections.catalogue %}
 {% set catalogueTypes = collections.catalogueByType | keys %}
-<ul class="[ flex list-none gap-0.5 p-0 ]">
+<ul class="[ cluster list-none p-0 ]" style="--gap: 0.5rem">
     {% for type in catalogueTypes %}
         <li>
             <a class="[ pill ] [ flex px-1 py-0.5 gap-0.5 ]"

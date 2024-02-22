@@ -1,7 +1,12 @@
-.stars li:not(:first-child) {
-  margin-inline-start: -4px;
+.stars li {
+  line-height: 16px; /* Size of icons */
+  transition: margin ease-in-out var(--transition-duration);
 }
 
-.stars li {
-  line-height: 16px;
+.stars li:not(:first-child) {
+  margin-inline-start: -6px;
+}
+
+.stars:hover li {
+  margin-inline-start: 0;
 }

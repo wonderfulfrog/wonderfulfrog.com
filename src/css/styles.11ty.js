@@ -13,15 +13,22 @@ const autoprefixer = require("autoprefixer");
 const cssnano = require("cssnano");
 const path = require("path").posix;
 
+const colors = require("../css-utils/colors");
+const fontFamily = require("../css-utils/font-family");
+const fontVariables = require("../css-utils/font-variables");
+const spacing = require("../css-utils/spacing");
+
 module.exports = class {
   async data() {
     const rawFilepath = path.join(__dirname, "./global.css");
     const rawCss = fs.readFileSync(rawFilepath);
 
+    const css = `${rawCss}${fontFamily}${fontVariables}${colors}${spacing}`;
+
     return {
       permalink: `css/styles.css`,
       rawFilepath,
-      rawCss,
+      rawCss: css,
     };
   }
 

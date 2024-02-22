@@ -17,13 +17,6 @@
                   href="{{ preload.href }}"
                   {% if preload.crossorigin %}crossorigin{% endif %} />
         {% endfor %}
-        {% set css %}
-            {% include "css/colorVariables.njk" %}
-            {% include "css/fontFace.njk" %}
-            {% include "css/fontVariables.njk" %}
-            {% include "css/spacing.njk" %}
-        {% endset %}
-        <style>{{ css | minifyCss | safe }}</style>
         {% if youtube %}
             <!-- youtube, if true in frontmatter -->
             <script type="module"

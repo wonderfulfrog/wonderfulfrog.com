@@ -1,5 +1,5 @@
 const colorSchemes = require("../../config/design-tokens/colors.json");
-const { helperClassesToCss } = require("./helperClasses");
+const { helperClassesToCss } = require("./helper-classes");
 
 const lightScheme = colorSchemes.light;
 const darkScheme = colorSchemes.dark;

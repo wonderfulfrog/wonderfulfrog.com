@@ -1,5 +1,5 @@
 const spacing = require("../../config/design-tokens/spacing.json");
-const { helperClassesToCss } = require("./helperClasses");
+const { helperClassesToCss } = require("./helper-classes");
 
 const spacingToCss = (variant, value) =>
   `--spacing-${variant.replace(".", "\\.")}: ${value}px;`;

@@ -1,7 +1,7 @@
 {% macro stars(number) %}
     {% set filledStars = number %}
     {% set emptyStars = 5 - number %}
-    <ul class="[ stars ] [ flex list-none p-0 text-primary ]" aria-description="{{ number }} out of 5 stars">
+    <ul class="[ stars ] [ flex list-none p-0 m-0 text-primary ]" aria-description="{{ number }} out of 5 stars">
     {% for i in range(0, filledStars) %}
         <li>{% include "svgs/star.svg" %}</li>
     {% endfor %}

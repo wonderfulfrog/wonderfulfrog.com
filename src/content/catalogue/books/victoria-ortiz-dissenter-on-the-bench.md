@@ -1,5 +1,6 @@
 ---
 title: Dissenter on the Bench
+subtitle: Ruth Bader Ginsburg's Life & Work
 author: Victoria Ortiz
 isbn: 978054497364
 rating: 4

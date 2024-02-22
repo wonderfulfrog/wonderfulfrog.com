@@ -1,16 +1,19 @@
 ---
 layout: base
+permalink: /catalogue/index.html
+title: Catalogue
 ---
 
-<article class="[ catalogue ] [ flow ]">
-    <section class="[ catalogue-meta ] [ gap-1 mb-1 ]">
-        {% if image %}
-            {% image image, "", "" %}
-        {% endif %}
-        <div>
-            <h1>{{ title }}</h1>
-            <h2 class="[ text-fadeText ]">{{ subtitle }}</h2>
-        </div>
-    </section>
-    {{ content | safe }}
-</article>
+<h1>Catalogue</h1>
+<p>A collection of my thoughts on various forms of media that I consume.</p>
+{% set items = collections.catalogue %}
+{% set catalogueTypes = collections.catalogueByType | keys %}
+<ul class="[ cluster list-none p-0 ]" style="--gap: 0.5rem">
+    {% for type in catalogueTypes %}
+        <li>
+            <a class="[ pill ] [ flex px-1 py-0.5 gap-0.5 ]"
+               href="/catalogue/{{ type | pluralize }}">{{ type | pluralize }}<span class="[ pill-count ]">{{ collections.catalogueByType[ type ] | length }}</span></a>
+        </li>
+    {% endfor %}
+</ul>
+{% include "partials/catalogue.html" %}

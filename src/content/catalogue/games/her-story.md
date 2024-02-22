@@ -1,6 +1,6 @@
 ---
 title: Her Story
-subtitle: PC
+platform: PC
 date: 2024-01-07
 image: https://cdn.wonderfulfrog.com/Her_Story_store_art.jpg
 tags: ["pc", "narrative", "simulator"]

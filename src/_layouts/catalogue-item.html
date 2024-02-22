@@ -1,0 +1,30 @@
+---
+layout: base
+imageAlt: ""
+imageCaption: ""
+---
+
+{% set filteredTags = tags | filterCatalogueTags %}
+<article class="[ catalogue ] [ flow ]">
+    <div style="--flow-space: 2em">
+        {% block image %}
+            {% if image %}
+                {% image image, imageAlt, imageCaption %}
+            {% endif %}
+        {% endblock %}
+    </div>
+    <section class="[ catalogue-meta ] [ flow ]">
+        {% block title %}<h1>{{ title }}</h1>{% endblock %}
+        {% block subtitle %}<h2 class="[ text-fadeText ]" style="--flow-space: 0.25em">{{ subtitle }}</h2>{% endblock %}
+        {{ tertiary | safe }}
+        {% if filteredTags | length > 0 %}
+            <ul class="[ categories list-none p-0 ] [ cluster justify-center ]">
+                {% for tag in filteredTags %}<li class="[ flex gap-0.25 ]">{{ tag }}</li>{% endfor %}
+            </ul>
+        {% endif %}
+    </section>
+    <hr class="[ my-1 ]" />
+    {% from "macros/date.njk" import format %}
+    {{ format(date) }}
+    {% block content %}{{ content | safe }}{% endblock %}
+</article>

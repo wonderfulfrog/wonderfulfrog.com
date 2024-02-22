@@ -1,23 +1,7 @@
 ---
-layout: base
+layout: "catalogue-item"
+eleventyComputed:
+    tertiary: "<p> <span class=\"[ text-fadeText ]\">by</span> {{ author }}</p>"
 ---
 
-{% set filteredTags = tags | filterCatalogueTags %}
-<article class="[ catalogue ] [ flow ]">
-    {% from "macros/date.njk" import format %}
-    {{ format(date) }}
-    <section class="[ catalogue-meta ] [ flow ]">
-        {% if image %}
-            {% image image, "", "" %}
-        {% endif %}
-        <h1>{{ title }}</h1>
-        {% if subtitle %}<h3 class="[ text-fadeText my-0.5 ]">{{ subtitle }}</h3>{% endif %}
-        {% if author %}
-            <p>
-                <span class="[ text-fadeText ]">by</span> {{ author }}
-            </p>
-        {% endif %}
-    </section>
-    <hr class="[ my-3 ]" />
-    {{ content | safe }}
-</article>
+{{ content | safe }}

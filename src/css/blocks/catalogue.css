@@ -3,11 +3,11 @@
   border-radius: 0.5rem;
 }
 
-.catalogue-meta {
-  text-align: center;
-}
-
 .catalogue source,
 .catalogue img {
-  max-width: 50%;
+  max-width: 300px;
+}
+
+.catalogue-meta {
+  text-align: center;
 }

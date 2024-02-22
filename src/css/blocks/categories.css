@@ -1,23 +1,16 @@
-.categories {
-  color: var(--text-color);
-}
-
 .categories li {
-  --text-color: var(--color-fadeText);
+  color: var(--color-fadeText);
 }
 
-.categories > li > a {
-  color: var(--text-color);
-  text-decoration-color: var(--text-color);
+.categories li > a {
+  text-decoration-color: var(--color-fadeText);
 }
 
-.categories li:has(a:hover) {
-  --text-color: var(--color-primary);
+.categories li > a:hover {
+  text-decoration-color: inherit;
 }
 
-.categories > li > a::before {
+.categories li::before {
   content: "#";
-  color: var(--text-color);
   user-select: none;
-  transition: color var(--transition-duration);
 }

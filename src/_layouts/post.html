@@ -9,8 +9,8 @@ layout: base
         <h1>{{ title }}</h1>
         <ul class="[ categories ] [ cluster list-none p-0 ]">
             {% for tag in tags | filter(["post"]) %}
-                <li>
-                    <a class="[ flex ]" href="/tags/{{ tag | slugify }}">{{ tag }}</a>
+                <li class="[ flex gap-0.25 ]">
+                    <a href="/tags/{{ tag | slugify }}">{{ tag }}</a>
                 </li>
             {% endfor %}
         </ul>

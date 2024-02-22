@@ -1,23 +1,11 @@
 ---
-layout: base
+layout: "catalogue-item"
 ---
 
-<article class="[ catalogue ] [ flow ]">
-    {% from "macros/date.njk" import format %}
-    {{ format(date) }}
-    <section class="[ catalogue-meta ] [ flow ]">
-        {% if image %}
-            {% image image, "", "" %}
-        {% endif %}
-        <h1>{{ title }}</h1>
-        {% if subtitle %}<h2 class="[ text-fadeText ]">{{ subtitle }}</h2>{% endif %}
-    </section>
-    <hr class="[ my-3 ]" />
-    {{ content | safe }}
-    <a href="{{ url }}"
-       class="[ flex mt-1 items-center gap-0.5 ]"
-       target="_blank"
-       rel="external noreferrer noopener">
-        {% include "svgs/link.svg" %}
-    Listen to the podcast</a>
-</article>
+{{ content | safe }}
+<a href="{{ url }}"
+   class="[ flex mt-1 items-center gap-0.5 ]"
+   target="_blank"
+   rel="external noreferrer noopener">
+    {% include "svgs/link.svg" %}
+Listen to the podcast</a>

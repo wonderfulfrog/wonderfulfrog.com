@@ -1,7 +1,7 @@
 ---
 title: "Monstress: The Blood"
 publisher: Image Comics
-subtitle: Majorie Lui, Sana Takeda
+author: Majorie Lui, Sana Takeda
 volume: 2
 year: 2017
 image: https://cdn.wonderfulfrog.com/monstress-vol-2-tp_77ea1f170a.jpg

@@ -1,7 +1,7 @@
 ---
 title: "The Monster Sisters"
 publisher: "Orca Books"
-subtitle: "Gareth Gaudin"
+author: "Gareth Gaudin"
 year: 2021
 isbn: 9781459822290
 rating: 4

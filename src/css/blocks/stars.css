@@ -1,0 +1,7 @@
+.stars li:not(:first-child) {
+  margin-inline-start: -4px;
+}
+
+.stars li {
+  line-height: 16px;
+}

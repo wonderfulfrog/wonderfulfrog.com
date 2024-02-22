@@ -1,3 +1,4 @@
+const path = require("path").posix;
 const slugify = require("slugify");
 
 const slugifyString = (string) => {
@@ -6,6 +7,9 @@ const slugifyString = (string) => {
   });
 };
 
+const getFontUrl = (src) => path.join("/assets/fonts", src);
+
 module.exports = {
+  getFontUrl,
   slugifyString,
 };

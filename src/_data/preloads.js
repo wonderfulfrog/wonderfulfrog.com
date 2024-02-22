@@ -1,19 +1,20 @@
-const fonts = require("./fonts");
+const { getFontUrl } = require("../../config/utils");
+const fonts = require("../../config/design-tokens/fonts.json");
 
 const preloads = [
   {
     as: "font",
-    href: fonts.display.weights.extraBold.url,
+    href: getFontUrl(fonts.display.weights.ExtraBold.path),
     crossorigin: true,
   },
   {
     as: "font",
-    href: fonts.display.weights.bold.url,
+    href: getFontUrl(fonts.display.weights.Bold.path),
     crossorigin: true,
   },
   {
     as: "font",
-    href: fonts.body.weights.regular.url,
+    href: getFontUrl(fonts.body.weights.Regular.path),
     crossorigin: true,
   },
 ];

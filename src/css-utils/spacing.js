@@ -36,6 +36,7 @@ const helperClasses = [
   ["gap", ["gap"]],
   ["row-gap", ["row-gap"]],
   ["column-gap", ["column-gap"]],
+  ["flow-space", ["--flow-space"]],
 ];
 
 const spacingVariablesCss = Object.entries(spacing).reduce(

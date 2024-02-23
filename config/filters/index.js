@@ -87,12 +87,17 @@ const filterCatalogueTags = (tags) => {
 
 const limit = (collection, limit = 5) => collection.slice(0, limit);
 
+const filterFavourites = (collection) => {
+  return collection.filter((item) => item.data.favourite);
+};
+
 module.exports = {
   allTagCounts,
   allTags,
   entries,
   filter,
   filterCatalogueTags,
+  filterFavourites,
   formatDate,
   keys,
   limit,

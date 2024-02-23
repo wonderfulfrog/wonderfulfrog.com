@@ -16,6 +16,7 @@ const {
   filter,
   pluralize,
   filterCatalogueTags,
+  limit,
 } = require("./config/filters/index.js");
 const markdown = require("./config/plugins/markdown.js");
 const imageShortcode = require("./config/shortcodes/image.js");
@@ -38,6 +39,7 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addFilter("filterCatalogueTags", filterCatalogueTags);
   eleventyConfig.addFilter("formatDate", formatDate);
   eleventyConfig.addFilter("keys", keys);
+  eleventyConfig.addFilter("limit", limit);
   eleventyConfig.addFilter("minifyCss", minifyCss);
   eleventyConfig.addFilter("organizeByDate", organizeByDate);
   eleventyConfig.addFilter("values", values);

@@ -1,4 +1,5 @@
 ---
+layout: "layouts/base"
 permalink: /links/index.html
 title: Links
 ---

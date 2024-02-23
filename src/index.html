@@ -1,0 +1,27 @@
+---
+layout: "layouts/base"
+permalink: /
+---
+
+<h1>Ahoj!</h1>
+<p>Hello! My name is Devin.</p>
+<p>I'm a creative developer who specializes in web and mobile development.</p>
+<p>
+    Welcome to my little slice of the internet. I like to <a href="/posts">write</a> and <a href="/catalogue">catalogue</a> things. There's a lot to explore, and I hope you have fun!
+</p>
+<p>
+    If you're interested, I have an <a href="/about">about page</a> all about me!
+</p>
+<h2>Favourite posts</h2>
+<h2>Recent posts</h2>
+<ul class="[ list-none p-0 flow mt-1 mb-0 ]"
+    style="--flow-space: 0.25rem">
+    {% for item in collections.post | reverse | limit(5) %}
+        <li class="[ flex flex-wrap column-gap-0.5 row-gap-0 ]">
+            <div>
+                <a href="{{ item.url }}">{{ item.data.title }}</a>
+            </div>
+            <div class="[ text-fadeText ]" style="font-size: 0.8rem">{{ item.data.date | formatDate("MM/DD/YYYY") }}</div>
+        </li>
+    {% endfor %}
+</ul>

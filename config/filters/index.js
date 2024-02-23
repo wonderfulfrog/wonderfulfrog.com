@@ -85,6 +85,8 @@ const filterCatalogueTags = (tags) => {
   return filter(tags, [tags[0], tags[1]]);
 };
 
+const limit = (collection, limit = 5) => collection.slice(0, limit);
+
 module.exports = {
   allTagCounts,
   allTags,
@@ -93,6 +95,7 @@ module.exports = {
   filterCatalogueTags,
   formatDate,
   keys,
+  limit,
   minifyCss,
   organizeByDate,
   pluralize,

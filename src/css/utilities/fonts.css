@@ -7,9 +7,25 @@
 }
 
 .font-size-l {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .font-size-xl {
+  font-size: 2rem;
+}
+
+.font-size-2xl {
   font-size: 3rem;
+}
+
+.line-height-s {
+  line-height: 0.8rem;
+}
+
+.line-height-m {
+  line-height: 1.125rem;
+}
+
+.line-height-l {
+  line-height: 1.5rem;
 }

@@ -94,6 +94,10 @@ blockquote {
   background-color: var(--color-surface);
 }
 
+blockquote > * + * {
+  margin-top: 1em;
+}
+
 :focus-visible {
   outline: 3px solid;
   outline-color: var(--color-primary);

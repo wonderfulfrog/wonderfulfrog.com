@@ -3,6 +3,7 @@ title: A Primer on Canadian Government
 date: "2021-01-27"
 excerpt: Canada’s parliamentary system explained.
 tags: ["canada", "government"]
+favourite: true
 ---
 
 In the last four years I’ve learned an awful lot about how the United States’ government functions at a high level, and even on specifics like the House and Senate processes. Meanwhile I’m foggy at best on how Canada’s government functions. I decided to educate myself.

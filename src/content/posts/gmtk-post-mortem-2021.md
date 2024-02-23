@@ -2,8 +2,8 @@
 title: "GMTK Game Jam Post-Mortem"
 date: "2021-07-03T07:25:56.354Z"
 excerpt: My first game jam ever.
-draft: false
 tags: ["gamejam", "gamedev"]
+favourite: true
 ---
 
 This year I participated in the [GMTK Game Jam](https://gmtk.itch.io) with two friends. It lasted 48 hours from June 11th to 13th. My main responsibility was the art department.

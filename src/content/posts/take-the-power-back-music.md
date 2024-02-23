@@ -4,6 +4,7 @@ date: 2020-07-26
 excerpt: One guy's struggle to regain ownership of some MP3 files.
 tags: ["music", "beets", "plex"]
 youtube: true
+favourite: true
 ---
 
 {% youtube "qKSNABST4b0", "Rage Against The Machine - Take The Power Back (Audio)" %}

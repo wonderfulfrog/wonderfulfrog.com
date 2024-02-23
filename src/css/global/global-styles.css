@@ -90,13 +90,8 @@ blockquote {
   border-inline-start: 2px solid var(--color-primary);
   margin-inline-start: 0;
   margin-inline-end: 0;
-  padding-inline: 1rem;
+  padding: var(--spacing-1);
   background-color: var(--color-surface);
-}
-
-blockquote > * + * {
-  margin-block-start: 1rem;
-  margin-inline-start: 1rem;
 }
 
 :focus-visible {

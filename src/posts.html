@@ -4,9 +4,17 @@ permalink: /posts/index.html
 title: Posts
 ---
 
+{% from "macros/posts.njk" import list %}
 <h1>All posts</h1>
 <p>
     Browse all of my posts, or narrow things down <a href="/tags">via tags</a>.
 </p>
-{% set items = collections.post | reverse %}
-{% include "partials/archive.html" %}
+{% set itemsByYear = collections.post | reverse | organizeByDate %}
+{% set years = itemsByYear | keys | sort("desc") %}
+<section class="[ flow ]">
+    {% for year in years %}
+        {% set itemsInYear = itemsByYear[year] %}
+        <h2>{{ year }}</h2>
+        <div class="[ items ] [ flex-col gap-0.25 ]">{{ list(itemsInYear) }}</div>
+    {% endfor %}
+</section>

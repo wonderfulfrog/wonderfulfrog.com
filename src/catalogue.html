@@ -4,9 +4,9 @@ permalink: /catalogue/index.html
 title: Catalogue
 ---
 
+{% from "macros/catalogue.njk" import list %}
 <h1>Catalogue</h1>
 <p>A collection of my thoughts on various forms of media that I consume.</p>
-{% set items = collections.catalogue %}
 {% set catalogueTypes = collections.catalogueByType | keys %}
 <ul class="[ cluster list-none p-0 ]" style="--gap: 0.5rem">
     {% for type in catalogueTypes %}
@@ -16,4 +16,13 @@ title: Catalogue
         </li>
     {% endfor %}
 </ul>
-{% include "partials/catalogue.html" %}
+{% set itemsByYear = collections.catalogue | organizeByDate %}
+{% set years = itemsByYear | keys | sort("desc") %}
+<section class="[ flow ]">
+    {% for year in years %}
+        {% set itemsInYear = itemsByYear[year] %}
+        <h2>{{ year }}</h2>
+        <div class="[ items ] [ flex-col gap-0.25 ]">{{ list(itemsInYear) }}</div>
+        <div>{{ list(itemsInYear) }}</div>
+    {% endfor %}
+</section>

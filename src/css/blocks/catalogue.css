@@ -1,6 +1,11 @@
-.catalogue-type {
-  font-size: 0.8rem;
-  border-radius: 0.5rem;
+.catalogue-list-item {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  gap: var(--spacing-1);
+}
+
+.catalogue-list-item a {
+  display: block;
 }
 
 .catalogue source,

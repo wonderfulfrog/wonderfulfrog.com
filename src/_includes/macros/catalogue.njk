@@ -1,13 +1,14 @@
 {% macro list(posts) %}
-<ul class="[ posts-list ] [ flow list-none m-0 p-0 flow-space-0.5 ]">
+<ul class="[ catalogue-list ] [ flow list-none m-0 p-0 flow-space-0.5 ]">
     {% for post in posts %}
-        <li class="[ posts-list-item line-height-l ]">
+        <li class="[ catalogue-list-item line-height-l ]">
                 <div>
                     <a href="{{ post.url }}">{{ post.data.title }}</a>
-                    <div class="[ text-fadeText font-size-s line-height-m ]">{{ post.data.excerpt }}</div>
                 </div>
+                <div class="[ font-size-s line-height-s flex items-center ]"><p class="[ bg-surface text-primary p-0.5 radius-0.25 ]">{{ post.data.tags[1] }}</p></div>
                 <div class="[ text-fadeText line-height-m flex items-center ]">{{ post.data.date | formatDate("MM/DD") }}</div>
         </li>
     {% endfor %}
 </ul>
 {% endmacro %}
+

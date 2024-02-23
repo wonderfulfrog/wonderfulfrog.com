@@ -1,7 +1,9 @@
 .pill {
   background-color: var(--color-surface);
   border-radius: 1rem;
-  transition: transform var(--transition-duration);
+  transition:
+    transform var(--transition-duration),
+    background-color 75ms;
 }
 
 .pill:hover {

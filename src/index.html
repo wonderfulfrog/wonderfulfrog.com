@@ -16,7 +16,11 @@ permalink: /
 <h2>Favourite posts</h2>
 <p>Hand-picked, curated selection of my favourite posts!</p>
 {% set favouritePosts = collections.post | filterFavourites | reverse %}
-{{ list(favouritePosts) }}
+<section>
+    {{ list(favouritePosts) }}
+</section>
 <h2>Recent posts</h2>
 {% set recentPosts = collections.post | reverse | limit(5) %}
-{{ list(recentPosts) }}
+<section>
+    {{ list(recentPosts) }}
+</section>

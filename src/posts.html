@@ -15,6 +15,8 @@ title: Posts
     {% for year in years %}
         {% set itemsInYear = itemsByYear[year] %}
         <h2>{{ year }}</h2>
-        <div>{{ list(itemsInYear) }}</div>
+        <section>
+            {{ list(itemsInYear) }}
+        </section>
     {% endfor %}
 </section>

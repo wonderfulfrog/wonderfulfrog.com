@@ -23,7 +23,7 @@ eleventyComputed:
         </li>
     {% endfor %}
 </ul>
-{% set itemsByYear = collections.catalogueByType[type] | organizeByDate %}
+{% set itemsByYear = collections.catalogueByType[type] | reverse | organizeByDate %}
 {% set years = itemsByYear | keys | sort("desc") %}
 <section class="[ flow ]">
     {% for year in years %}

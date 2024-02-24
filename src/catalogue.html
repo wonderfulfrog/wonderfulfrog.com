@@ -22,7 +22,6 @@ title: Catalogue
     {% for year in years %}
         {% set itemsInYear = itemsByYear[year] %}
         <h2>{{ year }}</h2>
-        <div class="[ items ] [ flex-col gap-0.25 ]">{{ list(itemsInYear) }}</div>
         <section>
             {{ list(itemsInYear) }}
         </section>

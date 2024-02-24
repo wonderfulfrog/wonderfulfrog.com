@@ -1,7 +1,7 @@
 {% macro list(posts) %}
 <ul class="[ posts-list ] [ flow list-none m-0 p-0 flow-space-0.5 ]">
     {% for post in posts %}
-        <li class="[ posts-list-item line-height-l ]">
+        <li class="[ posts-list-item line-height-l gap-1 ]">
                 <div>
                     <a href="{{ post.url }}">{{ post.data.title }}</a>
                     <div class="[ text-fadeText font-size-s line-height-m ]">{{ post.data.excerpt }}</div>

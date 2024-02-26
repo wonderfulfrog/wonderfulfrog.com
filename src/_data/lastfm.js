@@ -17,7 +17,9 @@ const fetchRecentTracks = async () => {
   const tracks = response.recenttracks.track.slice(0, 5);
 
   const recentTracks = tracks.map((track) => {
-    const timestamp = dayjs(track.date["#text"]).utc(true).fromNow();
+    const timestamp = track.date
+      ? dayjs(track.date["#text"]).utc(true).fromNow()
+      : dayjs().fromNow();
     return {
       artist: track.artist["#text"],
       track: track.name,

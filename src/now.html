@@ -4,32 +4,40 @@ permalink: /now/index.html
 title: /now
 ---
 
+{% set recentTrack = lastfm.recentTracks[0] %}
 <h1>/now</h1>
 <p>What am I doing right now? Everything on here is automatically generated from various data sources.</p>
 <p>
-    What is a `/now` page? Check out <a href="https://nownownow.com/about">nownownow.com</a>.
+    🎶 <a href="{{ recentTrack.url }}"
+    target="_blank"
+    rel="external noreferrer noopener">{{ recentTrack.artist }} - {{ recentTrack.track }}</a>
 </p>
-<h2>🎶 Listening</h2>
-<ul class="[ p-0 flow ]" role="list">
-    {% for track in lastfm %}
-        <li class="[ flex flex-wrap gap-0.5 line-height-m ]">
-            <a href="{{ track.url }}"
+<h2>💿 Albums</h2>
+<ul class="[ media-grid square ][ p-0 ]" role="list">
+    {% for album in lastfm.recentAlbums %}
+        <li>
+            <a href="{{ album.url }}"
                target="_blank"
-               rel="external noreferrer noopener">{{ track.artist }} - {{ track.track }}</a>
-            <p class="[ text-fadeText font-size-s ]">{{ track.timestamp }}</p>
+               rel="external noreferrer noopener">
+                <p class="[ visually-hidden ]">{{ album.artist }} - {{ album.album }}</p>
+                {% image album.imageUrl, "" %}
+            </a>
         </li>
     {% endfor %}
 </ul>
 <h2>🍿 Movies</h2>
-<ul class="[ media-grid p-0 ]" role="list">
+<ul class="[ media-grid poster ][ p-0 ]" role="list">
     {% for movie in letterboxd %}
         <li>
             <a href="{{ movie.url }}"
                target="_blank"
                rel="external noreferrer noopener">
                 <p class="[ visually-hidden ]">{{ movie.title }}</p>
-                {% image movie.imgSrc, "", "", "[ movie-poster ]" %}
+                {% image movie.imgSrc, "" %}
             </a>
         </li>
     {% endfor %}
 </ul>
+<p class="[ font-size-s mt-2 ]">
+    What is a `/now` page? Check out <a href="https://nownownow.com/about">nownownow.com</a>.
+</p>

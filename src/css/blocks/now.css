@@ -9,8 +9,10 @@
   grid-gap: var(--spacing-0\.5);
 }
 
-@supports (width: min(100px, 100%)) {
-  .media-grid {
-    grid-template-columns: repeat(auto-fit, minmax(min(100px, 100%), 1fr));
-  }
+.media-grid.square {
+  grid-template-columns: repeat(auto-fit, minmax(min(140px, 100%), 1fr));
+}
+
+.media-grid.poster {
+  grid-template-columns: repeat(auto-fit, minmax(min(100px, 100%), 1fr));
 }

@@ -3,6 +3,7 @@ title: "The photography behind Earthrise"
 date: 2024-02-13
 excerpt: "Turns out there's more to it than just snapping a pic"
 youtube: true
+tags: ["space", "nasa", "photography"]
 ---
 
 {% youtube "B7KR1nCA4Js", "The photography behind Earthrise" %}

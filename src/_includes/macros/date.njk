@@ -1,5 +1,5 @@
 {% macro format(dateString) %}
-    <time class="[ date ] [ flex items-center gap-0.5 ]" datetime="{{ date }}">
-        {% include "svgs/calendar.svg" %}{{ dateString | formatDate("MMMM Do YYYY") }}
+    <time class="[ date ] [ flex items-center gap-0.5 text-fadeText ]" datetime="{{ date }}">
+        <span class="[ text-shadow line-height-s ]">{% include "svgs/calendar.svg" %}</span>{{ dateString | formatDate("MMMM Do YYYY") }}
     </time>
 {% endmacro %}

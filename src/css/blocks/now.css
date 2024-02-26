@@ -1,3 +1,9 @@
+/*
+ * From Every Layout
+ * GRID
+ * https://every-layout.dev/layouts/grid/
+ */
+
 .media-grid {
   display: grid;
   grid-gap: var(--spacing-0\.5);

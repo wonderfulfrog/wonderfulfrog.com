@@ -1,0 +1,22 @@
+---
+layout: "layouts/base"
+permalink: /now/index.html
+title: /now
+---
+
+<h1>/now</h1>
+<p>What am I doing right now? Everything on here is automatically generated from various data sources.</p>
+<p>
+    What is a `/now` page? Check out <a href="https://nownownow.com/about">nownownow.com.</a>
+</p>
+<h2>🎶 Listening</h2>
+<ul class="[ p-0 flow ]" role="list">
+    {% for track in lastfm %}
+        <li class="[ flex flex-wrap gap-0.5 line-height-m ]">
+            <a href="{{ track.url }}"
+               target="_blank"
+               rel="external noreferrer noopener">{{ track.artist }} - {{ track.track }}</a>
+            <p class="[ text-fadeText font-size-s ]">{{ track.timestamp }}</p>
+        </li>
+    {% endfor %}
+</ul>

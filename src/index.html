@@ -17,10 +17,10 @@ permalink: /
 <p>Hand-picked, curated selection of my favourite posts!</p>
 {% set favouritePosts = collections.post | filterFavourites | reverse %}
 <section>
-    {{ list(favouritePosts) }}
+    {{ list(favouritePosts, "MM/DD/YYYY") }}
 </section>
 <h2>Recent posts</h2>
 {% set recentPosts = collections.post | reverse | limit(5) %}
 <section>
-    {{ list(recentPosts) }}
+    {{ list(recentPosts, "MM/DD/YYYY") }}
 </section>

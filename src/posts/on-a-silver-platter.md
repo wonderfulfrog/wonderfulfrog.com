@@ -13,7 +13,7 @@ A budget is often a best guess - an estimate - as to how much things will cost. 
 
 It's a convenient excuse to blame the pandemic - we were in unprecedented times and we needed a solution _fast_, but that does not give the government carte blanche to waste money into a solution that never worked. There are _basic_ management practices being ignored. This is the sort of screw-up expected from a fledgling business (and not anywhere near this scale), not the federal government.
 
-Even worse - when asked directly about the disaster that was ArriveCan - Trudeau dodged the question entirely like the slimy weasel he is.
+Even worse - when asked directly about the disaster that was ArriveCan - Trudeau dodged the question entirely. What a complete disregard for accountability and transparency. How can Trudeau government have such a glaring lack of oversight?
 
 > Prime Minister Justin Trudeau said Tuesday it's "obvious" contracting rules weren't followed during the development of the controversial ArriveCan app.
 >

@@ -31,7 +31,7 @@ imageCaption: ""
     </section>
     <hr class="[ my-1.5 ]" />
     {% from "macros/date.njk" import format %}
-    {{ format(date) }}
+    {{ format(page.date) }}
     {% block content %}{{ content | safe }}{% endblock %}
     {% if url %}
         <a href="{{ url }}" class="[ flex mt-1 items-center gap-0.5 ]" target="_blank" rel="external noreferrer noopener">

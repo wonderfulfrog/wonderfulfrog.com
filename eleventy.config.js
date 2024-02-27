@@ -47,6 +47,9 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addFilter("values", values);
   eleventyConfig.addFilter("pluralize", pluralize);
 
+  // 	--------------------- Custom Transforms -----------------------
+  eleventyConfig.addPlugin(require("./config/transforms/html-config.js"));
+
   // 	--------------------- Passthrough File Copy -----------------------
   ["src/assets/fonts/", "src/assets/images"].forEach((path) =>
     eleventyConfig.addPassthroughCopy(path),

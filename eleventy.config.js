@@ -51,6 +51,7 @@ module.exports = (eleventyConfig) => {
   ["src/assets/fonts/", "src/assets/images"].forEach((path) =>
     eleventyConfig.addPassthroughCopy(path),
   );
+  eleventyConfig.addPassthroughCopy("_redirects");
 
   // 	--------------------- Markdown -----------------------
   eleventyConfig.setLibrary("md", markdown);

@@ -1,0 +1,23 @@
+# RSS
+/rss.xml /feed.xml 301
+
+# Pages
+/about/uses /uses 301
+
+# Posts
+/posts/tadpoles-the-big-little-migration-01-2021 /posts/tadpoles-the-big-little-migration/ 301
+/posts/2020-in-review-01-2021
+/posts/remember-to-be-nice-01-2021 /posts/remember-to-be-nice 301
+/posts/a-primer-on-canadian-government-01-2021 /posts/a-primer-on-canadian-government/ 301
+/posts/my-vim-setup-04-2021 /posts/my-vim-setup/ 301
+/posts/gmtk-post-mortem-2021 /posts/gmtk-post-mortem/ 301
+/posts/version-2-09-2021 /posts/version-2/ 301
+/posts/stray-thoughts-1-09-2021 /posts/stray-thoughts-1/ 301
+/posts/stray-thoughts-2-10-2021 /posts/stray-thoughts-2/ 301
+/posts/stray-thoughts-3-10-2021 /posts/stray-thoughts-3/ 301
+/posts/checking-in-11-2021 /posts/checking-in/ 301
+/posts/2021-ranked-games-01-2022 /posts/2021-ranked-games/ 301
+/posts/the-fellow-stagg-a-review-of-the-details-01-2022 /posts/the-fellow-stagg-a-review-of-the-details/ 301
+/posts/its-been-a-while-10-2022 /posts/its-been-a-while/ 301
+/posts/lately-01-2024 /posts/lately/ 301
+/posts/the-photography-behind-moonrise-02-2024 /posts/the-photography-behind-earthrise/ 301

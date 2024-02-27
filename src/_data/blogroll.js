@@ -32,7 +32,7 @@ const blogroll = [
     url: "https://www.arcana.computer/",
   },
   {
-    title: "Jonas Downey,",
+    title: "Jonas Downey",
     url: "https://jonas.do/",
   },
   {
@@ -75,6 +75,12 @@ const blogroll = [
     title: "Winnie Lim",
     url: "https://winnielim.org/",
   },
+  {
+    title: "Cory Dransfeldt",
+    url: "https://coryd.dev/",
+  },
 ];
 
-module.exports = blogroll;
+const sortedBlogroll = blogroll.sort((a, b) => a.title.localeCompare(b.title));
+
+module.exports = sortedBlogroll;

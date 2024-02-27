@@ -5,7 +5,7 @@ layout: "layouts/base"
 <article class="[ flow ]">
     <header class="[ flow ]" style="--flow-space: 1rem">
         {% from "macros/date.njk" import format %}
-        {{ format(date) }}
+        {{ format(page.date) }}
         <h1>{{ title }}</h1>
         <ul class="[ categories ] [ cluster list-none p-0 ]">
             {% for tag in tags | filter(["post"]) %}

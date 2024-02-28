@@ -4,7 +4,7 @@ permalink: /catalogue/index.html
 title: Catalogue
 ---
 
-{% from "macros/catalogue.njk" import list %}
+{% from "macros/catalogue.njk" import yearList %}
 <h1>Catalogue</h1>
 <p>A collection of my thoughts on various forms of media that I consume.</p>
 {% set catalogueTypes = collections.catalogueByType | keys %}
@@ -21,9 +21,6 @@ title: Catalogue
 <section class="[ flow ]">
     {% for year in years %}
         {% set itemsInYear = itemsByYear[year] %}
-        <h2>{{ year }}</h2>
-        <section>
-            {{ list(itemsInYear) }}
-        </section>
+        {{ yearList(itemsInYear, year) }}
     {% endfor %}
 </section>

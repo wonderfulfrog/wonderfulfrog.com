@@ -1,14 +1,37 @@
+{% from "macros/utils.njk" import stars %}
+
+{% macro one(post, format) %}
+<article class="[ posts-list-item column-gap-0.5 justify-between line-height-m ]">
+    <a href="{{ post.url }}">{{ post.data.title }}</a>
+    <p class="[ text-fadeText ]">{{ post.date | formatDate("MM/DD") }}</p>
+    <div class="[ cluster mt-0.5 ]">
+        <div class="[ font-size-s ]"><p class="[ bg-surface text-fadeText p-0.5 radius-0.25 line-height-s ]">{{ post.data.tags[1] }}</p></div>
+        {% if post.data.rating %}
+            {{ stars(post.data.rating) }}
+        {% endif %}
+    </div>
+</article>
+{% endmacro %}
+
 {% macro list(posts) %}
-<ul class="[ catalogue-list ] [ flow list-none m-0 p-0 flow-space-0.5 ]">
+<ol class="[ posts-list ] [ flow list-none p-0 ]">
     {% for post in posts %}
-        <li class="[ catalogue-list-item line-height-l ]">
-                <div>
-                    <a href="{{ post.url }}">{{ post.data.title }}</a>
-                </div>
-                <div class="[ font-size-s line-height-s ]"><p class="[ bg-surface text-primary p-0.5 radius-0.25 ]">{{ post.data.tags[1] }}</p></div>
-                <div class="[ text-fadeText ]">{{ post.date | formatDate("MM/DD") }}</div>
+        <li>
+            {{ one(post, format) }}
         </li>
     {% endfor %}
-</ul>
+</ol>
+{% endmacro %}
+
+{% macro yearList(posts, year, format = "MM/DD") %}
+<section class="[ flow ]">
+    <header class="[ cluster gap-0.5 ]">
+        <h2>{{ year }}</h2>
+        <p class="[ bg-surface text-fadeText px-0.5 py-0.25 font-size-s line-height-s radius-0.5 ]">
+            {{ posts | length }}
+        </p>
+    </header>
+    {{ list(posts, format) }}
+</section>
 {% endmacro %}
 

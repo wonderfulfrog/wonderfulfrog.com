@@ -4,7 +4,7 @@ permalink: /posts/index.html
 title: Posts
 ---
 
-{% from "macros/posts.njk" import list %}
+{% from "macros/posts.njk" import yearList %}
 <h1>All posts</h1>
 <p>
     Browse all of my posts, or narrow things down <a href="/tags">via tags</a>.
@@ -14,9 +14,6 @@ title: Posts
 <section class="[ flow ]">
     {% for year in years %}
         {% set itemsInYear = itemsByYear[year] %}
-        <h2>{{ year }}</h2>
-        <section>
-            {{ list(itemsInYear) }}
-        </section>
+        {{ yearList(itemsInYear, year) }}
     {% endfor %}
 </section>

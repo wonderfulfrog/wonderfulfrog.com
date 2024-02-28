@@ -3,9 +3,9 @@
 {% macro one(post, format) %}
 <article class="[ posts-list-item column-gap-0.5 justify-between line-height-m ]">
     <a href="{{ post.url }}">{{ post.data.title }}</a>
-    <p class="[ text-fadeText ]">{{ post.date | formatDate("MM/DD") }}</p>
+    <time datetime="{{ post.date }}" class="[ text-fadeText ]">{{ post.date | formatDate("MM/DD") }}</time>
     <div class="[ cluster mt-0.5 ]">
-        <div class="[ font-size-s ]"><p class="[ bg-surface text-fadeText p-0.5 radius-0.25 line-height-s ]">{{ post.data.tags[1] }}</p></div>
+        <div class="[ font-size-s ]"><p class="[ pill ]" data-state="small">{{ post.data.tags[1] }}</p></div>
         {% if post.data.rating %}
             {{ stars(post.data.rating) }}
         {% endif %}
@@ -14,7 +14,7 @@
 {% endmacro %}
 
 {% macro list(posts) %}
-<ol class="[ posts-list ] [ flow list-none p-0 ]">
+<ol class="[ flow p-0 ]" role="list">
     {% for post in posts %}
         <li>
             {{ one(post, format) }}
@@ -27,7 +27,7 @@
 <section class="[ flow ]">
     <header class="[ cluster gap-0.5 ]">
         <h2>{{ year }}</h2>
-        <p class="[ bg-surface text-fadeText px-0.5 py-0.25 font-size-s line-height-s radius-0.5 ]">
+        <p class="[ pill ]" data-state="extrasmall">
             {{ posts | length }}
         </p>
     </header>

@@ -6,16 +6,14 @@ imageCaption: ""
 
 {% set filteredTags = tags | filterCatalogueTags %}
 <article class="[ catalogue ] [ flow ]">
-    <div style="--flow-space: 2em">
-        {% block image %}
-            {% if image %}
-                {% image image, imageAlt, imageCaption %}
-            {% endif %}
-        {% endblock %}
-    </div>
+    {% block image %}
+        {% if image %}
+            {% image image, imageAlt, imageCaption %}
+        {% endif %}
+    {% endblock %}
     <section class="[ catalogue-meta ] [ flow ]">
         {% block title %}<h1>{{ title }}</h1>{% endblock %}
-        {% if subtitle %}<h2 class="[ text-fadeText ]" style="--flow-space: 0.25em">{{ subtitle }}</h2>{% endif %}
+        {% if subtitle %}<h2 class="[ text-fadeText flow-space-0.25 ]">{{ subtitle }}</h2>{% endif %}
         {{ tertiary | safe }}
         {% if rating %}
         <div class="[ flex justify-center ]">
@@ -24,7 +22,7 @@ imageCaption: ""
         </div>
         {% endif %}
         {% if filteredTags | length > 0 %}
-            <ul class="[ categories list-none p-0 mb-0 ] [ cluster justify-center ]">
+            <ul class="[ categories ] [ cluster justify-center p-0 ]" role="list">
                 {% for tag in filteredTags %}<li class="[ flex gap-0.25 ]">{{ tag }}</li>{% endfor %}
             </ul>
         {% endif %}

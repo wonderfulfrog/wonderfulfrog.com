@@ -3,7 +3,7 @@
         <div class="[ repel ]">
             <p>&copy; {{ meta.author }} 2018-2024.</p>
             <nav>
-                <ul class="[ list-none cluster p-0 m-0 ]">
+                <ul class="[ cluster p-0 m-0 ]" role="list">
                     {% for link in navigation.bottom %}
                         <li>
                             <a href="{{ link.url }}">{{ link.text }}</a>
@@ -12,9 +12,8 @@
                 </ul>
             </nav>
         </div>
-        <nav style="--flow-space: var(--spacing-0\.5)">
-            <ul class="[ list-none cluster p-0 m-0 ]"
-                style="--gap: var(--spacing-0\.5)">
+        <nav class="[ flow-space-0.5 ]">
+            <ul class="[ cluster p-0 m-0 gap-0.5 ]" role="list">
                 <li>
                     <span class="[ visually-hidden ]">RSS</span>
                     <a href="/rss.xml" target="_blank" aria-label="View RSS feed">{% include "svgs/rss.svg" %}</a>
@@ -25,7 +24,7 @@
                         <span class="[ visually-hidden ]">{{ alt }}</span>
                         <a href="{{ url }}"
                            target="_blank"
-                           rel="external noreferrer noopener"
+                           rel="me external noreferrer noopener"
                            aria-label="View {{ alt }} page">{% include "svgs/social-" + key + ".svg" %}</a>
                     </li>
                 {% endfor %}

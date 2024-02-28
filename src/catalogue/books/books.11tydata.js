@@ -5,6 +5,6 @@ module.exports = {
   linkTitle: "View book details",
   eleventyComputed: {
     tertiary: (data) =>
-      `<p style="--flow-space: 0.5em"><span class="[ text-fadeText ]">by</span> ${data.author}</p>`,
+      `<p class="[ flow-space-0.5 ]"><span class="[ text-fadeText ]">by</span> ${data.author}</p>`,
   },
 };

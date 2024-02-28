@@ -1,7 +1,0 @@
-{% macro pills(tags) %}
-            {% if tags | length > 0 %}
-                <ul class="[ cluster list-none p-0 mb-0 ]" style="--gap: 0.5rem">
-                    {% for tag in tags %}<li class="[ bg-surface radius-1 px-1 py-0.5 ]">{{ tag }}</li>{% endfor %}
-                </ul>
-            {% endif %}
-{% endmacro %}

@@ -13,16 +13,8 @@ eleventyComputed:
 ---
 
 {% from "macros/catalogue.njk" import yearList %}
-<h1>{{ type | pluralize | capitalize }}</h1>
-{% set catalogueTypes = collections.catalogueByType | keys %}
-<ul class="[ cluster p-0 gap-0.5 ]" role="list">
-    {% for type in catalogueTypes %}
-        <li>
-            <a class="[ pill ] [ flex px-1 py-0.5 gap-0.5 ]"
-               href="/catalogue/{{ type | pluralize }}">{{ type | pluralize }}<span class="[ pill-count ]">{{ collections.catalogueByType[ type ] | length }}</span></a>
-        </li>
-    {% endfor %}
-</ul>
+<h1>Catalogue: {{ type | pluralize | capitalize }}</h1>
+{% include "partials/catalogue-types.html" %}
 {% set itemsByYear = collections.catalogueByType[type] | reverse | organizeByDate %}
 {% set years = itemsByYear | keys | sort("desc") %}
 <section class="[ flow ]">

@@ -1,18 +1,39 @@
 .pill {
   background-color: var(--color-surface);
-  border-radius: 1rem;
+  border-radius: var(--spacing-1);
+  display: flex;
+  padding-inline: var(--spacing-1);
+  padding-block: var(--spacing-0\.5);
+  gap: var(--spacing-0\.5);
   transition:
     transform var(--transition-duration),
     background-color 75ms;
 }
 
-.pill:hover {
+.pill[data-state="small"] {
+  color: var(--color-fadeText);
+  font-size: 0.8rem;
+  line-height: 0.8rem;
+  padding-inline: var(--spacing-0\.5);
+  border-radius: var(--spacing-0\.25);
+}
+
+.pill[data-state="extrasmall"] {
+  color: var(--color-fadeText);
+  padding-inline: var(--spacing-0\.5);
+  padding-block: var(--spacing-0\.25);
+  font-size: 0.8rem;
+  line-height: 0.8rem;
+  border-radius: var(--spacing-0\.5);
+}
+
+.pill:not([data-state]):hover {
   background-color: var(--color-text);
   color: var(--color-primary);
   transform: translateY(-2px);
 }
 
-.pill:active {
+.pill:not([data-state]):active {
   transform: translateY(2px);
 }
 
@@ -24,6 +45,6 @@ a.pill {
   color: var(--color-fadeText);
 }
 
-.pill:hover .pill-count {
+.pill:not([data-state]):hover .pill-count {
   color: var(--color-border);
 }

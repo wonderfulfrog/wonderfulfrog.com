@@ -1,6 +1,13 @@
 <base href="{{ page.url }}" />
-<meta name="description" content="{{ meta.siteDescription }}" />
-<meta name="theme-color" content="{{ colors.aqua[400] }}" />
+<meta property="og:title"
+      content="{% if title %}{{ title }} • {% endif %}{{ meta.siteName }}" />
+<meta name="description"
+      content="{% if description %}{{ description }}{% else %}{{ meta.siteDescription }}{% endif %}" />
+<meta property="og:description"
+      content="{% if description %}{{ description }}{% else %}{{ meta.siteDescription }}{% endif %}" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="{{ fullUrl }}" />
+<meta name="theme-color" content="#0e90a4" />
 <meta name="robots" content="index,follow" />
 <meta name="googlebot" content="index,follow" />
 <meta name="generator" content="{{ eleventy.generator }}" />
@@ -9,3 +16,7 @@
 <link rel="canonical" href="{{ meta.url }}{{ page.url }}" />
 <link rel="icon" href="/assets/images/favicon.png" sizes="any" />
 <link rel="shortcut icon" href="/assets/images/favicon.png" />
+<link rel="alternate"
+      type="application/rss+xml"
+      title="RSS feed for {{ meta.siteName }}"
+      href="/rss.xml" />

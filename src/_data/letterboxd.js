@@ -12,7 +12,7 @@ dayjs.extend(relativeTime);
 const fetchRecentMovies = async () => {
   const url = `https://letterboxd.com/wonderfulfrog/rss/`;
 
-  const response = await EleventyFetch(url, { duration: "1m", type: "text" });
+  const response = await EleventyFetch(url, { duration: "1d", type: "text" });
 
   const $ = cheerio.load(response, { xml: true });
 

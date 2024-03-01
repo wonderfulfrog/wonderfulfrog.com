@@ -42,7 +42,7 @@ const fetchRecentAlbums = async (period = "7day") => {
 const fetchRecentTracks = async () => {
   const url = `http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=wonderfulfrog&api_key=${lastFmApiKey}&format=json`;
 
-  const response = await EleventyFetch(url, { duration: "1m", type: "json" });
+  const response = await EleventyFetch(url, { duration: "5m", type: "json" });
   const tracks = response.recenttracks.track.slice(0, 5);
 
   const recentTracks = tracks.map((track) => {

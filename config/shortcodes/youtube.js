@@ -1,4 +1,5 @@
-/* Sourced from eleventy-excellent's youtube shortcode
+/*
+ * Sourced from eleventy-excellent's youtube shortcode
  * https://github.com/madrilene/eleventy-excellent/blob/main/config/shortcodes/youtube-lite/index.js
  */
 const liteYoutube = (id, label) => {

@@ -79,6 +79,10 @@ const blogroll = [
     title: "Cory Dransfeldt",
     url: "https://coryd.dev/",
   },
+  {
+    title: "HeydonWorks",
+    url: "https://heydonworks.com",
+  },
 ];
 
 const sortedBlogroll = blogroll.sort((a, b) => a.title.localeCompare(b.title));

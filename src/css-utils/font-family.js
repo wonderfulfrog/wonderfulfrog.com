@@ -1,5 +1,7 @@
-const { getFontUrl } = require("../../config/utils");
+const path = require("path").posix;
 const fonts = require("../../config/design-tokens/fonts.json");
+
+const getFontUrl = (src) => path.join("/assets/fonts", src);
 
 const fontsToCss = (fonts) => {
   return Object.entries(fonts).reduce((css, [, fontProperties]) => {

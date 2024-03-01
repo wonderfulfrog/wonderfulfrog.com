@@ -2,8 +2,6 @@ const dayjs = require("dayjs");
 const utc = require("dayjs/plugin/utc");
 const advancedFormat = require("dayjs/plugin/advancedFormat");
 
-const postcss = require("postcss");
-const cssnano = require("cssnano");
 const pluralizeBase = require("pluralize");
 
 const keys = Object.keys;
@@ -12,12 +10,6 @@ const entries = Object.entries;
 
 dayjs.extend(utc);
 dayjs.extend(advancedFormat);
-
-const minifyCss = async (css) => {
-  const output = await postcss([cssnano]).process(css, { from: undefined });
-
-  return output.css;
-};
 
 const formatDate = (date, format) => dayjs.utc(date).format(format);
 
@@ -101,7 +93,6 @@ module.exports = {
   formatDate,
   keys,
   limit,
-  minifyCss,
   organizeByDate,
   pluralize,
   values,

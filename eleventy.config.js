@@ -6,18 +6,17 @@ const {
 } = require("./config/collections/index.js");
 const { dir } = require("./config/constants.js");
 const {
-  entries,
-  formatDate,
-  minifyCss,
-  values,
-  organizeByDate,
-  keys,
   allTagCounts,
+  entries,
   filter,
-  pluralize,
   filterCatalogueTags,
-  limit,
   filterFavourites,
+  formatDate,
+  keys,
+  limit,
+  organizeByDate,
+  pluralize,
+  values,
 } = require("./config/filters/index.js");
 const markdown = require("./config/plugins/markdown.js");
 const imageShortcode = require("./config/shortcodes/image.js");
@@ -42,7 +41,6 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addFilter("formatDate", formatDate);
   eleventyConfig.addFilter("keys", keys);
   eleventyConfig.addFilter("limit", limit);
-  eleventyConfig.addFilter("minifyCss", minifyCss);
   eleventyConfig.addFilter("organizeByDate", organizeByDate);
   eleventyConfig.addFilter("values", values);
   eleventyConfig.addFilter("pluralize", pluralize);

@@ -2,6 +2,7 @@
 layout: "layouts/base"
 permalink: /colophon/index.html
 title: Colophon
+tags: ["page"]
 ---
 
 # Colophon

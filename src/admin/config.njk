@@ -1,0 +1,84 @@
+---
+permalink: /admin/config.yml
+---
+
+backend:
+    name: github
+    repo: wonderfulfrog/wonderfulfrog.com
+    branch: main
+
+media_folder: ""
+
+collections:
+    - name: "post"
+      label: "Post"
+      folder: "src/posts"
+      create: true
+      fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Excerpt", name: "excerpt", widget: "string" }
+      - { label: "Tags", name: "tags", widget: "list" }
+      - { label: "Using YouTube", name: "youtube", widget: "boolean", hint: "If using the YouTube shortcode, enable this option to append the lite-youtube script." }
+      - { label: "Body", name: "body", widget: "markdown" }
+    - label: "Page"
+      name: "page"
+      create: false
+      files:
+      {% for page in collections.page %}
+        - label: "{{ page.data.title }}"
+          name: "{{ page.fileSlug }}"
+          file: "{{ page.inputPath | replace("./", "") }}"
+          fields:
+            - { label: "Title", name: "title", widget: "string" }
+            - { label: "Permalink", name: "permalink", widget: "string" }
+            - { label: "Layout", name: "layout", widget: "hidden", default: "layouts/base" }
+            - { label: "Body", name: "body", widget: "markdown" }
+      {% endfor %}
+    - name: "book"
+      label: "Book"
+      folder: "src/catalogue/books"
+      create: true
+      fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Subtitle", name: "subtitle", widget: "string" }
+      - { label: "Author", name: "author", widget: "string" }
+      - { label: "Rating", name: "rating", widget: "number", min: 1, max: 5 }
+      - { label: "Image", name: "image", widget: "string", hint: "A CDN URL."}
+      - { label: "Tags", name: "tags", widget: "list" }
+      - { label: "Body", name: "body", widget: "markdown" }
+    - name: "game"
+      label: "Game"
+      folder: "src/catalogue/games"
+      create: true
+      fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Subtitle", name: "subtitle", widget: "string" }
+      - { label: "Year", name: "year", widget: "string" }
+      - { label: "Rating", name: "rating", widget: "number", min: 1, max: 5 }
+      - { label: "Image", name: "image", widget: "string", hint: "A CDN URL."}
+      - { label: "Tags", name: "tags", widget: "list" }
+      - { label: "Body", name: "body", widget: "markdown" }
+    - name: "comic"
+      label: "Comic"
+      folder: "src/catalogue/comics"
+      create: true
+      fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publisher", name: "publisher", widget: "string" }
+      - { label: "Author", name: "author", widget: "string" }
+      - { label: "Year", name: "year", widget: "string" }
+      - { label: "Rating", name: "rating", widget: "number", min: 1, max: 5 }
+      - { label: "Image", name: "image", widget: "string", hint: "A CDN URL."}
+      - { label: "Tags", name: "tags", widget: "list" }
+      - { label: "Body", name: "body", widget: "markdown" }
+    - name: "podcast"
+      label: "Podcast"
+      folder: "src/catalogue/podcasts"
+      create: true
+      fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "URL", name: "url", widget: "string", hint: "A URL for someone to listen to the podcast." }
+      - { label: "Rating", name: "rating", widget: "number", min: 1, max: 5 }
+      - { label: "Image", name: "image", widget: "string", hint: "A CDN URL."}
+      - { label: "Tags", name: "tags", widget: "list" }
+      - { label: "Body", name: "body", widget: "markdown" }

@@ -30,6 +30,6 @@ const catalogueByType = (collection) => {
 };
 
 module.exports = {
-  postsByTag,
   catalogueByType,
+  postsByTag,
 };

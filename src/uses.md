@@ -2,6 +2,7 @@
 layout: "layouts/base"
 permalink: /uses/index.html
 title: /uses
+tags: ["page"]
 ---
 
 # Uses

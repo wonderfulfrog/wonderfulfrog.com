@@ -2,6 +2,7 @@
 layout: "layouts/base"
 permalink: /about/index.html
 title: About
+tags: ["page"]
 ---
 
 Hello! Ahoj! Welcome to my site!

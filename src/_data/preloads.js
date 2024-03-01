@@ -1,4 +1,4 @@
-const { getFontUrl } = require("../../config/utils");
+const { getFontUrl } = require("../utils/fonts");
 const fonts = require("../../config/design-tokens/fonts.json");
 
 const preloads = [

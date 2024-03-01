@@ -1,8 +1,8 @@
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 
 const {
-  postsByTag,
   catalogueByType,
+  postsByTag,
 } = require("./config/collections/index.js");
 const { dir } = require("./config/constants.js");
 const {
@@ -29,8 +29,8 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addPlugin(pluginRss);
 
   // 	--------------------- Custom Collections -----------------------
-  eleventyConfig.addCollection("postsByTag", postsByTag);
   eleventyConfig.addCollection("catalogueByType", catalogueByType);
+  eleventyConfig.addCollection("postsByTag", postsByTag);
 
   // 	--------------------- Custom Filters -----------------------
   eleventyConfig.addFilter("allTagCounts", allTagCounts);

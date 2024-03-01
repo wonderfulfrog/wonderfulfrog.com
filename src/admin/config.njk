@@ -14,11 +14,12 @@ collections:
       label: "Post"
       folder: "src/posts"
       create: true
+      slug: "{% raw %}{{ year }}-{{ month }}-{{ day }}-{{ slug }}{% endraw %}"
       fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Excerpt", name: "excerpt", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list" }
-      - { label: "Using YouTube", name: "youtube", widget: "boolean", hint: "If using the YouTube shortcode, enable this option to append the lite-youtube script." }
+      - { label: "Using YouTube", name: "youtube", widget: "boolean", default: false, hint: "If using the YouTube shortcode, enable this option to append the lite-youtube script." }
       - { label: "Body", name: "body", widget: "markdown" }
     - label: "Page"
       name: "page"
@@ -32,11 +33,13 @@ collections:
             - { label: "Title", name: "title", widget: "string" }
             - { label: "Permalink", name: "permalink", widget: "string" }
             - { label: "Layout", name: "layout", widget: "hidden", default: "layouts/base" }
+            - { label: "Using YouTube", name: "youtube", widget: "boolean", default: false, hint: "If using the YouTube shortcode, enable this option to append the lite-youtube script." }
             - { label: "Body", name: "body", widget: "markdown" }
       {% endfor %}
     - name: "book"
       label: "Book"
       folder: "src/catalogue/books"
+      slug: "{% raw %}{{ year }}-{{ month }}-{{ day }}-{{ slug }}{% endraw %}"
       create: true
       fields:
       - { label: "Title", name: "title", widget: "string" }
@@ -45,10 +48,12 @@ collections:
       - { label: "Rating", name: "rating", widget: "number", min: 1, max: 5 }
       - { label: "Image", name: "image", widget: "string", hint: "A CDN URL."}
       - { label: "Tags", name: "tags", widget: "list" }
+      - { label: "Using YouTube", name: "youtube", widget: "boolean", default: false, hint: "If using the YouTube shortcode, enable this option to append the lite-youtube script." }
       - { label: "Body", name: "body", widget: "markdown" }
     - name: "game"
       label: "Game"
       folder: "src/catalogue/games"
+      slug: "{% raw %}{{ year }}-{{ month }}-{{ day }}-{{ slug }}{% endraw %}"
       create: true
       fields:
       - { label: "Title", name: "title", widget: "string" }
@@ -57,10 +62,12 @@ collections:
       - { label: "Rating", name: "rating", widget: "number", min: 1, max: 5 }
       - { label: "Image", name: "image", widget: "string", hint: "A CDN URL."}
       - { label: "Tags", name: "tags", widget: "list" }
+      - { label: "Using YouTube", name: "youtube", widget: "boolean", default: false, hint: "If using the YouTube shortcode, enable this option to append the lite-youtube script." }
       - { label: "Body", name: "body", widget: "markdown" }
     - name: "comic"
       label: "Comic"
       folder: "src/catalogue/comics"
+      slug: "{% raw %}{{ year }}-{{ month }}-{{ day }}-{{ slug }}{% endraw %}"
       create: true
       fields:
       - { label: "Title", name: "title", widget: "string" }
@@ -70,10 +77,12 @@ collections:
       - { label: "Rating", name: "rating", widget: "number", min: 1, max: 5 }
       - { label: "Image", name: "image", widget: "string", hint: "A CDN URL."}
       - { label: "Tags", name: "tags", widget: "list" }
+      - { label: "Using YouTube", name: "youtube", widget: "boolean", default: false, hint: "If using the YouTube shortcode, enable this option to append the lite-youtube script." }
       - { label: "Body", name: "body", widget: "markdown" }
     - name: "podcast"
       label: "Podcast"
       folder: "src/catalogue/podcasts"
+      slug: "{% raw %}{{ year }}-{{ month }}-{{ day }}-{{ slug }}{% endraw %}"
       create: true
       fields:
       - { label: "Title", name: "title", widget: "string" }
@@ -81,4 +90,5 @@ collections:
       - { label: "Rating", name: "rating", widget: "number", min: 1, max: 5 }
       - { label: "Image", name: "image", widget: "string", hint: "A CDN URL."}
       - { label: "Tags", name: "tags", widget: "list" }
+      - { label: "Using YouTube", name: "youtube", widget: "boolean", default: false, hint: "If using the YouTube shortcode, enable this option to append the lite-youtube script." }
       - { label: "Body", name: "body", widget: "markdown" }

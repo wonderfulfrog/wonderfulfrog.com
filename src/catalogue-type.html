@@ -20,6 +20,6 @@ eleventyComputed:
 <section class="[ flow ]">
     {% for year in years %}
         {% set itemsInYear = itemsByYear[year] %}
-        {{ yearList(itemsInYear, year) }}
+        {{ yearList(itemsInYear, year, false) }}
     {% endfor %}
 </section>

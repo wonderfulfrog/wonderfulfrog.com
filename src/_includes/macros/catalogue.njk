@@ -1,11 +1,10 @@
 {% from "macros/utils.njk" import stars %}
 
-{% macro one(post, format) %}
+{% macro one(post, format, showType = true) %}
 <article class="[ posts-list-item column-gap-0.5 justify-between line-height-m ]">
-    <a href="{{ post.url }}">{{ post.data.title }}</a>
-    <time datetime="{{ post.date }}" class="[ text-fadeText ]">{{ post.date | formatDate("MM/DD") }}</time>
-    <div class="[ cluster mt-0.5 ]">
-        <div class="[ font-size-s ]"><p class="[ pill ]" data-state="small">{{ post.data.tags[1] }}</p></div>
+    <div class="[ cluster gap-0.5 ]"><a href="{{ post.url }}" class="[ line-height-m ]">{{ post.data.title }}</a>
+        {% if showType %}<p class="[ font-size-s text-fadeText ]">{{ post.data.tags[1] }}</p>{% endif %}</div>
+    <div class="[ cluster ]">
         {% if post.data.rating %}
             {{ stars(post.data.rating) }}
         {% endif %}
@@ -13,17 +12,17 @@
 </article>
 {% endmacro %}
 
-{% macro list(posts) %}
+{% macro list(posts, showType = true) %}
 <ol class="[ flow p-0 ]" role="list">
     {% for post in posts %}
         <li>
-            {{ one(post, format) }}
+            {{ one(post, format, showType) }}
         </li>
     {% endfor %}
 </ol>
 {% endmacro %}
 
-{% macro yearList(posts, year, format = "MM/DD") %}
+{% macro yearList(posts, year, format = "MM/DD", showType = true) %}
 <section class="[ flow ]">
     <header class="[ cluster gap-0.5 ]">
         <h2>{{ year }}</h2>

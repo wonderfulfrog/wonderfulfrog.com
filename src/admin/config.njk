@@ -6,6 +6,10 @@ backend:
     name: github
     repo: wonderfulfrog/wonderfulfrog.com
     branch: main
+    commit_messages:
+        create: {% raw %}"feat: add {{collection}} `{{slug}}`"{% endraw %}
+        update: {% raw %}"feat: update {{collection}} `{{slug}}`"{% endraw %}
+        delete: {% raw %}"feat: remove {{collection}} `{{slug}}`"{% endraw %}
 
 media_folder: ""
 

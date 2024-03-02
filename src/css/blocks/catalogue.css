@@ -13,6 +13,10 @@
   max-width: 300px;
 }
 
+.catalogue h1 {
+  transform: none;
+}
+
 .catalogue-meta {
   text-align: center;
 }

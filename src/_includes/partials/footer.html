@@ -1,7 +1,7 @@
 <footer class="[ bg-surface mt-1.5 py-1.5 ]">
     <div class="[ wrapper flow ]">
         <div class="[ repel ]">
-            <p>&copy; {{ meta.author }} 2018-2024.</p>
+            <p>&copy; {{ meta.author }} 2018 - 2024.</p>
             <nav>
                 <ul class="[ cluster p-0 m-0 ]" role="list">
                     {% for link in navigation.bottom %}
@@ -12,23 +12,32 @@
                 </ul>
             </nav>
         </div>
-        <nav class="[ flow-space-0.5 ]">
-            <ul class="[ cluster p-0 m-0 gap-0.5 ]" role="list">
-                <li>
-                    <span class="[ visually-hidden ]">RSS</span>
-                    <a href="/rss.xml" target="_blank" aria-label="View RSS feed">{% include "svgs/rss.svg" %}</a>
-                </li>
-                {% for key, url in meta.social %}
-                    {% set alt = key | capitalize %}
+        <div class="[ repel ]">
+            <nav class="[ flow-space-0.5 ]">
+                <ul class="[ menu ] [ cluster p-0 m-0 gap-0.5 ]" role="list">
                     <li>
-                        <span class="[ visually-hidden ]">{{ alt }}</span>
-                        <a href="{{ url }}"
+                        <span class="[ visually-hidden ]">RSS</span>
+                        <a href="/rss.xml"
+                           class="[ button ]"
                            target="_blank"
-                           rel="me external noreferrer noopener"
-                           aria-label="View {{ alt }} page">{% include "svgs/social-" + key + ".svg" %}</a>
+                           aria-label="View RSS feed">{% include "svgs/rss.svg" %}</a>
                     </li>
-                {% endfor %}
-            </ul>
-        </nav>
+                    {% for key, url in meta.social %}
+                        {% set alt = key | capitalize %}
+                        <li>
+                            <span class="[ visually-hidden ]">{{ alt }}</span>
+                            <a href="{{ url }}"
+                               class="[ button ]"
+                               target="_blank"
+                               rel="me external noreferrer noopener"
+                               aria-label="View {{ alt }} page">{% include "svgs/social-" + key + ".svg" %}</a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </nav>
+            <a href="{{ meta.repoUrl }}"
+               target="_blank"
+               rel="me external noreferrer noopener">Source</a>
+        </div>
     </div>
 </footer>

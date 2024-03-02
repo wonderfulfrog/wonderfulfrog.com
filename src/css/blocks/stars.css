@@ -3,6 +3,15 @@
   transition: margin ease-in-out var(--transition-duration);
 }
 
+.star-filled {
+  color: var(--color-primary);
+  z-index: 1;
+}
+
+.star-empty {
+  color: var(--color-fadeText);
+}
+
 .stars li:not(:first-child) {
   margin-inline-start: -6px;
 }

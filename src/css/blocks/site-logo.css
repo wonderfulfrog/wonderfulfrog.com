@@ -4,6 +4,16 @@
   transform: skew(0deg, -1deg) translateY(2px);
 }
 
+.site-logo .logo img {
+  filter: drop-shadow(0 1px 0 var(--color-white))
+    drop-shadow(1px 0 0 var(--color-white))
+    drop-shadow(-1px 0 0 var(--color-white))
+    drop-shadow(0 -1px 0 var(--color-white))
+    drop-shadow(
+      0 0 6px color-mix(in srgb, var(--color-primary) 80%, var(--color-white))
+    );
+}
+
 .site-logo .wordmark > span {
   text-shadow:
     -1px 1px 0 var(--shadow-color),
@@ -35,4 +45,5 @@
 
 .site-logo .wordmark > :nth-child(2) {
   z-index: 0;
+  color: color-mix(in srgb, var(--color-white) 90%, var(--color-primary));
 }

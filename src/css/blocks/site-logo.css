@@ -1,6 +1,7 @@
 .site-logo .wordmark {
   text-decoration: none;
   margin-block-start: -6px;
+  transform: skew(0deg, -1deg) translateY(2px);
 }
 
 .site-logo .wordmark > span {
@@ -27,11 +28,11 @@
   transform: translateY(-2px);
 }
 
-.site-logo .wordmark > :nth-child(1) {
+.site-logo .wordmark > * {
   --shadow-color: var(--color-shadow);
   z-index: 1;
 }
 
 .site-logo .wordmark > :nth-child(2) {
-  --shadow-color: var(--color-primary);
+  z-index: 0;
 }

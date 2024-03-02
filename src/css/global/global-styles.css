@@ -163,6 +163,7 @@ aside {
 mark {
   background-color: var(--color-border);
   color: var(--color-text);
+  padding-block: var(--spacing-0\.25);
 }
 
 @media (prefers-reduced-motion: reduce) {

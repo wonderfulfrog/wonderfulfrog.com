@@ -56,7 +56,8 @@ pre:has(code) {
   font-style: italic;
 }
 
-.token.attr-name {
+.token.attr-name,
+.token.property {
   color: #73daca;
 }
 

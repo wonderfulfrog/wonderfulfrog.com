@@ -6,6 +6,7 @@ isbn: 9780061735363
 rating: 3
 image: https://cdn.wonderfulfrog.com/the-big-leap.jpg
 tags: ["self help"]
+year: 2009
 ---
 
 These days I would style myself as a recovering addict when it comes to self-help books. There never is (and never was) a single trick to turn my life around. I’m increasingly wary of the entire industry, as I’m now certain that not everyone is looking to help people out. I think these kinds of books can be helpful as a springboard, but a lot seem to parrot the same advice, only phrased differently using the author’s writing style. This book largely seems to follow that trend. I’m frankly tired of hearing about how the author overcame adversity when the adversity is so disconnected with what your average person faces. The amount of famous people (read: white billionaires) he’s helped is numerous and wants to remind us quite often. I don’t care. The author loves to use chirpy terms like “Zone of Genius” non-ironically, and it’s very grating. These hokey-sounding terms cause me to view their ideas with increased skepticism.

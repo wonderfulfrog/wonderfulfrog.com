@@ -6,6 +6,7 @@ isbn: 9780060976255
 rating: 5
 image: https://cdn.wonderfulfrog.com/understanding-comics.jpg
 tags: ["comics", "art", "history"]
+year: 1993
 ---
 
 I debated if this should end up in a different catalogue, but it deserves to be in both, if anything.

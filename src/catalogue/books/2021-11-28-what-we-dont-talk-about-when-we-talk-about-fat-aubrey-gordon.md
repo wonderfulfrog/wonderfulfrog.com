@@ -6,6 +6,7 @@ url: https://www.yourfatfriend.com/book
 isbn: 9780807041307
 rating: 5
 tags: ["anti-fat"]
+year: 2020
 ---
 
 This book in combination with the [Maintenance Phase](http://www.maintenancephase.com) podcast has flipped my mindset when it comes to my relationship with my body. I previously believed that weight was something we all had complete control over and could change with diet and exercise. Anyone who was overweight was not trying hard enough.

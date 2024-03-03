@@ -14,10 +14,17 @@ imageCaption: ""
         <h1>{{ title }}</h1>
         {% if subtitle %}<h2>{{ subtitle }}</h2>{% endif %}
         {% if rating %}<div class="[ text-skew ]">{{ stars(rating) }}</div>{% endif %}
-        {% if tertiary %}
-            <div class="[ text-skew flow-space-1 line-height-m ]">
-                {{ tertiary | safe }}
-            </div>
+        {% if tertiary or year %}
+        <div class="[ cluster text-skew flow-space-1 ]">
+            {% if tertiary %}
+                <div class="[ line-height-m ]">
+                    {{ tertiary | safe }}
+                </div>
+            {% endif %}
+            {% if year %}
+                <p class="[ font-size-s ]"><span class="[ text-fadeText ]">ca.</span> {{ year }}</p>
+            {% endif %}
+        </div>
         {% endif %}
         {% if filteredTags | length > 0 %}
             <ul class="[ categories ] [ cluster p-0 flow-space-2 ]" role="list">

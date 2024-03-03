@@ -6,6 +6,7 @@ isbn: 9780785289081
 rating: 3
 image: https://cdn.wonderfulfrog.com/total-money-makeover.webp
 tags: ["finance"]
+year: 2003
 ---
 
 Sensible ideas, but the focus was on those who are in debt. Not a lot of useful strategies (except near the end) for those who have already managed to get themselves out of debt.

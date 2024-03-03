@@ -5,7 +5,7 @@ author: Edmond Lau
 isbn: 9780996128100
 rating: 4
 image: https://cdn.wonderfulfrog.com/the-effective-engineer.jpeg
-tags: ["leadership", "software development"]
+tags: ["leadership", "software development", "technology"]
 ---
 
 Lots of applicable advice here for anyone working in software engineering. I was excited to apply this to my own workplace, but didn't realize it's harder to apply in agency work than in other fields (and when you are not a lead). Still, we managed to recognize areas where we need improvement.

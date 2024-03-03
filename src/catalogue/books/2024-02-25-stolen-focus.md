@@ -5,7 +5,7 @@ author: Johann Hari
 isbn: 9781526620224
 rating: 4
 image: https://cdn.wonderfulfrog.com/stolen-focus.jpg
-tags: ["focus", "adhd"]
+tags: ["focus", "adhd", "psychology"]
 ---
 
 I found this book mostly interesting and easy to digest. Hari has a writing style that keeps you turning the page.

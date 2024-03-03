@@ -4,3 +4,7 @@
     drop-shadow(0 -1px 0 var(--color-white))
     drop-shadow(0 1px 0 var(--color-white));
 }
+
+.menu > li:has(a:focus-visible) {
+  filter: none;
+}

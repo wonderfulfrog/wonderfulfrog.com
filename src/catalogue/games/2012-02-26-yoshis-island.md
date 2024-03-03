@@ -1,8 +1,8 @@
 ---
 title: "Super Mario World 2: Yoshi's Island"
-subtitle: Super Nintendo
+platform: Super Nintendo
 image: https://cdn.wonderfulfrog.com/Yoshi's_Island_(Super_Mario_World_2)_box_art.jpg
-tags: ["snes", "platformer"]
+tags: ["platformer"]
 year: 1995
 ---
 

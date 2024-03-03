@@ -5,32 +5,30 @@ imageCaption: ""
 ---
 
 {% set filteredTags = tags | filterCatalogueTags %}
+{% from "macros/date.njk" import format %}
+{% from "macros/utils.njk" import stars %}
+
 <article class="[ catalogue ] [ flow ]">
-    {% block image %}
-        {% if image %}
-            {% image image, imageAlt, imageCaption %}
-        {% endif %}
-    {% endblock %}
-    <section class="[ catalogue-meta ] [ flow ]">
-        {% block title %}<h1>{{ title }}</h1>{% endblock %}
-        {% if subtitle %}<h2 class="[ text-fadeText flow-space-0.25 ]">{{ subtitle }}</h2>{% endif %}
-        {{ tertiary | safe }}
-        {% if rating %}
-        <div class="[ flex justify-center ]">
-            {% from "macros/utils.njk" import stars %}
-            {{ stars(rating) }}
-        </div>
+    <header class="[ flow flow-space-1 ]">
+        {{ format(page.date) }}
+        <h1>{{ title }}</h1>
+        {% if subtitle %}<h2>{{ subtitle }}</h2>{% endif %}
+        {% if rating %}<div class="[ text-skew ]">{{ stars(rating) }}</div>{% endif %}
+        {% if tertiary %}
+            <div class="[ text-skew flow-space-1 line-height-m ]">
+                {{ tertiary | safe }}
+            </div>
         {% endif %}
         {% if filteredTags | length > 0 %}
-            <ul class="[ categories ] [ cluster justify-center p-0 ]" role="list">
+            <ul class="[ categories ] [ cluster p-0 flow-space-2 ]" role="list">
                 {% for tag in filteredTags %}<li class="[ flex gap-0.25 ]">{{ tag }}</li>{% endfor %}
             </ul>
         {% endif %}
-    </section>
-    <hr class="[ my-1.5 ]" />
-    {% from "macros/date.njk" import format %}
-    {{ format(page.date) }}
-    {% block content %}{{ content | safe }}{% endblock %}
+    </header>
+    {% if image %}
+        {% image image, imageAlt, imageCaption, "[ my-3 ]" %}
+    {% endif %}
+    {{ content | safe }}
     {% if url %}
         <a href="{{ url }}" class="[ flex mt-1 items-center gap-0.5 ]" target="_blank" rel="external noreferrer noopener">
             {% include "svgs/link.svg" %}{{ linkTitle }}

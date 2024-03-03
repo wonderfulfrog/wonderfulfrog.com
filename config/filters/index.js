@@ -83,6 +83,15 @@ const filterFavourites = (collection) => {
   return collection.filter((item) => item.data.favourite);
 };
 
+const isOld = (dateArg) => {
+  const date = dayjs(dateArg);
+  const now = dayjs();
+
+  const diffInYears = now.diff(date, "years");
+
+  return diffInYears >= 2;
+};
+
 module.exports = {
   allTagCounts,
   allTags,
@@ -91,6 +100,7 @@ module.exports = {
   filterCatalogueTags,
   filterFavourites,
   formatDate,
+  isOld,
   keys,
   limit,
   organizeByDate,

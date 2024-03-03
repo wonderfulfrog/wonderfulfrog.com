@@ -33,3 +33,7 @@
 .line-height-xl {
   line-height: 2rem;
 }
+
+.text-skew {
+  transform: var(--text-skew);
+}

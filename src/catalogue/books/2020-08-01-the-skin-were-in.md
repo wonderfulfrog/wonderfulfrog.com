@@ -5,6 +5,7 @@ author: Desmond Cole
 isbn: 9780385686341
 rating: 5
 image: https://cdn.wonderfulfrog.com/the-skin-were-in.jpeg
+tags: ["politics", "canada", "racism"]
 ---
 
 A pretty damning read on how far Canada has to go on dealing with systemic racism. Like many Canadians, I knew things were bad, but this spelt out how truly bad it is. If the situation in the US was not reason enough to convince me that we need to defund the police, then this is it. While the book was not setting out to necessarily claim this message, that was my own conclusion. The police seemed to be a recurring undercurrent to the issues POC face today.

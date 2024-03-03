@@ -12,6 +12,7 @@ const {
   filterCatalogueTags,
   filterFavourites,
   formatDate,
+  isOld,
   keys,
   limit,
   organizeByDate,
@@ -39,6 +40,7 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addFilter("filterCatalogueTags", filterCatalogueTags);
   eleventyConfig.addFilter("filterFavourites", filterFavourites);
   eleventyConfig.addFilter("formatDate", formatDate);
+  eleventyConfig.addFilter("isOld", isOld);
   eleventyConfig.addFilter("keys", keys);
   eleventyConfig.addFilter("limit", limit);
   eleventyConfig.addFilter("organizeByDate", organizeByDate);

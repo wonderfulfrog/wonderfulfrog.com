@@ -34,7 +34,7 @@ h1 {
   font-weight: var(--font-weight-display-extrabold);
   letter-spacing: -0.05rem;
   line-height: 3rem;
-  transform: skew(0deg, -1deg);
+  transform: var(--text-skew);
 }
 
 h2 {
@@ -102,7 +102,7 @@ blockquote > * + * {
 
 :focus-visible {
   outline: 3px solid;
-  outline-color: var(--color-primary);
+  outline-color: var(--color-text);
   outline-offset: 0.3ch;
 }
 
@@ -125,10 +125,6 @@ hr {
 
 :not(pre) > code {
   background-color: var(--color-surface);
-  color: var(--color-primary);
-  border-color: var(--color-border);
-  border-style: solid;
-  border-width: 1px;
   border-radius: 0.5em;
   padding-block: 0.15em;
   padding-inline: 0.25em;

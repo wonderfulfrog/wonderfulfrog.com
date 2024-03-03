@@ -4,6 +4,7 @@ author: Jim Butcher
 image: https://cdn.wonderfulfrog.com/jim-butcher-peace-talks.jpeg
 isbn: 9780393609394
 rating: 2
+tags: ["fiction", "fantasy"]
 ---
 
 I feverishly consumed the entire Dresden series in a few years ago. I thought it was so cool to see a blend of fantasy and real life that didn't seem to exist (as far as I knew). The writing sometimes felt chauvinistic (Dresden himself even admits as much) but I would roll my eyes and plod on.

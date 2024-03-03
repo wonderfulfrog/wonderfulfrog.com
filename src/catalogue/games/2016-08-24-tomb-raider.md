@@ -1,8 +1,8 @@
 ---
 title: Tomb Raider
-subtitle: PC
+platform: PC
 image: https://cdn.wonderfulfrog.com/TombRaider2013.jpg
-tags: ["pc"]
+tags: ["action", "adventure", "puzzle", "reboot", "single player"]
 year: 2013
 ---
 

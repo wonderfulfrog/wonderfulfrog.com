@@ -3,6 +3,7 @@ module.exports = {
   tags: "comic",
   permalink: "catalogue/comics/{{ page.fileSlug }}/index.html",
   eleventyComputed: {
-    subtitle: (data) => `${data.author} (${data.year})`,
+    tertiary: (data) =>
+      `<p class="[ flow-space-0.5 ]"><span class="[ text-fadeText ]">by</span> ${data.author}</p>`,
   },
 };

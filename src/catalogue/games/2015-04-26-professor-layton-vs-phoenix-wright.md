@@ -1,8 +1,8 @@
 ---
 title: "Professor Layton vs. Phoenix Wright: Ace Attorney"
-subtitle: Nintendo 3DS
+platform: Nintendo 3DS
 image: https://cdn.wonderfulfrog.com/Laytonvsaceattorneycover.jpg
-tags: ["3ds"]
+tags: ["puzzle", "narrative", "visual novel", "single player"]
 year: 2014
 ---
 

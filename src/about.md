@@ -5,6 +5,8 @@ title: About
 tags: ["page"]
 ---
 
+# About me
+
 Hello! Ahoj! Welcome to my site!
 
 My name is **Devin Haska** and this is my little slice of the internet I call home.

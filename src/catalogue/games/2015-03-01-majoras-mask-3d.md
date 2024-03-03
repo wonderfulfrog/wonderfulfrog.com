@@ -1,8 +1,8 @@
 ---
 title: "Majora's Mask 3D"
-subtitle: Nintendo 3DS
+platform: Nintendo 3DS
 image: https://cdn.wonderfulfrog.com/Majora's_Mask_3D_cover.png
-tags: ["3ds"]
+tags: ["adventure", "single player"]
 year: 2015
 ---
 

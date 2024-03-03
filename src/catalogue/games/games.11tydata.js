@@ -3,6 +3,6 @@ module.exports = {
   tags: "game",
   permalink: "catalogue/games/{{ page.fileSlug }}/index.html",
   eleventyComputed: {
-    subtitle: (data) => data.year,
+    subtitle: (data) => `${data.platform}`,
   },
 };

@@ -2,9 +2,9 @@
 layout: "layouts/base"
 ---
 
+{% from "macros/date.njk" import format %}
 <article class="[ flow ]">
     <header class="[ flow flow-space-1 mb-2 ]">
-        {% from "macros/date.njk" import format %}
         {{ format(page.date) }}
         <h1>{{ title }}</h1>
         <ul class="[ categories ] [ cluster list-none p-0 ]">

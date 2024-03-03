@@ -4,7 +4,7 @@
   gap: var(--spacing-1);
 }
 
-.catalogue h2 {
+.catalogue-header h2 {
   --flow-space: var(--spacing-0\.5);
   transform: var(--text-skew);
   color: var(--color-fadeText);

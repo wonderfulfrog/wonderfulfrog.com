@@ -4,8 +4,6 @@ excerpt: February 2022 - September 2022.
 tags: ["gba", "updates", "burnout"]
 ---
 
-{% image "https://cdn.wonderfulfrog.com/unknown.jpg", "An AI generated image using the prompt 'a frog playing a game boy in watercolor'.", "" %}
-
 What’s happened since my last post?
 
 * I got engaged!

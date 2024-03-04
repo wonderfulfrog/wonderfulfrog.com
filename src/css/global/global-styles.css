@@ -125,7 +125,7 @@ hr {
 
 :not(pre) > code {
   background-color: var(--color-surface);
-  border-radius: 0.5em;
+  border-radius: var(--spacing-\0.5);
   padding-block: 0.15em;
   padding-inline: 0.25em;
 }
@@ -147,7 +147,7 @@ figure figcaption {
 
 picture source,
 picture img {
-  border-radius: 1rem;
+  border-radius: var(--spacing-0\.5);
 }
 
 aside {

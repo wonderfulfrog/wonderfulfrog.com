@@ -123,7 +123,7 @@ My favourite pen is my [TWSBI ECO-T][twsbi] in the mint-blue colour. The transpa
 
 Another favourite fountain pen is the [Lamy Safari][lamysafari]. As a starter pen, you can't go wrong here. There are such a wide variety of nibs and colours to choose from.
 
-I use a [Fjallraven High Coast Hip Pack][hippack] as my everyday carry. It's just big enoough that I can fit all of my things without feeling cumbersome. I honestly don't know why it took me so long to embrace the bag life.
+I use a [Fjallraven High Coast Hip Pack][hippack] as my everyday carry. It's just big enough that I can fit all of my things without feeling cumbersome. I honestly don't know why it took me so long to embrace the bag life.
 
 For better or worse, I love [AirTag][airtag]s. Makes it easy to find stuff that I often misplace.
 

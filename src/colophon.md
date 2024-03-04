@@ -35,7 +35,7 @@ Code formatting is applied by [Prism][prismjs] and uses a tweaked version of the
 
 ## Design
 
-Headings are using the [Anek Latin][aneklatin] font, and the body font is [iA Writer Quattro][iawriterquattro].
+Headings are using the [Anek Latin][aneklatin] font, and the body font is [iA Writer Quattro][iawriterquattro]. Monospace font is [IBM Plex Mono][ibmplexmono].
 
 The colour palette is viewable on the [styleguide][styleguide] page.
 
@@ -90,3 +90,4 @@ I've done my best to show where I found any code I did not write myself.
 [everylayout]: https://every-layout.dev
 [prismjs]: https://prismjs.com
 [tokyonight]: https://github.com/folke/tokyonight.nvim
+[ibmplexmono]: https://fonts.google.com/specimen/IBM+Plex+Mono

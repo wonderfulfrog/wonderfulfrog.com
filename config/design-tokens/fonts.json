@@ -40,5 +40,21 @@
         "weight": 650
       }
     }
+  },
+  "monospace": {
+    "family": "IBM Plex Mono",
+    "format": "truetype",
+    "weights": {
+      "Regular": {
+        "path": "/ibmplexmono/IBMPlexMono-Regular.ttf",
+        "font-style": "normal",
+        "weight": 400
+      },
+      "Italic": {
+        "path": "/ibmplexmono/IBMPlexMono-Italic.ttf",
+        "font-style": "italic",
+        "weight": 400
+      }
+    }
   }
 }

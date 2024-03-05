@@ -1,5 +1,8 @@
 {
   "layout": "layouts/post",
   "tags": "post",
-  "permalink": "posts/{{ page.fileSlug }}/index.html"
+  "permalink": "posts/{{ page.fileSlug }}/index.html",
+  "eleventyComputed": {
+    "description": "{{ excerpt | safe }}"
+  }
 }

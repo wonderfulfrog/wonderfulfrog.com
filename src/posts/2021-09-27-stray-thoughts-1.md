@@ -16,7 +16,7 @@ On the other hand Blizzard had little to do with D2R. They own the IP and oversa
 
 I don’t support the way the company treats their employees. I think it’s possible to engage with problematic entertainment. I don't think boycotting is the answer. I know I said as much a few posts ago, but I'm changing my mind. Boycotting is much more likely to tell the executives that they should continue to treat their employees poorly for poor sales or some other stupid reason. I've seen others try to offset the carbon footprint[^2] when purchasing from Amazon, and I'm doing something similar by donating to causes that support the affected employees inside Blizzard. I'm raising awareness of the issues going on at the studio to everyone I know that engages with Blizzard games. All that being  said, if you personally feel like boycotting Blizzard by-and-large, then go for it.
 
-I recently started [scrobbling again on Last.fm](https://www.last.fm/user/Keiroshin). There is a conspicuous omission of about 6 years where I stopped worrying about it. I wish I had opted to continue using the service. I like flipping through this data. What was I into on March 2012?
+I recently started [scrobbling again on Last.fm]({{ meta.social.lastfm }}). There is a conspicuous omission of about 6 years where I stopped worrying about it. I wish I had opted to continue using the service. I like flipping through this data. What was I into on March 2012?
 
 I’m reading Aubrey Gordon’s book *[What We Don't Talk About When We Talk About Fat](https://www.yourfatfriend.com/book)*. It’s making me reevaluate my relationship with my weight. To be more specific, this book and the podcast [Maintenance Phase](https://www.yourfatfriend.com/podcast) are doing that.
 
@@ -24,8 +24,8 @@ I used to believe that losing weight was a willpower thing. That if I tried hard
 
 This is all to say: maybe I don’t need to lose weight. Maybe I’m fine as I am? I can just be me. Get clothes that fit me properly. Make sure I eat balanced meals. My body could be predisposed to stay at this weight. I feel healthy (as one can be in the middle of a pandemic). My head is full of old, preconceived notions when it comes to fatness. I'm on a new journey to relearn and reevaluate my relationship with being fat. In my case fat is not an accurate descriptor — following the book I would be described as "small fat", and I can fit into straight-sized clothing. What I am learning is that it's not the death sentence that the 90s would tell us. There are people that are bigger. It *can* come from genetics, as much as my old self would disagree. To quote Maintenance Phase: "it's a little more complicated!"
 
-\[1]: Google "blizzard lawsuit" and you'll see plenty of results of high-ranking staff leaving the company.
+[^1]: Google "blizzard lawsuit" and you'll see plenty of results of high-ranking staff leaving the company.
 
-\[2]: I recently learned that the term "carbon footprint" was coined by none other than BP, as in the big oil company. I lack a better term to describe what I'm trying to illustrate, so I'm going to use it here. To my chagrin.
+[^2]: I recently learned that the term "carbon footprint" was coined by none other than BP, as in the big oil company. I lack a better term to describe what I'm trying to illustrate, so I'm going to use it here. To my chagrin.
 
 [d2r]: https://diablo2.blizzard.com/en-us/

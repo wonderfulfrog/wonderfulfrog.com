@@ -42,9 +42,7 @@ After seeing Dan Abramov's [Overreacted blog][] was powered by the [`gatsby-star
 
 Besides a few theme bits here and there (read: splash of teal everywhere), I didn't change much. I originally omitted the `<Bio />` component from all pages as I didn't have much to write there, but later added it back in with a link to a Contact page.
 
-Speaking of which, I also added a custom [Contact page][]. This by itself doesn't do anything, but thanks to my webhost it acts as a contact form and accepts submissions (more on that later). GatsbyJS itself doesn't do anything besides provide a static page.
-
-[contact page]: https://devinlumley.me/contact "Link to my contact page"
+Speaking of which, I also added a custom Contact page. This by itself doesn't do anything, but thanks to my webhost it acts as a contact form and accepts submissions (more on that later). GatsbyJS itself doesn't do anything besides provide a static page.
 
 ## Code management - Git & GitHub
 

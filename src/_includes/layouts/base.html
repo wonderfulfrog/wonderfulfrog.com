@@ -24,7 +24,7 @@
     </head>
     <body class="[ flex-col ]">
         {% include "partials/header.html" %}
-        <main id="main" class="[ flow flex-1 wrapper ]">
+        <main id="main" class="[ flow flex-1 wrapper ]" tabindex="-1">
             {{ content | safe }}
         </main>
         {% include "partials/footer.html" %}

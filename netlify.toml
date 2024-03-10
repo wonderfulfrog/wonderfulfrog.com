@@ -2,7 +2,7 @@
 package = "netlify-plugin-cache"
 
   [plugins.inputs]
-  paths = [ ".cache" ]
+  paths = [ ".cache", "dist/assets/images" ]
 
 [build]
   publish = "dist"

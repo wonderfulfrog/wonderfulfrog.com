@@ -27,6 +27,7 @@ module.exports = class {
 
     return {
       permalink: `css/styles.css`,
+      excludeFromSitemap: true,
       rawFilepath,
       rawCss: css,
     };

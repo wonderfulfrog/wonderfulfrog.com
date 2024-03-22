@@ -1,8 +1,5 @@
 ---
-layout: "layouts/base"
-permalink: /about/index.html
 title: About
-tags: ["page"]
 ---
 
 # About me

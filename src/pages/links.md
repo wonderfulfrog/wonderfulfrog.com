@@ -1,8 +1,5 @@
 ---
-layout: "layouts/base"
-permalink: /links/index.html
 title: Links
-tags: ["page"]
 ---
 
 # Find me online

@@ -19,8 +19,11 @@ title: /now
             <a href="{{ album.url }}"
                target="_blank"
                rel="external noreferrer noopener">
-                <p class="[ visually-hidden ]">{{ album.artist }} - {{ album.album }}</p>
-                {% image album.imageUrl, "" %}
+                {% set textContent %}
+                    {{ album.artist }} - {{ album.album }}
+                {% endset %}
+                <p class="[ visually-hidden ]">{{ textContent }}</p>
+                {% image album.imageUrl, "", "", "", textContent %}
             </a>
         </li>
     {% endfor %}
@@ -32,8 +35,11 @@ title: /now
             <a href="{{ movie.url }}"
                target="_blank"
                rel="external noreferrer noopener">
+                {% set textContent %}
+                    {{ movie.title }}
+                {% endset %}
                 <p class="[ visually-hidden ]">{{ movie.title }}</p>
-                {% image movie.imgSrc, "" %}
+                {% image movie.imgSrc, "", "", "" , textContent %}
             </a>
         </li>
     {% endfor %}

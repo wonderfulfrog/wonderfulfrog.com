@@ -14,10 +14,15 @@ const imageShortcode = async (
   alt = "",
   caption = "",
   className = undefined,
+  placeholder = "",
   widths = [400, 800, 1280],
   formats = ["webp", "jpeg"],
   sizes = "100vw",
 ) => {
+  if (!src) {
+    return `<div class="image-placeholder">${placeholder}</div>`;
+  }
+
   const metadata = await Image(src, {
     widths: [...widths, null],
     formats: [...formats, null],
@@ -25,6 +30,9 @@ const imageShortcode = async (
     urlPath: "/assets/images",
     sharpOptions: {
       animated: true,
+    },
+    cacheOptions: {
+      duration: "7d",
     },
   });
 

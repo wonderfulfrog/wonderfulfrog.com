@@ -26,9 +26,11 @@ Technologies I have focused on in the last few years include:
 - React
 - React Native
 - TypeScript
-- NextJS
+- Next.js
 
-I have a passion for the intersection of development and design. A title I associate with would be **Creative Developer**. I'm happiest when I'm at the front of the front-end, getting into nitty-gritty details with an emphasis on motion. CSS is my homebase (and yes, it's a programming language).
+I have a passion for the intersection of development and design. A title I associate with would be **Design Engineer**[^1]. As a Design Engineer, I enjoy being in the middle of design and development, and bridge the gap between the two disciplines. I have enough design knowledge to know how an experience should look and feel, and the engineering skills to execute that vision.
+
+I'm happiest when I'm at the front of the front-end, getting into nitty-gritty details with an emphasis on motion. CSS is my homebase (and yes, it's a programming language).
 
 I try my best to champion accessibility wherever I can. I incoporate accessibility testing tools into my workflow while carrying out my day-to-day work.
 
@@ -48,3 +50,7 @@ I tend to hop from interest to interest, fully engrossing myself and then moving
 
 [metalab]: https://metalab.com
 [uvic]: https://uvic.ca
+
+[^1]: [Maggie Appleton wrote a great article][design-eng] about Design Engineers, if you'd like to read more.
+
+[design-eng]: https://maggieappleton.com/design-engineers

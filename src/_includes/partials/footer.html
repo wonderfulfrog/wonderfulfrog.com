@@ -3,7 +3,7 @@
         <div class="[ repel ]">
             <p>&copy; {{ meta.author }} 2018 - 2024.</p>
             <nav>
-                <ul class="[ cluster p-0 m-0 ]" role="list">
+                <ul class="[ cluster p-0 m-0 line-height-m ]" role="list">
                     {% for link in navigation.bottom %}
                         <li>
                             <a href="{{ link.url }}">{{ link.text }}</a>
@@ -35,9 +35,16 @@
                     {% endfor %}
                 </ul>
             </nav>
-            <a href="{{ meta.repoUrl }}"
-               target="_blank"
-               rel="me external noreferrer noopener">Source</a>
+            <ul class="[ cluster p-0 m-0 ]" role="list">
+                <li>
+                    <a href="/changelog">Changelog</a>
+                </li>
+                <li>
+                    <a href="{{ meta.repoUrl }}"
+                       target="_blank"
+                       rel="me external noreferrer noopener">Source</a>
+                </li>
+            </ul>
         </div>
     </div>
 </footer>

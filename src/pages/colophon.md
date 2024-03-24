@@ -1,6 +1,6 @@
 ---
-layout: "layouts/base"
 title: Colophon
+description: A little bit of everything about this site.
 ---
 
 # Colophon

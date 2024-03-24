@@ -9,6 +9,7 @@ eleventyExcludeFromCollections: true
 permalink: /catalogue/{{ type | pluralize | slugify }}/index.html
 eleventyComputed:
     title: Catalogue - {{ type | pluralize | capitalize }}
+    description: My thoughts on various {{ type | pluralize }}.
 ---
 
 {% from "macros/catalogue.njk" import yearList %}

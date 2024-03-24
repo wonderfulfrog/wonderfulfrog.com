@@ -1,5 +1,6 @@
 ---
 title: /uses
+description: A list of my favourite things and why I like 'em.
 ---
 
 # Uses

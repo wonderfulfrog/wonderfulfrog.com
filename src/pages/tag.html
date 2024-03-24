@@ -6,6 +6,8 @@ pagination:
     filter:
         - post
 permalink: /tags/{{ tag | slugify }}/index.html
+eleventyComputed:
+    description: Browse all posts tagged with "{{ tag }}".
 ---
 
 {% from "macros/posts.njk" import yearList %}

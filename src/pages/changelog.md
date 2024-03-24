@@ -1,5 +1,7 @@
 ---
 title: Changelog
+eleventyComputed:
+    description: All of the latest changes on {{ meta.siteName }}.
 ---
 
 # Changelog

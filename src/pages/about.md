@@ -1,5 +1,6 @@
 ---
 title: About
+description: All about me!
 ---
 
 # About me

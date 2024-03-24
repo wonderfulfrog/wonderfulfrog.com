@@ -13,6 +13,8 @@ If preferred, the [commit log is available here][commits].
 ## March 23rd 2024
 
 - Fixed "Posts" page showing up under new posts
+- Add missing meta description tags to pages
+- Update footer to include `/changelog` link
 
 ## March 22nd 2024
 

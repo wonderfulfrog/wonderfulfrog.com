@@ -8,6 +8,10 @@ All the changes that are fit to read!
 
 If preferred, the [commit log is available here][commits].
 
+## March 23rd 2024
+
+- Fixed "Posts" page showing up under new posts
+
 ## March 22nd 2024
 
 - Add `/changelog`

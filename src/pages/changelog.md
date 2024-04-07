@@ -10,6 +10,10 @@ All the changes that are fit to read!
 
 If preferred, the [commit log is available here][commits].
 
+## April 7th 2024
+
+- Updated `robots.txt` to use [Dark Visitors][darkvisitors]' API.
+
 ## March 23rd 2024
 
 - Fixed "Posts" page showing up under new posts
@@ -64,3 +68,4 @@ If preferred, the [commit log is available here][commits].
 [11ty]: https://www.11ty.dev/
 [v3]: /posts/version-3/
 [blogroll]: /blogroll/
+[darkvisitors]: https://darkvisitors.com

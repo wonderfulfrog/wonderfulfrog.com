@@ -19,4 +19,8 @@ That's it. You'll have a dev server on http://localhost:8080. Have fun!
 
 ### Notes
 
-Last.fm won't work without a valid API key. It looks for it inside a `.env` file in the project root, and it's called `LAST_FM_API_KEY`. Any requests will fail otherwise.
+The following tokens need to be defined inside `.env`:
+
+- `DARK_VISITORS_ACCESS_TOKEN`
+- `LAST_FM_API_KEY`
+

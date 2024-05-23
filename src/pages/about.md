@@ -17,7 +17,7 @@ I really like frogs, like a lot. So I made myself a mascot. They don't have a na
 
 ## Professional
 
-I'm currently working at [Metalab][metalab] as a Web Engineer, and I've been working here for 4 years.
+I'm currently looking for a new job. My previous workplace was [Metalab][metalab] as a Web Engineer for almost 5 years.
 
 I have a Bachelor of Science degree with a major in Computer Science from the [University of Victoria][uvic].
 
@@ -28,11 +28,18 @@ Technologies I have focused on in the last few years include:
 - TypeScript
 - Next.js
 
-I have a passion for the intersection of development and design. A title I associate with would be **Design Engineer**[^1]. As a Design Engineer, I enjoy being in the middle of design and development, and bridge the gap between the two disciplines. I have enough design knowledge to know how an experience should look and feel, and the engineering skills to execute that vision.
+I have a passion for the intersection of development and design. There are a few titles[^1] I've seen tossed around that I feel represent myself:
 
-I'm happiest when I'm at the front of the front-end, getting into nitty-gritty details with an emphasis on motion. CSS is my homebase (and yes, it's a programming language).
+- Creative Developer
+- Design Technologist
+- Design Engineer
+- Web Designer
 
-I try my best to champion accessibility wherever I can. I incoporate accessibility testing tools into my workflow while carrying out my day-to-day work.
+As a _creative web design engineer technologist_, I enjoy being in the middle of design and development, and bridge the gap between the two disciplines. I have enough design knowledge to know how an experience should look and feel, and the engineering skills to execute that vision.
+
+I'm happiest when I'm at the front of the front-end, getting into nitty-gritty details with an emphasis on motion. CSS is my home base (and yes, it's a programming language).
+
+I try my best to champion accessibility wherever I can. I incorporate accessibility testing tools into my workflow while carrying out my day-to-day work.
 
 ## Hobbies
 
@@ -46,11 +53,12 @@ I tend to hop from interest to interest, fully engrossing myself and then moving
 - Painstakingly researching the piece of gear I'm thinking about getting
 - Reading
 - Home DIY (building furniture, home repair and upgrades, that sort of thing)
+- Networking (as in the Internet kind) (I use a lot of UniFi products)
 - Making pixel art
 
 [metalab]: https://metalab.com
 [uvic]: https://uvic.ca
 
-[^1]: [Maggie Appleton wrote a great article][design-eng] about Design Engineers, if you'd like to read more.
+[^1]: [Maggie Appleton wrote a great article][design-eng] that can explain what my role is better than I can.
 
 [design-eng]: https://maggieappleton.com/design-engineers

@@ -9,10 +9,23 @@ const relativeTime = require("dayjs/plugin/relativeTime");
 dayjs.extend(utc);
 dayjs.extend(relativeTime);
 
-const fetchRecentMovies = async () => {
-  const url = `https://letterboxd.com/wonderfulfrog/rss/`;
+const fetchLetterboxd = async (duration) => {
+  try {
+    const url = `https://letterboxd.com/wonderfulfrog/rss/`;
+    const response = await EleventyFetch(url, { duration, type: "text" });
+    return response;
+  } catch (e) {
+    console.error("Error fetching data from Letterboxd", e);
+    return undefined;
+  }
+};
 
-  const response = await EleventyFetch(url, { duration: "1d", type: "text" });
+const fetchRecentMovies = async () => {
+  const response = await fetchLetterboxd("1d");
+
+  if (!response) {
+    return [];
+  }
 
   const $ = cheerio.load(response, { xml: true });
 

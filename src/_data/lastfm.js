@@ -13,11 +13,35 @@ const lastFmApiKey = process.env.LAST_FM_API_KEY;
 const baseUrl = "http://ws.audioscrobbler.com";
 const username = "wonderfulfrog";
 
-const fetchRecentAlbums = async (period = "7day") => {
-  const path = `/2.0/?method=user.gettopalbums&user=${username}&api_key=${lastFmApiKey}&format=json`;
-  const url = `${baseUrl}${path}&period=${period}`;
+const fetchLastFm = async (method, duration, extraArgs) => {
+  try {
+    const path = `/2.0/?method=${method}&user=${username}&api_key=${lastFmApiKey}&format=json`;
+    let url = `${baseUrl}${path}`;
 
-  const response = await EleventyFetch(url, { duration: "7d", type: "json" });
+    if (extraArgs) {
+      url = `${url}&${extraArgs}`;
+    }
+
+    const response = await EleventyFetch(url, { duration, type: "json" });
+
+    return response;
+  } catch (e) {
+    console.error(`Error fetching last.fm data for method=${method}`, e);
+    return undefined;
+  }
+};
+
+const fetchRecentAlbums = async (period = "7day") => {
+  const response = await fetchLastFm(
+    "user.gettopalbums",
+    "7d",
+    `period=${period}`,
+  );
+
+  if (!response) {
+    return [];
+  }
+
   const albums = response.topalbums.album.slice(0, 8);
 
   const recentAlbums = albums.map((album) => {
@@ -40,9 +64,12 @@ const fetchRecentAlbums = async (period = "7day") => {
 };
 
 const fetchRecentTracks = async () => {
-  const url = `http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=wonderfulfrog&api_key=${lastFmApiKey}&format=json`;
+  const response = await fetchLastFm("user.getrecenttracks", "5m");
 
-  const response = await EleventyFetch(url, { duration: "5m", type: "json" });
+  if (!response) {
+    return [];
+  }
+
   const tracks = response.recenttracks.track.slice(0, 5);
 
   const recentTracks = tracks.map((track) => {

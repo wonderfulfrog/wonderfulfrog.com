@@ -10,6 +10,10 @@ All the changes that are fit to read!
 
 If preferred, the [commit log is available here][commits].
 
+## May 24th 2024
+
+- Improve error handling when env vars are missing, or fetch requests fail.
+
 ## April 7th 2024
 
 - Updated `robots.txt` to use [Dark Visitors][darkvisitors]' API.

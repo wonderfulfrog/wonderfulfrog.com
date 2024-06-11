@@ -1,7 +1,7 @@
 ---
 title: Changelog
 eleventyComputed:
-    description: All of the latest changes on {{ meta.siteName }}.
+  description: All of the latest changes on {{ meta.siteName }}.
 ---
 
 # Changelog
@@ -9,6 +9,10 @@ eleventyComputed:
 All the changes that are fit to read!
 
 If preferred, the [commit log is available here][commits].
+
+## June 11th 2024
+
+- Added a [webrings][webrings] page!
 
 ## May 24th 2024
 
@@ -73,3 +77,4 @@ If preferred, the [commit log is available here][commits].
 [v3]: /posts/version-3/
 [blogroll]: /blogroll/
 [darkvisitors]: https://darkvisitors.com
+[webrings]: /webrings/

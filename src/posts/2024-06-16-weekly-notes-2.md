@@ -30,29 +30,29 @@ I got genuine use out of this article and helped me rework portions of my résum
 
 ## Reading
 
-I've been in a reading slump for a while now. I made decent progress with Shogun by James Clavell, but even before that book I found myself struggling with keeping up my reading habit. I typically enjoy reading, especially at the end of a long day. Lately though I found myself in a rut, and couldn't "get into" whatever I was reading.
+I've been in a reading slump for a while now. I made decent progress with Shogun by James Clavell, but even before that book I found myself struggling with keeping up my reading habit. I typically enjoy reading, especially at the end of a long day. Lately I found myself in a rut and couldn't get into whatever I was reading.
 
-My wife suggested I read [The Stranger In The Woods by Michael Finkel](https://www.penguinrandomhouse.ca/books/251786/the-stranger-in-the-woods-by-michael-finkel/9781101911532). It's something I'd never have picked for myself. It was short. It had an engaging writing style. Perfect! I ended up devouring the book over a week or so.
+My wife suggested I read [The Stranger In The Woods by Michael Finkel](https://www.penguinrandomhouse.ca/books/251786/the-stranger-in-the-woods-by-michael-finkel/9781101911532). It was something I'd never have picked for myself. It was short. It had an engaging writing style. It was perfect! I ended up devouring the book over a week or so.
 
-Christopher Knight's story is wild and almost beyond belief. In short, he managed to stay alive - by himself - in the woods of Maine for over 27 years. By himself is oversimplifying it a bit - he relied on (stealing) the supplies of others to do it, but besides that he was on his own.
+Christopher Knight's story is wild and almost beyond belief. He managed to stay alive *by himself* in the woods of Maine for over 27 years. By himself is oversimplifying it a bit - he relied on stealing the supplies of others to do it. Besides that, he was on his own.
 
-There was one section in the book I'm surprised Finkel kept in. I'm not going into specifics - but it felt like something so deeply personal that it bordered on inappropriate to publish. I was uncomfortable reading it - it almost felt voyeuristic? A lot of their discussions felt uncomfortable, like I was an unwelcome eavesdropper in all of it.
+There was one section in the book I'm surprised Finkel kept in. I'm not going into specifics, but it felt like something so deeply personal that it bordered on inappropriate to publish. I was uncomfortable reading it - it almost felt voyeuristic? Many of their discussions felt uncomfortable, like I was an unwelcome eavesdropper in them.
 
-That said, it was a great book overall. If learning about how someone survived in the woods and wider discussions on being alone sounds interesting to you - I'd encourage you to give it a read.
+That said, it was a great book overall. If learning about how someone survived in the woods and having discussions on being alone sounds interesting to you, I'd encourage you to give it a read.
 
 ## Listening
 
-[Taylor Swift was in the news recently](https://www.forbes.com/sites/conormurray/2024/06/14/taylor-swift-drops-new-tortured-poets-department-versions-as-fans-accuse-singer-of-blocking-charli-xcx-from-no-1/) because of her apparently releasing UK variants of The Tortured Poet's Department in order to compete with Charli XCX's newest album [brat](<https://en.wikipedia.org/wiki/Brat_(Charli_XCX_album)>). I had never really listened to anything by Charli XCX before, and I thought Tortured Poets was an altogether forgettable album[^1][^2], so I thought why not compare the two? brat is awesome. Absolute banger. The opposite entirely. Now I'm excited to visit the catalogue and see what else there is to listen to!
+[Taylor Swift was in the news recently](https://www.forbes.com/sites/conormurray/2024/06/14/taylor-swift-drops-new-tortured-poets-department-versions-as-fans-accuse-singer-of-blocking-charli-xcx-from-no-1/) because of her apparently releasing UK variants of *The Tortured Poet's Department* in order to compete with Charli XCX's newest album [*brat*](https://en.wikipedia.org/wiki/Brat_(Charli_XCX_album)). I had never really listened to anything by Charli XCX before, and I thought Tortured Poets was an altogether forgettable album[^1][^2], so I thought why not compare the two? *brat* is awesome. A favourite track of mine is "Von dutch". It got me excited to explore the rest of her catalogue.
 
 ## Playing
 
-I finished my second playthrough of Disco Elysium. I went with a Intellect and Motorics focused build. My Encyclopedia skill was initially amusing and interesting, but did become exhausting with its constantly chiming in with useless information (which I think was the developer's intention). Without my Inland Empire and Empathy skills, I had a hard time reading people, but found that my Drama and Logic skills filled in the blanks in different wants.
+I finished my second playthrough of *Disco Elysium*. I went with a Intellect and Motorics-focused build. My Encyclopedia skill was initially amusing and interesting, but became exhausting with its constant chiming in with useless information (which I think was the developer's intention). Without my Inland Empire and Empathy skills, I had a hard time reading people, but found that my Drama and Logic skills filled in the blanks in different ways.
 
 I used a guide this time to experience all of the events and conversations that I missed in my first playthrough, like ordering my partner to hit the dance floor (CODE 31!!).
 
-It was fun to experience the world of Revachol again, but by the end of my run I was feeling a bit done with the game. Perhaps going back so soon was not a smart move, and I'm planning to take a break from it now. I don't want to ruin my experience and feelings on the game.
+It was fun to experience the world of Revachol again, but by the end of my run I was feeling done with the game. Perhaps going back so soon was not a smart move, and I'm planning to take a break from it now. I don't want to ruin my experience and feelings about the game.
 
-[The planned (but now cancelled) sequel](https://www.reddit.com/r/GamingLeaksAndRumours/comments/1df2l9z/first_details_on_cancelled_disco_elysium_sequel/) sounds like it would've starred Kim Kitsuragi and I dreamed of what could've been. Without a doubt my favourite character is Kim - I would love to see a game set during his earlier years before he met the main character of the first game. It's such a shame that the studio crumbled after the game released, but the game being brought down by a bunch of greedy, incompetent suits is so amazingly on-brand for Disco Elysium it's almost perfect.
+[The planned (but now canceled) sequel](https://www.reddit.com/r/GamingLeaksAndRumours/comments/1df2l9z/first_details_on_cancelled_disco_elysium_sequel/) sounds like it would've starred Kim Kitsuragi and I dreamed of what could've been. Without a doubt, my favourite character is Kim. I would love to see a game set during his earlier years before he met the main character of the first game. It's such a shame that the studio crumbled after the game released, but the game being brought down by a bunch of greedy, incompetent suits is so amazingly on-brand for *Disco Elysium* it's almost perfect.
 
 ## Thinking
 

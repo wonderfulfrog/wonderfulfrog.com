@@ -85,7 +85,7 @@ Sometimes it feels like there isn't enough joy in my life. Or to put it another 
 
 ---
 
-There's [a new Folding Ideas video](https://www.youtube.com/watch?v=b3gZOt1Lo4A) out, and everyone should watch Folding Ideas. They're never short, so strap yourself in for (at minimum) a movie-length experience. This one is all about the AVGN (Angry Video Game Nerd née Angry Nintendo Nerd). I'm someone who has enjoyed his videos for what they are - silly, funny videos about old (and sometimes) new video games. There is apparently a whole side of the fandom I was never aware of who is convinced James Rolfe (who portrays the titular Nerd) is somehow being manipulated by his wife and surely could not just love his family and kids now?
+In other viewing news, there's [a new Folding Ideas video](https://www.youtube.com/watch?v=b3gZOt1Lo4A) out, and everyone should watch Folding Ideas. They're never short, so strap yourself in for (at minimum) a movie-length experience. This one is all about the AVGN (Angry Video Game Nerd née Angry Nintendo Nerd). I'm someone who has enjoyed his videos for what they are - silly, funny videos about old (and sometimes) new video games. There is apparently a whole side of the fandom I was never aware of who is convinced James Rolfe (who portrays the titular Nerd) is somehow being manipulated by his wife and surely could not just love his family and kids now?
 
 In many ways it felt like the video was becoming more about Dan Olson (aka Folding Ideas) and less about James. Anyway, if you have any interest in anything I just mentioned, I suggest you give it a watch.
 

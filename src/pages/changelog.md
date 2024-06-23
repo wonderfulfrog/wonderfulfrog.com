@@ -10,6 +10,15 @@ All the changes that are fit to read!
 
 If preferred, the [commit log is available here][commits].
 
+## June 22nd 2024
+
+- Added style for `<table>` elements.
+
+| Here is         | A preview! |
+| --------------- | ---------- |
+| Super cool whoa | very rad   |
+| Super cool whoa | very bad   |
+
 ## June 11th 2024
 
 - Added a [webrings][webrings] page!

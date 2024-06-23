@@ -184,6 +184,36 @@ mark {
   white-space: nowrap;
 }
 
+table {
+  border: 1px solid var(--color-border);
+  border-radius: var(--spacing-0\.5);
+  border-spacing: 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+table thead {
+  background-color: var(--color-surface);
+}
+
+table thead th {
+  text-align: left;
+}
+
+table th,
+table td {
+  padding-block: var(--spacing-0\.5);
+  padding-inline: var(--spacing-1);
+}
+
+table tbody tr:first-child td {
+  border-top: 1px solid var(--color-border);
+}
+
+table tbody tr:not(:last-child) td {
+  border-bottom: 1px solid var(--color-border);
+}
+
 @media (prefers-reduced-motion: reduce) {
   html:focus-within {
     scroll-behavior: auto;

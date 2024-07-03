@@ -10,6 +10,10 @@ All the changes that are fit to read!
 
 If preferred, the [commit log is available here][commits].
 
+## July 3rd 2024
+
+- Added the [`eleventy-plugin-no-robots`](https://github.com/wkillerud/eleventy-plugin-no-robots) plugin.
+
 ## June 22nd 2024
 
 - Added style for `<table>` elements.

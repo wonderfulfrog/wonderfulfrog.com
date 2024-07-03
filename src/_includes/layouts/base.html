@@ -23,6 +23,7 @@
         {% endif %}
     </head>
     <body class="[ flex-col ]">
+        {% noRobots %}
         {% include "partials/header.html" %}
         <main id="main" class="[ flow flex-1 wrapper ]" tabindex="-1">
             {{ content | safe }}

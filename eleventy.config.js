@@ -1,4 +1,5 @@
 const pluginRss = require("@11ty/eleventy-plugin-rss");
+const pluginNoRobots = require("eleventy-plugin-no-robots");
 
 const {
   catalogueByType,
@@ -28,6 +29,7 @@ module.exports = (eleventyConfig) => {
 
   // 	--------------------- Plugins ---------------------
   eleventyConfig.addPlugin(pluginRss);
+  eleventyConfig.addPlugin(pluginNoRobots);
 
   // 	--------------------- Custom Collections -----------------------
   eleventyConfig.addCollection("catalogueByType", catalogueByType);

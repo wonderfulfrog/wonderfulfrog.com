@@ -4,8 +4,9 @@
   Low-specificity, global styles that apply to the whole
   project: https://cube.fyi/css.html
 */
+
 html {
-  scrollbar-color: var(--color-primary) var(--color-indiglo-800);
+  scrollbar-color: var(--color-primary) var(--color-surface);
 }
 
 body {

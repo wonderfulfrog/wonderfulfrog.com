@@ -12,6 +12,7 @@ If preferred, the [commit log is available here][commits].
 
 ## July 3rd 2024
 
+- Fixed `scrollbar-color` not applying.
 - Added the [`eleventy-plugin-no-robots`](https://github.com/wkillerud/eleventy-plugin-no-robots) plugin.
 
 ## June 22nd 2024

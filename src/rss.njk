@@ -4,26 +4,25 @@ layout: null
 eleventyExcludeFromCollections: true
 excludeFromSitemap: true
 ---
+
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>{{ meta.siteName }}</title>
-  <subtitle>{{ meta.siteDescription }}</subtitle>
-  <link href="{{ meta.url }}/feed.xml" rel="self"/>
-  <link href="{{ meta.url }}/" rel="alternate" type="text/html"/>
-  <id>{{ meta.url }}/</id>
-  <author>
-    <name>{{ meta.author }}</name>
-  </author>
-  {% for post in collections.post %}
-  <entry>
+<title>{{ meta.siteName }}</title>
+<subtitle>{{ meta.siteDescription }}</subtitle>
+<link href="{{ meta.url }}/feed.xml" rel="self" />
+<link href="{{ meta.url }}/" rel="alternate" type="text/html" />
+<id>{{ meta.url }}/</id>
+<author>
+<name>{{ meta.author }}</name>
+</author>
+{% for post in collections.post %}
+    <entry>
     <id>{{ meta.url }}{{ post.url }}</id>
     <title>{{ post.data.title | escape }}</title>
-    <link href="{{ meta.url }}{{ post.url }}"/>
-    <published>{{ post.date }}</published>
-    {%- for tag in post.data.tags %}
-    <category term="{{ tag }}" />
-    {%- endfor %}
+    <link href="{{ meta.url }}{{ post.url }}" />
+    <pubDate>{{ post.date }}</pubDate>
+    {%- for tag in post.data.tags %}<category term="{{ tag }}" />{%- endfor %}
     <content type="html">{{ post.content | escape }}</content>
-  </entry>
-  {% endfor %}
+    </entry>
+{% endfor %}
 </feed>

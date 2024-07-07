@@ -3,9 +3,7 @@ permalink: /rss.xml
 layout: null
 eleventyExcludeFromCollections: true
 excludeFromSitemap: true
----
-
-<?xml version="1.0" encoding="utf-8"?>
+---<?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>{{ meta.siteName }}</title>
 <subtitle>{{ meta.siteDescription }}</subtitle>
@@ -22,7 +20,7 @@ excludeFromSitemap: true
     <link href="{{ meta.url }}{{ post.url }}" />
     <pubDate>{{ post.date }}</pubDate>
     {%- for tag in post.data.tags %}<category term="{{ tag }}" />{%- endfor %}
-    <content type="html">{{ post.content | escape }}</content>
-    </entry>
-{% endfor %}
-</feed>
+        <content type="html">{{ post.content | escape }}</content>
+        </entry>
+    {% endfor %}
+    </feed>

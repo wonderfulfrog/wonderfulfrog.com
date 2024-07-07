@@ -10,6 +10,10 @@ All the changes that are fit to read!
 
 If preferred, the [commit log is available here][commits].
 
+## July 7th 2024
+
+- Update `<published>` tag to `<pubDate>` tag to match [RSS 2.0 spec](https://www.rssboard.org/rss-specification#ltpubdategtSubelementOfLtitemgt)
+
 ## July 3rd 2024
 
 - Fixed `scrollbar-color` not applying.

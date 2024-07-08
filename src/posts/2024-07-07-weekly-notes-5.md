@@ -8,7 +8,7 @@ tags:
   - astrocolor
 ---
 
-We are gearing up for our summer vacation right now. By that I mean my wife is doing everything and I'm here lazily writing another blog post.
+We are gearing up for our summer vacation right now.
 
 The summer heat is here and it's not been a great time. I don't do well once the temperature approaches the mid 20s (celsius). We're staying inside as much as we can with our air con.
 
@@ -62,4 +62,6 @@ The costume design was incredible. It's no wonder it won an award for it!
 
 Spent a fair portion of my weekend redoing the homelab setup again. This time I installed Ubuntu Server instead of Desktop for a leaner install. Everything is still using Docker containers which feels great. It was super simple to load everything - literally copy/paste my configuration files and I was online within a few seconds. That said, arriving at the point where I could fire up Docker took a little while.
 
-I have it set up so I can access applications using a domain name tied to the VLAN they belong to (e.g. `lab.wonderfulfrog.com`) using their hostname. The next step, or my ideal setup, would be to have all of my various applications tied to a subdomain of `lab.wonderfulfrog.com` (except for the public facing ones) to make monitoring and working on the setup easy. It seems the Unifi OS does not support static DNS entries, so I'm currently stuck trying to figure out how to tackle this. One thought I had was using [dnsmasq](https://thekelleys.org.uk/dnsmasq/doc.html) to run a local DNS server...
+I have it set up so I can access applications using a domain name tied to the VLAN they belong to (e.g. `lab.wonderfulfrog.com`) using their hostname. The next step, or my ideal setup, would be to have all of my various applications tied to a subdomain of `lab.wonderfulfrog.com` (except for the public facing ones) to make monitoring and working on the setup easy. It seems the Unifi OS does not support static DNS entries, so I'm currently stuck trying to figure out how to tackle this. One thought I had was using [dnsmasq](https://thekelleys.org.uk/dnsmasq/doc.html) to run a local DNS server…
+
+I'm looking forward to some time visiting family where I'll be able to leave behind all the job stuff and even my hobbies. Focus on connections. Just a few more days to go!

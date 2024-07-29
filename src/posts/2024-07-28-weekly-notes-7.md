@@ -24,7 +24,7 @@ Right before we left I learned about _Crosses_ (stylized as †††), which is
 
 ## Watching
 
-We caught a showing of Robot Dreams this weekend at our little community theatre. What a charming, heartwarming, touching, and poignant movie. I think it's an incredible feat it managed to evoke so many emotions without any dialogue.
+We caught a showing of _Robot Dreams_ this weekend at our little community theatre. What a charming, heartwarming, touching, and poignant movie. I think it's an incredible feat it managed to evoke so many emotions without any dialogue.
 
 The song "September" by _Earth, Wind & Fire_ does some heavy lifting in this movie, becoming an adorable cornerstone of Dog and Robot's relationship.
 

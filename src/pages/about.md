@@ -17,7 +17,7 @@ I really like frogs, like a lot. So I made myself a mascot. They don't have a na
 
 ## Professional
 
-I'm currently looking for a new job. My previous workplace was [Metalab][metalab] as a Web Engineer for almost 5 years.
+I'm currently working for [We The Collective][wtc] as a **Front End Developer**. My previous workplace was [Metalab][metalab] as a **Web Engineer** for almost 5 years.
 
 I have a Bachelor of Science degree with a major in Computer Science from the [University of Victoria][uvic].
 
@@ -58,6 +58,7 @@ I tend to hop from interest to interest, fully engrossing myself and then moving
 
 [metalab]: https://metalab.com
 [uvic]: https://uvic.ca
+[wtc]: https://wethecollective.com
 
 [^1]: [Maggie Appleton wrote a great article][design-eng] that can explain what my role is better than I can.
 

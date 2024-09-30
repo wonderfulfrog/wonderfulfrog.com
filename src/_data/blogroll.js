@@ -28,8 +28,8 @@ const blogroll = [
     url: "https://alicebartlett.co.uk/",
   },
   {
-    title: "Arcana Computer",
-    url: "https://www.arcana.computer/",
+    title: "Justin Duke",
+    url: "https://jmduke.com/",
   },
   {
     title: "Jonas Downey",
@@ -50,10 +50,6 @@ const blogroll = [
   {
     title: "Ryan Mulligan",
     url: "https://ryanmulligan.dev/",
-  },
-  {
-    title: "cliophate",
-    url: "https://cliophate.wtf/",
   },
   {
     title: "Ryan P. Randall",
@@ -86,10 +82,6 @@ const blogroll = [
   {
     title: "Anh",
     url: "https://anhvn.com",
-  },
-  {
-    title: "Cassidy Williams",
-    url: "https://blog.cassidoo.co",
   },
 ];
 

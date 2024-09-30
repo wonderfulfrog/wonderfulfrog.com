@@ -14,6 +14,7 @@ If preferred, the [commit log is available here][commits].
 
 - Switched to [Cloudflare Pages](https://pages.cloudflare.com/) for deployments and hosting.
 - Switched to [Backblaze B2](https://www.backblaze.com/cloud-storage) for asset storage. Served through Cloudflare.
+- Added a [Feeds](/feeds) page for my collection of feeds. For now it's just my Posts.
 
 ## July 7th 2024
 

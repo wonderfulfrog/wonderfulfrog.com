@@ -16,11 +16,8 @@
             <nav class="[ flow-space-0.5 ]">
                 <ul class="[ menu ] [ cluster p-0 m-0 gap-0.5 ]" role="list">
                     <li>
-                        <span class="[ visually-hidden ]">RSS</span>
-                        <a href="/rss.xml"
-                           class="[ button ]"
-                           target="_blank"
-                           aria-label="View RSS feed">{% include "svgs/rss.svg" %}</a>
+                        <span class="[ visually-hidden ]">Feeds</span>
+                        <a href="/feeds" class="[ button ]" aria-label="View RSS feed">{% include "svgs/rss.svg" %}</a>
                     </li>
                     {% for key, url in meta.social %}
                         {% set alt = key | capitalize %}

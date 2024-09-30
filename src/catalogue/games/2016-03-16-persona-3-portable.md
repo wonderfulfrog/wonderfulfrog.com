@@ -1,7 +1,7 @@
 ---
 title: "Persona 3 Portable"
 platform: PlayStation Portable
-image: https://cdn.wonderfulfrog.com/p3p.jpg
+image: https://cdn.wonderfulfrog.com/images/p3p.jpg
 tags: ["rpg", "turn based", "persona", "single player"]
 youtube: true
 year: 2009

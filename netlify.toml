@@ -1,9 +1,0 @@
-[[plugins]]
-package = "netlify-plugin-cache"
-
-  [plugins.inputs]
-  paths = [ ".cache", "dist/assets/images" ]
-
-[build]
-  publish = "dist"
-  command = "npm run build"

@@ -2,7 +2,7 @@
 title: "You're Wrong About"
 url: https://yourewrongabout.com/
 rating: 3
-image: https://cdn.wonderfulfrog.com/youre-wrong-about.jpeg
+image: https://cdn.wonderfulfrog.com/images/youre-wrong-about.jpeg
 ---
 
 ## Favourite episodes

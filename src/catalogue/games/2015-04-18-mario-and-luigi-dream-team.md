@@ -1,7 +1,7 @@
 ---
 title: "Mario & Luigi: Dream Team"
 platform: Nintendo 3DS
-image: https://cdn.wonderfulfrog.com/MarioLuigiDreamTeam.jpg
+image: https://cdn.wonderfulfrog.com/images/MarioLuigiDreamTeam.jpg
 tags: ["rpg", "turn based", "single player"]
 year: 2013
 ---

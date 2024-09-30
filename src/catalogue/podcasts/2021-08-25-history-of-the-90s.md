@@ -1,7 +1,7 @@
 ---
 title: History of the 90s
 rating: 4
-image: https://cdn.wonderfulfrog.com/history-of-the-90s.jpeg
+image: https://cdn.wonderfulfrog.com/images/history-of-the-90s.jpeg
 url: https://curiouscast.ca/podcast/466/history-of-the-90s/
 ---
 

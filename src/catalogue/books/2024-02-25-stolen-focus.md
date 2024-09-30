@@ -4,7 +4,7 @@ subtitle: Why You Can't Pay Attention - and How to Think Deeply Again
 author: Johann Hari
 isbn: 9781526620224
 rating: 4
-image: https://cdn.wonderfulfrog.com/stolen-focus.jpg
+image: https://cdn.wonderfulfrog.com/images/stolen-focus.jpg
 tags: ["focus", "adhd", "psychology"]
 year: 2022
 ---
@@ -13,7 +13,7 @@ I found this book mostly interesting and easy to digest. Hari has a writing styl
 
 I was originally frustrated with the author because Hari kept the focus on their experience on their retreat but did not acknowledge the amount of privilege in being able to do so. I see this sort of advice frequently in the self-help sphere and I’m tired of it. It was distracting from their points regarding our relationship to our technology and the software that powers them.
 
-I’m relieved that they *eventually* acknowledged their privilege but it took at least 1/4 of the book. It was worth sticking with it because the rest of the book stops talking about the retreat and focuses more on where their research on focus and attention lead to.
+I’m relieved that they _eventually_ acknowledged their privilege but it took at least 1/4 of the book. It was worth sticking with it because the rest of the book stops talking about the retreat and focuses more on where their research on focus and attention lead to.
 
 I thought the "voodoo doll" analogy was especially apt. Facebook, Google, et al are creating what are effectively "voodoo dolls" of everyone who uses their services. As they acquire more data on a person, that "voodoo doll" becomes closer to looking and acting like them. Everything they do is in service of improving that doll - until they know you better than you know yourself!
 

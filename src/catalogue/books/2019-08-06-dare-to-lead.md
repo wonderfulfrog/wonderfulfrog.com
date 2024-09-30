@@ -3,7 +3,7 @@ title: Dare to Lead
 author: Brené Brown
 isbn: 9781473562523
 rating: 5
-image: https://cdn.wonderfulfrog.com/dare-to-lead.jpeg
+image: https://cdn.wonderfulfrog.com/images/dare-to-lead.jpeg
 tags: ["leadership", "self help", "business"]
 year: 2018
 ---

@@ -1,7 +1,7 @@
 ---
 title: Hunting Warhead
 rating: 5
-image: https://cdn.wonderfulfrog.com/hunting-warhead.webp
+image: https://cdn.wonderfulfrog.com/images/hunting-warhead.webp
 url: https://www.cbc.ca/listen/cbc-podcasts/387-hunting-warhead
 ---
 

@@ -4,7 +4,7 @@ excerpt: Everybody does it differently.
 tags: ["vim", "development"]
 ---
 
-{% image "https://cdn.wonderfulfrog.com/vimsetup.png", "A screenshot of my `vim` setup in action.", "" %}
+{% image "https://cdn.wonderfulfrog.com/images/vimsetup.png", "A screenshot of my `vim` setup in action.", "" %}
 
 I thought it would be fun to talk about my `vim` configuration. Everyone does it differently, and I wanted to toss my hat into the ring.
 
@@ -271,7 +271,7 @@ let g:coc_global_extensions = [
 \   ]
 ```
 
-This runs these `coc` plugins all the time. Since I’m always mucking about in JavaScript, this isn’t a big deal. It’s smart enough to know when I’m *not* in JavaScript and to not complain, which works for me.
+This runs these `coc` plugins all the time. Since I’m always mucking about in JavaScript, this isn’t a big deal. It’s smart enough to know when I’m _not_ in JavaScript and to not complain, which works for me.
 
 ```vim
 if isdirectory('./node_modules') && isdirectory('./node_modules/prettier')
@@ -336,14 +336,14 @@ set statusline=%f%=%m%r%h%w%y[%04l,%04v]
 
 This sets up my status line to show me what I need to know:
 
-* The file I’m editing
-* A marker if the file has been modified but not saved
-* What language mode I’m in
-* What line I’m on
-* What column I’m on
+- The file I’m editing
+- A marker if the file has been modified but not saved
+- What language mode I’m in
+- What line I’m on
+- What column I’m on
 
 ```vim
 highlight Comment cterm=italic gui=italic
 ```
 
-My font of choice is [Operator Mono](https://www.typography.com/fonts/operator/overview), and it has beautiful cursive italics that I want to see. Anything comments in the file (or certain keywords) are converted into *italics*.
+My font of choice is [Operator Mono](https://www.typography.com/fonts/operator/overview), and it has beautiful cursive italics that I want to see. Anything comments in the file (or certain keywords) are converted into _italics_.

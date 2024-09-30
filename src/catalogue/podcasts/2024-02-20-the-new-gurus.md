@@ -1,7 +1,7 @@
 ---
 title: The New Gurus
 rating: 5
-image: https://cdn.wonderfulfrog.com/the-new-gurus.webp
+image: https://cdn.wonderfulfrog.com/images/the-new-gurus.webp
 url: https://podcasts.apple.com/ca/podcast/the-new-gurus/id1659385785
 ---
 

@@ -4,7 +4,7 @@ subtitle: Unlocking the Power of Sleep and Dreams
 author: Matthew Walker
 isbn: 9781501144318
 rating: 5
-image: https://cdn.wonderfulfrog.com/why-we-sleep.jpeg
+image: https://cdn.wonderfulfrog.com/images/why-we-sleep.jpeg
 tags: ["sleep"]
 year: 2017
 ---

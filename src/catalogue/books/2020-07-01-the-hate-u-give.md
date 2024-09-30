@@ -3,7 +3,7 @@ title: The Hate U Give
 author: Angie Thomas
 isbn: 9780062498533
 rating: 5
-image: https://cdn.wonderfulfrog.com/the-hate-u-give.jpg
+image: https://cdn.wonderfulfrog.com/images/the-hate-u-give.jpg
 tags: ["fiction", "racism"]
 year: 2017
 ---

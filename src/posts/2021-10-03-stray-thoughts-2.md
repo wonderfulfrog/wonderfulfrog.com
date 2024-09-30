@@ -4,7 +4,7 @@ excerpt: Are collected thoughts really stray?
 tags: ["stray thoughts"]
 ---
 
-{% image "https://cdn.wonderfulfrog.com/collage2.jpg", "My popular albums from last.fm this week. Turnstile - Step to Rhythm, Turnstile - Nonstop Feeling, Beirut - Gallipoli, Bknapp - PS1 Beats, Japanese Breakfast- Jubilee, Chip Tanaka - Domingo, Deafheaven - Infinite Granite, Angels & Airwaves - Lifeforms, and Bknapp - Crossing Animals" , "From last.fm" %}
+{% image "https://cdn.wonderfulfrog.com/images/collage2.jpg", "My popular albums from last.fm this week. Turnstile - Step to Rhythm, Turnstile - Nonstop Feeling, Beirut - Gallipoli, Bknapp - PS1 Beats, Japanese Breakfast- Jubilee, Chip Tanaka - Domingo, Deafheaven - Infinite Granite, Angels & Airwaves - Lifeforms, and Bknapp - Crossing Animals" , "From last.fm" %}
 
 Going strong on Diablo 2. I’ve reached the point where I have Hell Mephisto on farm now and I’m grinding for new gear. It’s a relaxing game to play with its rote paths. I like to get into the groove and kinda zone out. It’s meditative for me, in a sense.
 

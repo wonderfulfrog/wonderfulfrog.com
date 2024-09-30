@@ -10,6 +10,11 @@ All the changes that are fit to read!
 
 If preferred, the [commit log is available here][commits].
 
+## September 29th 2024
+
+- Switched to [Cloudflare Pages](https://pages.cloudflare.com/) for deployments and hosting.
+- Switched to [Backblaze B2](https://www.backblaze.com/cloud-storage) for asset storage. Served through Cloudflare.
+
 ## July 7th 2024
 
 - Update `<published>` tag to `<pubDate>` tag to match [RSS 2.0 spec](https://www.rssboard.org/rss-specification#ltpubdategtSubelementOfLtitemgt)

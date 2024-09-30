@@ -1,7 +1,7 @@
 ---
 title: What We Don’t Talk About When We Talk About Fat
 author: Aubrey Gordon
-image: https://cdn.wonderfulfrog.com/9780807041307_p0_v1_s1200x630.jpg
+image: https://cdn.wonderfulfrog.com/images/9780807041307_p0_v1_s1200x630.jpg
 url: https://www.yourfatfriend.com/book
 isbn: 9780807041307
 rating: 5

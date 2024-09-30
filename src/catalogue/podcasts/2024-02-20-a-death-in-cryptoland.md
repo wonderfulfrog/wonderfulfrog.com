@@ -1,7 +1,7 @@
 ---
 title: A Death in Cryptoland
 rating: 5
-image: https://cdn.wonderfulfrog.com/adeathincryptoland-podcast-template-lg.avif
+image: https://cdn.wonderfulfrog.com/images/adeathincryptoland-podcast-template-lg.avif
 url: https://www.cbc.ca/listen/cbc-podcasts/904-a-death-in-cryptoland
 ---
 

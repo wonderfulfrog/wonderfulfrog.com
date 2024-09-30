@@ -4,7 +4,7 @@ subtitle: An Easy & Proven Way to Build Good Habits & Break Bad Ones
 author: James Clear
 isbn: 9780735211292
 rating: 5
-image: https://cdn.wonderfulfrog.com/atomic-habits.jpeg
+image: https://cdn.wonderfulfrog.com/images/atomic-habits.jpeg
 tags: ["psychology", "self help"]
 year: 2018
 ---

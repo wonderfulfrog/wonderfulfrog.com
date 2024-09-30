@@ -1,7 +1,7 @@
 ---
 title: The Flamethrowers
 rating: 5
-image: https://cdn.wonderfulfrog.com/theflamethrowers-podcast-template.avif
+image: https://cdn.wonderfulfrog.com/images/theflamethrowers-podcast-template.avif
 url: https://www.cbc.ca/listen/cbc-podcasts/1026-the-flamethrowers
 ---
 

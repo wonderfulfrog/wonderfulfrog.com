@@ -1,7 +1,7 @@
 ---
 title: Boys Like Me
 rating: 5
-image: https://cdn.wonderfulfrog.com/BoysLikeMe-podcast-template.avif
+image: https://cdn.wonderfulfrog.com/images/BoysLikeMe-podcast-template.avif
 url: https://www.cbc.ca/listen/cbc-podcasts/1035-boys-like-me
 ---
 
@@ -14,4 +14,3 @@ It's so easy to become radicalized because it happens so slowly - it's insidious
 I can't remember when I got out of the movement. It happened slowly if I remember right. I'd disagree with a small point, and then I found myself disagreeing more until I recognized it for what it was. Nothing but hateful rhetoric.
 
 It can be hard for a lot of men to reach that point, though. They become so entrenched in their beliefs that they can't think rationally anymore.
-

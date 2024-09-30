@@ -1,7 +1,7 @@
 ---
 title: Citizen Sleeper
 platform: PC
-image: https://cdn.wonderfulfrog.com/Citizen_Sleeper_cover_art.jpg
+image: https://cdn.wonderfulfrog.com/images/Citizen_Sleeper_cover_art.jpg
 tags: ["narrative", "visual novel", "indie", "rpg", "single player"]
 year: 2022
 rating: 4

@@ -4,7 +4,7 @@ excerpt: A look back at what happened in 2019 - professionally.  For me.
 tags: ["career", "growth", "personal", "react", "swift"]
 ---
 
-{% image "https://cdn.wonderfulfrog.com/dude-pretending-to-read.png", "A dude sitting on a chair with legs crossed casually pretending to read but seemingly looking off into the distance with a confident smile, or perhaps to look at a neat dog. From Open Doodles.", "A dude sitting on a chair with legs crossed casually pretending to read but seemingly looking off into the distance with a confident smile, or perhaps to look at a neat dog. From Open Doodles." %}
+{% image "https://cdn.wonderfulfrog.com/images/dude-pretending-to-read.png", "A dude sitting on a chair with legs crossed casually pretending to read but seemingly looking off into the distance with a confident smile, or perhaps to look at a neat dog. From Open Doodles.", "A dude sitting on a chair with legs crossed casually pretending to read but seemingly looking off into the distance with a confident smile, or perhaps to look at a neat dog. From Open Doodles." %}
 
 2019 was a slow year for professional development. As things started to stagnate near the end of the year, I sensed it was time to move on and look for a new job. Before we talk about 2019, I wanted to revisit the goals from 2018:
 

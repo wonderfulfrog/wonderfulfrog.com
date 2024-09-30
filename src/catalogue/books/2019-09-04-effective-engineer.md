@@ -4,7 +4,7 @@ subtitle: How to Leverage Your Efforts In Software Engineering to Make a Disprop
 author: Edmond Lau
 isbn: 9780996128100
 rating: 4
-image: https://cdn.wonderfulfrog.com/the-effective-engineer.jpeg
+image: https://cdn.wonderfulfrog.com/images/the-effective-engineer.jpeg
 tags: ["leadership", "software development", "technology"]
 year: 2015
 ---

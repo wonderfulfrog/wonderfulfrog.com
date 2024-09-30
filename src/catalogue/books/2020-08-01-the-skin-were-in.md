@@ -4,7 +4,7 @@ subtitle: A Year of Black Resistance and Power
 author: Desmond Cole
 isbn: 9780385686341
 rating: 5
-image: https://cdn.wonderfulfrog.com/the-skin-were-in.jpeg
+image: https://cdn.wonderfulfrog.com/images/the-skin-were-in.jpeg
 tags: ["politics", "canada", "racism"]
 year: 2020
 ---

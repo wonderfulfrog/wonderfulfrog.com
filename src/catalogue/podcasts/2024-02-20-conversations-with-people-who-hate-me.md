@@ -1,7 +1,7 @@
 ---
 title: Conversations With People Who Hate Me
 rating: 5
-image: https://cdn.wonderfulfrog.com/Conversations-With-People-Who-Hate-Me-Square-Logo.png
+image: https://cdn.wonderfulfrog.com/images/Conversations-With-People-Who-Hate-Me-Square-Logo.png
 url: https://www.dylanmarron.com/podcast
 ---
 

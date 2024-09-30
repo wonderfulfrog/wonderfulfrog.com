@@ -10,6 +10,3 @@ src/_includes/scripts
 
 # secret data
 .env
-
-# Local Netlify folder
-.netlify

@@ -3,7 +3,7 @@ title: Astrophysics for People in a Hurry
 author: Neil deGrasse Tyson
 isbn: 9780393609394
 rating: 2
-image: https://cdn.wonderfulfrog.com/astro-in-hurry.jpeg
+image: https://cdn.wonderfulfrog.com/images/astro-in-hurry.jpeg
 tags: ["science"]
 year: 2017
 ---

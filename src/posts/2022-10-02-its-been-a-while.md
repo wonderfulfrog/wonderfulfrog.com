@@ -6,24 +6,24 @@ tags: ["gba", "updates", "burnout"]
 
 What’s happened since my last post?
 
-* I got engaged!
-* We bought a condo!
-* I finished several projects at work! One of them even launched in the App Store and Play Store!
-* I found out I love home projects (I love DIY)!
-* I learned a lot about home electrical.
-* We painted a lot! Almost the whole place.
-* I got a Steam Deck and I love it!
-* I got into custom keyboards for a bit. I’m kinda off the hobby now. I’d still like to make one, but stop there.
-* I put together a BBQ all by myself!
-* I dyed my hair for the first time.
-* I learned how to solder.
-* We took a trip to Calgary.
-* I got to be a beekeeper for about 15 minutes!
-* I cut and re-soldered Hue light strips. That was time-consuming but worth it! They are flexible now.
-* I got my Playdate (finally)!
-* I got into modding GameBoys.
-* I burned out (oops)
-* I learned how to install a faucet and drain.
+- I got engaged!
+- We bought a condo!
+- I finished several projects at work! One of them even launched in the App Store and Play Store!
+- I found out I love home projects (I love DIY)!
+- I learned a lot about home electrical.
+- We painted a lot! Almost the whole place.
+- I got a Steam Deck and I love it!
+- I got into custom keyboards for a bit. I’m kinda off the hobby now. I’d still like to make one, but stop there.
+- I put together a BBQ all by myself!
+- I dyed my hair for the first time.
+- I learned how to solder.
+- We took a trip to Calgary.
+- I got to be a beekeeper for about 15 minutes!
+- I cut and re-soldered Hue light strips. That was time-consuming but worth it! They are flexible now.
+- I got my Playdate (finally)!
+- I got into modding GameBoys.
+- I burned out (oops)
+- I learned how to install a faucet and drain.
 
 ## Engaged
 
@@ -31,17 +31,17 @@ I proposed to my girlfriend after we got the keys to our new place. I tried my b
 
 ## Home Projects
 
-I *love* home projects. The place we bought needs refreshing. I took it upon myself to update all the light fixtures and light switches by myself (just kidding I had help), and I managed to it without us being electrocuted! I did manage to arc electricity once but that's no big deal, right?
+I _love_ home projects. The place we bought needs refreshing. I took it upon myself to update all the light fixtures and light switches by myself (just kidding I had help), and I managed to it without us being electrocuted! I did manage to arc electricity once but that's no big deal, right?
 
 I had a minor panic attack after that, but I'm alive and still have a healthy respect for electricity!
 
 I've since:
 
-* Built a shelf from scratch
-* Replaced a bathroom faucet
-* Fixed a leaky drain trap
-* Installed curtains and rods
-* Painted nearly every room
+- Built a shelf from scratch
+- Replaced a bathroom faucet
+- Fixed a leaky drain trap
+- Installed curtains and rods
+- Painted nearly every room
 
 I'm certain I'm forgetting something.
 
@@ -65,7 +65,7 @@ I went with Funnyplaying’s IPS screen, a dehum/dehiss kit, a new shell/buttons
 
 The installation process for a new screen couldn't be easier, even for a newbie like me. There are a few solder points and running wire. Getting the dehum/dehiss kit aligned properly was tricky. I’m not sure I detect any difference using it either. The rest was re-assembly. Behold!
 
-{% image "https://cdn.wonderfulfrog.com/q5f6yoq.jpg", "A modified Game Boy Advance with a clear shell, teal buttons/trim, and an IPS screen.", "" %}
+{% image "https://cdn.wonderfulfrog.com/images/q5f6yoq.jpg", "A modified Game Boy Advance with a clear shell, teal buttons/trim, and an IPS screen.", "" %}
 
 I decided to try my hand at modding an original Game Boy which was a lot of fun, but 30 year old parts make it challenging. I’ll make a separate post someday about my trials and tribulations.
 

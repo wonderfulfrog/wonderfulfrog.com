@@ -4,7 +4,7 @@ subtitle: Ruth Bader Ginsburg's Life & Work
 author: Victoria Ortiz
 isbn: 978054497364
 rating: 4
-image: https://cdn.wonderfulfrog.com/dissenter-on-the-bench.jpeg
+image: https://cdn.wonderfulfrog.com/images/dissenter-on-the-bench.jpeg
 tags: ["biography"]
 year: 2019
 ---

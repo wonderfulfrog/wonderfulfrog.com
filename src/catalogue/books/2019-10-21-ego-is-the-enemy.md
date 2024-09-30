@@ -3,7 +3,7 @@ title: Ego Is The Enemy
 author: Ryan Holiday
 isbn: 9781591847816
 rating: 3
-image: https://cdn.wonderfulfrog.com/ego-is-the-enemy.jpeg
+image: https://cdn.wonderfulfrog.com/images/ego-is-the-enemy.jpeg
 tags: ["stoicism", "self help"]
 year: 2016
 ---

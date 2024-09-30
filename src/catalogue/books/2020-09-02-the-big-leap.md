@@ -4,7 +4,7 @@ subtitle: Conquer Your Hidden Fear and Take Life to the Next Level
 author: Gay Hendricks
 isbn: 9780061735363
 rating: 3
-image: https://cdn.wonderfulfrog.com/the-big-leap.jpg
+image: https://cdn.wonderfulfrog.com/images/the-big-leap.jpg
 tags: ["self help"]
 year: 2009
 ---

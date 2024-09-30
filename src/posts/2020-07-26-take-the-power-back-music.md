@@ -84,11 +84,11 @@ Well, turns out iTunes — sorry — Music(.app) — has a handy feature called 
 - Matched (uploaded and updated using iTunes Match)
 - Uploaded (uploaded tracks saved using iTunes Match)
 
-{% image "https://cdn.wonderfulfrog.com/amm.png" , "Smart Playlist filters", "The various settings to get my 'Apple Music music'" %}
+{% image "https://cdn.wonderfulfrog.com/images/amm.png" , "Smart Playlist filters", "The various settings to get my 'Apple Music music'" %}
 
 I also added a filter to show music only from May 18th 2018. This date is important because it was the day I re-subscribed to Apple Music after not using it past the free trial. That cut down my list to 2,221 songs. Thus, I had my Apple Music music.
 
-{% image "https://cdn.wonderfulfrog.com/stats.png" , "2,221 total songs", "2,221 total songs - wow!" %}
+{% image "https://cdn.wonderfulfrog.com/images/stats.png" , "2,221 total songs", "2,221 total songs - wow!" %}
 
 I also made another Smart Playlist to find all of my Purchased music (1,107 songs), and downloaded those. A grand total of about 3,300 songs from Apple.
 
@@ -106,7 +106,7 @@ One caveat is that any tracks that were Matched (using iTunes Match) were likely
 
 This step I knew I wanted to use as many automated tools as possible. There are likely a ton of databases out there for music, but I ended up liking [MusicBrainz](https://musicbrainz.org) the most. Especially because they have an app — [Picard](https://picard.musicbrainz.org) — that makes re-tagging very seamless. This is especially useful for YouTube rips as they don’t have any IDv3 tags, but Picard can scan by audio signature and match that way instead! Really cool. It wasn’t always right, but it was generally very close most of the time.
 
-{% image "https://cdn.wonderfulfrog.com/60percent.gif" , "60% of the time, it works every time", "" %}
+{% image "https://cdn.wonderfulfrog.com/images/60percent.gif" , "60% of the time, it works every time", "" %}
 
 This worked pretty well at the start, but it was a fairly manual process. I’d have to:
 

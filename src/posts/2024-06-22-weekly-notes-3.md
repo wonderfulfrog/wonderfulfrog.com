@@ -19,8 +19,7 @@ I won't lie, it's been hard to keep my spirits up lately. But this small amount 
 
 I've been working on my [Three.js Journey](https://threejs-journey.com/) course as well, which has been a welcome educational distraction. My crowning achievement may be the RAMONA CUBE.
 
-<video src="https://wonderfulfrog.b-cdn.net/ramonacube.mp4" controls
-width="100%"></video>
+<video src="https://cdn.wonderfulfrog.com/videos/ramonacube.mp4" controls width="100%"></video>
 
 ## Links
 
@@ -107,4 +106,4 @@ I spent about a week trialing switching over to the [Catppuccin](https://github.
 
 If you're looking for resources on nerding out in your terminal, I have two that I've been particularly enjoying: [typecraft](https://www.youtube.com/@typecraft_dev) and [Dreams of Code](https://www.youtube.com/@dreamsofcode)/[Dreams of Autonomy](https://www.youtube.com/@dreamsofautonomy)
 
-{% image "https://wonderfulfrog.b-cdn.net/tmux.png", "A screenshot of a terminal window. On the left is a file tree, and in the center is a code editor. On the right side are two tmux panes split horizontally, with a terminal in the top and a running 11ty server on the bottom.", "A `tmux` session open while editing this site!" %}
+{% image "https://cdn.wonderfulfrog.com/images/tmux.png", "A screenshot of a terminal window. On the left is a file tree, and in the center is a code editor. On the right side are two tmux panes split horizontally, with a terminal in the top and a running 11ty server on the bottom.", "A `tmux` session open while editing this site!" %}

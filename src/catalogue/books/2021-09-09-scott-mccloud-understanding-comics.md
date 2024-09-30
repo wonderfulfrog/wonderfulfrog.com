@@ -4,7 +4,7 @@ subtitle: The Invisible Art
 author: Scott McCloud
 isbn: 9780060976255
 rating: 5
-image: https://cdn.wonderfulfrog.com/understanding-comics.jpg
+image: https://cdn.wonderfulfrog.com/images/understanding-comics.jpg
 tags: ["comics", "art", "history"]
 year: 1993
 ---

@@ -4,7 +4,7 @@ publisher: Image Comics
 author: Majorie Liu, Sana Takeda
 volume: 1
 year: 2017
-image: https://cdn.wonderfulfrog.com/monstress-vol-1.jpeg
+image: https://cdn.wonderfulfrog.com/images/monstress-vol-1.jpeg
 rating: 3
 tags: ["fantasy"]
 ---

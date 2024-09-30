@@ -1,7 +1,7 @@
 ---
 title: The Redemption of Jar Jar Binks
 rating: 5
-image: https://cdn.wonderfulfrog.com/Jar_Jar_250x250.jpg
+image: https://cdn.wonderfulfrog.com/images/Jar_Jar_250x250.jpg
 url: https://www.ted.com/podcasts/the-redemption-of-jar-jar-binks
 ---
 

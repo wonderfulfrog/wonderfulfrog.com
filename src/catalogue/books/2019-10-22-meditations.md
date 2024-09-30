@@ -3,7 +3,7 @@ title: Meditations
 author: Marcus Aurelius
 isbn: 9780140449334
 rating: 2
-image: https://cdn.wonderfulfrog.com/meditations.jpeg
+image: https://cdn.wonderfulfrog.com/images/meditations.jpeg
 tags: ["stoicism"]
 year: 180
 ---

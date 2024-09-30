@@ -1,7 +1,7 @@
 ---
 title: Project Unabom
 rating: 5
-image: https://cdn.wonderfulfrog.com/313x0w.webp
+image: https://cdn.wonderfulfrog.com/images/313x0w.webp
 url: https://podcasts.apple.com/ca/podcast/project-unabom/id1627613321
 ---
 

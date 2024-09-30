@@ -4,7 +4,7 @@ subtitle: A Counterintuitive Approach to Living a Good Life
 author: Mark Manson
 isbn: 9780062457714
 rating: 5
-image: https://cdn.wonderfulfrog.com/subtle-art.jpeg
+image: https://cdn.wonderfulfrog.com/images/subtle-art.jpeg
 tags: ["self help"]
 year: 2016
 ---

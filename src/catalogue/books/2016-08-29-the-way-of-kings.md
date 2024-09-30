@@ -3,7 +3,7 @@ title: The Way of Kings
 author: Brandon Sanderson
 isbn: 9780765326355
 rating: 5
-image: https://cdn.wonderfulfrog.com/the-way-of-kings.jpeg
+image: https://cdn.wonderfulfrog.com/images/the-way-of-kings.jpeg
 tags: ["fantasy"]
 year: 2010
 ---

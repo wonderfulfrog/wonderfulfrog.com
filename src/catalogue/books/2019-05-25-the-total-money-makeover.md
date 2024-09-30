@@ -4,7 +4,7 @@ subtitle: A Proven Plan for Financial Fitness
 author: Dave Ramsey
 isbn: 9780785289081
 rating: 3
-image: https://cdn.wonderfulfrog.com/total-money-makeover.webp
+image: https://cdn.wonderfulfrog.com/images/total-money-makeover.webp
 tags: ["finance"]
 year: 2003
 ---

@@ -13,7 +13,7 @@ tags:
   - disco elysium
 ---
 
-{% image "https://cdn.wonderfulfrog.com/ramonadithered.jpg", "test", "Our cat Ramona but she's been dithered!" %}
+{% image "https://cdn.wonderfulfrog.com/images/ramonadithered.jpg", "test", "Our cat Ramona but she's been dithered!" %}
 
 I don't write enough anymore, and this felt low effort enough that I could at least write _something_. And then the ball started rolling and I wrote even more!
 
@@ -61,7 +61,7 @@ Since playing around with Supabase I'd like to utilize it somehow for a feature 
 
 ### Disco Elysium
 
-{% image "https://cdn.wonderfulfrog.com/6039889e2f27c47416b8eb4434f07dcfb9c1a42575577c53eeaddfab6dd17809.jpg", "A screenshot of the game Disco Elysium with the partner Kim Kitsuragi shooting at another character in the shot. The bullet has just been fired and everybody is mid-surprise and shock.", "Disco Elysium" %}
+{% image "https://cdn.wonderfulfrog.com/images/6039889e2f27c47416b8eb4434f07dcfb9c1a42575577c53eeaddfab6dd17809.jpg", "A screenshot of the game Disco Elysium with the partner Kim Kitsuragi shooting at another character in the shot. The bullet has just been fired and everybody is mid-surprise and shock.", "Disco Elysium" %}
 
 What an incredible game. This is a genre-defining game, for sure. I've finished it and I immediately went in for another run. The first game I structured my character around Empathy, Inland Empire (or in other words, associating thoughts with inanimate objects), and Authority. It was interesting having a sensitive character who is able to read the subtle changes in someone's facial expression or body language. My Inland Empire would come up with ridiculous hunches, and a staggering number turned out to be correct. Sometimes the different skills (your various forms of inner thoughts) would fight with each other, or get things wrong. They are often right, but can't always be trusted.
 
@@ -73,7 +73,7 @@ I want to keep writing about this game but I'll reserve it for a dedicated post.
 
 ### Pentiment
 
-{% image "https://cdn.wonderfulfrog.com/pentiment.jpeg", "A screenshot of the game Pentiment, which is shown inside a storybook with Latin writing. The protagonist is overlaid a piece of artwork matching the pose of the artwork. He is opposite of another character saying 'Like Dido, we ordinary women are merely tools in the tales of men. We can never be the protagonists of our own stories.'", "Pentiment" %}
+{% image "https://cdn.wonderfulfrog.com/images/pentiment.jpeg", "A screenshot of the game Pentiment, which is shown inside a storybook with Latin writing. The protagonist is overlaid a piece of artwork matching the pose of the artwork. He is opposite of another character saying 'Like Dido, we ordinary women are merely tools in the tales of men. We can never be the protagonists of our own stories.'", "Pentiment" %}
 
 We just started playing Pentiment the other night. It's a painterly game that takes place in 16th century Europe. The typography in this game is stunning. Each character seems to have a different style of writing. Sometimes mistakes are made and the text is erased and written in correctly. It's always beautifully revealed with the flair of someone actually writing.
 

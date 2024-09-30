@@ -6,7 +6,7 @@ tags: [email, protonmail]
 
 I've been an avid Gmail user since its inception sometime in 2004. I remember hunting for a beta invite back when they were highly coveted. I have received 25,467 emails and sent 1,738. The first email I sent was to a local shop to buy my old G3 iMac.
 
-{% image "https://cdn.wonderfulfrog.com/first_gmail.png", "A screenshot of the 'Welcome to Gmail' email everyone received when they first opened their account", "Gmail was different, alright." %}
+{% image "https://cdn.wonderfulfrog.com/images/first_gmail.png", "A screenshot of the 'Welcome to Gmail' email everyone received when they first opened their account", "Gmail was different, alright." %}
 
 In the years since I got my Gmail account I've realized that I've become the product for Google. My information - who I am, my interests, everything - is their endgame. Plain and simple I don't like that they have this information. I doubt there is any way for me to reliably erase myself from their databases, so I've opted to do the next best thing - try to reduce the amount of new information acquired.
 

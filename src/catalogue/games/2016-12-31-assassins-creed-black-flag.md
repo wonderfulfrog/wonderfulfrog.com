@@ -1,7 +1,7 @@
 ---
 title: "Assassin's Creed IV: Black Flag"
 platform: PlayStation 3
-image: https://cdn.wonderfulfrog.com/Assassin's_Creed_IV_-_Black_Flag_cover.jpg
+image: https://cdn.wonderfulfrog.com/images/Assassin's_Creed_IV_-_Black_Flag_cover.jpg
 tags: ["action", "adventure", "single player"]
 year: 2013
 ---
@@ -12,9 +12,9 @@ It also helps when the protagonist is likable - Connor was just pretty flat over
 
 I'd have to rank the Assassin's Creed games as follows:
 
-1) ACII
-2) AC: Brotherhood
-3) ACIV: Black Flag
-4) Assassin's Creed
-5) ACIII
-6) AC: Revelations
+1. ACII
+2. AC: Brotherhood
+3. ACIV: Black Flag
+4. Assassin's Creed
+5. ACIII
+6. AC: Revelations

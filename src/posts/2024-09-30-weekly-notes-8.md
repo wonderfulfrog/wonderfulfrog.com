@@ -1,7 +1,7 @@
 ---
 title: "Weekly Notes #8"
 date: 2024-09-30T10:00:00-07:00
-excerpt: The week of a a long gap between the last one.
+excerpt: The week of a long gap between the last one.
 tags:
   - work
   - networking

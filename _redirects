@@ -3,8 +3,8 @@ http://devinlumley.com/* https://wonderfulfrog.com/:splat 301
 https://devinlumley.com/* https://wonderfulfrog.com/:splat 301
 
 # RSS
-/rss.xml /feeds/posts 301
-/feed.xml /feeds/posts 301
+/rss.xml /feeds/posts.xml 301
+/feed.xml /feeds/posts.xml 301
 
 # Pages
 /about/uses /uses 301

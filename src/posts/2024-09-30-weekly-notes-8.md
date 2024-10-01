@@ -17,8 +17,7 @@ I've been at my new job at [We The Collective](wethecollective.com) for almost t
 
 I've learned a lot about myself in the last few weeks and how I've established my working styles. I've really been able to flex my CSS muscles though, which has been very rewarding for me. I felt like I've learned many new techniques in my short time already!
 
-My last post mentioned some network rack upgrades, which I've finished! I purchased a 6U rack and mounted it on the wall. I've learned the hard way that screws going into studs really benefit from a ratchet. Use the right screws next time.
-Other than that, everything went smoothly! I decided to go with a patch panel and keystone jacks after I was persuaded by my local sysadmin.
+My last post mentioned some network rack upgrades, which I've finished! I purchased a 6U rack and mounted it on the wall. I've learned the hard way that screws going into studs really benefit from a ratchet. Use the right screws next time. Other than that, everything went smoothly! I decided to go with a patch panel and keystone jacks after I was persuaded by my local sysadmin.
 
 While I was performing all these network upgrades, I also took the time to pull all of our old 5E cable and upgrade it to Cat6. This also allowed me to make all of the cable a bit longer, which gives me some slack to potentially hide the cables within the drywall in the future. For now I used some channeling which hides the cables cleanly.
 
@@ -28,13 +27,13 @@ We also finally dug into our storage room problem. The biggest portion was the b
 
 Over the weekend I converted my site from Netlify to Cloudflare. Earlier this year, another round of layoffs at Netlify have me questioning the company's future. I didn't know what I wanted to do at the time, but eventually settled on using Cloudflare (specifically their [Pages](https://pages.cloudflare.com/) feature, more on that in a bit).
 
-I've previously used Cloudflare years ago when they were newer. At some point I switched away - I don't recall why - and was happy with whatever solution I had at the time. Some time later they were in the news for being the infrastructure keeping the notorious site Kiwifarms online. If you're unaware, Kiwifarms was the home for hateful people to facilitate harassment (typically in real life), and far worse - this is only the surface. Clouflare was the target of a pressure campaign to drop Kiwifarms, but Cloudflare dug in their heels and refused to budge, saying they won't drop someone just because they run afoul of their morals or beliefs.
+I've previously used Cloudflare years ago when they were newer. At some point I switched away - I don't recall why - and was happy with whatever solution I had at the time. Some time later they were in the news for being the infrastructure keeping the notorious site Kiwifarms online. If you're unaware, Kiwifarms was the home for hateful people to facilitate real-life harassment and doxxing (among more awful things). Clouflare was the target of a pressure campaign to drop Kiwifarms, but Cloudflare dug in their heels and refused to budge, saying they won't drop someone just because they run afoul of their morals or beliefs.
 
 Eventually though, [Cloudflare relented](https://blog.cloudflare.com/kiwifarms-blocked/) and blocked Kiwifarms. According to Cloudflare, it had nothing to do with the pressure campaign but rather their seeing an increasingly aggressive responsive from Kiwifarms users.
 
 I didn't like that it took so long for Clouflare to respond, let alone do anything. I understand their position and not wanting to be arbiters of who is and isn't allowed to effectively have protection on the internet... but on the other hand Kiwifarms had been doing actual, real harm to people. The response felt like a move of desperation to save face rather than claiming it was for safety. I'm happy for the result, but not how they got there. I decided to avoid using Cloudflare for the foreseeable future.
 
-Recently though, Cloudflare has been doing something that interests me very much - [blocking AI crawlers](https://blog.cloudflare.com/declaring-your-aindependence-block-ai-bots-scrapers-and-crawlers-with-a-single-click/). I found the breakdown of their customers who wanted to block AI crawlers - a staggering 85%. It seems clear to me that nobody wants this garbage, and yet the industry is continuing to push and push for this to happen.
+Recently though, Cloudflare has been doing something that interests me very much - [blocking AI crawlers](https://blog.cloudflare.com/declaring-your-aindependence-block-ai-bots-scrapers-and-crawlers-with-a-single-click/). I found the breakdown of their customers who wanted to block AI crawlers interesting - it's a staggering 85%. It seems clear to me that nobody wants this garbage, and yet the industry is continuing to push and push for this to happen.
 
 I've been using tools like [Dark Visitors](https://darkvisitors.com/) to curtail AI crawlers from touching my site, but that assumes that said AI crawlers are respecting `robots.txt`, which I'm fairly certain the majority aren't. If [the news around Perplexity](https://rknight.me/blog/perplexity-ai-is-lying-about-its-user-agent/) is any indication, they _definitely_ aren't.
 
@@ -76,39 +75,39 @@ A fun read into Brain Baking's musical history. Incidentally their beginnings we
 
 ## Playing
 
-I recently got back into World of Warcraft (as I usually do) since there was a new expansion released back in August. _The War Within_ has been a great experience as a solo player, as there is so much available to you now that it feels like you can truly experience everything without having to deal with the playerbase. That being said, I've found a cool group of players to push content with which has been my first experience doing "end game content" with other people.
+I recently got back into _World of Warcraft_ (as I usually do) since there was a new expansion released back in August. _The War Within_ has been a great experience as a solo player, as there is so much available to you now that it feels like you can truly experience everything without having to deal with the playerbase. That being said, I've found a cool group of players to push content with which has been my first experience doing "end game content" with other people.
 
 The Delves feature is a ton of fun. It's like a traditional 5-man dungeon built for one player. It tends to be a straightforward process of A to B, but each delve has a few different scenarios that change your goal. Each location is diverse and interesting. I particularly enjoy the Fungal Folly delve for its rich wildlife, but The Sinkhole is fun for its entirely underwater aesthetic!
 
 {% image "https://cdn.wonderfulfrog.com/images/tww-vista.png", "Screenshot of the game World of Warcraft - the player character and an NPC called 'Olbarig' are seen on a cliffside looking off to mountains in the distance. The cliff features bright green grass and wildflowers. In the distance, birds can be seen flying around the mountains. The sky features painter-like clouds, that look like smooth, flowing brushstrokes.", "The War Within is full of stunning views, despite some locations being underground!" %}
 
-This time around I initially started out as a Mage. I hadn't played the class in years (probably not since the original base game) and thought it was time to give it a proper try. Arcane is a lot of fun with a simpler rotation. Eventually though my alt-itis took over and I made a Druid. I'd never actually taken a Druid past the first few introductory levels so this was almost like a new experience. I particularly enjoy tanking, as its a pivotal role in dungeons (but do not enjoy the reaction from certain players when things go wrong). It's been a bit stressful, but as I mentioned I have a chill group of buds to play with who aren't concerned with 100% perfect play.
+This time around I initially started out as a mage. I hadn't played the class in years (probably not since the original game) and thought it was time to give it a proper try. Arcane is a lot of fun with a simpler rotation. Eventually though my alt-itis[^1] took over and I made a druid. I'd never actually taken a druid past the first few introductory levels so this was almost like a new experience. I particularly enjoy tanking, as its a pivotal role in dungeons (but do not enjoy the reaction from certain players when things go wrong). It's been a bit stressful, but as I mentioned I have a chill group of buds to play with who aren't concerned with 100% perfect play.
 
-Without a doubt I'd say _The War Within_ is the best WoW has been in years. I hope this represents the direction of the next upcoming expansions in the _Worldsoul_ trilogy, because I like what I see!
+Without a doubt I'd say _The War Within_ is the best _World of Warcraft_ has been in years. I hope this represents the direction of the next upcoming expansions in the _Worldsoul_ trilogy, because I like what I see!
 
 ## Reading
 
 {% image "https://cdn.wonderfulfrog.com/images/drizzt-books.png", "A horizontal grid of book covers - the books are titled Homeland, Exile, and Sojourn.", "I know you shouldn't judge a book by its cover, but I love the artwork on these!" %}
 
-I've been in a bit of a (continuing) reading slump lately. I was craving some pulpy fantasy books - something that I can read easily and enjoy. Somehow I ended up in the series of Drizzt books (which there are now close to 40) by R.A. Salvatore, and started with the introductory trilogy (Homeland, Exile, and Sojourn). I was enthralled! They are easy to read, but quite engrossing. I'm enjoying my time in the Forgotten Realms. I typically read before bed to help myself fall asleep, but these books have been so interesting and fun that I find myself more awake than when I started reading!
+I've been in a bit of a (continuing) reading slump lately. I was craving some pulpy fantasy books - something that I can read easily and enjoy. Somehow I ended up in the series of Drizzt books (which there are now close to 40) by R.A. Salvatore, and started with The Dark Elf Trilogy (_Homeland_, _Exile_, and _Sojourn_). I was enthralled! They are easy to read, and quite engrossing. I'm enjoying my time in the Forgotten Realms. I typically read before bed to help myself fall asleep, but these books have been so interesting and fun that I find myself more awake than when I started reading!
 
-I've already finished Homeland and Exile, and have started Sojourn. I'm going through them quickly!
+I've already finished _Homeland_ and _Exile_, and have started _Sojourn_. I'm going through them quickly!
 
 ## Listening
 
 {% image "https://cdn.wonderfulfrog.com/images/the-rise-and-fall-of-a-midwest-princess.jpg", "Album art from the album 'The Rise and Fall of a Midwest Princess' by Chappell Roan. On the cover is Chappell Roan with bright red hair and a small tiara. Her expression suggests impatience or uninterested in having her photo taken, with a slight glower. Her turquoise dress has a sash draped over it that reads 'Chappell'.", "" %}
 
-I don't know about you, but Chappell Roan has got her music stuck in my little head. I've had ["HOT TO GO!"](https://www.youtube.com/watch?v=xaPNR-_Cfn0&pp=ygUXY2hhcHBlbGwgcm9hbiBob3QgdG8gZ28%3D) stuck in my head for days. The whole album is chock full of bangers and catchy tunes. I can't get them out of my head! I also recently learned her name is pronounced like a (church) chapel and not like Chappelle in Dave.
+I don't know about you, but _Chappell Roan_ has music has been stuck in my head. I've had ["HOT TO GO!"](https://www.youtube.com/watch?v=xaPNR-_Cfn0&pp=ygUXY2hhcHBlbGwgcm9hbiBob3QgdG8gZ28%3D) earworm'd for days. The whole album is chock full of bangers and catchy tunes. I can't stop humming and singing them! I also recently learned her name is pronounced like a (church) chapel and not like Chappelle in Dave.
 
-For the most recently Bandcamp Friday, I bought up the entire [Softcult](https://softcult.bandcamp.com/) discography. They're like a grungy shoegaze and I'm _here for it_. I haven't found another band like their sound (so if you know of any, please tell me!).
+For the most recently Bandcamp Friday, I bought up the entire _[Softcult](https://softcult.bandcamp.com/)_ discography. They're like a grungy shoegaze and I'm _here for it_. I haven't found another band like their sound (so if you know of any, please tell me!).
 
-Lady Gaga released a new album as a companion piece to her upcoming performance in _Joker: Folie à Deux_. What's inside is a fun reimagining of some classic songs and jazz staples. I don't know, something about it just clicked immediately and I loved it. I want to listen again and again!
+_Lady Gaga_ released a new album as a companion piece to her upcoming performance in _Joker: Folie à Deux_ called _Harlequin_. What's inside is a fun re-imagining of some classic songs and jazz staples. I don't know, something about it just clicked immediately and I loved it. I want to listen again and again!
 
-My absolute top (according to last.fm anyway) would have to be Dream Thing's _Satisfactory_, which if you couldn't guess is the soundtrack to one of my favourite timesinks ever [_Satisfactory_](https://store.steampowered.com/app/526870/Satisfactory/) (recently had their 1.0 release!). I don't know how they did it, but something about this music makes it the perfect sort of thing to keep on task with. The ambient synths weave in and out seamlessly and deliver a vibe that just makes me concentrate. Or lose track of time.
+My absolute top (according to last.fm anyway) would have to be Dream Thing's _Satisfactory_, which if you couldn't guess is the soundtrack to one of my favourite games ever [_Satisfactory_](https://store.steampowered.com/app/526870/Satisfactory/) (recently had their 1.0 release!). I don't know how they did it, but something about this music makes it the perfect sort of thing to keep on task with. The ambient synths weave in and out seamlessly and deliver a vibe that just makes me concentrate. Or lose track of time.
 
 ## Watching
 
-Not much to report on this one. Lately we've been watching reruns of _Fraiser_, which is fun. Fraiser really is a jackass though, and honestly the episodes where he isn't in them tend to be my favourites. Like when Niles took over for him running his show for a week.
+Not much to report on this one. Lately we've been watching reruns of _Fraiser_, which is fun. Fraiser really is a jackass though, and the episodes where he isn't in them tend to be my favourites. Like when Niles took over for him running his show for a week.
 
 I saw _Megalopolis_ in theaters this weekend. It was certainly an experience, that's for sure. [I summarized my thoughts on Letterboxd](https://letterboxd.com/wonderfulfrog/film/megalopolis-2024/):
 
@@ -121,3 +120,5 @@ I honestly hope I never see it again, if only so that my memory of the movie bec
 ---
 
 That's all that in a nutshell! I want to return to a weekly schedule again, so here's me being optimistic saying "I'll see you next week!"
+
+[^1]: For the non-MMO gamers, an "alt" is a character other than your "main" (the character you tend to play the most). I love making alts and leveling.

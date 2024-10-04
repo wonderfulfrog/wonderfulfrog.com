@@ -5,6 +5,7 @@
   "repository": "https://github.com/wonderfulfrog/wonderfulfrog.com",
   "author": "Devin Haska",
   "license": "MIT",
+  "type": "module",
   "scripts": {
     "debug": "DEBUG=Eleventy* eleventy --serve --watch",
     "start": "eleventy --serve --watch --quiet",

@@ -1,4 +1,4 @@
-const Image = require("@11ty/eleventy-img");
+import Image from "@11ty/eleventy-img";
 
 const stringifyAttributes = (attributeMap) => {
   return Object.entries(attributeMap)
@@ -73,4 +73,4 @@ const imageShortcode = async (
   return imageElement;
 };
 
-module.exports = imageShortcode;
+export default imageShortcode;

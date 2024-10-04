@@ -1,6 +1,6 @@
-const htmlmin = require("html-minifier-terser");
+import htmlmin from "html-minifier-terser";
 
-module.exports = (eleventyConfig) => {
+export default function (eleventyConfig) {
   eleventyConfig.addTransform("html-minify", (content, path) => {
     if (path && path.endsWith(".html")) {
       return htmlmin.minify(content, {
@@ -17,4 +17,4 @@ module.exports = (eleventyConfig) => {
     }
     return content;
   });
-};
+}

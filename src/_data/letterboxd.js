@@ -1,10 +1,10 @@
-require("dotenv").config();
+import "dotenv/config";
 
-const EleventyFetch = require("@11ty/eleventy-fetch");
-const cheerio = require("cheerio");
-const dayjs = require("dayjs");
-const utc = require("dayjs/plugin/utc");
-const relativeTime = require("dayjs/plugin/relativeTime");
+import EleventyFetch from "@11ty/eleventy-fetch";
+import cheerio from "cheerio";
+import dayjs from "dayjs";
+import utc from "dayjs/plugin/utc.js";
+import relativeTime from "dayjs/plugin/relativeTime.js";
 
 dayjs.extend(utc);
 dayjs.extend(relativeTime);
@@ -65,4 +65,4 @@ const fetchRecentMovies = async () => {
   return recentMovies;
 };
 
-module.exports = fetchRecentMovies;
+export default fetchRecentMovies;

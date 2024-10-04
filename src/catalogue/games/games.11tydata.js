@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   layout: "layouts/catalogue-item",
   tags: "game",
   permalink: "catalogue/games/{{ page.fileSlug }}/index.html",

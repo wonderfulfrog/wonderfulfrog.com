@@ -1,9 +1,9 @@
-require("dotenv").config();
+import "dotenv/config";
 
-const EleventyFetch = require("@11ty/eleventy-fetch");
-const dayjs = require("dayjs");
-const utc = require("dayjs/plugin/utc");
-const relativeTime = require("dayjs/plugin/relativeTime");
+import EleventyFetch from "@11ty/eleventy-fetch";
+import dayjs from "dayjs";
+import utc from "dayjs/plugin/utc.js";
+import relativeTime from "dayjs/plugin/relativeTime.js";
 
 dayjs.extend(utc);
 dayjs.extend(relativeTime);
@@ -87,7 +87,7 @@ const fetchRecentTracks = async () => {
   return recentTracks;
 };
 
-module.exports = async function () {
+export default async function () {
   const recentTracks = await fetchRecentTracks();
   const recentAlbums = await fetchRecentAlbums();
 
@@ -95,4 +95,4 @@ module.exports = async function () {
     recentTracks,
     recentAlbums,
   };
-};
+}

@@ -1,13 +1,11 @@
-const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
-const pluginRss = require("@11ty/eleventy-plugin-rss");
-const pluginNoRobots = require("eleventy-plugin-no-robots");
+import UpgradeHelper from "@11ty/eleventy-upgrade-help";
+import pluginRss from "@11ty/eleventy-plugin-rss";
+import pluginNoRobots from "eleventy-plugin-no-robots";
 
-const {
-  catalogueByType,
-  postsByTag,
-} = require("./config/collections/index.js");
-const { dir } = require("./config/constants.js");
-const {
+import { catalogueByType, postsByTag } from "./config/collections/index.js";
+
+import { dir } from "./config/constants.js";
+import {
   allTagCounts,
   entries,
   filter,
@@ -20,12 +18,14 @@ const {
   organizeByDate,
   pluralize,
   values,
-} = require("./config/filters/index.js");
-const markdown = require("./config/plugins/markdown.js");
-const imageShortcode = require("./config/shortcodes/image.js");
-const liteYoutube = require("./config/shortcodes/youtube.js");
+} from "./config/filters/index.js";
+import markdown from "./config/plugins/markdown.js";
+import imageShortcode from "./config/shortcodes/image.js";
+import liteYoutube from "./config/shortcodes/youtube.js";
 
-module.exports = (eleventyConfig) => {
+import htmlConfigTransform from "./config/transforms/html-config.js";
+
+export default function (eleventyConfig) {
   eleventyConfig.addWatchTarget("./src/css");
 
   // 	--------------------- Plugins ---------------------
@@ -51,7 +51,7 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addFilter("pluralize", pluralize);
 
   // 	--------------------- Custom Transforms -----------------------
-  eleventyConfig.addPlugin(require("./config/transforms/html-config.js"));
+  eleventyConfig.addPlugin(htmlConfigTransform);
 
   // 	--------------------- Passthrough File Copy -----------------------
   ["src/assets/fonts/", "src/assets/images"].forEach((path) =>
@@ -78,4 +78,4 @@ module.exports = (eleventyConfig) => {
 
     dir,
   };
-};
+}

@@ -1,4 +1,4 @@
-const fonts = require("../../config/design-tokens/fonts.json");
+import fonts from "../../config/design-tokens/fonts.js";
 
 const fallbacks = [
   "-apple-system",
@@ -42,4 +42,4 @@ const fontFamilyToCss = (type, value) =>
 
 const css = `:root{${fontsToCss(fonts)}}`;
 
-module.exports = css;
+export default css;

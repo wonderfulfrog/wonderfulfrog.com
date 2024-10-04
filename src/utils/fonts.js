@@ -1,7 +1,3 @@
-const path = require("path");
+import path from "path";
 
-const getFontUrl = (src) => path.join("/assets/fonts", src);
-
-module.exports = {
-  getFontUrl,
-};
+export const getFontUrl = (src) => path.join("/assets/fonts", src);

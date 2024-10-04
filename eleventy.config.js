@@ -1,3 +1,4 @@
+const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginNoRobots = require("eleventy-plugin-no-robots");
 
@@ -64,6 +65,8 @@ module.exports = (eleventyConfig) => {
   // 	--------------------- Shortcodes -----------------------
   eleventyConfig.addShortcode("image", imageShortcode);
   eleventyConfig.addShortcode("youtube", liteYoutube);
+
+  eleventyConfig.addPlugin(UpgradeHelper);
 
   return {
     // Optional (default is set): If your site deploys to a subdirectory, change `pathPrefix`, for example with with GitHub pages

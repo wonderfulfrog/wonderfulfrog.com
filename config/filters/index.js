@@ -29,14 +29,6 @@ export const organizeByDate = (collection) => {
   return collectionByDate;
 };
 
-const allTags = (collection, ignore = []) => {
-  const tagSet = new Set(collection.flatMap((item) => item.data.tags));
-
-  ignore.forEach((tag) => tagSet.delete(tag));
-
-  return [...tagSet];
-};
-
 export const allTagCounts = (collection, ignore = ["post"]) => {
   if (!collection.length) {
     throw new Error("Invalid collection, no items");

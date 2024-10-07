@@ -14,7 +14,7 @@ Just two links this week.
 
 ## [Growth Hack](https://pxlnv.com/blog/growth-hack/)
 
-I'm willing to bet most folks didn't know that apps could see _all_ of their contacts when they give access.
+I'll bet most folks didn't know that apps could see _all_ of their contacts when they give access.
 
 I am thrilled by this change in iOS 18. I haven’t given an app access to my contacts since I heard about apps in general slurping up all contact data. I honestly have no sympathy for any business that has violating privacy as a requirement.
 
@@ -32,7 +32,7 @@ Another wonderful tribute band I saw was for Black Sabbath, including "Ozzy" bit
 
 Facing the facts here - there is simply no way to see certain bands anymore. Tribute bands are the only solution. Don't downplay the fun that can be had - some of them really go all out!
 
-I'm willing to bet that there's a local (or at least regional) band that pays tribute to your favourite classic rock (or whichever genre of) band. You might just have to go look for it. And of course, if you just want more music you like, [there's always ways to find it](https://www.wonderfulfrog.com/posts/music-today-is-great/)!
+I'm sure there's a local (or at least regional) band that pays tribute to your favourite classic rock (or whichever genre of) band. You might just have to go look for it. And of course, if you just want more music you like, [there's always ways to find it](https://www.wonderfulfrog.com/posts/music-today-is-great/)!
 
 ## Listening
 

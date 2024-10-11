@@ -148,6 +148,13 @@ figure figcaption {
   font-size: 0.8rem;
   line-height: 1.125rem;
   text-align: center;
+  margin-block-start: var(--flow-space, 1em);
+}
+
+picture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 picture source,

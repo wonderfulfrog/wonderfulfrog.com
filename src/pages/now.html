@@ -25,7 +25,11 @@ description: What's going on now and all the latest with myself.
                         {{ album.artist }} - {{ album.album }}
                     {% endset %}
                     <p class="[ visually-hidden ]">{{ textContent }}</p>
-                    {% image album.imageUrl, "", "", "", textContent %}
+                    {% if album.imageUrl %}
+                        <img src="{{ album.imageUrl }}" alt="" />
+                    {% else %}
+                        <div>{{ textContent }}</div>
+                    {% endif %}
                 </a>
             </li>
         {% endfor %}
@@ -43,7 +47,11 @@ description: What's going on now and all the latest with myself.
                         {{ movie.title }}
                     {% endset %}
                     <p class="[ visually-hidden ]">{{ movie.title }}</p>
-                    {% image movie.imgSrc, "", "", "" , textContent %}
+                    {% if movie.imgSrc %}
+                        <img src="{{ movie.imgSrc }}" alt="" />
+                    {% else %}
+                        <div>{{ textContent }}</div>
+                    {% endif %}
                 </a>
             </li>
         {% endfor %}

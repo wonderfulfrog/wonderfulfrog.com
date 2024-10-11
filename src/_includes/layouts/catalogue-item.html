@@ -7,7 +7,6 @@ imageCaption: ""
 {% set filteredTags = tags | filterCatalogueTags %}
 {% from "macros/date.njk" import format %}
 {% from "macros/utils.njk" import stars %}
-
 <article class="[ catalogue ] [ flow ]">
     <header class="[ catalogue-header ] [ flow flow-space-1 ]">
         {{ format(page.date) }}
@@ -15,30 +14,35 @@ imageCaption: ""
         {% if subtitle %}<h2>{{ subtitle }}</h2>{% endif %}
         {% if rating %}<div class="[ text-skew ]">{{ stars(rating) }}</div>{% endif %}
         {% if tertiary or year %}
-        <div class="[ cluster text-skew flow-space-1 ]">
-            {% if tertiary %}
-                <div class="[ line-height-m ]">
-                    {{ tertiary | safe }}
-                </div>
-            {% endif %}
-            {% if year %}
-                <p class="[ font-size-s ]"><span class="[ text-fadeText ]">ca.</span> {{ year }}</p>
-            {% endif %}
-        </div>
+            <div class="[ cluster text-skew flow-space-1 ]">
+                {% if tertiary %}<div class="[ line-height-m ]">{{ tertiary | safe }}</div>{% endif %}
+                {% if year %}
+                    <p class="[ font-size-s ]">
+                        <span class="[ text-fadeText ]">ca.</span> {{ year }}
+                    </p>
+                {% endif %}
+            </div>
         {% endif %}
         {% if filteredTags | length > 0 %}
-            <ul class="[ categories ] [ cluster p-0 flow-space-2 line-height-m ]" role="list">
+            <ul class="[ categories ] [ cluster p-0 flow-space-2 line-height-m ]"
+                role="list">
                 {% for tag in filteredTags %}<li class="[ flex gap-0.25 ]">{{ tag }}</li>{% endfor %}
             </ul>
         {% endif %}
     </header>
     {% if image %}
-        {% image image, imageAlt, imageCaption, "[ my-3 ]" %}
+        <div class="[ my-3 ]">
+            <img src="{{ image }}" alt="{{ imageAlt }}" title="{{ imageCaption }}" />
+        </div>
     {% endif %}
     {{ content | safe }}
     {% if url %}
-        <a href="{{ url }}" class="[ flex mt-1 items-center gap-0.5 ]" target="_blank" rel="external noreferrer noopener">
-            {% include "svgs/link.svg" %}{{ linkTitle }}
+        <a href="{{ url }}"
+           class="[ flex mt-1 items-center gap-0.5 ]"
+           target="_blank"
+           rel="external noreferrer noopener">
+            {% include "svgs/link.svg" %}
+            {{ linkTitle }}
         </a>
     {% endif %}
 </article>

@@ -3,6 +3,7 @@ title: Checking In
 excerpt: Kept you waiting, huh?
 tags: ["checking in"]
 ---
+
 I’ve dropped my regular writing habit as of late. I wanted to write a quick post to say I’m doing alright. What’s happened recently?
 
 I saw a documentary called [The Rescue](https://www.imdb.com/title/tt9098872/) which was all about rescuing the boy’s soccer team that got stuck in caves that flooded. I expected to enjoy it, but this delivered an unexpected emotional impact. You kinda “know the plot” going into the movie, and yet it’s paced perfectly to unfold the story in a dramatic fashion. The absolute overwhelming joy I felt at the end was incredible. If you have to see one documentary this year (and you should), see this one.

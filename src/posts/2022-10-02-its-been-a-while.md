@@ -65,7 +65,7 @@ I went with Funnyplaying’s IPS screen, a dehum/dehiss kit, a new shell/buttons
 
 The installation process for a new screen couldn't be easier, even for a newbie like me. There are a few solder points and running wire. Getting the dehum/dehiss kit aligned properly was tricky. I’m not sure I detect any difference using it either. The rest was re-assembly. Behold!
 
-{% image "https://cdn.wonderfulfrog.com/images/q5f6yoq.jpg", "A modified Game Boy Advance with a clear shell, teal buttons/trim, and an IPS screen.", "" %}
+![A modified Game Boy Advance with a clear shell, teal buttons/trim, and an IPS screen.](https://cdn.wonderfulfrog.com/images/q5f6yoq.jpg)
 
 I decided to try my hand at modding an original Game Boy which was a lot of fun, but 30 year old parts make it challenging. I’ll make a separate post someday about my trials and tribulations.
 

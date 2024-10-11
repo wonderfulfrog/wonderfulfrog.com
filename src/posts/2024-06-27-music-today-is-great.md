@@ -32,7 +32,7 @@ I'm going to suggest using Bandcamp because it's my favourite service, but that 
 
 [Bandcamp][bandcamp] has wonderful tools for finding music that fits into practically any genre you like. You can be as broad as "alternative", or get into the weeds with something like "industrial shoegaze" (and I hope something like that exists, even though I just made it up). Being able to mix and match like this is so powerful!
 
-{% image "https://cdn.wonderfulfrog.com/images/bandcamp-screenshot.jpg", "Screenshot of bandcamp.com showing a list of artists that match the genres 'shoegaze' and 'industrial'. There is a grid of album art on the left, with a panel on the right showing the currently playing song or album.", "I'm so happy to see that 'industrial shoegaze' is indeed a thing!" %}
+![Screenshot of bandcamp.com showing a list of artists that match the genres 'shoegaze' and 'industrial'. There is a grid of album art on the left, with a panel on the right showing the currently playing song or album.](https://cdn.wonderfulfrog.com/images/bandcamp-screenshot.jpg "I'm so happy to see that 'industrial shoegaze' is indeed a thing!")
 
 All you need to do is start typing your favourite genre into the search bar and search by "Music tagged with 'your genre'". That's it! You now have a feed of music to try and sample, it's just that easy. New music is being added all the time, so you can keep coming back for more. If you're feeling extra spicy, you can use the "surprise me" sort option and see what you get.
 

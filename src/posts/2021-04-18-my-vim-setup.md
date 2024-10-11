@@ -4,7 +4,7 @@ excerpt: Everybody does it differently.
 tags: ["vim", "development"]
 ---
 
-{% image "https://cdn.wonderfulfrog.com/images/vimsetup.png", "A screenshot of my `vim` setup in action.", "" %}
+![A screenshot of my `vim` setup in action.](https://cdn.wonderfulfrog.com/images/vimsetup.png)
 
 I thought it would be fun to talk about my `vim` configuration. Everyone does it differently, and I wanted to toss my hat into the ring.
 

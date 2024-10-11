@@ -10,7 +10,7 @@ tags:
 youtube: true
 ---
 
-{% image "https://cdn.wonderfulfrog.com/images/felbear.png", "Screenshot from the game World of Warcraft - the player character is inside a magical city called Dalaran. The player character is a druid in 'Bear Form', where the bear is a bipedal, gorilla-looking creature. The bear has glowing green runes that look like tattoos, with magical green energy spewing out of the tattoos like a green mist.", "It may have taken me a number of tries, but I'm very proud of unlocking this Bear form!" %}
+![Screenshot from the game World of Warcraft - the player character is inside a magical city called Dalaran. The player character is a druid in 'Bear Form', where the bear is a bipedal, gorilla-looking creature. The bear has glowing green runes that look like tattoos, with magical green energy spewing out of the tattoos like a green mist.](https://cdn.wonderfulfrog.com/images/felbear.png "It may have taken me a number of tries, but I'm very proud of unlocking this Bear form!")
 
 I know it's been a while since my last post. Life has been busy (but everyone says that). I haven't felt like I've had the energy to write lately. I've spent a lot of time adjusting from my old routines and my new job. Speaking of...
 
@@ -42,7 +42,7 @@ The other part of this is that no matter how hard Dark Visitors tries, there are
 
 `robots.txt` is unfortunately based on the honor system. You hope that crawlers are respecting it. It feels like a battle I can't win.
 
-{% image "https://cdn.wonderfulfrog.com/images/cloudflare-meme.jpg", "A meme template - the first panel features a villain saying 'You can't defeat me.' with the text 'AI Crawlers' superimposed on top, the next panel features a superhero saying 'I know, but he can' with a very conspicuous mountain behind him. The last panel features the aforementioned mountain exploding, with the text 'Cloudflare' superimposed on the mountain.", "I am aware of the adage of putting all of one's eggs in one's basket... perhaps 'the enemy of my enemy is my friend' is appropriate here." %}
+![A meme template - the first panel features a villain saying 'You can't defeat me.' with the text 'AI Crawlers' superimposed on top, the next panel features a superhero saying 'I know, but he can' with a very conspicuous mountain behind him. The last panel features the aforementioned mountain exploding, with the text 'Cloudflare' superimposed on the mountain.](https://cdn.wonderfulfrog.com/images/cloudflare-meme.jpg "I am aware of the adage of putting all of one's eggs in one's basket... perhaps 'the enemy of my enemy is my friend' is appropriate here.")
 
 Cloudflare does what `robots.txt` cannot - it blocks traffic from even getting to your site in the first place. They can't access `robots.txt` - they can't access anything!
 
@@ -80,7 +80,7 @@ I recently got back into _World of Warcraft_ (as I usually do) since there was a
 
 The Delves feature is a ton of fun. It's like a traditional 5-man dungeon built for one player. It tends to be a straightforward process of A to B, but each delve has a few different scenarios that change your goal. Each location is diverse and interesting. I particularly enjoy the Fungal Folly delve for its rich wildlife, but The Sinkhole is fun for its entirely underwater aesthetic!
 
-{% image "https://cdn.wonderfulfrog.com/images/tww-vista.png", "Screenshot of the game World of Warcraft - the player character and an NPC called 'Olbarig' are seen on a cliffside looking off to mountains in the distance. The cliff features bright green grass and wildflowers. In the distance, birds can be seen flying around the mountains. The sky features painter-like clouds, that look like smooth, flowing brushstrokes.", "The War Within is full of stunning views, despite some locations being underground!" %}
+![Screenshot of the game World of Warcraft - the player character and an NPC called 'Olbarig' are seen on a cliffside looking off to mountains in the distance. The cliff features bright green grass and wildflowers. In the distance, birds can be seen flying around the mountains. The sky features painter-like clouds, that look like smooth, flowing brushstrokes.](https://cdn.wonderfulfrog.com/images/tww-vista.png "The War Within is full of stunning views, despite some locations being underground!")
 
 This time around I initially started out as a mage. I hadn't played the class in years (probably not since the original game) and thought it was time to give it a proper try. Arcane is a lot of fun with a simpler rotation. Eventually though my alt-itis[^1] took over and I made a druid. I'd never actually taken a druid past the first few introductory levels so this was almost like a new experience. I particularly enjoy tanking, as its a pivotal role in dungeons (but do not enjoy the reaction from certain players when things go wrong). It's been a bit stressful, but as I mentioned I have a chill group of buds to play with who aren't concerned with 100% perfect play.
 
@@ -88,7 +88,7 @@ Without a doubt I'd say _The War Within_ is the best _World of Warcraft_ has bee
 
 ## Reading
 
-{% image "https://cdn.wonderfulfrog.com/images/drizzt-books.png", "A horizontal grid of book covers - the books are titled Homeland, Exile, and Sojourn.", "I know you shouldn't judge a book by its cover, but I love the artwork on these!" %}
+![A horizontal grid of book covers - the books are titled Homeland, Exile, and Sojourn.](https://cdn.wonderfulfrog.com/images/drizzt-books.png "I know you shouldn't judge a book by its cover, but I love the artwork on these!")
 
 I've been in a bit of a (continuing) reading slump lately. I was craving some pulpy fantasy books - something that I can read easily and enjoy. Somehow I ended up in the series of Drizzt books (which there are now close to 40) by R.A. Salvatore, and started with The Dark Elf Trilogy (_Homeland_, _Exile_, and _Sojourn_). I was enthralled! They are easy to read, and quite engrossing. I'm enjoying my time in the Forgotten Realms. I typically read before bed to help myself fall asleep, but these books have been so interesting and fun that I find myself more awake than when I started reading!
 
@@ -96,7 +96,7 @@ I've already finished _Homeland_ and _Exile_, and have started _Sojourn_. I'm go
 
 ## Listening
 
-{% image "https://cdn.wonderfulfrog.com/images/the-rise-and-fall-of-a-midwest-princess.jpg", "Album art from the album 'The Rise and Fall of a Midwest Princess' by Chappell Roan. On the cover is Chappell Roan with bright red hair and a small tiara. Her expression suggests impatience or uninterested in having her photo taken, with a slight glower. Her turquoise dress has a sash draped over it that reads 'Chappell'.", "" %}
+![Album art from the album 'The Rise and Fall of a Midwest Princess' by Chappell Roan. On the cover is Chappell Roan with bright red hair and a small tiara. Her expression suggests impatience or uninterested in having her photo taken, with a slight glower. Her turquoise dress has a sash draped over it that reads 'Chappell'.](https://cdn.wonderfulfrog.com/images/the-rise-and-fall-of-a-midwest-princess.jpg """")
 
 I don't know about you, but _Chappell Roan_ has music has been stuck in my head. I've had ["HOT TO GO!"](https://www.youtube.com/watch?v=xaPNR-_Cfn0&pp=ygUXY2hhcHBlbGwgcm9hbiBob3QgdG8gZ28%3D) earworm'd for days. The whole album is chock full of bangers and catchy tunes. I can't stop humming and singing them! I also recently learned her name is pronounced like a (church) chapel and not like Chappelle in Dave.
 

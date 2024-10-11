@@ -4,7 +4,7 @@ excerpt: I can't decide what to call my weekly posts anymore.
 tags: ["stray thoughts"]
 ---
 
-{% image "https://cdn.wonderfulfrog.com/images/collage.jpeg", "My popular last.fm scrobbles from the last week. From the top left: David Bowie - The Next Day, Turnstile - GLOW ON, Sleigh Bells - Texis, Angels & Airwaves - Lifeforms, Thrice - Horizons/East, Deafheaven - Infinite Granite, Japanese Breakfast - Jubilee, The Slang - Divide, Tyler, The Creator - IGOR", "From last.fm" %}
+![My popular last.fm scrobbles from the last week. From the top left: David Bowie - The Next Day, Turnstile - GLOW ON, Sleigh Bells - Texis, Angels & Airwaves - Lifeforms, Thrice - Horizons/East, Deafheaven - Infinite Granite, Japanese Breakfast - Jubilee, The Slang - Divide, Tyler, The Creator - IGOR](https://cdn.wonderfulfrog.com/images/collage.jpeg "From last.fm")
 
 Been fiending [Diablo 2: Resurrected][d2r] since it came out. I’ve been playing the original on and off for years. It was the first game I can recall that I saved up my own money for. I went to the (now defunct) game store downtown and bought their copy in the display window outside. Before I knew it I made my Necromancer and slaying the demons of Hell! My Mom surely must've bought it for me since I wasn't even close to 17 yet.
 

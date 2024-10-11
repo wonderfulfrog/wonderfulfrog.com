@@ -13,7 +13,7 @@ Here's a non-exhaustive list of topics you'll find here: web development, music,
 
 I really like frogs, like a lot. So I made myself a mascot. They don't have a name yet, but perhaps you can think of one?
 
-{% image "https://cdn.wonderfulfrog.com/images/logo.svg", "A pixel art version of a frog. They are currently unnamed.", "What should we call them?" %}
+![A pixel art version of a frog. They are currently unnamed.](https://cdn.wonderfulfrog.com/images/logo.svg "What should we call them?")
 
 ## Professional
 

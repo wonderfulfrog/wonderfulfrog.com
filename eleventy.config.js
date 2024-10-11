@@ -1,6 +1,7 @@
 import UpgradeHelper from "@11ty/eleventy-upgrade-help";
 import pluginRss from "@11ty/eleventy-plugin-rss";
 import pluginNoRobots from "eleventy-plugin-no-robots";
+import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 
 import { catalogueByType, postsByTag } from "./config/collections/index.js";
 
@@ -20,7 +21,6 @@ import {
   values,
 } from "./config/filters/index.js";
 import markdown from "./config/plugins/markdown.js";
-import imageShortcode from "./config/shortcodes/image.js";
 import liteYoutube from "./config/shortcodes/youtube.js";
 
 import htmlConfigTransform from "./config/transforms/html-config.js";
@@ -53,6 +53,23 @@ export default function (eleventyConfig) {
   // 	--------------------- Custom Transforms -----------------------
   eleventyConfig.addPlugin(htmlConfigTransform);
 
+  // Image Transforms
+  // Works with any <img> tag in output files.
+  eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
+    extensions: "html",
+
+    formats: ["webp", "jpeg"],
+
+    sharpOptions: {
+      animated: true,
+    },
+
+    defaultAttributes: {
+      loading: "lazy",
+      decoding: "async",
+    },
+  });
+
   // 	--------------------- Passthrough File Copy -----------------------
   ["src/assets/fonts/", "src/assets/images"].forEach((path) =>
     eleventyConfig.addPassthroughCopy(path),
@@ -63,9 +80,9 @@ export default function (eleventyConfig) {
   eleventyConfig.setLibrary("md", markdown);
 
   // 	--------------------- Shortcodes -----------------------
-  eleventyConfig.addShortcode("image", imageShortcode);
   eleventyConfig.addShortcode("youtube", liteYoutube);
 
+  // TODO: Delete me before launch
   eleventyConfig.addPlugin(UpgradeHelper);
 
   return {

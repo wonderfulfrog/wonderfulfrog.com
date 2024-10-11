@@ -11,7 +11,7 @@ I've always had a fascination with space and astronomy. I hope that one day I ca
 
 The photo in question is [this one here](https://www.nasa.gov/image-article/apollo-8-earthrise/), taken during the Apollo 8 mission by Bill Anders.
 
-{% image "https://cdn.wonderfulfrog.com/images/earthrise.jpg", "A photo of Earth peeking from behind the moon, from the perspective of the Apollo 8 spacecraft. The Earth is vibrant blue, with sweeping white clouds across the surface. The moon contrasts the setting with a craggy, gray surface.", "Earthrise" %}
+![A photo of Earth peeking from behind the moon, from the perspective of the Apollo 8 spacecraft. The Earth is vibrant blue, with sweeping white clouds across the surface. The moon contrasts the setting with a craggy, gray surface.](https://cdn.wonderfulfrog.com/images/earthrise.jpg "Earthrise")
 
 This video by [Phil Edwards](https://www.youtube.com/@PhilEdwardsInc) goes into the weeds of how a simple photograph was achieved. I figured the story was pretty simple: an astronaut picked up the camera and snapped a pic and that was that - not so!
 

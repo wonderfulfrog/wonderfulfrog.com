@@ -1,13 +1,32 @@
 .pill {
-  background-color: var(--color-surface);
-  border-radius: var(--spacing-1);
-  display: flex;
+  display: inline-flex;
+  align-items: center;
   padding-inline: var(--spacing-1);
   padding-block: var(--spacing-0\.5);
   gap: var(--spacing-0\.5);
-  transition:
-    transform var(--transition-duration),
-    background-color 75ms;
+  position: relative;
+
+  transition: transform 0.1s ease;
+
+  &::before,
+  &::after {
+    position: absolute;
+    inset: 0;
+    content: "";
+    z-index: -1;
+    border-radius: var(--spacing-1);
+
+    transition: opacity 0.3s ease;
+  }
+
+  &::before {
+    background-color: var(--color-surface);
+  }
+
+  &::after {
+    background-color: var(--color-text);
+    opacity: 0;
+  }
 }
 
 .pill[data-state="small"] {
@@ -28,13 +47,22 @@
   border-radius: var(--spacing-0\.5);
 }
 
-.pill:not([data-state]):hover {
-  background-color: var(--color-text);
+button.pill:hover,
+a[href].pill:hover {
   color: var(--color-primary);
   transform: translateY(-2px);
+
+  &::before {
+    opacity: 0;
+  }
+
+  &::after {
+    opacity: 1;
+  }
 }
 
-.pill:not([data-state]):active {
+button.pill:active,
+a[href].pill:active {
   transform: translateY(2px);
 }
 
@@ -46,6 +74,9 @@ a.pill {
   color: var(--color-fadeText);
 }
 
-.pill:not([data-state]):hover .pill-count {
-  color: var(--color-border);
+button.pill:hover,
+a[href].pill:hover {
+  .pill-count {
+    color: var(--color-border);
+  }
 }

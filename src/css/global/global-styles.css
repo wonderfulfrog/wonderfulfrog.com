@@ -140,6 +140,9 @@ pre {
 }
 
 figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-inline: 0;
 }
 
@@ -149,12 +152,6 @@ figure figcaption {
   line-height: 1.125rem;
   text-align: center;
   margin-block-start: var(--flow-space, 1em);
-}
-
-picture {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 picture source,

@@ -14,7 +14,7 @@ youtube: true
 
 I know it's been a while since my last post. Life has been busy (but everyone says that). I haven't felt like I've had the energy to write lately. I've spent a lot of time adjusting from my old routines and my new job. Speaking of...
 
-I've been at my new job at [We The Collective](wethecollective.com) for almost three months now. When my manager told me that my 3-month check-in was coming up I couldn't believe it.
+I've been at my new job for almost three months now. When my manager told me that my 3-month check-in was coming up I couldn't believe it.
 
 I've learned a lot about myself in the last few weeks and how I've established my working styles. I've really been able to flex my CSS muscles though, which has been very rewarding for me. I felt like I've learned many new techniques in my short time already!
 

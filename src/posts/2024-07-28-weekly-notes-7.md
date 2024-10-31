@@ -12,7 +12,7 @@ Apologies for missing last week's notes. We just got back from vacation, and I w
 
 Our trip was a ton of fun. One of my highlights was getting to go kayaking for the first time ever. My wife and I enjoyed it so much that we are looking into getting kayaks for ourselves. We got lots of family connection and spending time with friends. I didn't end up winning that hat though, because I severely underestimated how many points I needed. Yes, I could've bought one… but that's not the point!
 
-I also started my new job! Yes, I am employed again! I'm working for [We The Collective](https://wethecollective.com/) as a Front End Developer. I received the job offer letter during our trip which was a nice surprise! I started on the 23rd, so my first week is finished. A lot of new stuff to digest, meeting lots of new people, but I'm excited to really sink my teeth into some projects soon!
+I also started my new job! Yes, I am employed again! I'm working as a Front End Developer. I received the job offer letter during our trip which was a nice surprise! I started on the 23rd, so my first week is finished. A lot of new stuff to digest, meeting lots of new people, but I'm excited to really sink my teeth into some projects soon!
 
 This week has been a busy one for me, so this post will be a shorter one.
 

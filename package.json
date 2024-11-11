@@ -7,9 +7,9 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "debug": "DEBUG=Eleventy* eleventy --serve --watch",
-    "start": "eleventy --serve --watch --quiet",
-    "build": "eleventy"
+    "debug": "DEBUG=Eleventy* npx @11ty/eleventy",
+    "start": "npx @11ty/eleventy --serve --quiet",
+    "build": "npx @11ty/eleventy"
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0",

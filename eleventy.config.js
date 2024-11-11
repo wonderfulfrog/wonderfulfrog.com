@@ -1,4 +1,3 @@
-import UpgradeHelper from "@11ty/eleventy-upgrade-help";
 import pluginRss from "@11ty/eleventy-plugin-rss";
 import pluginNoRobots from "eleventy-plugin-no-robots";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
@@ -81,9 +80,6 @@ export default function (eleventyConfig) {
 
   // 	--------------------- Shortcodes -----------------------
   eleventyConfig.addShortcode("youtube", liteYoutube);
-
-  // TODO: Delete me before launch
-  eleventyConfig.addPlugin(UpgradeHelper);
 
   return {
     // Optional (default is set): If your site deploys to a subdirectory, change `pathPrefix`, for example with with GitHub pages

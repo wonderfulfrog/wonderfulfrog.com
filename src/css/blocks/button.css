@@ -88,3 +88,15 @@
     }
   }
 }
+
+.button__count {
+  color: var(--color-fadeText);
+}
+
+@media (hover: hover) {
+  .button:hover {
+    .button__count {
+      color: var(--color-border);
+    }
+  }
+}

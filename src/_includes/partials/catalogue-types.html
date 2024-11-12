@@ -1,11 +1,11 @@
 {% set catalogueTypes = collections.catalogueByType | keys %}
 <ul class="[ cluster p-0 gap-0.5 ]" role="list">
     <li>
-        <a class="[ pill ]" href="/catalogue">all<span class="[ pill-count ]">{{ collections.catalogue | length }}</span></a>
+        <a class="[ button ]" href="/catalogue">all<span class="[ button__count ]">{{ collections.catalogue | length }}</span></a>
     </li>
     {% for type in catalogueTypes %}
         <li>
-            <a class="[ pill ]" href="/catalogue/{{ type | pluralize }}">{{ type | pluralize }}<span class="[ pill-count ]">{{ collections.catalogueByType[ type ] | length }}</span></a>
+            <a class="[ button ]" href="/catalogue/{{ type | pluralize }}">{{ type | pluralize }}<span class="[ button__count ]">{{ collections.catalogueByType[ type ] | length }}</span></a>
         </li>
     {% endfor %}
 </ul>

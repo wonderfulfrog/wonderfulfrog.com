@@ -13,7 +13,7 @@ eleventyComputed:
 ---
 
 {% from "macros/catalogue.njk" import yearList %}
-<h1>Catalogue: {{ type | pluralize | capitalize }}</h1>
+<h1>{{ type | pluralize | capitalize }}</h1>
 {% include "partials/catalogue-types.html" %}
 {% set itemsByYear = collections.catalogueByType[type] | reverse | organizeByDate %}
 {% set years = itemsByYear | keys | sort("desc") %}

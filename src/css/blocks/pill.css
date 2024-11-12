@@ -1,82 +1,11 @@
 .pill {
   display: inline-flex;
   align-items: center;
-  padding-inline: var(--spacing-1);
-  padding-block: var(--spacing-0\.5);
-  gap: var(--spacing-0\.5);
-  position: relative;
-
-  transition: transform 0.1s ease;
-
-  &::before,
-  &::after {
-    position: absolute;
-    inset: 0;
-    content: "";
-    z-index: -1;
-    border-radius: var(--spacing-1);
-
-    transition: opacity 0.3s ease;
-  }
-
-  &::before {
-    background-color: var(--color-surface);
-  }
-
-  &::after {
-    background-color: var(--color-text);
-    opacity: 0;
-  }
-}
-
-.pill[data-state="small"] {
+  background-color: var(--color-surface);
   color: var(--color-fadeText);
   font-size: 0.8rem;
   line-height: 0.8rem;
   padding-inline: var(--spacing-0\.5);
   padding-block: var(--spacing-0\.25);
-  border-radius: var(--spacing-0\.25);
-}
-
-.pill[data-state="extrasmall"] {
-  color: var(--color-fadeText);
-  padding-inline: var(--spacing-0\.5);
-  padding-block: var(--spacing-0\.25);
-  font-size: 0.8rem;
-  line-height: 0.8rem;
   border-radius: var(--spacing-0\.5);
-}
-
-button.pill:hover,
-a[href].pill:hover {
-  color: var(--color-primary);
-  transform: translateY(-2px);
-
-  &::before {
-    opacity: 0;
-  }
-
-  &::after {
-    opacity: 1;
-  }
-}
-
-button.pill:active,
-a[href].pill:active {
-  transform: translateY(2px);
-}
-
-a.pill {
-  text-decoration: none;
-}
-
-.pill-count {
-  color: var(--color-fadeText);
-}
-
-button.pill:hover,
-a[href].pill:hover {
-  .pill-count {
-    color: var(--color-border);
-  }
 }

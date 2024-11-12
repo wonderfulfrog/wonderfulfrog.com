@@ -9,7 +9,7 @@ description: Browse posts by all tags.
     <ol class="[ cluster p-0 gap-0.5 ]" role="list">
         {% for tag in tags %}
             <li>
-                <a href="/tags/{{ tag.tag | slugify }}" class="[ pill ]">{{ tag.tag }} <span class="[ pill-count ]">{{ tag.count }}</span></a>
+                <a href="/tags/{{ tag.tag | slugify }}" class="[ button ]">{{ tag.tag }} <span class="[ button__count ]">{{ tag.count }}</span></a>
             </li>
         {% endfor %}
     </ol>

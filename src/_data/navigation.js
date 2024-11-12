@@ -3,14 +3,22 @@ export default {
     {
       text: "About",
       url: "/about",
+      icon: "circle-info",
     },
     {
       text: "Posts",
       url: "/posts",
+      icon: "list",
     },
     {
-      text: "Catalogue",
-      url: "/catalogue",
+      text: "Games",
+      url: "/catalogue/games",
+      icon: "game-controller",
+    },
+    {
+      text: "Books",
+      url: "/catalogue/books",
+      icon: "book",
     },
   ],
   bottom: [

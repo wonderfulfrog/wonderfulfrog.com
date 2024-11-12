@@ -9,4 +9,6 @@
   --text-skew: skew(0deg, -1deg);
 
   --triangles: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80"><path stroke-width="0" d="M0,0 40,40 80,0z" /></svg>');
+
+  --transition-bounce: cubic-bezier(0.47, 2.5, 0.41, 1);
 }

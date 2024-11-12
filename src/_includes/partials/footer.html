@@ -14,17 +14,19 @@
         </div>
         <div class="[ repel ]">
             <nav class="[ flow-space-0.5 ]">
-                <ul class="[ menu ] [ cluster p-0 m-0 gap-0.5 ]" role="list">
+                <ul class="[ cluster p-0 m-0 gap-0.5 ]" role="list">
                     <li>
                         <span class="[ visually-hidden ]">Feeds</span>
-                        <a href="/feeds" class="[ button ]" aria-label="View RSS feed">{% include "svgs/rss.svg" %}</a>
+                        <a href="/feeds"
+                           class="[ button button--alt ]"
+                           aria-label="View RSS feed">{% include "svgs/rss.svg" %}</a>
                     </li>
                     {% for key, url in meta.social %}
                         {% set alt = key | capitalize %}
                         <li>
                             <span class="[ visually-hidden ]">{{ alt }}</span>
                             <a href="{{ url }}"
-                               class="[ button ]"
+                               class="[ button button--alt ]"
                                target="_blank"
                                rel="me external noreferrer noopener"
                                aria-label="View {{ alt }} page">{% include "svgs/social-" + key + ".svg" %}</a>

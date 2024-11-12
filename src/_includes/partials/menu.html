@@ -1,7 +1,10 @@
 <ul class="[ menu ] [ list-none cluster p-0 m-0 ]">
     {% for item in navigation.top %}
         <li>
-            <a class="[ button ]" href="{{ item.url }}">{{ item.text }}</a>
+            <a class="[ button button--alt font-size-s line-height-m ]"
+               href="{{ item.url }}">
+                {% include "svgs/" + item.icon + ".svg" %}
+                <span class="[ visually-hidden ]">{{ item.text }}</span></a>
         </li>
     {% endfor %}
 </ul>

@@ -10,8 +10,10 @@ layout: "layouts/base"
         <p class="[ text-skew text-fadeText flow-space-0.25 ]">{{ excerpt }}</p>
         <ul class="[ categories ] [ cluster list-none p-0 flow-space-2 line-height-m ]">
             {% for tag in tags | filter(["post"]) %}
-                <li class="[ flex gap-0.25 ]">
-                    <a href="/tags/{{ tag | slugify }}">{{ tag }}</a>
+                <li>
+                    <a class="[ button ]" href="/tags/{{ tag | slugify }}">
+                        {% include "svgs/frame.svg" %}
+                    {{ tag }}</a>
                 </li>
             {% endfor %}
         </ul>

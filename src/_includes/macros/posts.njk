@@ -1,7 +1,7 @@
-{% macro one(post, format = "MM/DD") %}
+{% macro one(post, fmt = "MM/DD") %}
     <article class="[ posts-list-item column-gap-0.5 justify-between line-height-l ]">
         <a href="{{ post.url }}">{{ post.data.title }}</a>
-        <time datetime="{{ post.date }}" class="[ text-fadeText ]">{{ post.date | formatDate(<built-in function format>) }}</time>
+        <time datetime="{{ post.date }}" class="[ text-fadeText ]">{{ post.date | formatDate(fmt) }}</time>
         <p class="[ text-fadeText font-size-s line-height-m ]">{{ post.data.excerpt }}</p>
     </article>
 {% endmacro %}

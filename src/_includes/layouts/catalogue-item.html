@@ -24,9 +24,14 @@ imageCaption: ""
             </div>
         {% endif %}
         {% if filteredTags | length > 0 %}
-            <ul class="[ categories ] [ cluster p-0 flow-space-2 line-height-m ]"
+            <ul class="[ cluster p-0 flow-space-2 line-height-m text-fadeText ]"
                 role="list">
-                {% for tag in filteredTags %}<li class="[ flex gap-0.25 ]">{{ tag }}</li>{% endfor %}
+                {% for tag in filteredTags %}
+                    <li class="[ flex gap-0.25 items-center ]">
+                        <span class="text-border">{% include "svgs/frame.svg" %}</span>
+                        {{ tag }}
+                    </li>
+                {% endfor %}
             </ul>
         {% endif %}
     </header>

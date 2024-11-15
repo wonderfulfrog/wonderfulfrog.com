@@ -1,8 +1,13 @@
+import util from "util";
 import pluginRss from "@11ty/eleventy-plugin-rss";
 import pluginNoRobots from "eleventy-plugin-no-robots";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 
-import { catalogueByType, postsByTag } from "./config/collections/index.js";
+import {
+  catalogueByType,
+  postsByTag,
+  gamesByYear,
+} from "./config/collections/index.js";
 
 import { dir } from "./config/constants.js";
 import {
@@ -32,6 +37,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginNoRobots);
 
   // 	--------------------- Custom Collections -----------------------
+  eleventyConfig.addCollection("gamesByYear", gamesByYear);
   eleventyConfig.addCollection("catalogueByType", catalogueByType);
   eleventyConfig.addCollection("postsByTag", postsByTag);
 
@@ -80,6 +86,10 @@ export default function (eleventyConfig) {
 
   // 	--------------------- Shortcodes -----------------------
   eleventyConfig.addShortcode("youtube", liteYoutube);
+
+  eleventyConfig.addFilter("console", function (value) {
+    return util.inspect(value);
+  });
 
   return {
     // Optional (default is set): If your site deploys to a subdirectory, change `pathPrefix`, for example with with GitHub pages

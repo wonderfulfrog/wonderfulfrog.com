@@ -115,10 +115,6 @@ abbr {
   text-decoration-color: var(--color-primary);
 }
 
-img[width][height] {
-  height: auto;
-}
-
 hr {
   border-style: solid;
   color: var(--color-surface);

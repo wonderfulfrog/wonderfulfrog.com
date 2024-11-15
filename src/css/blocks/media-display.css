@@ -1,0 +1,17 @@
+.media-image {
+  img {
+    aspect-ratio: 0.8;
+    border: 1px solid var(--color-shadow);
+    height: auto;
+    object-fit: cover;
+  }
+}
+
+.media-meta-grid {
+  display: grid;
+  grid-template-columns: 225px 1fr;
+}
+
+.meta-grid--full {
+  grid-column: 1/3;
+}

@@ -12,7 +12,7 @@ export default {
     },
     {
       text: "Games",
-      url: "/catalogue/games",
+      url: "/games",
       icon: "game-controller",
     },
     {

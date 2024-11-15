@@ -1,0 +1,14 @@
+{% macro grid(data, shape = "vertical") %}
+    <ul class="media-grid {{ shape }} list-none p-0">
+        {% for item in data %}
+            <li class="radius-0.5">
+                <a href="{{ item.url }}">
+                    {% if item.data.image %}<img src="{{ item.data.image }}" alt="" />{% endif %}
+                    <div class="meta font-size-s line-height-s flex items-end px-0.5 pb-0.5">
+                        <span class="meta-text">{{ item.data.title }}</span>
+                    </div>
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+{% endmacro %}

@@ -1,0 +1,40 @@
+---
+layout: "layouts/base"
+---
+
+{% from "macros/date.njk" import format %}
+{% from "macros/utils.njk" import stars %}
+<header class="media-meta-grid gap-1">
+    <div class="media-image">
+        <img src="{{ image }}" alt="" />
+    </div>
+    <div class="flow flex-col justify-center">
+        <div class="flex items-center gap-0.5 flex-wrap">
+            <h2>{{ title }}</h2>
+            <span class="pill">{{ platform }}</span>
+        </div>
+        {% if subtitle %}<h2>{{ subtitle }}</h2>{% endif %}
+        {{ format(page.date) }}
+        {% if rating %}{{ stars(rating) }}{% endif %}
+        <ul class="list-none p-0 mb-0 media-meta-grid gap-0.5">
+            {% if year %}
+                <li class="flex-col">
+                    <strong>Released</strong><span>{{ year }}</span>
+                </li>
+            {% endif %}
+            {% if playtime %}
+                <li class="flex-col">
+                    <strong>Playtime</strong><span>{{ playtime }}</span>
+                </li>
+            {% endif %}
+            {% if pullquote %}
+                <li class="flex-col meta-grid--full">
+                    <strong>Pullquote</strong><span>{{ pullquote }}</span>
+                </li>
+            {% endif %}
+        </ul>
+    </div>
+</header>
+<section class="flow">
+    {{ content | safe }}
+</section>

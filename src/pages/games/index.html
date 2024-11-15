@@ -1,0 +1,21 @@
+---
+permalink: "games/index.html"
+---
+
+{% from "macros/media-grid.njk" import grid %}
+{% set gamesData = collections.game | reverse %}
+{% set yearsData = collections.gamesByYear | values | reverse %}
+<section class="flow">
+    <h1>Games</h1>
+    <p>A collection of games I've played over the years.</p>
+    <h2>Browse by year</h2>
+    <ul class="list-none flex p-0 gap-1 flex-wrap">
+        {% for year in yearsData %}
+            <li>
+                <a class="button" href="/games/year/{{ year.value }}/">{{ year.value }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+    <h2>Latest games</h2>
+    {{ grid(gamesData) }}
+</section>

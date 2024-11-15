@@ -1,3 +1,5 @@
+import dayjs from "dayjs";
+
 export const postsByTag = (collection) => {
   const posts = collection.getFilteredByTag("post");
 
@@ -11,6 +13,24 @@ export const postsByTag = (collection) => {
   }
 
   return postsByTag;
+};
+
+export const gamesByYear = (collection) => {
+  const allGames = collection.getFilteredByTag("game");
+  const gamesByYear = {};
+
+  allGames.forEach((game) => {
+    const date = new dayjs(game.date);
+    const year = date.year();
+
+    if (!gamesByYear[year]) {
+      gamesByYear[year] = { value: year, data: [game] };
+    } else {
+      gamesByYear[year].data.push(game);
+    }
+  });
+
+  return gamesByYear;
 };
 
 export const catalogueByType = (collection) => {

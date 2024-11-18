@@ -4,19 +4,19 @@ layout: "layouts/base"
 
 {% from "macros/date.njk" import format %}
 {% from "macros/utils.njk" import stars %}
-<a class="button" href="/games">
+<a class="button" href="/books">
     {% include "svgs/arrow-left.svg" %}
-Back to games</a>
+Back to books</a>
 <header class="media-meta-grid gap-1">
     <div class="media-image">
         <img src="{{ image }}" alt="" />
     </div>
     <div class="flow flex-col justify-center">
-        <div class="flex items-center gap-0.5 flex-wrap">
-            <h2>{{ title }}</h2>
-            <span class="pill">{{ platform }}</span>
-        </div>
-        {% if subtitle %}<h2>{{ subtitle }}</h2>{% endif %}
+        <h2>{{ title }}</h2>
+        {% if subtitle %}<p class="text-fadeText flow-space-0.5 line-height-m">{{ subtitle }}</p>{% endif %}
+        <p class="flex gap-0.5">
+            <span class="text-fadeText">by</span>{{ author }}
+        </p>
         {% if rating %}{{ stars(rating) }}{% endif %}
         <ul class="list-none p-0 mb-0 media-meta-grid gap-0.5">
             {% if year %}

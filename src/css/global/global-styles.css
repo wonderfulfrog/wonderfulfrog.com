@@ -35,7 +35,6 @@ h1 {
   font-weight: var(--font-weight-display-extrabold);
   letter-spacing: -0.05rem;
   line-height: 3rem;
-  transform: var(--text-skew);
 }
 
 h2 {
@@ -153,6 +152,7 @@ figure figcaption {
 picture source,
 picture img {
   border-radius: var(--spacing-0\.5);
+  height: auto;
 }
 
 aside {

@@ -17,7 +17,7 @@ export default {
     },
     {
       text: "Books",
-      url: "/catalogue/books",
+      url: "/books",
       icon: "book",
     },
   ],

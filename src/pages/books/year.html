@@ -1,0 +1,21 @@
+---
+pagination:
+    data: collections.booksByYear
+    size: 1
+    alias: year
+    resolve: values
+permalink: "books/year/{{ year.value }}/index.html"
+---
+
+{% from "macros/media-grid.njk" import grid %}
+{% set booksData = year.data | reverse %}
+<section class="flow">
+    <a class="button" href="/books">
+        {% include "svgs/arrow-left.svg" %}
+    Back to books</a>
+    <h1>Books in {{ year.value }}</h1>
+    <p>
+        A collection of games I've read in <strong>{{ year.value }}</strong>.
+    </p>
+    {{ grid(booksData) }}
+</section>

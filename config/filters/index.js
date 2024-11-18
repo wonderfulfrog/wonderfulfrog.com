@@ -29,6 +29,22 @@ export const organizeByDate = (collection) => {
   return collectionByDate;
 };
 
+export const transformByDate = (collection) => {
+  const collectionByDate = {};
+
+  collection.forEach((item) => {
+    const year = formatDate(item.date, "YYYY");
+
+    if (!collectionByDate[year]) {
+      return (collectionByDate[year] = { value: year, data: [item] });
+    }
+
+    collectionByDate[year].data.push(item);
+  });
+
+  return collectionByDate;
+};
+
 export const allTagCounts = (collection, ignore = ["post"]) => {
   if (!collection.length) {
     throw new Error("Invalid collection, no items");

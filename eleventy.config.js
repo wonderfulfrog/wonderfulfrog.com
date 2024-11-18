@@ -3,11 +3,7 @@ import pluginRss from "@11ty/eleventy-plugin-rss";
 import pluginNoRobots from "eleventy-plugin-no-robots";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 
-import {
-  catalogueByType,
-  postsByTag,
-  gamesByYear,
-} from "./config/collections/index.js";
+import { catalogueByType, postsByTag } from "./config/collections/index.js";
 
 import { dir } from "./config/constants.js";
 import {
@@ -23,6 +19,7 @@ import {
   organizeByDate,
   pluralize,
   values,
+  transformByDate,
 } from "./config/filters/index.js";
 import markdown from "./config/plugins/markdown.js";
 import liteYoutube from "./config/shortcodes/youtube.js";
@@ -37,7 +34,16 @@ export default function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginNoRobots);
 
   // 	--------------------- Custom Collections -----------------------
-  eleventyConfig.addCollection("gamesByYear", gamesByYear);
+  eleventyConfig.addCollection("gamesByYear", (collection) => {
+    const data = collection.getFilteredByTag("game");
+    const byYear = transformByDate(data);
+    return byYear;
+  });
+  eleventyConfig.addCollection("booksByYear", (collection) => {
+    const data = collection.getFilteredByTag("book");
+    const byYear = transformByDate(data);
+    return byYear;
+  });
   eleventyConfig.addCollection("catalogueByType", catalogueByType);
   eleventyConfig.addCollection("postsByTag", postsByTag);
 

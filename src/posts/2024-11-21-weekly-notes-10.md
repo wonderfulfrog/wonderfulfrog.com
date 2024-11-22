@@ -104,7 +104,7 @@ I'm forcing myself to stop writing about this. I'm beginning to ramble. But know
 
 ## Developing
 
-[Version 3 of Eleventy](https://www.11ty.dev/blog/eleventy-v3/) released in early October. I've been working on getting my site updated to the latest version. Changing from CommonJS to ESM was super easy - in fact the whole upgrade process was incredibly straightforward?
+[Version 3 of Eleventy](https://www.11ty.dev/blog/eleventy-v3/) released in early October. I've been working on getting my site updated to the latest version. Changing from CommonJS to ESM was super easy - in fact the whole upgrade process was incredibly straightforward!
 
 So, where is it? Well, as I am wont to do, I've decided to pack in some upgrades of my own. I'm working on finishing those first before deploying the next version. That being said, I've had to cut myself off before I get too carried away. I'm aiming for an improvement of my already established look and feel.
 
@@ -150,11 +150,17 @@ Next up is [Tetris](https://letterboxd.com/wonderfulfrog/film/tetris/)! This one
 
 Most recently is [Flow](https://letterboxd.com/film/flow-2024/) which was an incredible journey. The filmmakers are masters at playing with your emotions, employing every "animals in a movie" trick to incredible results. You'd be overjoyed one moment, and wailing in sadness the next. It's honestly a master craft of emotional manipulation (and I mean that positively). I loved watching this and experiencing the story unfold. I loved the characters and world. It was so engrossing!
 
+## Listening
+
+We attended a few concerts lately that were a lot of fun! A highlight for me was Murdoch Mysteries in Concert, which had none other than Yannick Bisson (William Murdoch) as the host! I was absolutely giddy seeing him in person. The concert itself was wonderful. It featured a suite from the series, and also the composer came on stage and did a breakdown of how he created various themes used on the show! I loved seeing all of the parts come together, and live no less!
+
+We also saw a rendition of Beethoven's 5th by the Victoria Symphony. It's great to finally see it played live. It's such a critical piece of music (cultural vegetables[^3], if you will), but I'd never seen it performed before!
+
 ## Coming Up
 
 The weeks and months ahead look uncertain. This Christmas will be very different from previous years. We're already talking about how things should go.
 
-We have some concerts and shows coming up (some we bought tickets for all the way back in 2023) which is something to look forward to.
+We have some concerts and shows coming up (some we bought tickets for months ago) which is something I'm looking forward to.
 
 Whatever comes my way, I know that I have my family and my friends with me. That's all I need, and we'll be okay.
 
@@ -162,3 +168,4 @@ Until next time! 👋
 
 [^1]: I've seen this song-and-dance enough times to know that even if they say they'll still maintain Arc, they will drop it faster than you can say "profit" once their next product takes off, or whatever it happens to be that makes them infinite money.
 [^2]: Yes, there are a contingency of Republican voters who _are_ all of the above, but they are certainly a vocal minority.
+[^3]: I got the phrase from [this New York Times article](https://www.nytimes.com/2011/05/01/magazine/mag-01Riff-t.html) (sorry, in my defence it was before 2016). To me the term "cultural vegetables" represent pieces of media that we don't necessarily enjoy all that much (or maybe you do), but are part of an important cultural moment that defined a genre, movement, or what-have-you. See also "seminal work".

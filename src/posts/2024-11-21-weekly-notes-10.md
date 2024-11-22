@@ -12,7 +12,7 @@ youtube: true
 
 You know when you slip from a regular habit and you tell yourself "it's okay, I'll do it tomorrow," or "I'll start on it next week," and then it time continually increases until your sense of dread keeps skyrocketing?
 
-That's what happened since my last post. I endeavoured to write my next post but never got around to it. I kept putting it off in favour of next week, or the following week, or the next month...
+That's what happened since my last post. I endeavoured to write my one but never got around to it. I kept putting it off in favour of next week, or the following week, or the next month...
 
 It can be hard to kickstart a habit again. I'm not sure what lead to me writing this post, but I got there and that's all that matters.
 
@@ -20,21 +20,21 @@ So what's happened since the last one? A lot, apparently.
 
 The biggest would be that I'm looking for a job again. I'm not going to get into it, and focus on the future. If you're looking for a frontend developer (or even full stack), let's get in touch. I'm available for contracting too, if you have anything in mind!
 
-Job hunting is soul-crushing. It's a sea of endless silent rejections and the occasional screening call. It feels like getting an interview is an incredible rarity, only to find out that this is effectively _The Screening Call Again_. I'm doing my best to maintain my spirits and keep at it. I have an incredibly supportive wife and network of friends who are looking (and rooting) for me, and it can be especially motivating to remember that on the down days.
+Job hunting is soul-crushing. It's a sea of endless silent rejections and the occasional screening call. It feels like getting to the interview step is an incredible rarity, only to find out that this is actually _The Screening Call Again_. I'm doing my best to maintain my spirits and keep at it. I have an incredibly supportive wife and network of friends who are looking out (and rooting) for me, and it can be especially motivating to remember that on the down days.
 
-Despite not having a steady job right now, I have reasons to be grateful. We are still afloat, we have 2 happy pets who love us, we get to see our friends on the regular, I've found a new group of friends to play _World of Warcraft_ with, and above it all I still have my wonderful wife who I love so much and am so grateful for. I'm so lucky!
+Despite not having a steady job right now, I have reasons to be grateful. We are still afloat financially, we have 2 happy pets who love us, we get to see our friends on the regular, I've found a new group of friends to play _World of Warcraft_ with, and above it all I still have my wonderful wife who I love so much and am so grateful for. I'm so lucky!
 
 All-in-all, it's not so bad. I'll get a job eventually, and for now I'm taking care of myself.
 
 ## Links
 
-I've got a collection of links that I'm trying to reduce to the greatest hits, so here we go.
+Here is a grab bag collection of links from the last month or so.
 
 ## [How Microsoft Edge Is Replacing React With Web Components](https://thenewstack.io/how-microsoft-edge-is-replacing-react-with-web-components/)
 
-In the web community I've seen Edge referred to as a meme browser that nobody actually uses, but after [The Browser Company decided to sunset Arc](https://www.youtube.com/watch?v=E9yZ0JusME4) in favour of something else[^1], I went on the hunt for something new. I considered using Edge, but eventually settled on [Zen](https://zen-browser.app).
+In the browser community I've seen Edge referred to as a meme browser that nobody actually uses, but after [The Browser Company decided to sunset Arc](https://www.youtube.com/watch?v=E9yZ0JusME4) in favour of something else[^1], I went on the hunt for something new. I considered using Edge, but eventually settled on [Zen](https://zen-browser.app).
 
-Anyway - lately I've found myself increasingly exhausted by the ecosystem we depend on in web development. I think React (and similar frameworks) were created in a time when things like Web Components never existed, but now we have so much power available to us without the need of a framework.
+I've found myself increasingly exhausted by the ecosystem we depend on in web development. I think React (and similar frameworks) were created in a time when things like Web Components never existed, but now we have so much power available to us without the need of a framework.
 
 This quote really gets into the crux of my kvetching:
 
@@ -44,21 +44,21 @@ This quote really gets into the crux of my kvetching:
 
 I really resonate with this. I just want my shit to work years (I won't even say decades) later. This is why I love frameworks like [Eleventy](https://www.11ty.dev/). Breaking changes are so rare. It just continues to work without any changes required. It's possible to opt into new features if desired, but existing configs continue to work as-is.
 
-I hope and dream that the web development world makes a push toward Web Components and using vanilla (regular, plain, whatever you want to call it) JavaScript. It's refreshing to see a big org like Microsoft pushing for Web Components. Let's see some other companies follow suit!
+I hope and dream that the web development world makes a push toward Web Components and using vanilla (regular, plain, whatever you want to call it) JavaScript. It's refreshing to see a big org like Microsoft championing Web Components. Let's see some other companies follow suit!
 
 ## [Oh, WoW](https://www.theverge.com/c/24235606/world-of-warcraft-legacy-mmorpg-blizzard-2004)
 
-Great retrospective from The Verge. It's incredible to see a game from 20 years ago still alive and well, and even receiving updates. It's such a rarity to see a game last a few years ([or even two weeks, as is the case of Concord](https://www.bbc.com/news/articles/c5y3zw5w7l3o)).
+Great retrospective from The Verge. It's incredible to see a game from 20 years ago still alive and well, and even receiving updates. It's not uncommon to see "live-service" games barely last a year ([or even two weeks, as is the case of Concord](https://www.bbc.com/news/articles/c5y3zw5w7l3o)).
 
-I typically revisit WoW every time a new expansion launches. It never changes, like an old sitcom you rewatch time and time again. It's a comfort game for me. Azeroth is a familiar universe to return to, where the good guys always triumph over the bad guys. There's little nuance to the narrative. It plays more-or-less the same as it did 20 years ago. In an unstable world, it keeps stabilizing coming back to (the admittedly tumultuous, for the average denizen) World of Warcraft.
+I typically revisit WoW every time a new expansion launches. It never changes, like an old sitcom you rewatch time and time again. It's a comfort game for me. Azeroth is a familiar universe to return to, where the good guys always triumph over the bad guys. There's little nuance to the narrative. It plays more-or-less the same as it did 20 years ago. In an unstable world, Azeroth presents a cozy escape from reality, if only for a while.
 
 _The War Within_, which is the latest expansion, has kept its grips on me the longest so far. I've found a great group of people to play with, which keeps me engrossed and wanting to play. I've finally managed to break into what most consider "end-game content" (raiding and mythics), which has been challenging but rewarding (and doing it with a bunch of like-minded players really enriches the experience). Speaking of end-game (or advanced) content, this section from the article resonated with me:
 
 > I never got much into the game’s advanced content myself, but for those who did, pretty much the only way to follow the expected meta of guild raids was to use externally designed UI add-ons. *World of Warcraft* had the audacity to make players create their own custom cockpits for the game and ended up creating a kind of recursive procrastination where you could even distract yourself from your intended leisure activity. Anyone who’s ever rearranged the app icons on their phone knows just how ubiquitous this kind of time-consuming “metawork” has become.
 
-This is one of my favourite things to do, but also one of the most frustrating things about end-game World of Warcraft. I love tinkering and tweaking my user interface (and I’ve even recently started making my own add-ons), but in order to keep up with the requirements of succeeding in end-game content, external add-ons are required. It’s certainly _possible_ to go without them, but you’d be handicapping yourself for no reason other than your own pride. Blizzard has done better over the years, but there is just _so much going on_ that without add-ons, it can be impossible to figure out what’s happening on screen.
+I love to tinker with my user interface, but the _necessity_ to use add-ons is also one of the most frustrating things about end-game _World of Warcraft_. It’s certainly _possible_ to go without add-ons, but you’d be handicapping yourself for no reason other than your own pride. Blizzard has done better over the years, but there is just _so much going on_ that without add-ons, it can be impossible to figure out what’s happening on screen (and imagine if you have a visual impairment).
 
-It's a problem that plagued the game since its inception, and it still plagues it today. Considering so many other games have figured out how to make managing difficult experiences manageable with in-game tools, it's baffling to me that Blizzard hasn't done better in this regard. Some of the most enjoyable experiences are relegated to the end-game tier of gameplay, and it can be difficult for many people to break into it. And that's not even mentioning the (legendarily) toxic community that one must engage with to participate. Delves are a new addition to the experience which are great end-game solo experiences, but this is only one facet of what players can do with their max-level characters.
+It's a problem that plagues the game since its inception. Considering so many other games have figured out how to make managing difficult experiences manageable with in-game tools, it's baffling to me that Blizzard hasn't done better in this regard. Some of the most enjoyable experiences are relegated to the end-game tier of gameplay, and it can be difficult for many people to break into it. And that's not even mentioning the (legendarily) toxic community that one must engage with to participate. Delves are a new addition to the experience which are great end-game solo experiences, but this is only one facet of what players can do with their max-level characters.
 
 ## [Why is Nintendo targeting this YouTuber?](https://www.theverge.com/games/24272743/nintendo-retro-game-corps-russ-crandall-profile-youtube-emulation-dmca-takedown-copyright-strike)
 
@@ -80,7 +80,7 @@ Okay okay, I'm sorry. I couldn't help but at least put a little bit of political
 
 As we are all no doubt by now reckoning with the results of the election, I think a few of us (myself included) are wondering "what the hell happened?"
 
-Undoubtedly for myself this was my "come to Jesus" moment where I finally realized I've been in a bubble. I've been feeding myself a sea of dunking on Republication voters, late-night comedy shows, and an otherwise healthy diet of "those Republicans are sure weird, but don't worry - we'll get 'em at the polls."
+For myself this was a "come to Jesus" moment where I finally realized I've been in a media bubble. I've been feeding myself a sea of dunking on Republication voters, late-night comedy shows, and an otherwise unhealthy diet of "those Republicans are sure weird, but don't worry - we'll get 'em at the polls."
 
 > Narrator: they did not get them at the polls.
 
@@ -94,7 +94,7 @@ Where does that leave us now? For starters, we know the next four years are gonn
 
 I think the point I'm trying to get at is that the GOP is going to try and wear us down until we can't take it anymore. Every outlandish choice is meant to exhaust us a bit further so we just give up. What I'm saying is - if I expect the GOP to do something insane and they do it, then all they are doing is following the plan. There's no point in expending anguish over another bonehead move if all they are doing is following their playbook. I want to focus my energy where it matters - effecting changes my own way.
 
-One thing I want to start doing is stop using Reddit for my news. The left on Reddit represents I side I no longer agree with. They dunk on Republican voters who now have to reckon with their choice, instead of trying to help them. This I think is a faction of the left that alienates "normal" right-leaning voters. I don't believe that every Republican voter is a racist, bigot, transphobe, etc[^2]. To me, they are hurting right now and they see a guy who says "I'll fix it". It's a simplistic message, and it works. Whether or not that guy will _actually_ fix the problem is beside the point. The average person just wants economic relief. So if there's a guy that says he's got the fix for your problems, don't be surprised if people vote for him.
+One thing I want to start doing is stop using Reddit for my news. The left on Reddit represents I side I no longer agree with. They dunk on Republican voters who now have to reckon with their choice, instead of trying to help them. This I think is a faction of the left that alienates right-leaning voters. I don't believe that every Republican voter is a racist, bigot, transphobe, etc[^2]. To me, they are hurting right now and they see a guy who says "I'll fix it". It's a simplistic message, and it works. Whether or not that guy will _actually_ fix the problem is beside the point. The average person just wants economic relief. So if there's a guy that says he's got the fix for your problems, don't be surprised if people vote for him.
 
 I can't pinpoint the origin of this phrase, but it goes something along the lines of "don't feel bad for falling into a trap that was set for you." This is what's happening now with many Republican voters. They didn't realize a trap was set, and now they have to deal with it. So let's help them out, instead of dunking on them and assuming the worst of their intentions.
 

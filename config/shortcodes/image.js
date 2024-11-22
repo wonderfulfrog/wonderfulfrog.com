@@ -57,7 +57,7 @@ const imageShortcode = async (
 
   const imageElement = caption
     ? `<figure class="[ flow flex-col items-center justify-center ${className ? ` ${className} ` : ""}]">
-				<picture>
+				<picture class="flex items-center justify-center">
 					${imageSources}
 					<img
 					${imageAttributes}>

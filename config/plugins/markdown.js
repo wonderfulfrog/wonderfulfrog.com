@@ -17,4 +17,14 @@ const markdown = markdownIt({
     defaultLanguage: "plaintext",
   });
 
+markdown.renderer.rules.footnote_block_open = (_tokens, _idx, options) => {
+  return (
+    (options.xhtmlOut
+      ? '<hr class="footnotes-sep" />\n'
+      : '<hr class="footnotes-sep">\n') +
+    '<section class="footnotes">\n' +
+    '<ol class="footnotes-list flow">\n'
+  );
+};
+
 module.exports = markdown;

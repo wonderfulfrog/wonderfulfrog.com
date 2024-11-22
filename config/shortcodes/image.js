@@ -56,15 +56,15 @@ const imageShortcode = async (
   });
 
   const imageElement = caption
-    ? `<figure class="[ flow flex-col items-center justify-center ]${className ? ` ${className}` : ""}">
-				<picture>
+    ? `<figure class="[ flow flex-col items-center justify-center ${className ? ` ${className} ` : ""}]">
+				<picture class="flex items-center justify-center">
 					${imageSources}
 					<img
 					${imageAttributes}>
 				</picture>
 				<figcaption>${caption}</figcaption>
 			</figure>`
-    : `<picture class="[ flex-col items-center justify-center ]${className ? `${className}` : ""}">
+    : `<picture class="[ flex-col items-center justify-center ${className ? ` ${className} ` : ""}]">
 				${imageSources}
 				<img
 				${imageAttributes}>

@@ -18,7 +18,7 @@ It can be hard to kickstart a habit again. I'm not sure what lead to me writing 
 
 So what's happened since the last one? A lot, apparently.
 
-The biggest would be that I'm looking for a job again. I'm not going to get into it, and focus on the future. If you're looking for a frontend developer (or even full stack), let's get in touch. I'm available for contracting too, if you have anything in mind!
+The biggest would be that I'm looking for a job again. If you're looking for a frontend developer (or even full stack), let's get in touch. I'm available for contracting too, if you have anything in mind!
 
 Job hunting is soul-crushing. It's a sea of endless silent rejections and the occasional screening call. It feels like getting to the interview step is an incredible rarity, only to find out that this is actually _The Screening Call Again_. I'm doing my best to maintain my spirits and keep at it. I have an incredibly supportive wife and network of friends who are looking out (and rooting) for me, and it can be especially motivating to remember that on the down days.
 
@@ -86,9 +86,9 @@ For myself this was a "come to Jesus" moment where I finally realized I've been 
 
 What I think Adam has demonstrated with this video is that Republicans didn't really win insomuch as the Democratic Party failed. Compared to the 2020 election, Democrats _lost_ about 10 million votes. Folks on the left just _didn't show up_.
 
-I think the better part of the next few month should be spent less on "the right stole the vote" or "Republican voters are all racists" and more on "how did the Democratic Party fail so many voters?"
+I think the better part of the next few months should be spent less on "the right stole the vote" or "Republican voters are all racists" and more on "how did the Democratic Party fail so many voters?" I hope the Democrats take this as the wake-up call that it should be.
 
-But they won't, because I know the Democratic Party and they'd never admit they did anything wrong and instead blame it on the Republicans. I think Adam hit on a great point where the Democratic Party is supposed to represent the working class, but they never actually talk to them. Until they actually spend time listening to the people they purport to represent, things will go nowhere. Instead they court "right lite" billionaires and other big donors and wonder why nobody votes for them.
+I think Adam hit on a great point where the Democratic Party is supposed to represent the working class, but they never actually talk to them. Until they actually spend time listening to the people they purport to represent, things will go nowhere. Instead they court "right lite" billionaires and other big donors and wonder why nobody votes for them.
 
 Where does that leave us now? For starters, we know the next four years are gonna be rough. Trump (and the GOP) are undoubtedly gonna do stupid (and hurtful) shit. There's no escaping it. So let's stop pretending to be shocked every time they say or do something hateful. There's no point worrying about what's going to happen next. As Adam says, I have to wake up and say "oh fuck, here I am again" in a new reality. It's gonna be brutal, but I have to keep getting up and pushing forward.
 
@@ -144,7 +144,7 @@ For Halloween we watched [Dracula](https://letterboxd.com/film/dracula/) with Be
 
 {% image "https://cdn.wonderfulfrog.com/images/tetris-poster.jpg", "", "", "image-shrink" %}
 
-Next up is [Tetris](https://letterboxd.com/wonderfulfrog/film/tetris/)! This one was near and dear to me as I spent the better part of my early childhood absolutely hooked to my Game Boy and Tetris (at least until Pokémon came out). This movie represents a _somewhat_ historically accurate retelling with some fun flourishes to make it prime movie material. If you're like me and have a lot of all things Tetris (or maybe Game Boys), then you'll have a great time with this one.
+Next up is [Tetris](https://letterboxd.com/wonderfulfrog/film/tetris/)! This one was near and dear to me as I spent the better part of my early childhood absolutely hooked to my Game Boy and Tetris (at least until Pokémon came out). This movie represents a _somewhat_ historically accurate retelling with some fun flourishes to make it prime movie material. If you're like me and have a love of all things Tetris (or maybe Game Boys), then you'll have a great time with this one.
 
 {% image "https://cdn.wonderfulfrog.com/images/flow-poster.jpg", "", "", "image-shrink" %}
 

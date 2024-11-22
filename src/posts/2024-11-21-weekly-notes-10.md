@@ -78,6 +78,14 @@ Nintendo is stupid sometimes. Perhaps more often than not.
 
 Okay okay, I'm sorry. I couldn't help but at least put a little bit of political content here.
 
+<aside>
+
+    <strong>You can skip this</strong>
+
+If you've had enough politics for now (and I get it), you can [skip ahead](#developing).
+
+</aside>
+
 As we are all no doubt by now reckoning with the results of the election, I think a few of us (myself included) are wondering "what the hell happened?"
 
 For myself this was a "come to Jesus" moment where I finally realized I've been in a media bubble. I've been feeding myself a sea of dunking on Republication voters, late-night comedy shows, and an otherwise unhealthy diet of "those Republicans are sure weird, but don't worry - we'll get 'em at the polls."
@@ -116,11 +124,11 @@ To add onto the project spree - I also built a rudimentary invoicing system in E
 
 I'm continuing to play _World of Warcraft_ and having a great time. As I mentioned earlier, I've found a group of players to tackle the end-game content. We've managed to take down the entire Nerub-ar Palace raid on Normal, and we're working on the Heroic version (which is like Hard mode, with Mythic being Very Hard).
 
-{% image "https://cdn.wonderfulfrog.com/images/wow/dracthyr-warrior.png", "", "", "image-shrink" %}
+{% image "https://cdn.wonderfulfrog.com/images/wow/dracthyr-warrior.png", "A humanoid looking dragon stands in the middle of the frame, looking toward the bottom right of the viewer. He has deep blue scales, that transition into light blue chitinous plates around the chest and stomach. On his waist and thighs are heavy plate tassets. He has folded bat-like wings. He wears heavy teal plate pauldrons on his shoulders.", "I do love being able to literally spread my wings and fly.", "image-shrink" %}
 
 I've since made (another) Warrior, because I can't stop making them. I love playing Warriors. They're so straightforward in terms of class fantasy. I have big sword (or smaller sword and big shield). I hit things with pointy thing. I yell to make my allies feel stronger. Me good hitter.
 
-{% image "https://cdn.wonderfulfrog.com/images/wow/dark-iron-warrior.png", "", "", "image-shrink" %}
+{% image "https://cdn.wonderfulfrog.com/images/wow/dark-iron-warrior.png", "Screenshot from World of Warcraft. A dwarf with dark slate-blue skin is centered, facing to the right of the viewer. He has glowing orange eyes, and a black hair beard that is singed and glowing a reddish orange along the bottom edges. He is wearing a set of leather gear.", "I have to get used to being a little smaller than before.", "image-shrink" %}
 
 I started with a Dracthyr, which are the dragon/human hybrid, but found that I missed being able to transmog (for non-WoW players, play dressup). Much like clothes, I like having the freedom to tweak my look. I've already made a Night Elf, I don't really like playing as Humans (boring, I already am one), and don't like many of the other Alliances races. I settled on a Dark Iron Dwarf, since they have a gruff and funny voice.
 
@@ -144,7 +152,7 @@ For Halloween we watched [Dracula](https://letterboxd.com/film/dracula/) with Be
 
 {% image "https://cdn.wonderfulfrog.com/images/tetris-poster.jpg", "", "", "image-shrink" %}
 
-Next up is [Tetris](https://letterboxd.com/wonderfulfrog/film/tetris/)! This one was near and dear to me as I spent the better part of my early childhood absolutely hooked to my Game Boy and Tetris (at least until Pokémon came out). This movie represents a _somewhat_ historically accurate retelling with some fun flourishes to make it prime movie material. If you're like me and have a love of all things Tetris (or maybe Game Boys), then you'll have a great time with this one.
+Next up is [Tetris](https://letterboxd.com/film/tetris/)! This one was near and dear to me as I spent the better part of my early childhood absolutely hooked to my Game Boy and Tetris (at least until Pokémon came out). This movie represents a _somewhat_ historically accurate retelling with some fun flourishes to make it prime movie material. If you're like me and have a love of all things Tetris (or maybe Game Boys), then you'll have a great time with this one.
 
 {% image "https://cdn.wonderfulfrog.com/images/flow-poster.jpg", "", "", "image-shrink" %}
 
@@ -161,6 +169,8 @@ We also saw a rendition of Beethoven's 5th by the Victoria Symphony. It's great 
 The weeks and months ahead look uncertain. This Christmas will be very different from previous years. We're already talking about how things should go.
 
 We have some concerts and shows coming up (some we bought tickets for months ago) which is something I'm looking forward to.
+
+With my site upgrades in mind, I'd like to spend some time in the [Catalogue](/catalogue) section of my site and add a bunch of missing content. For one, I'd like to add a section for all the movies I've seen! There are a ton of games missing, and books too.
 
 Whatever comes my way, I know that I have my family and my friends with me. That's all I need, and we'll be okay.
 

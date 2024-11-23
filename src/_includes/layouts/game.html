@@ -37,7 +37,10 @@ Back to games</a>
         </ul>
     </div>
 </header>
-<section class="flow">
-    {{ content | safe }}
-</section>
+{% if content %}
+    <hr class="my-2" />
+    <section class="flow">
+        {{ content | safe }}
+    </section>
+{% endif %}
 {{ format(page.date) }}

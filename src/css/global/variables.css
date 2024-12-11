@@ -10,5 +10,22 @@
 
   --triangles: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80"><path stroke-width="0" d="M0,0 40,40 80,0z" /></svg>');
 
-  --transition-bounce: cubic-bezier(0.47, 2.5, 0.41, 1);
+  --transition-bounce: linear(
+    0,
+    0.544 5.5%,
+    0.947 11.5%,
+    1.213 18.1%,
+    1.298 21.7%,
+    1.352 25.5%,
+    1.372 28.2%,
+    1.379 31.1%,
+    1.374 34.2%,
+    1.357 37.6%,
+    1.307 43.7%,
+    1.121 61.8%,
+    1.074 67.8%,
+    1.04 73.7%,
+    1.007 84.7%,
+    1
+  );
 }

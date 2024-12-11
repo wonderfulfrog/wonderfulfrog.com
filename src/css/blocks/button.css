@@ -41,7 +41,7 @@
   .button:hover {
     &::before,
     &::after {
-      transform: scale(1.05);
+      transform: scale(1.25);
     }
 
     &::after {
@@ -50,7 +50,7 @@
 
     svg {
       color: var(--color-border);
-      transform: rotateZ(12deg) scale(1.4);
+      transform: rotateZ(10deg) scale(1.5);
     }
   }
 }

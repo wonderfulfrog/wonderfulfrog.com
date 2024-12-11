@@ -1,0 +1,62 @@
+---
+layout: "layouts/base"
+---
+
+{% from "macros/date.njk" import format %}
+{% from "macros/utils.njk" import stars %}
+<a class="button" href="/watching">
+    {% include "svgs/arrow-left.svg" %}
+Back to watching</a>
+<header class="media-meta-grid gap-1">
+    <div class="media-image">
+        <img src="{{ image }}" alt="" />
+    </div>
+    <div class="flow flex-col justify-center">
+        <div class="flex items-center gap-0.5 flex-wrap">
+            <h2>{{ title }}</h2>
+        </div>
+        {% if subtitle %}<h2>{{ subtitle }}</h2>{% endif %}
+        {% if director %}
+            <p class="flex gap-0.5">
+                <span class="text-fadeText">Directed by</span>{{ director }}
+            </p>
+        {% endif %}
+        {% if watched %}<p class="flow-space-0.25">{{ format(watched) }}</p>{% endif %}
+        {% if rating %}{{ stars(rating) }}{% endif %}
+        <ul class="list-none p-0 mb-0 media-meta-grid gap-0.5">
+            {% if year %}
+                <li class="flex-col">
+                    <strong>Released</strong><span>{{ year }}</span>
+                </li>
+            {% endif %}
+            {% if runtime %}
+                <li class="flex-col">
+                    <strong>Runtime</strong><span>{{ runtime }} mins</span>
+                </li>
+            {% endif %}
+            {% if genres %}
+                <li class="flex-col meta-grid--full">
+                    <strong>Genres</strong><span>{{ genres | join(", ") }}</span>
+                </li>
+            {% endif %}
+        </ul>
+    </div>
+</header>
+{% if watch_history.length > 1 %}
+    <p>
+        <span class="text-primary">{% include "svgs/circle-info.svg" %}</span>
+        I've seen this movie <strong>{{ watch_history.length }}</strong> {{ "time" | pluralize(watch_history) }}!
+    </p>
+{% endif %}
+{% if favourite %}
+    <p>
+        <span class="text-secondary">{% include "svgs/star.svg" %}</span>
+        This is one of my favourite movies!
+    </p>
+{% endif %}
+{% if content %}
+    <hr class="my-2" />
+    <section class="flow">
+        {{ content | safe }}
+    </section>
+{% endif %}

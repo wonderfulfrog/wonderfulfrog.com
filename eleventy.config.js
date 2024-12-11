@@ -44,6 +44,11 @@ export default function (eleventyConfig) {
     const byYear = transformByDate(data);
     return byYear;
   });
+  eleventyConfig.addCollection("moviesByYear", (collection) => {
+    const data = collection.getFilteredByTag("movie");
+    const byYear = transformByDate(data);
+    return byYear;
+  });
   eleventyConfig.addCollection("catalogueByType", catalogueByType);
   eleventyConfig.addCollection("postsByTag", postsByTag);
 

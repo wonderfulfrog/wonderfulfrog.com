@@ -1,0 +1,14 @@
+---
+permalink: "watching/favourites/index.html"
+---
+
+{% from "macros/media-grid.njk" import grid %}
+{% set data = collections.movie | filterFavourites | reverse %}
+<a class="button" href="/watching">
+    {% include "svgs/arrow-left.svg" %}
+Back to watching</a>
+<section class="flow">
+    <h1>Favourite movies</h1>
+    <p>A collection of my favourite movies!</p>
+    {{ grid(data) }}
+</section>

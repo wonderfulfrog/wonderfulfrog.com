@@ -20,6 +20,11 @@ export default {
       url: "/books",
       icon: "book",
     },
+    {
+      text: "Watching",
+      url: "/watching",
+      icon: "tv-retro",
+    },
   ],
   bottom: [
     {

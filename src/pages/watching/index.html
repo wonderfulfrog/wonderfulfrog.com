@@ -1,0 +1,28 @@
+---
+permalink: "watching/index.html"
+---
+
+{% from "macros/media-grid.njk" import grid %}
+{% set data = collections.movie | reverse | limit(5) %}
+{% set favourites = collections.movie | filterFavourites | reverse | limit(5) %}
+{% set yearsData = collections.moviesByYear | values | reverse %}
+<section class="flow">
+    <h1>Watching</h1>
+    <p>A collection of movies I've seen over the years.</p>
+    <h2>Browse by year watched</h2>
+    <ul class="list-none flex p-0 gap-1 flex-wrap">
+        {% for year in yearsData %}
+            <li>
+                <a class="button" href="/movies/year/{{ year.value }}/">{{ year.value }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+    <h2>
+        <a href="recent/">Latest movies</a>
+    </h2>
+    {{ grid(data) }}
+    <h2>
+        <a href="favourites/">Favourite movies</a>
+    </h2>
+    {{ grid(favourites) }}
+</section>

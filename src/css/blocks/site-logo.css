@@ -1,7 +1,5 @@
 .site-logo .wordmark {
   text-decoration: none;
-  margin-block-start: -6px;
-  transform: skew(0deg, -1deg) translateY(2px);
 }
 
 .site-logo .logo img {
@@ -13,38 +11,38 @@
     drop-shadow(
       0 0 6px color-mix(in srgb, var(--color-primary) 80%, var(--color-white))
     );
+  transition: transform 0.3s var(--transition-bounce);
 }
 
 .site-logo .wordmark > span {
-  text-shadow:
-    -1px 1px 0 var(--shadow-color),
-    0 1px 0 var(--shadow-color),
-    -1px -1px 0 var(--shadow-color),
-    1px -1px 0 var(--shadow-color),
-    1px 1px 0 var(--shadow-color),
-    -1px 2px 0 var(--shadow-color),
-    0px 2px 0 var(--shadow-color),
-    1px 2px 0 var(--shadow-color),
-    -1px 3px 0 var(--shadow-color),
-    0px 3px 0 var(--shadow-color),
-    1px 3px 0 var(--shadow-color);
+  --shadow-color: var(--color-shadow);
   color: var(--color-white);
   font-family: var(--font-family-display);
   font-size: 1.5rem;
   letter-spacing: -0.05em;
-  transition: transform var(--transition-duration);
+  position: relative;
+  text-shadow:
+    -1px -1px 0 var(--shadow-color),
+    0px -1px 0 var(--shadow-color),
+    1px -1px 0 var(--shadow-color),
+    1px 0px 0 var(--shadow-color),
+    1px 1px 0 var(--shadow-color),
+    0px 1px 0 var(--shadow-color),
+    -1px 1px 0 var(--shadow-color),
+    -1px 0px 0 var(--shadow-color);
+  filter: url(#3d_text);
+  transition: transform 0.3s var(--transition-bounce);
 }
 
 .site-logo .wordmark > span:hover {
-  transform: translateY(-2px);
+  transform: scale(1.15) translateY(-4px);
+  z-index: 2;
 }
 
-.site-logo .wordmark > * {
-  --shadow-color: var(--color-shadow);
+.site-logo .wordmark > span:nth-child(2) {
   z-index: 1;
 }
 
-.site-logo .wordmark > :nth-child(2) {
-  z-index: 0;
+.site-logo .wordmark > span:nth-child(3) {
   color: color-mix(in srgb, var(--color-white) 90%, var(--color-primary));
 }

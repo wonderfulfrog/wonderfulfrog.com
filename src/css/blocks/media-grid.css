@@ -55,6 +55,7 @@
           opacity: 0;
 
           .meta-text {
+            transition-delay: 0.05s;
             transform: translateY(var(--spacing-1));
           }
         }

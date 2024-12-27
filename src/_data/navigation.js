@@ -16,14 +16,14 @@ export default {
       icon: "game-controller",
     },
     {
-      text: "Books",
-      url: "/books",
-      icon: "book",
-    },
-    {
       text: "Watching",
       url: "/watching",
       icon: "tv-retro",
+    },
+    {
+      text: "Books",
+      url: "/books",
+      icon: "book",
     },
   ],
   bottom: [

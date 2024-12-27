@@ -6,7 +6,7 @@
   padding: var(--spacing-0\.5) var(--spacing-1);
   position: relative;
   text-decoration: none;
-  transition: transform 0.3s ease;
+  transition: transform 0.3s var(--transition-bounce);
   z-index: 1;
 
   &::before,
@@ -38,10 +38,10 @@
 }
 
 @media (hover: hover) {
-  .button:hover {
+  .button:not(:active):hover {
     &::before,
     &::after {
-      transform: scale(1.25);
+      transform: scale(1.05);
     }
 
     &::after {
@@ -50,13 +50,13 @@
 
     svg {
       color: var(--color-border);
-      transform: rotateZ(10deg) scale(1.5);
+      transform: rotateZ(10deg) scale(1.25);
     }
   }
 }
 
 .button:active {
-  transform: scale(0.8);
+  transform: scale(0.95);
 }
 
 .button--alt {

@@ -33,7 +33,7 @@ const fetchRecentMovies = async () => {
 
   $("channel")
     .children("item")
-    .slice(0, 6)
+    .slice(0, 5)
     .each((_, element) => {
       const title = $(element).children("letterboxd\\:filmTitle").text();
 

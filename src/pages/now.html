@@ -17,7 +17,7 @@ description: What's going on now and all the latest with myself.
     <h2>💿 Albums</h2>
     <ul class="[ media-grid square ][ p-0 ]" role="list">
         {% for album in lastfm.recentAlbums %}
-            <li>
+            <li class="radius-0.5">
                 <a href="{{ album.url }}"
                    target="_blank"
                    rel="external noreferrer noopener">
@@ -28,7 +28,7 @@ description: What's going on now and all the latest with myself.
                     {% if album.imageUrl %}
                         <img src="{{ album.imageUrl }}" alt="" />
                     {% else %}
-                        <div>{{ textContent }}</div>
+                        <div class="text-only">{{ textContent }}</div>
                     {% endif %}
                 </a>
             </li>
@@ -37,9 +37,9 @@ description: What's going on now and all the latest with myself.
 {% endif %}
 {% if letterboxd.length > 0 %}
     <h2>🍿 Movies</h2>
-    <ul class="[ media-grid poster ][ p-0 ]" role="list">
+    <ul class="[ media-grid ][ p-0 ]" role="list">
         {% for movie in letterboxd %}
-            <li>
+            <li class="radius-0.5">
                 <a href="{{ movie.url }}"
                    target="_blank"
                    rel="external noreferrer noopener">

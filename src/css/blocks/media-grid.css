@@ -1,6 +1,6 @@
 .media-grid {
   --column-count: 5;
-  --aspect-ratio: 0.8;
+  --aspect-ratio: 0.67;
 
   display: grid;
   grid-template-columns: repeat(var(--column-count), minmax(0, 1fr));
@@ -24,6 +24,11 @@
           object-fit: cover;
           transition: transform 0.3s ease;
         }
+      }
+
+      .text-only {
+        aspect-ratio: var(--aspect-ratio);
+        overflow: hidden;
       }
     }
   }
@@ -76,6 +81,10 @@
       }
     }
   }
+}
+
+.media-grid.square {
+  --aspect-ratio: 1;
 }
 
 @container (max-width: 32rem) {

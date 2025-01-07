@@ -17,7 +17,7 @@ I saw a similar post from [Jon Dueck](https://jondueck.ca/journal/2024/bakers-do
 7. Bill Evans - *Undercurrent*
 8. Paramore - *Riot!*
 9. Softcult - *See You in the Dark*
-10. Dear Rogue - *Lonesome High*
+10. Dear Rouge - *Lonesome High*
 11. Innver-vation - *Movements*
 12. A Tribe Called Quest - *People's Instinctie Travels And the Paths of Rhythm*
 13. Porcupine Tree - *Fear of a Blank Planet*

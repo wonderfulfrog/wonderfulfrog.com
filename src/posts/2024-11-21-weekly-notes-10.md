@@ -108,7 +108,7 @@ I can't pinpoint the origin of this phrase, but it goes something along the line
 
 I'm forcing myself to stop writing about this. I'm beginning to ramble. But know that I have hope - hope for the future and that things will get better. Even if things are rough, I want to keep getting up and trying again. Spit out a tooth and rise for another go.
 
-{% image "https://cdn.wonderfulfrog.com/images/hope-tweet.png", "Screenshot of a post that says: People speak of hope as if it is this delicate, ephemeral thing made of whispers and spider's webs. It's not. Hope has dirt on her face, blood on her knuckles, the grid of the cobblestones in her hair, and just spat out a tooth as she rises for another go.", "Hope is gritty" %}
+![Screenshot of a post that says: People speak of hope as if it is this delicate, ephemeral thing made of whispers and spider's webs. It's not. Hope has dirt on her face, blood on her knuckles, the grid of the cobblestones in her hair, and just spat out a tooth as she rises for another go.](https://cdn.wonderfulfrog.com/images/hope-tweet.png "Hope is gritty"){.image-shrink}
 
 ## Developing
 
@@ -124,17 +124,17 @@ To add onto the project spree - I also built a rudimentary invoicing system in E
 
 I'm continuing to play _World of Warcraft_ and having a great time. As I mentioned earlier, I've found a group of players to tackle the end-game content. We've managed to take down the entire Nerub-ar Palace raid on Normal, and we're working on the Heroic version (which is like Hard mode, with Mythic being Very Hard).
 
-{% image "https://cdn.wonderfulfrog.com/images/wow/dracthyr-warrior.png", "A humanoid looking dragon stands in the middle of the frame, looking toward the bottom right of the viewer. He has deep blue scales, that transition into light blue chitinous plates around the chest and stomach. On his waist and thighs are heavy plate tassets. He has folded bat-like wings. He wears heavy teal plate pauldrons on his shoulders.", "I do love being able to literally spread my wings and fly.", "image-shrink" %}
+![A humanoid looking dragon stands in the middle of the frame, looking toward the bottom right of the viewer. He has deep blue scales, that transition into light blue chitinous plates around the chest and stomach. On his waist and thighs are heavy plate tassets. He has folded bat-like wings. He wears heavy teal plate pauldrons on his shoulders.](https://cdn.wonderfulfrog.com/images/wow/dracthyr-warrior.png "I do love being able to literally spread my wings and fly."){.image-shrink}
 
 I've since made (another) Warrior, because I can't stop making them. I love playing Warriors. They're so straightforward in terms of class fantasy. I have big sword (or smaller sword and big shield). I hit things with pointy thing. I yell to make my allies feel stronger. Me good hitter.
 
-{% image "https://cdn.wonderfulfrog.com/images/wow/dark-iron-warrior.png", "Screenshot from World of Warcraft. A dwarf with dark slate-blue skin is centered, facing to the right of the viewer. He has glowing orange eyes, and a black hair beard that is singed and glowing a reddish orange along the bottom edges. He is wearing a set of leather gear.", "I have to get used to being a little smaller than before.", "image-shrink" %}
+![Screenshot from World of Warcraft. A dwarf with dark slate-blue skin is centered, facing to the right of the viewer. He has glowing orange eyes, and a black hair beard that is singed and glowing a reddish orange along the bottom edges. He is wearing a set of leather gear.](https://cdn.wonderfulfrog.com/images/wow/dark-iron-warrior.png "I have to get used to being a little smaller than before."){.image-shrink}
 
 I started with a Dracthyr, which are the dragon/human hybrid, but found that I missed being able to transmog (for non-WoW players, play dressup). Much like clothes, I like having the freedom to tweak my look. I've already made a Night Elf, I don't really like playing as Humans (boring, I already am one), and don't like many of the other Alliances races. I settled on a Dark Iron Dwarf, since they have a gruff and funny voice.
 
 ## Reading
 
-{% image "https://cdn.wonderfulfrog.com/images/the-crystal-shard-cover.jpg", "The cover features a green crystal with various character's reflections. A hand is reaching toward the crystal from the bottom right.", "", "image-shrink" %}
+![The cover features a green crystal with various character's reflections. A hand is reaching toward the crystal from the bottom right.](https://cdn.wonderfulfrog.com/images/the-crystal-shard-cover.jpg){.image-shrink}
 
 I finished the first three Drizzt books and I've jumped onto the next trilogy, starting with _The Crystal Shard_!
 
@@ -142,19 +142,19 @@ I finished the first three Drizzt books and I've jumped onto the next trilogy, s
 
 I've seen a few movies I'd like to mention!
 
-{% image "https://cdn.wonderfulfrog.com/images/your-monster-poster.jpg", "", "", "image-shrink" %}
+![](https://cdn.wonderfulfrog.com/images/your-monster-poster.jpg){.image-shrink}
 
 The first one is [Your Monster](https://letterboxd.com/film/your-monster-2024/) which is all about reconnecting with your childhood monster in a closet. It's a charming movie that had me smiling throughout. So fun! A perfect pairing to [Lisa Frankenstein](https://letterboxd.com/film/lisa-frankenstein/), if you wanted to do a home movie double-header.
 
-{% image "https://cdn.wonderfulfrog.com/images/dracula-a-d-1972-poster.jpg", "", "", "image-shrink" %}
+![](https://cdn.wonderfulfrog.com/images/dracula-a-d-1972-poster.jpg){.image-shrink}
 
 For Halloween we watched [Dracula](https://letterboxd.com/film/dracula/) with Bela Lugosi, which holds up remarkably well for a movie made almost 100 years ago! After that was [Dracula A.D. 1972](https://letterboxd.com/film/dracula-ad-1972/) which features Christopher Lee as Dracula and Peter Cushing as van Helsing. It features a contemporary setting which is unusual for most Dracula movies. I wouldn't call it an especially good movie, but it was quite entertaining. I have a soft spot for both actors, so being able to see them together was a treat. The soundtrack wasn't half bad either, all things considered. The tie-in with Stoneground was amusing (and I know you'll be surprised to learn they didn't last long after this movie was released). All in all a very spoooooky Halloween night for us.
 
-{% image "https://cdn.wonderfulfrog.com/images/tetris-poster.jpg", "", "", "image-shrink" %}
+![](https://cdn.wonderfulfrog.com/images/tetris-poster.jpg){.image-shrink}
 
 Next up is [Tetris](https://letterboxd.com/film/tetris/)! This one was near and dear to me as I spent the better part of my early childhood absolutely hooked to my Game Boy and Tetris (at least until Pokémon came out). This movie represents a _somewhat_ historically accurate retelling with some fun flourishes to make it prime movie material. If you're like me and have a love of all things Tetris (or maybe Game Boys), then you'll have a great time with this one.
 
-{% image "https://cdn.wonderfulfrog.com/images/flow-poster.jpg", "", "", "image-shrink" %}
+![](https://cdn.wonderfulfrog.com/images/flow-poster.jpg){.image-shrink}
 
 Most recently is [Flow](https://letterboxd.com/film/flow-2024/) which was an incredible journey. The filmmakers are masters at playing with your emotions, employing every "animals in a movie" trick to incredible results. You'd be overjoyed one moment, and wailing in sadness the next. It's honestly a master craft of emotional manipulation (and I mean that positively). I loved watching this and experiencing the story unfold. I loved the characters and world. It was so engrossing!
 
@@ -177,5 +177,7 @@ Whatever comes my way, I know that I have my family and my friends with me. That
 Until next time! 👋
 
 [^1]: I've seen this song-and-dance enough times to know that even if they say they'll still maintain Arc, they will drop it faster than you can say "profit" once their next product takes off, or whatever it happens to be that makes them infinite money.
+
 [^2]: Yes, there are a contingency of Republican voters who _are_ all of the above, but they are certainly a vocal minority.
+
 [^3]: I got the phrase from [this New York Times article](https://www.nytimes.com/2011/05/01/magazine/mag-01Riff-t.html) (sorry, in my defence it was before 2016). To me the term "cultural vegetables" represent pieces of media that we don't necessarily enjoy all that much (or maybe you do), but are part of an important cultural moment that defined a genre, movement, or what-have-you. See also "seminal work".

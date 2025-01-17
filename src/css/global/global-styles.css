@@ -134,7 +134,8 @@ pre {
   overflow-x: auto;
 }
 
-figure {
+figure,
+picture {
   display: flex;
   flex-direction: column;
   align-items: center;

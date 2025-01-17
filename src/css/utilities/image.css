@@ -1,13 +1,7 @@
 .image-shrink {
-  img,
-  source {
-    max-width: 50%;
-  }
+  max-width: 50%;
 }
 
 .image-tiny {
-  img,
-  source {
-    max-width: 25%;
-  }
+  max-width: 25%;
 }

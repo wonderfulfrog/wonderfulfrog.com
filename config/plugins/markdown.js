@@ -4,6 +4,7 @@ import markdownItPrism from "markdown-it-prism";
 import markdownItAbbr from "markdown-it-abbr";
 import markdownItAnchor from "markdown-it-anchor";
 import markdownItImplicitFigures from "markdown-it-image-figures";
+import markdownItAttrs from "markdown-it-attrs";
 
 const markdown = markdownIt({
   html: true,
@@ -19,7 +20,8 @@ const markdown = markdownIt({
   })
   .use(markdownItPrism, {
     defaultLanguage: "plaintext",
-  });
+  })
+  .use(markdownItAttrs);
 
 markdown.renderer.rules.footnote_block_open = (_tokens, _idx, options) => {
   return (

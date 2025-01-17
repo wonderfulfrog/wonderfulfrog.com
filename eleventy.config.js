@@ -84,6 +84,8 @@ export default function (eleventyConfig) {
       loading: "lazy",
       decoding: "async",
     },
+
+    failOnError: false,
   });
 
   // 	--------------------- Passthrough File Copy -----------------------

@@ -1,10 +1,17 @@
 .media-image {
+  --aspect-ratio: 0.8;
+
+  source,
   img {
-    aspect-ratio: 0.8;
+    aspect-ratio: var(--aspect-ratio);
     border: 1px solid var(--color-shadow);
     height: auto;
     object-fit: cover;
   }
+}
+
+.media-image--tall {
+  --aspect-ratio: 0.67;
 }
 
 .media-meta-grid {

@@ -8,7 +8,7 @@ layout: "layouts/base"
     {% include "svgs/arrow-left.svg" %}
 Back to watching</a>
 <header class="media-meta-grid gap-1">
-    <div class="media-image">
+    <div class="media-image media-image--tall">
         <img src="{{ image }}" alt="" />
     </div>
     <div class="flow flex-col justify-center">
@@ -21,7 +21,7 @@ Back to watching</a>
                 <span class="text-fadeText">Directed by</span>{{ director }}
             </p>
         {% endif %}
-        {% if watched %}<p class="flow-space-0.25">{{ format(watched) }}</p>{% endif %}
+        {% if watchHistory %}<p class="flow-space-0.25">{{ format(watchHistory | last) }}</p>{% endif %}
         {% if rating %}{{ stars(rating) }}{% endif %}
         <ul class="list-none p-0 mb-0 media-meta-grid gap-0.5">
             {% if year %}
@@ -34,18 +34,18 @@ Back to watching</a>
                     <strong>Runtime</strong><span>{{ runtime }} mins</span>
                 </li>
             {% endif %}
-            {% if genres %}
+            {% if tags %}
                 <li class="flex-col meta-grid--full">
-                    <strong>Genres</strong><span>{{ genres | join(", ") }}</span>
+                    <strong>Genres</strong><span>{{ tags | filter("movie") | join(", ") }}</span>
                 </li>
             {% endif %}
         </ul>
     </div>
 </header>
-{% if watch_history.length > 1 %}
+{% if watchHistory.length > 1 %}
     <p>
         <span class="text-primary">{% include "svgs/circle-info.svg" %}</span>
-        I've seen this movie <strong>{{ watch_history.length }}</strong> {{ "time" | pluralize(watch_history) }}!
+        I've seen this movie <strong>{{ watchHistory.length }}</strong> {{ "time" | pluralize(watchHistory) }}!
     </p>
 {% endif %}
 {% if favourite %}

@@ -17,9 +17,10 @@ Markdown is processed using [markdown-it][markdownit]. I am using a few plugins:
 
 - [markdown-it-abbr][markdownitabbr] - Adds support for abbreviations.
 - [markdown-it-anchor][markdownitanchor] - Automatically adds anchor ids to titles (h1, h2, etc).
+- [markdown-it-attrs][markdownitattrs] - Adds support for adding attributes to Markdown elements.
 - [markdown-it-footnote][markdownitfootnote] - Adds support for footnotes.
-- [markdown-it-prism][markdownitprism] - Adds syntax highlighting to code blocks.
 - [markdown-it-image-figures][markdownitimagefigures] - Converts Markdown images into `<figure>`s with optional `<caption>`s
+- [markdown-it-prism][markdownitprism] - Adds syntax highlighting to code blocks.
 
 A minimal amount of [PostCSS][postcss] is used as a developer convenience, othwise pure CSS is used. Any utility classes I've created myself.
 
@@ -92,3 +93,4 @@ I've done my best to show where I found any code I did not write myself.
 [tokyonight]: https://github.com/folke/tokyonight.nvim
 [ibmplexmono]: https://fonts.google.com/specimen/IBM+Plex+Mono
 [markdownitimagefigures]: https://github.com/Antonio-Laguna/markdown-it-image-figures
+[markdownitattrs]: https://www.npmjs.com/package/markdown-it-attrs

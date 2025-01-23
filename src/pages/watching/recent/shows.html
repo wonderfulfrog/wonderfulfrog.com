@@ -1,14 +1,14 @@
 ---
-permalink: "watching/recent/index.html"
+permalink: "watching/recent/shows/index.html"
 ---
 
 {% from "macros/media-grid.njk" import grid %}
-{% set data = collections.movie | reverse %}
+{% set data = collections.tv | reverse %}
 <a class="button" href="/watching">
     {% include "svgs/arrow-left.svg" %}
 Back to watching</a>
 <section class="flow">
-    <h1>Recently watched</h1>
-    <p>A collection of movies I've seen recently.</p>
+    <h1>Recently shows</h1>
+    <p>A collection of shows I've seen recently.</p>
     {{ grid(data) }}
 </section>

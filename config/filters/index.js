@@ -88,7 +88,9 @@ export const filterCatalogueTags = (tags) => {
 export const limit = (collection, limit = 5) => collection.slice(0, limit);
 
 export const filterFavourites = (collection) => {
-  return collection.filter((item) => item.data.favourite);
+  return collection.filter(
+    (item) => item.data.favourite || item.data.isFavourite,
+  );
 };
 
 export const isOld = (dateArg) => {

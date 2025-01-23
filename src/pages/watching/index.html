@@ -3,26 +3,28 @@ permalink: "watching/index.html"
 ---
 
 {% from "macros/media-grid.njk" import grid %}
-{% set data = collections.movie | reverse | limit(5) %}
-{% set favourites = collections.movie | filterFavourites | reverse | limit(5) %}
+{% set movies = collections.movie | reverse | limit(5) %}
+{% set shows = collections.tv | reverse | limit(5) %}
+{% set favouriteMovies = collections.movie | filterFavourites | reverse | limit(5) %}
+{% set favouriteShows = collections.tv | filterFavourites | reverse | limit(5) %}
 {% set yearsData = collections.moviesByYear | values | reverse %}
 <section class="flow">
     <h1>Watching</h1>
-    <p>A collection of movies I've seen over the years.</p>
-    <h2>Browse by year watched</h2>
-    <ul class="list-none flex p-0 gap-1 flex-wrap">
-        {% for year in yearsData %}
-            <li>
-                <a class="button" href="/movies/year/{{ year.value }}/">{{ year.value }}</a>
-            </li>
-        {% endfor %}
-    </ul>
+    <p>A collection of movies and shows I've seen.</p>
     <h2>
-        <a href="recent/">Latest movies</a>
+        <a href="recent/movies">Latest movies</a>
     </h2>
-    {{ grid(data) }}
+    {{ grid(movies) }}
     <h2>
-        <a href="favourites/">Favourite movies</a>
+        <a href="recent/shows">Latest shows</a>
     </h2>
-    {{ grid(favourites) }}
+    {{ grid(shows) }}
+    <h2>
+        <a href="favourites/movies">Favourite movies</a>
+    </h2>
+    {{ grid(favouriteMovies) }}
+    <h2>
+        <a href="favourites/shows">Favourite shows</a>
+    </h2>
+    {{ grid(favouriteShows) }}
 </section>

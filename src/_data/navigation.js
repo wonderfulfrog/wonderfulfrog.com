@@ -28,6 +28,10 @@ export default {
   ],
   bottom: [
     {
+      text: "Contact",
+      url: "/contact",
+    },
+    {
       text: "Colophon",
       url: "/colophon",
     },

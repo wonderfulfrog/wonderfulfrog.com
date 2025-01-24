@@ -10,6 +10,5 @@ export default {
   social: {
     github: "https://github.com/wonderfulfrog",
     mastodon: "https://mastodon.social/@wonderfulfrog",
-    lastfm: "https://www.last.fm/user/wonderfulfrog",
   },
 };

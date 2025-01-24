@@ -4,7 +4,10 @@ author: Ryan Holiday
 isbn: 9781591847816
 rating: 3
 image: https://cdn.wonderfulfrog.com/images/ego-is-the-enemy.jpeg
-tags: ["stoicism", "self help"]
+tags:
+  - non-fiction
+  - self-help
+  - stoicism
 year: 2016
 ---
 

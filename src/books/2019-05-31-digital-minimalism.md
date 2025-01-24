@@ -3,9 +3,13 @@ title: Digital Minimalism
 subtitle: Choosing a Focused Life in a Noisy World
 author: Cal Newport
 isbn: 9780525536512
-rating: 4
+rating: 2
 image: https://cdn.wonderfulfrog.com/images/digital-minimalism.jpg
-tags: ["white guy productivity", "technology"]
+tags:
+  - non-fiction
+  - self-help
+  - technology
+  - white-guy-productivity
 year: 2019
 ---
 

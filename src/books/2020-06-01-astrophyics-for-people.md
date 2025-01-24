@@ -4,7 +4,9 @@ author: Neil deGrasse Tyson
 isbn: 9780393609394
 rating: 2
 image: https://cdn.wonderfulfrog.com/images/astro-in-hurry.jpeg
-tags: ["science"]
+tags:
+  - non-fiction
+  - science
 year: 2017
 ---
 

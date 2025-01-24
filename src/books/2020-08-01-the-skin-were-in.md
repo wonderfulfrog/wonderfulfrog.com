@@ -5,7 +5,11 @@ author: Desmond Cole
 isbn: 9780385686341
 rating: 5
 image: https://cdn.wonderfulfrog.com/images/the-skin-were-in.jpeg
-tags: ["politics", "canada", "racism"]
+tags:
+  - non-fiction
+  - racism
+  - canada
+  - politics
 year: 2020
 ---
 

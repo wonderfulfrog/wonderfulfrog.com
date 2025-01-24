@@ -5,7 +5,10 @@ author: Matthew Walker
 isbn: 9781501144318
 rating: 5
 image: https://cdn.wonderfulfrog.com/images/why-we-sleep.jpeg
-tags: ["sleep"]
+tags:
+  - non-fiction
+  - sleep
+  - science
 year: 2017
 ---
 

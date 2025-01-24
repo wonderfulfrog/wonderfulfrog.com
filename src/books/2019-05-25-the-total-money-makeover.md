@@ -3,9 +3,11 @@ title: The Total Money Makeover
 subtitle: A Proven Plan for Financial Fitness
 author: Dave Ramsey
 isbn: 9780785289081
-rating: 3
+rating: 2
 image: https://cdn.wonderfulfrog.com/images/total-money-makeover.webp
-tags: ["finance"]
+tags:
+  - non-fiction
+  - finance
 year: 2003
 ---
 

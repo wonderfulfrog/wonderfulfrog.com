@@ -5,7 +5,10 @@ author: Gary Taubes
 isbn: 9780307272706
 rating: 3
 image: https://cdn.wonderfulfrog.com/images/why-we-get-fat.jpeg
-tags: ["self help", "diet"]
+tags:
+  - non-fiction
+  - self-help
+  - diet
 year: 2010
 ---
 

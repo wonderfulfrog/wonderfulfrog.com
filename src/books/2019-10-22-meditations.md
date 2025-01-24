@@ -4,7 +4,9 @@ author: Marcus Aurelius
 isbn: 9780140449334
 rating: 2
 image: https://cdn.wonderfulfrog.com/images/meditations.jpeg
-tags: ["stoicism"]
+tags:
+  - non-fiction
+  - stoicism
 year: 180
 ---
 

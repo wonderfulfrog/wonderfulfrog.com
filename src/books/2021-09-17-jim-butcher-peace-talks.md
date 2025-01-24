@@ -4,7 +4,9 @@ author: Jim Butcher
 image: https://cdn.wonderfulfrog.com/images/jim-butcher-peace-talks.jpeg
 isbn: 9780393609394
 rating: 2
-tags: ["fiction", "fantasy"]
+tags:
+  - fiction
+  - fantasy
 year: 2020
 ---
 

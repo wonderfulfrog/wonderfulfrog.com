@@ -5,7 +5,9 @@ author: Gay Hendricks
 isbn: 9780061735363
 rating: 3
 image: https://cdn.wonderfulfrog.com/images/the-big-leap.jpg
-tags: ["self help"]
+tags:
+  - non-fiction
+  - self-help
 year: 2009
 ---
 

@@ -5,7 +5,10 @@ image: https://cdn.wonderfulfrog.com/images/9780807041307_p0_v1_s1200x630.jpg
 url: https://www.yourfatfriend.com/book
 isbn: 9780807041307
 rating: 5
-tags: ["anti-fat"]
+tags:
+  - non-fiction
+  - diet
+  - anti-fat
 year: 2020
 ---
 

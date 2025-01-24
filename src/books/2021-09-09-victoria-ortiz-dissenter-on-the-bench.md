@@ -5,7 +5,9 @@ author: Victoria Ortiz
 isbn: 978054497364
 rating: 4
 image: https://cdn.wonderfulfrog.com/images/dissenter-on-the-bench.jpeg
-tags: ["biography"]
+tags:
+  - non-fiction
+  - biography
 year: 2019
 ---
 

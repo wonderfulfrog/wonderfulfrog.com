@@ -5,7 +5,11 @@ author: Johann Hari
 isbn: 9781526620224
 rating: 4
 image: https://cdn.wonderfulfrog.com/images/stolen-focus.jpg
-tags: ["focus", "adhd", "psychology"]
+tags:
+  - non-fiction
+  - adhd
+  - focus
+  - psychology
 year: 2022
 ---
 

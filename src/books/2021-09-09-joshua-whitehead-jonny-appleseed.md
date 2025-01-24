@@ -4,7 +4,10 @@ author: Joshua Whitehead
 isbn: 9781551527253
 rating: 4
 image: https://cdn.wonderfulfrog.com/images/jonny-appleseed.jpeg
-tags: ["fictional", "emotional"]
+tags:
+  - fiction
+  - emotional
+  - lqbtq
 year: 2018
 ---
 

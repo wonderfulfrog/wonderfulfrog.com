@@ -5,7 +5,12 @@ author: Edmond Lau
 isbn: 9780996128100
 rating: 4
 image: https://cdn.wonderfulfrog.com/images/the-effective-engineer.jpeg
-tags: ["leadership", "software development", "technology"]
+tags:
+  - non-fiction
+  - self-help
+  - leadership
+  - technology
+  - software-development
 year: 2015
 ---
 

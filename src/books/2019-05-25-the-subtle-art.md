@@ -5,7 +5,9 @@ author: Mark Manson
 isbn: 9780062457714
 rating: 5
 image: https://cdn.wonderfulfrog.com/images/subtle-art.jpeg
-tags: ["self help"]
+tags:
+  - self-help
+  - non-fiction
 year: 2016
 ---
 

@@ -140,6 +140,8 @@ picture {
   flex-direction: column;
   align-items: center;
   margin-inline: 0;
+  border-radius: var(--spacing-0\.5);
+  overflow: hidden;
 }
 
 figure figcaption {
@@ -152,7 +154,6 @@ figure figcaption {
 
 picture source,
 picture img {
-  border-radius: var(--spacing-0\.5);
   height: auto;
 }
 

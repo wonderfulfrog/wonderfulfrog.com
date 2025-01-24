@@ -1,10 +1,13 @@
 .media-image {
   --aspect-ratio: 0.8;
 
+  border: 1px solid var(--color-shadow);
+  border-radius: var(--spacing-0\.5);
+  overflow: hidden;
+
   source,
   img {
     aspect-ratio: var(--aspect-ratio);
-    border: 1px solid var(--color-shadow);
     height: auto;
     object-fit: cover;
   }

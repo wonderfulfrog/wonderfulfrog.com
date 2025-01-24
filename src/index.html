@@ -14,7 +14,7 @@ permalink: /
     If you're interested, I have an <a href="/about">about page</a> all about me!
 </p>
 <section>
-    <header class="[ flow ]">
+    <header class="flow">
         <h2>Favourite posts</h2>
         <p>Hand-picked, curated selection of my favourite posts!</p>
     </header>
@@ -27,4 +27,45 @@ permalink: /
     </header>
     {% set recentPosts = collections.post | reverse | limit(5) %}
     {{ list(recentPosts, "MM/DD/YYYY") }}
+</section>
+<section>
+    <header class="flow">
+        <h2>Other pages</h2>
+        <p>Some of my other pages you can check out!</p>
+    </header>
+    <ul class="[ cluster p-0 gap-0.5 list-none ]" role="list">
+        <li>
+            <a href="/about" class="button">About</a>
+        </li>
+        <li>
+            <a href="/posts" class="button">Posts</a>
+        </li>
+        <li>
+            <a href="/games" class="button">Games</a>
+        </li>
+        <li>
+            <a href="/watching" class="button">Watching</a>
+        </li>
+        <li>
+            <a href="/books" class="button">Books</a>
+        </li>
+        <li>
+            <a href="/webrings" class="button">Webrings</a>
+        </li>
+        <li>
+            <a href="/uses" class="button">/uses</a>
+        </li>
+        <li>
+            <a href="/now" class="button">/now</a>
+        </li>
+        <li>
+            <a href="/colophon" class="button">Colophon</a>
+        </li>
+        <li>
+            <a href="/styleguide" class="button">Styleguide</a>
+        </li>
+        <li>
+            <a href="/contact" class="button">Contact</a>
+        </li>
+    </ul>
 </section>

@@ -10,6 +10,16 @@ All the changes that are fit to read!
 
 If preferred, the [commit log is available here][commits].
 
+## January 24th, 2025
+
+- Upgraded to [Eleventy v3](https://www.11ty.dev/blog/eleventy-v3/)!
+- A design refresh! The overall look-and-feel is the same, but I added some playful animations here and there.
+- Restructured my catalogue by breaking sub-categories into their own sections.
+- Removed the Podcasts and Comics catalogues. Podcasts has its own respective page now that I plan to update occasionally.
+- Added [Games](/games)!
+- Added [Movies](/watching/movies/recent)!
+- Added [Shows](/watching/shows/recent)!
+
 ## September 29th 2024
 
 - Switched to [Cloudflare Pages](https://pages.cloudflare.com/) for deployments and hosting.

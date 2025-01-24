@@ -5,6 +5,8 @@ description: All about me!
 
 # About me
 
+**See also**: [Stuff I use](/uses), my [contact info](/contact), or [what's happening now](/now).
+
 Hello! Ahoj! Welcome to my site!
 
 My name is **Devin Haska** and this is my little slice of the internet I call home.

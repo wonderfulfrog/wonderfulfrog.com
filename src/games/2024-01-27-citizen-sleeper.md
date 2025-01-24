@@ -1,8 +1,13 @@
 ---
 title: Citizen Sleeper
 platform: PC
-image: https://cdn.wonderfulfrog.com/images/Citizen_Sleeper_cover_art.jpg
-tags: ["narrative", "visual novel", "indie", "rpg", "single player"]
+image: https://cdn.wonderfulfrog.com/images/games/citizen-sleeper-cover.jpg
+tags:
+  - single-player
+  - narrative
+  - visual-novel
+  - indie
+  - rpg
 year: 2022
 rating: 4
 playtime: 7 hours

@@ -6,11 +6,24 @@ permalink: "games/index.html"
 {% from "macros/media-grid.njk" import grid %}
 {% set data = collections.game | reverse | limit(5) %}
 {% set faves = collections.game | filterFavourites | reverse | limit(5) %}
+{% set tags = collections.game | allTagCounts(["game"]) | limit(5) %}
 <section class="flow">
     <h1>Games</h1>
     <p>
         A collection of games I played over the years. Ideally this would include every game I've every played, but realistically it's an approximation. I try to include my own thoughts with each.
     </p>
+    <h2>
+        <a href="tags">Tags</a>
+    </h2>
+    <ul class="[ categories ] [ cluster list-none p-0 line-height-m ]">
+        {% for tag in tags %}
+            <li>
+                <a class="[ button ]" href="/games/tag/{{ tag.tag | slugify }}">
+                    {% include "svgs/frame.svg" %}
+                {{ tag.tag }}</a>
+            </li>
+        {% endfor %}
+    </ul>
     <h2>
         <a href="recent">Latest games</a>
     </h2>

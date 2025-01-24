@@ -2,7 +2,11 @@
 title: "Donkey Kong Country: Tropical Freeze"
 platform: Nintendo Wii U
 image: https://cdn.wonderfulfrog.com/images/DKC5_box_art.jpg
-tags: ["platformer", "challenging", "single player", "multiplayer"]
+tags:
+  - single-player
+  - co-op
+  - platformer
+  - challenging
 year: 2014
 ---
 

@@ -2,7 +2,10 @@
 title: Shovel Knight
 platform: Nintendo Wii U
 image: https://cdn.wonderfulfrog.com/images/Shovel_knight_cover.jpg
-tags: ["platformer", "retro", "single player"]
+tags:
+  - single-player
+  - platformer
+  - retro
 year: 2014
 ---
 

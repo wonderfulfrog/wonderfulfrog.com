@@ -2,7 +2,12 @@
 title: Tomb Raider
 platform: PC
 image: https://cdn.wonderfulfrog.com/images/TombRaider2013.jpg
-tags: ["action", "adventure", "puzzle", "reboot", "single player"]
+tags:
+  - single-player
+  - action
+  - adventure
+  - puzzle
+  - reboot
 year: 2013
 ---
 

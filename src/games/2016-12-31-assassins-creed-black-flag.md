@@ -2,7 +2,11 @@
 title: "Assassin's Creed IV: Black Flag"
 platform: PlayStation 3
 image: https://cdn.wonderfulfrog.com/images/Assassins_Creed_IV_-_Black_Flag_cover.jpg
-tags: ["action", "adventure", "single player"]
+tags:
+  - single-player
+  - action
+  - open-world
+  - adventure
 year: 2013
 ---
 

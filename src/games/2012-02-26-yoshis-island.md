@@ -1,8 +1,10 @@
 ---
 title: "Super Mario World 2: Yoshi's Island"
 platform: Super Nintendo
-image: https://cdn.wonderfulfrog.com/images/Yoshis_Island_box_art.jpg
-tags: ["platformer"]
+image: https://cdn.wonderfulfrog.com/images/games/yoshis-island-cover.jpg
+tags:
+  - single-player
+  - platformer
 isFavourite: true
 year: 1995
 ---

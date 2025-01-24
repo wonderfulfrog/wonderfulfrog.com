@@ -3,7 +3,13 @@ title: Hyper Light Drifter
 platform: PC
 image: https://cdn.wonderfulfrog.com/images/HyperLightDrifterBoxArt.png
 tags:
-  ["action", "hack and slash", "retro", "indie", "open world", "single player"]
+  - single-player
+  - action
+  - retro
+  - indie
+  - hack-n-slash
+  - open-world
+  - retro
 year: 2016
 ---
 

@@ -1,7 +1,12 @@
 ---
 title: Axiom Verge
 platform: Nintendo Switch
-image: https://cdn.wonderfulfrog.com/images/Axiom_Verge_Title.png
-tags: ["action", "metroidvania", "indie", "single player"]
+image: https://cdn.wonderfulfrog.com/images/games/axiom-verge-cover.jpg
+tags:
+  - single-player
+  - action
+  - indie
+  - metroidvania
+  - retro
 year: 2015
 ---

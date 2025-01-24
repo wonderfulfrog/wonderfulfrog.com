@@ -38,10 +38,12 @@ export default function (eleventyConfig) {
 
   // 	--------------------- Custom Collections -----------------------
   eleventyConfig.addCollection("postsByTag", postsByTag);
-  eleventyConfig.addCollection("booksByTag", (collection) => {
-    const data = collectionByTag(collection, "book");
-    return data;
-  });
+  eleventyConfig.addCollection("booksByTag", (collection) =>
+    collectionByTag(collection, "book"),
+  );
+  eleventyConfig.addCollection("gamesByTag", (collection) =>
+    collectionByTag(collection, "game"),
+  );
 
   // 	--------------------- Custom Filters -----------------------
   eleventyConfig.addFilter("allTagCounts", allTagCounts);

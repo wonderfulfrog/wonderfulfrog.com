@@ -3,7 +3,11 @@ title: "Middle-earth: Shadow of Mordor"
 platform: PC
 image: https://cdn.wonderfulfrog.com/images/Shadow_of_Mordor_cover_art.jpg
 tags:
-  ["action", "nemesis system", "hack and slash", "single player", "open world"]
+  - single-player
+  - action
+  - hack-n-slash
+  - open-world
+  - nemesis-system
 year: 2014
 ---
 

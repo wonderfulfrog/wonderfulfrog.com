@@ -2,7 +2,11 @@
 title: "The Wonderful 101"
 platform: Nintendo Wii U
 image: https://cdn.wonderfulfrog.com/images/Wonderful_101_box_artwork.jpg
-tags: ["action", "beat em up", "single player"]
+tags:
+  - single-player
+  - action
+  - beat-em-up
+  - platinum
 year: 2013
 ---
 

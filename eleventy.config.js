@@ -44,6 +44,12 @@ export default function (eleventyConfig) {
   eleventyConfig.addCollection("gamesByTag", (collection) =>
     collectionByTag(collection, "game"),
   );
+  eleventyConfig.addCollection("showsByTag", (collection) =>
+    collectionByTag(collection, "tv"),
+  );
+  eleventyConfig.addCollection("moviesByTag", (collection) =>
+    collectionByTag(collection, "movie"),
+  );
 
   // 	--------------------- Custom Filters -----------------------
   eleventyConfig.addFilter("allTagCounts", allTagCounts);

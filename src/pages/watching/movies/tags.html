@@ -1,12 +1,12 @@
 ---
-title: Tagged in Games
-permalink: "games/tags/index.html"
+title: Tagged in Movies
+permalink: "watching/movies/tags/index.html"
 ---
 
 {% from "macros/media-grid.njk" import grid %}
-{% set tags = collections.game | allTagCounts(["game"]) %}
+{% set tags = collections.movie | allTagCounts(["movie"]) %}
 <section class="flow">
-    <h1>Tagged in Games</h1>
+    <h1>Tagged in Movies</h1>
     <ul class="[ categories ] [ cluster list-none p-0 line-height-m ]">
         {% for tag in tags %}
             <li>

@@ -18,7 +18,7 @@ permalink: "games/index.html"
     <ul class="[ categories ] [ cluster list-none p-0 line-height-m ]">
         {% for tag in tags %}
             <li>
-                <a class="[ button ]" href="/games/tag/{{ tag.tag | slugify }}">
+                <a class="[ button ]" href="tag/{{ tag.tag | slugify }}">
                     {% include "svgs/frame.svg" %}
                 {{ tag.tag }}</a>
             </li>

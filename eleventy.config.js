@@ -3,14 +3,17 @@ import pluginRss from "@11ty/eleventy-plugin-rss";
 import pluginNoRobots from "eleventy-plugin-no-robots";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 
-import { catalogueByType, postsByTag } from "./config/collections/index.js";
+import {
+  catalogueByType,
+  collectionByTag,
+  postsByTag,
+} from "./config/collections/index.js";
 
 import { dir } from "./config/constants.js";
 import {
   allTagCounts,
   entries,
   filter,
-  filterCatalogueTags,
   filterFavourites,
   formatDate,
   isOld,
@@ -34,29 +37,16 @@ export default function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginNoRobots);
 
   // 	--------------------- Custom Collections -----------------------
-  eleventyConfig.addCollection("gamesByYear", (collection) => {
-    const data = collection.getFilteredByTag("game");
-    const byYear = transformByDate(data);
-    return byYear;
-  });
-  eleventyConfig.addCollection("booksByYear", (collection) => {
-    const data = collection.getFilteredByTag("book");
-    const byYear = transformByDate(data);
-    return byYear;
-  });
-  eleventyConfig.addCollection("moviesByYear", (collection) => {
-    const data = collection.getFilteredByTag("movie");
-    const byYear = transformByDate(data);
-    return byYear;
-  });
-  eleventyConfig.addCollection("catalogueByType", catalogueByType);
   eleventyConfig.addCollection("postsByTag", postsByTag);
+  eleventyConfig.addCollection("booksByTag", (collection) => {
+    const data = collectionByTag(collection, "book");
+    return data;
+  });
 
   // 	--------------------- Custom Filters -----------------------
   eleventyConfig.addFilter("allTagCounts", allTagCounts);
   eleventyConfig.addFilter("entries", entries);
   eleventyConfig.addFilter("filter", filter);
-  eleventyConfig.addFilter("filterCatalogueTags", filterCatalogueTags);
   eleventyConfig.addFilter("filterFavourites", filterFavourites);
   eleventyConfig.addFilter("formatDate", formatDate);
   eleventyConfig.addFilter("isOld", isOld);

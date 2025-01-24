@@ -15,6 +15,21 @@ export const postsByTag = (collection) => {
   return postsByTag;
 };
 
+export const collectionByTag = (collection, collectionName) => {
+  const items = collection.getFilteredByTag(collectionName);
+
+  const itemsByTag = {};
+
+  for (const item of items) {
+    for (const tag of item.data.tags) {
+      itemsByTag[tag] ??= [];
+      itemsByTag[tag].push(item);
+    }
+  }
+
+  return itemsByTag;
+};
+
 export const catalogueByType = (collection) => {
   const allItems = collection.getFilteredByTag("catalogue");
 

@@ -1,21 +1,33 @@
 ---
+title: Books
 permalink: "books/index.html"
 ---
 
 {% from "macros/media-grid.njk" import grid %}
-{% set data = collections.book | reverse %}
-{% set yearsData = collections.booksByYear | values | reverse %}
+{% set data = collections.book | reverse | limit(5) %}
+{% set faves = collections.book | filterFavourites | reverse | limit(5) %}
+{% set tags = collections.book | allTagCounts(["book"]) | limit(5) %}
 <section class="flow">
     <h1>Books</h1>
-    <p>A collection of games I've read over the years.</p>
-    <h2>Browse by release year</h2>
-    <ul class="list-none flex p-0 gap-1 flex-wrap">
-        {% for year in yearsData %}
+    <p>A collection of books I've read over the years. I hope one day its an exhaustive list.</p>
+    <h2>
+        <a href="tags">Tags</a>
+    </h2>
+    <ul class="[ categories ] [ cluster list-none p-0 line-height-m ]">
+        {% for tag in tags %}
             <li>
-                <a class="button" href="/books/year/{{ year.value }}/">{{ year.value }}</a>
+                <a class="[ button ]" href="/books/tag/{{ tag.tag | slugify }}">
+                    {% include "svgs/frame.svg" %}
+                {{ tag.tag }}</a>
             </li>
         {% endfor %}
     </ul>
-    <h2>Latest books</h2>
+    <h2>
+        <a href="recent">Recent books</a>
+    </h2>
     {{ grid(data) }}
+    <h2>
+        <a href="favourites">Favourite books</a>
+    </h2>
+    {{ grid(faves) }}
 </section>

@@ -1,12 +1,10 @@
 ---
+title: Favourite shows
 permalink: "watching/favourites/shows/index.html"
 ---
 
 {% from "macros/media-grid.njk" import grid %}
 {% set data = collections.tv | filterFavourites | reverse %}
-<a class="button" href="/watching">
-    {% include "svgs/arrow-left.svg" %}
-Back to watching</a>
 <section class="flow">
     <h1>Favourite shows</h1>
     <p>A collection of my favourite shows!</p>

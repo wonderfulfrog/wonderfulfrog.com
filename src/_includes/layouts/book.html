@@ -4,43 +4,46 @@ layout: "layouts/base"
 
 {% from "macros/date.njk" import format %}
 {% from "macros/utils.njk" import stars %}
-<a class="button" href="/books">
-    {% include "svgs/arrow-left.svg" %}
-Back to books</a>
-<header class="media-meta-grid gap-1">
+<header class="flow flow-space-1">
+    {{ format(page.date) }}
+    <h1>{{ title }}</h1>
+    {% if pullquote %}<p class="text-fadeText flow-space-0.25">{{ pullquote }}</p>{% endif %}
+</header>
+{% if content %}
+    <section class="flow">
+        {{ content | safe }}
+    </section>
+{% endif %}
+<hr class="my-2" />
+<footer class="media-meta-grid gap-1">
     <div class="media-image media-image--tall">
         <img src="{{ image }}" alt="" />
     </div>
     <div class="flow flex-col justify-center">
         <h2>{{ title }}</h2>
         {% if subtitle %}<p class="text-fadeText flow-space-0.5 line-height-m">{{ subtitle }}</p>{% endif %}
-        <p class="flex gap-0.5">
-            <span class="text-fadeText">by</span>{{ author }}
-        </p>
         {% if rating %}{{ stars(rating) }}{% endif %}
         <ul class="list-none p-0 mb-0 media-meta-grid gap-0.5">
+            {% if author %}
+                <li class="flex-col">
+                    <strong>Author</strong><span>{{ author }}</span>
+                </li>
+            {% endif %}
             {% if year %}
                 <li class="flex-col">
-                    <strong>Released</strong><span>{{ year }}</span>
-                </li>
-            {% endif %}
-            {% if playtime %}
-                <li class="flex-col">
-                    <strong>Playtime</strong><span>{{ playtime }}</span>
-                </li>
-            {% endif %}
-            {% if pullquote %}
-                <li class="flex-col meta-grid--full">
-                    <strong>Pullquote</strong><span>{{ pullquote }}</span>
+                    <strong>Published</strong><span>{{ year }}</span>
                 </li>
             {% endif %}
         </ul>
     </div>
-</header>
-{% if content %}
-    <hr class="my-2" />
-    <section class="flow">
-        {{ content | safe }}
-    </section>
-{% endif %}
-{{ format(page.date) }}
+</footer>
+<hr class="my-2">
+<ul class="[ categories ] [ cluster list-none p-0 line-height-m ]">
+    {% for tag in tags | filter("book") %}
+        <li>
+            <a class="[ button ]" href="/books/tag/{{ tag | slugify }}">
+                {% include "svgs/frame.svg" %}
+            {{ tag }}</a>
+        </li>
+    {% endfor %}
+</ul>

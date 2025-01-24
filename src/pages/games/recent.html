@@ -1,0 +1,12 @@
+---
+title: Recent games
+permalink: "games/recent/index.html"
+---
+
+{% from "macros/media-grid.njk" import grid %}
+{% set data = collections.game | reverse %}
+<section class="flow">
+    <h1>Latest games</h1>
+    <p>A collection of games I've played.</p>
+    {{ grid(data) }}
+</section>

@@ -1,21 +1,22 @@
 ---
+title: Games
 permalink: "games/index.html"
 ---
 
 {% from "macros/media-grid.njk" import grid %}
-{% set gamesData = collections.game | reverse %}
-{% set yearsData = collections.gamesByYear | values | reverse %}
+{% set data = collections.game | reverse | limit(5) %}
+{% set faves = collections.game | filterFavourites | reverse | limit(5) %}
 <section class="flow">
     <h1>Games</h1>
-    <p>A collection of games I played over the years.</p>
-    <h2>Browse by release year</h2>
-    <ul class="list-none flex p-0 gap-1 flex-wrap">
-        {% for year in yearsData %}
-            <li>
-                <a class="button" href="/games/year/{{ year.value }}/">{{ year.value }}</a>
-            </li>
-        {% endfor %}
-    </ul>
-    <h2>Latest games</h2>
-    {{ grid(gamesData) }}
+    <p>
+        A collection of games I played over the years. Ideally this would include every game I've every played, but realistically it's an approximation. I try to include my own thoughts with each.
+    </p>
+    <h2>
+        <a href="recent">Latest games</a>
+    </h2>
+    {{ grid(data) }}
+    <h2>
+        <a href="favourites">Favourite games</a>
+    </h2>
+    {{ grid(faves) }}
 </section>

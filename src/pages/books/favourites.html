@@ -1,0 +1,15 @@
+---
+title: Favourite books
+permalink: "books/favourites/index.html"
+---
+
+{% from "macros/media-grid.njk" import grid %}
+{% set data = collections.book | filterFavourites | reverse %}
+<a class="button" href="/books">
+    {% include "svgs/arrow-left.svg" %}
+Back to books</a>
+<section class="flow">
+    <h1>Favourite book</h1>
+    <p>A collection of my favourite books!</p>
+    {{ grid(data) }}
+</section>

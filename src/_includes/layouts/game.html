@@ -4,10 +4,18 @@ layout: "layouts/base"
 
 {% from "macros/date.njk" import format %}
 {% from "macros/utils.njk" import stars %}
-<a class="button" href="/games">
-    {% include "svgs/arrow-left.svg" %}
-Back to games</a>
-<header class="media-meta-grid gap-1">
+<header class="flow flow-space-1">
+    {{ format(page.date) }}
+    <h1>{{ title }}</h1>
+    <p class="text-fadeText flow-space-0.25">{{ pullquote }}</p>
+</header>
+{% if content %}
+    <section class="flow">
+        {{ content | safe }}
+    </section>
+{% endif %}
+<hr class="my-2" />
+<footer class="media-meta-grid gap-1">
     <div class="media-image">
         <img src="{{ image }}" alt="" />
     </div>
@@ -29,18 +37,11 @@ Back to games</a>
                     <strong>Playtime</strong><span>{{ playtime }}</span>
                 </li>
             {% endif %}
-            {% if pullquote %}
+            {% if tags %}
                 <li class="flex-col meta-grid--full">
-                    <strong>Pullquote</strong><span>{{ pullquote }}</span>
+                    <strong>Genres</strong><span>{{ tags | filter("game") | join(", ") }}</span>
                 </li>
             {% endif %}
         </ul>
     </div>
-</header>
-{% if content %}
-    <hr class="my-2" />
-    <section class="flow">
-        {{ content | safe }}
-    </section>
-{% endif %}
-{{ format(page.date) }}
+</footer>

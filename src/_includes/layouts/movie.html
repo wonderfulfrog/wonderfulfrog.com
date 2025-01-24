@@ -4,43 +4,10 @@ layout: "layouts/base"
 
 {% from "macros/date.njk" import format %}
 {% from "macros/utils.njk" import stars %}
-<a class="button" href="/watching">
-    {% include "svgs/arrow-left.svg" %}
-Back to watching</a>
-<header class="media-meta-grid gap-1">
-    <div class="media-image media-image--tall">
-        <img src="{{ image }}" alt="" />
-    </div>
-    <div class="flow flex-col justify-center">
-        <div class="flex items-center gap-0.5 flex-wrap">
-            <h2>{{ title }}</h2>
-        </div>
-        {% if subtitle %}<h2>{{ subtitle }}</h2>{% endif %}
-        {% if director %}
-            <p class="flex gap-0.5">
-                <span class="text-fadeText">Directed by</span>{{ director }}
-            </p>
-        {% endif %}
-        {% if watchHistory %}<p class="flow-space-0.25">{{ format(watchHistory | last) }}</p>{% endif %}
-        {% if rating %}{{ stars(rating) }}{% endif %}
-        <ul class="list-none p-0 mb-0 media-meta-grid gap-0.5">
-            {% if year %}
-                <li class="flex-col">
-                    <strong>Released</strong><span>{{ year }}</span>
-                </li>
-            {% endif %}
-            {% if runtime %}
-                <li class="flex-col">
-                    <strong>Runtime</strong><span>{{ runtime }} mins</span>
-                </li>
-            {% endif %}
-            {% if tags %}
-                <li class="flex-col meta-grid--full">
-                    <strong>Genres</strong><span>{{ tags | filter("movie") | join(", ") }}</span>
-                </li>
-            {% endif %}
-        </ul>
-    </div>
+<header class="flow flow-space-1">
+    {{ format(page.date) }}
+    <h1>{{ title }}</h1>
+    <p class="text-fadeText flow-space-0.25">{{ pullquote }}</p>
 </header>
 {% if watchHistory.length > 1 %}
     <p>
@@ -55,8 +22,42 @@ Back to watching</a>
     </p>
 {% endif %}
 {% if content %}
-    <hr class="my-2" />
     <section class="flow">
         {{ content | safe }}
     </section>
 {% endif %}
+<hr class="my-2" />
+<footer class="media-meta-grid gap-1">
+    <div class="media-image media-image--tall">
+        <img src="{{ image }}" alt="" />
+    </div>
+    <div class="flow flex-col justify-center">
+        <div class="flex items-center gap-0.5 flex-wrap">
+            <h2>{{ title }}</h2>
+        </div>
+        {% if subtitle %}<h2>{{ subtitle }}</h2>{% endif %}
+        {% if rating %}{{ stars(rating) }}{% endif %}
+        <ul class="list-none p-0 mb-0 media-meta-grid gap-0.5">
+            {% if year %}
+                <li class="flex-col">
+                    <strong>Released</strong><span>{{ year }}</span>
+                </li>
+            {% endif %}
+            {% if director %}
+                <li class="flex-col">
+                    <strong>Director</strong>{{ director }}
+                </li>
+            {% endif %}
+            {% if runtime %}
+                <li class="flex-col">
+                    <strong>Runtime</strong><span>{{ runtime }} mins</span>
+                </li>
+            {% endif %}
+            {% if tags %}
+                <li class="flex-col meta-grid--full">
+                    <strong>Genres</strong><span>{{ tags | filter("movie") | join(", ") }}</span>
+                </li>
+            {% endif %}
+        </ul>
+    </div>
+</footer>

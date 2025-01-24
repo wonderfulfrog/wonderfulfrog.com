@@ -4,6 +4,8 @@
   background-color: var(--color-surface);
   color: var(--color-fadeText);
   font-size: 0.8rem;
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-body-regular);
   line-height: 0.8rem;
   padding-inline: var(--spacing-0\.5);
   padding-block: var(--spacing-0\.25);

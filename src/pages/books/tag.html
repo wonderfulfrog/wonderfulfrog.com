@@ -1,0 +1,15 @@
+---
+pagination:
+  data: collections.booksByTag
+  size: 1
+  alias: tag
+permalink: "books/tag/{{ tag | slugify }}/index.html"
+---
+
+{% from "macros/media-grid.njk" import grid %}
+{% set data = collections.booksByTag[tag] %}
+<header class="flow flow-space-1">
+    <h1>Books</h1>
+    <p class="text-fadeText flow-space-0.25">Tagged with "{{ tag }}"</p>
+</header>
+{{ grid(data) }}

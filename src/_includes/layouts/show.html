@@ -4,10 +4,24 @@ layout: "layouts/base"
 
 {% from "macros/date.njk" import format %}
 {% from "macros/utils.njk" import stars %}
-<a class="button" href="/watching">
-    {% include "svgs/arrow-left.svg" %}
-Back to watching</a>
-<header class="media-meta-grid gap-1">
+<header class="flow flow-space-1">
+    {{ format(page.date) }}
+    <h1>{{ title }}</h1>
+    <p class="text-fadeText flow-space-0.25">{{ pullquote }}</p>
+</header>
+{% if content %}
+    <section class="flow">
+        {{ content | safe }}
+    </section>
+{% endif %}
+{% if favourite or isFavourite %}
+    <p>
+        <span class="text-secondary">{% include "svgs/star.svg" %}</span>
+        This is one of my favourite shows!
+    </p>
+{% endif %}
+<hr class="my-2" />
+<footer class="media-meta-grid gap-1">
     <div class="media-image media-image--tall">
         <img src="{{ image }}" alt="" />
     </div>
@@ -41,22 +55,4 @@ Back to watching</a>
             {% endif %}
         </ul>
     </div>
-</header>
-{% if watchHistory.length > 1 %}
-    <p>
-        <span class="text-primary">{% include "svgs/circle-info.svg" %}</span>
-        I've seen this movie <strong>{{ watchHistory.length }}</strong> {{ "time" | pluralize(watchHistory) }}!
-    </p>
-{% endif %}
-{% if favourite %}
-    <p>
-        <span class="text-secondary">{% include "svgs/star.svg" %}</span>
-        This is one of my favourite movies!
-    </p>
-{% endif %}
-{% if content %}
-    <hr class="my-2" />
-    <section class="flow">
-        {{ content | safe }}
-    </section>
-{% endif %}
+</footer>

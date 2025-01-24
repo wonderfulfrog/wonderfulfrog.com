@@ -1,4 +1,5 @@
 ---
+title: Watching
 permalink: "watching/index.html"
 ---
 
@@ -7,16 +8,15 @@ permalink: "watching/index.html"
 {% set shows = collections.tv | reverse | limit(5) %}
 {% set favouriteMovies = collections.movie | filterFavourites | reverse | limit(5) %}
 {% set favouriteShows = collections.tv | filterFavourites | reverse | limit(5) %}
-{% set yearsData = collections.moviesByYear | values | reverse %}
 <section class="flow">
     <h1>Watching</h1>
-    <p>A collection of movies and shows I've seen.</p>
+    <p>A collection of movies and shows I've seen. I tend to watch more movies than shows these days.</p>
     <h2>
-        <a href="recent/movies">Latest movies</a>
+        <a href="recent/movies">Recent movies</a>
     </h2>
     {{ grid(movies) }}
     <h2>
-        <a href="recent/shows">Latest shows</a>
+        <a href="recent/shows">Recent shows</a>
     </h2>
     {{ grid(shows) }}
     <h2>

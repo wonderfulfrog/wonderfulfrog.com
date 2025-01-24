@@ -1,11 +1,12 @@
 .stars li {
   line-height: 16px; /* Size of icons */
+  filter: drop-shadow(-1px 1px 0px var(--color-surface));
   transition: margin ease-in-out var(--transition-duration);
+  z-index: 1;
 }
 
 .star-filled {
   color: var(--color-primary);
-  z-index: 1;
 }
 
 .star-empty {

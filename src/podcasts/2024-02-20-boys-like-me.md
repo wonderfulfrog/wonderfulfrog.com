@@ -1,8 +1,9 @@
 ---
 title: Boys Like Me
-rating: 5
 image: https://cdn.wonderfulfrog.com/images/BoysLikeMe-podcast-template.avif
 url: https://www.cbc.ca/listen/cbc-podcasts/1035-boys-like-me
+isCompleted: true
+description: A deep dive into the growing incel movement.
 ---
 
 For those wondering how the modern incel movement starting gaining so much traction - this podcast explores how the movement started and how it has got so far.

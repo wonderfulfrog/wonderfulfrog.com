@@ -1,8 +1,9 @@
 ---
 title: Conversations With People Who Hate Me
-rating: 5
 image: https://cdn.wonderfulfrog.com/images/Conversations-With-People-Who-Hate-Me-Square-Logo.png
 url: https://www.dylanmarron.com/podcast
+isCompleted: true
+description: What would it be like to meet and talk with your haters?
 ---
 
 A uniquely humanizing experience when Dylan chats with his haters. It's surprising to me how many people backtrack their comments (or at least stand by the spirit and not the delivery). I do think anonymity has this boosting effect in people's willingness to be mean (putting it lightly).

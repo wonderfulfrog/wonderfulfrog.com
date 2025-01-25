@@ -4,6 +4,7 @@ layout: "layouts/base"
 
 {% from "macros/date.njk" import format %}
 {% from "macros/utils.njk" import stars %}
+{% from "macros/tags.njk" import tagList %}
 <header class="flow flow-space-1">
     {{ format(page.date) }}
     <h1>{{ title }}</h1>
@@ -56,3 +57,4 @@ layout: "layouts/base"
         </ul>
     </div>
 </footer>
+{{ tagList(tags | filter("tv") , "/watching/shows") }}

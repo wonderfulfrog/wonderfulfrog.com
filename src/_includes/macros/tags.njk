@@ -1,0 +1,11 @@
+{% macro tagList(tags, urlPrefix) %}
+<ul class="categories cluster list-none p-0 line-height-m">
+    {% for tag in tags %}
+        <li>
+            <a class="button" href="{{ urlPrefix }}/tag/{{ tag | slugify }}">
+                {% include "svgs/frame.svg" %}
+            {{ tag }}</a>
+        </li>
+    {% endfor %}
+</ul>
+{% endmacro %}

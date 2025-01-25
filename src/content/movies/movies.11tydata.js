@@ -1,5 +1,5 @@
 export default {
   layout: "layouts/movie",
-  permalink: "movies/{{ page.fileSlug }}/index.html",
+  permalink: "watching/movies/{{ page.fileSlug }}/index.html",
   tags: "movie",
 };

@@ -3,11 +3,7 @@ import pluginRss from "@11ty/eleventy-plugin-rss";
 import pluginNoRobots from "eleventy-plugin-no-robots";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 
-import {
-  catalogueByType,
-  collectionByTag,
-  postsByTag,
-} from "./config/collections/index.js";
+import { collectionByTag, postsByTag } from "./config/collections/index.js";
 
 import { dir } from "./config/constants.js";
 import {
@@ -22,7 +18,6 @@ import {
   organizeByDate,
   pluralize,
   values,
-  transformByDate,
 } from "./config/filters/index.js";
 import markdown from "./config/plugins/markdown.js";
 import liteYoutube from "./config/shortcodes/youtube.js";

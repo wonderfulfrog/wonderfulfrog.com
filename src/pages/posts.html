@@ -10,7 +10,7 @@ description: Read all of my posts.
 </p>
 {% set itemsByYear = collections.post | reverse | organizeByDate %}
 {% set years = itemsByYear | keys | sort("desc") %}
-<section class="[ flow ]">
+<section class="flow">
     {% for year in years %}
         {% set itemsInYear = itemsByYear[year] %}
         {{ yearList(itemsInYear, year) }}

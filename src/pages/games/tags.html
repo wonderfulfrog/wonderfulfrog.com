@@ -7,10 +7,10 @@ permalink: "games/tags/index.html"
 {% set tags = collections.game | allTagCounts(["game"]) %}
 <section class="flow">
     <h1>Tagged in Games</h1>
-    <ul class="[ categories ] [ cluster list-none p-0 line-height-m ]">
+    <ul class="categories cluster list-none p-0 line-height-m">
         {% for tag in tags %}
             <li>
-                <a class="[ button ]" href="../tag/{{ tag.tag | slugify }}">
+                <a class="button" href="../tag/{{ tag.tag | slugify }}">
                     {% include "svgs/frame.svg" %}
                 {{ tag.tag }}</a>
             </li>

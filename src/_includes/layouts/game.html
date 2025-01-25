@@ -41,10 +41,10 @@ layout: "layouts/base"
     </div>
 </footer>
 <hr class="my-2">
-<ul class="[ categories ] [ cluster list-none p-0 line-height-m ]">
+<ul class="categories cluster list-none p-0 line-height-m">
     {% for tag in tags | filter("game") %}
         <li>
-            <a class="[ button ]" href="/books/tag/{{ tag | slugify }}">
+            <a class="button" href="/books/tag/{{ tag | slugify }}">
                 {% include "svgs/frame.svg" %}
             {{ tag }}</a>
         </li>

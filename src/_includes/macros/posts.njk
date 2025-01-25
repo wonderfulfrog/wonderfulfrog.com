@@ -1,20 +1,20 @@
 {% macro one(post, fmt = "MM/DD") %}
-    <article class="[ posts-list-item column-gap-0.5 justify-between line-height-l ]">
+    <article class="posts-list-item column-gap-0.5 justify-between line-height-l">
         <a href="{{ post.url }}">{{ post.data.title }}</a>
-        <time datetime="{{ post.date }}" class="[ text-fadeText ]">{{ post.date | formatDate(fmt) }}</time>
-        <p class="[ text-fadeText font-size-s line-height-m ]">{{ post.data.excerpt }}</p>
+        <time datetime="{{ post.date }}" class="text-fadeText">{{ post.date | formatDate(fmt) }}</time>
+        <p class="text-fadeText font-size-s line-height-m">{{ post.data.excerpt }}</p>
     </article>
 {% endmacro %}
 {% macro list(posts, format = "MM/DD") %}
-    <ol class="[ flow p-0 ]" role="list">
-        {% for post in posts %}<li class="[ flow-space-0.5 ]">{{ one(post, format) }}</li>{% endfor %}
+    <ol class="flow p-0" role="list">
+        {% for post in posts %}<li class="flow-space-0.5">{{ one(post, format) }}</li>{% endfor %}
     </ol>
 {% endmacro %}
 {% macro yearList(posts, year, format = "MM/DD") %}
-    <section class="[ flow ]">
-        <header class="[ cluster gap-0.5 ]">
+    <section class="flow">
+        <header class="cluster gap-0.5">
             <h2>{{ year }}</h2>
-            <p class="[ pill ]">{{ posts | length }}</p>
+            <p class="pill">{{ posts | length }}</p>
         </header>
         {{ list(posts, format) }}
     </section>

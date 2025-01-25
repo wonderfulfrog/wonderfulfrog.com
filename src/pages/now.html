@@ -8,7 +8,7 @@ description: What's going on now and all the latest with myself.
 <p>What am I doing right now? Everything on here is automatically generated from various data sources.</p>
 {% if letterboxd.length > 0 %}
     <h2>🍿 Movies</h2>
-    <ul class="[ media-grid ][ p-0 ]" role="list">
+    <ul class="media-grid p-0" role="list">
         {% for movie in letterboxd %}
             <li class="radius-0.5">
                 <a href="{{ movie.url }}"
@@ -17,7 +17,7 @@ description: What's going on now and all the latest with myself.
                     {% set textContent %}
                         {{ movie.title }}
                     {% endset %}
-                    <p class="[ visually-hidden ]">{{ movie.title }}</p>
+                    <p class="visually-hidden">{{ movie.title }}</p>
                     {% if movie.imgSrc %}
                         <img src="{{ movie.imgSrc }}" alt="" />
                     {% else %}
@@ -28,6 +28,6 @@ description: What's going on now and all the latest with myself.
         {% endfor %}
     </ul>
 {% endif %}
-<p class="[ font-size-s mt-2 ]">
+<p class="font-size-s mt-2">
     What is a `/now` page? Check out <a href="https://nownownow.com/about">nownownow.com</a>.
 </p>

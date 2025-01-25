@@ -62,7 +62,7 @@ My site has changed URLs over the years, and was previously found at the followi
 
 ## Licensing
 
-All text content inside of `src/posts` and `src/catalogue` is &copy; Devin Haska - you may not use it without permission.
+All text content inside of `src/content` and `src/pages` is &copy; Devin Haska - you may not use it without permission.
 
 Any code (excluding content, for example, code inside `.js`, `.css`, `.njk` files) is published under an [MIT][mit] license - you're free to use it how you see fit. If you feel like attributing me, that'd be swell.
 

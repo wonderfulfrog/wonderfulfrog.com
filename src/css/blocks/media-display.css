@@ -25,3 +25,14 @@
 .meta-grid--full {
   grid-column: 1/3;
 }
+
+.media-meta {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+@container (max-width: 36rem) {
+  .media-meta-grid {
+    grid-template-columns: 1fr;
+  }
+}

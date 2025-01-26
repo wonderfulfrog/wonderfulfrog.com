@@ -38,7 +38,7 @@ layout: "layouts/base"
         {% endif %}
         {% if watchHistory %}<p class="flow-space-0.25">{{ format(watchHistory | last) }}</p>{% endif %}
         {% if rating %}{{ stars(rating) }}{% endif %}
-        <ul class="list-none p-0 mb-0 media-meta-grid gap-0.5">
+        <ul class="list-none p-0 mb-0 media-meta gap-0.5">
             {% if year %}
                 <li class="flex-col">
                     <strong>Released</strong><span>{{ year }}</span>
@@ -47,11 +47,6 @@ layout: "layouts/base"
             {% if runtime %}
                 <li class="flex-col">
                     <strong>Runtime</strong><span>{{ runtime }} mins</span>
-                </li>
-            {% endif %}
-            {% if tags %}
-                <li class="flex-col meta-grid--full">
-                    <strong>Genres</strong><span>{{ tags | filter("tv") | join(", ") }}</span>
                 </li>
             {% endif %}
         </ul>

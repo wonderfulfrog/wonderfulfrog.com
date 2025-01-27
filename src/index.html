@@ -5,33 +5,32 @@ permalink: /
 
 {% from "macros/posts.njk" import list %}
 <h1>Ahoj!</h1>
-<p>Hello! My name is Devin.</p>
-<p>I'm a creative developer who specializes in web and mobile development.</p>
 <p>
-    Welcome to my little slice of the internet. I like to <a href="/posts">write</a> and catalogue things. <a href="/games">Games</a>, <a href="/books">books</a>, <a href="/movies">movies</a>, and <a href="/catalogue">and more</a>! There's a lot to explore, and I hope you have fun!
+    Hello! My name is Devin. I'm a creative web developer in <a href="https://en.wikipedia.org/wiki/Victoria,_British_Columbia"
+    target="_blank">Victoria, British Columbia</a>. If you want to learn more about me, check out my <a href="/about">about page</a>.
 </p>
 <p>
-    If you're interested, I have an <a href="/about">about page</a> all about me!
+    I like to <a href="/posts">write</a> about <a href="/games">games</a>, <a href="/books">books</a>, and <a href="/movies">movies</a> to name a few things. There's a lot to explore, and I hope you have fun!
 </p>
-<section>
+<section class="flow-space-2">
     <header class="flow">
         <h2>Favourite posts</h2>
-        <p>Hand-picked, curated selection of my favourite posts!</p>
+        <p class="flow-space-0.25">Hand-picked, curated selection of my favourite posts!</p>
     </header>
     {% set favouritePosts = collections.post | filterFavourites | reverse %}
     {{ list(favouritePosts, "MM/DD/YYYY") }}
 </section>
-<section>
+<section class="flow-space-2">
     <header>
         <h2>Recent posts</h2>
     </header>
     {% set recentPosts = collections.post | reverse | limit(5) %}
     {{ list(recentPosts, "MM/DD/YYYY") }}
 </section>
-<section>
+<section class="flow-space-2">
     <header class="flow">
         <h2>Other pages</h2>
-        <p>Some of my other pages you can check out!</p>
+        <p class="flow-space-0.25">Some of my other pages you can check out!</p>
     </header>
     <ul class="cluster p-0 gap-0.5 list-none" role="list">
         <li>

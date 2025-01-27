@@ -7,7 +7,7 @@ image: https://cdn.wonderfulfrog.com/images/jonny-appleseed.jpeg
 tags:
   - fiction
   - emotional
-  - lqbtq
+  - lgbtq
 year: 2018
 ---
 

@@ -16,28 +16,35 @@
             <nav class="flow-space-0.5">
                 <ul class="cluster p-0 m-0 gap-0.5" role="list">
                     <li>
-                        <span class="visually-hidden">Feeds</span>
-                        <a href="/feeds" class="button button--alt" aria-label="View RSS feed">{% include "svgs/rss.svg" %}</a>
+                        <a href="/feeds"
+                           class="button button--alt"
+                           aria-label="Feeds"
+                           title="Feeds">{% include "svgs/rss.svg" %}</a>
                     </li>
-                    {% for key, url in meta.social %}
-                        {% set alt = key | capitalize %}
-                        <li>
-                            <span class="visually-hidden">{{ alt }}</span>
-                            <a href="{{ url }}"
-                               class="button button--alt"
-                               target="_blank"
-                               rel="me external noreferrer noopener"
-                               aria-label="View {{ alt }} page">{% include "svgs/social-" + key + ".svg" %}</a>
-                        </li>
-                    {% endfor %}
+                    <li>
+                        <a href="https://github.com/wonderfulfrog"
+                           class="button button--alt"
+                           target="_blank"
+                           rel="me external noreferrer noopener"
+                           title="GitHub"
+                           aria-label="GitHub">{% include "svgs/social-github.svg" %}</a>
+                    </li>
+                    <li>
+                        <a href="https://mastodon.social/@wonderfulfrog"
+                           class="button button--alt"
+                           target="_blank"
+                           rel="me external noreferrer noopener"
+                           title="Mastodon"
+                           aria-label="Mastodon">{% include "svgs/social-mastodon.svg" %}</a>
+                    </li>
                 </ul>
             </nav>
             <ul class="cluster p-0 m-0" role="list">
                 <li>
-                    <a href="/webrings">Webrings</a>
+                    <a href="/changelog">Changelog</a>
                 </li>
                 <li>
-                    <a href="/changelog">Changelog</a>
+                    <a href="/webrings">Webrings</a>
                 </li>
                 <li>
                     <a href="{{ meta.repoUrl }}"

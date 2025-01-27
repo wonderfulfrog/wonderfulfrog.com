@@ -7,8 +7,4 @@ export default {
   lang: "en",
   author: "Devin Haska",
   repoUrl: "https://github.com/wonderfulfrog/wonderfulfrog.com",
-  social: {
-    github: "https://github.com/wonderfulfrog",
-    mastodon: "https://mastodon.social/@wonderfulfrog",
-  },
 };

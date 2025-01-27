@@ -27,15 +27,15 @@ export default {
     },
   ],
   bottom: [
-    {
-      text: "Contact",
-      url: "/contact",
-    },
+    { text: "Blogroll", url: "/blogroll" },
     {
       text: "Colophon",
       url: "/colophon",
     },
-    { text: "Blogroll", url: "/blogroll" },
+    {
+      text: "Contact",
+      url: "/contact",
+    },
     {
       text: "/uses",
       url: "/uses",

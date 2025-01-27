@@ -2,9 +2,9 @@
     {% for item in navigation.top %}
         <li>
             <a class="button button--alt font-size-s line-height-m"
-               href="{{ item.url }}">
-                {% include "svgs/" + item.icon + ".svg" %}
-                <span class="visually-hidden">{{ item.text }}</span></a>
+               href="{{ item.url }}"
+               title="{{ item.text }}"
+               aria-label="{{ item.text }}">{% include "svgs/" + item.icon + ".svg" %}</a>
         </li>
     {% endfor %}
 </ul>

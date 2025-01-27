@@ -23,7 +23,6 @@ layout: "layouts/base"
     <div class="flow flex-col justify-center">
         <div class="flex items-center gap-0.5 flex-wrap">
             <h2>{{ title }}</h2>
-            <span class="pill">{{ platform }}</span>
         </div>
         {% if subtitle %}<h2>{{ subtitle }}</h2>{% endif %}
         {% if rating %}{{ stars(rating) }}{% endif %}
@@ -31,6 +30,11 @@ layout: "layouts/base"
             {% if year %}
                 <li class="flex-col">
                     <strong>Released</strong><span>{{ year }}</span>
+                </li>
+            {% endif %}
+            {% if platform %}
+                <li class="flex-col">
+                    <strong>Platform</strong><span>{{ platform }}</span>
                 </li>
             {% endif %}
             {% if playtime %}

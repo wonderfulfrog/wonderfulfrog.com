@@ -1,6 +1,6 @@
 ---
 title: "Animal Crossings: New Horizons"
-platform: Switch
+platform: Nintendo Switch
 image: https://cdn.wonderfulfrog.com/images/acnh.jpg
 tags:
   - single-player

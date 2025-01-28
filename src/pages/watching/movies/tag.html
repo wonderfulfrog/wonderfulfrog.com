@@ -7,7 +7,7 @@ permalink: "watching/movies/tag/{{ tag | slugify }}/index.html"
 ---
 
 {% from "macros/media-grid.njk" import grid %}
-{% set data = collections.moviesByTag[tag] %}
+{% set data = collections.moviesByTag[tag] | reverse %}
 <header class="flow flow-space-1">
     <h1>Movies</h1>
     <p class="text-fadeText flow-space-0.25">Tagged with "{{ tag }}"</p>

@@ -86,6 +86,13 @@ export const filterFavourites = (collection) => {
   );
 };
 
+export const filterByTags = (collection, tags = []) => {
+  return collection.filter(
+    (item) =>
+      item.data.tags && !item.data.tags.every((tag) => tags.includes(tag)),
+  );
+};
+
 export const isOld = (dateArg) => {
   const date = dayjs(dateArg);
   const now = dayjs();

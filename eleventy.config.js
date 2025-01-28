@@ -10,6 +10,7 @@ import {
   allTagCounts,
   entries,
   filter,
+  filterByTags,
   filterFavourites,
   formatDate,
   isOld,
@@ -51,6 +52,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addFilter("entries", entries);
   eleventyConfig.addFilter("filter", filter);
   eleventyConfig.addFilter("filterFavourites", filterFavourites);
+  eleventyConfig.addFilter("filterByTags", filterByTags);
   eleventyConfig.addFilter("formatDate", formatDate);
   eleventyConfig.addFilter("isOld", isOld);
   eleventyConfig.addFilter("keys", keys);

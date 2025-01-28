@@ -1,0 +1,27 @@
+---
+permalink: /feeds/all.xml
+layout: null
+eleventyExcludeFromCollections: true
+excludeFromSitemap: true
+---<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>{{ meta.siteName }}</title>
+<subtitle>{{ meta.siteDescription }}</subtitle>
+<link href="{{ meta.url }}/feeds/all.xml" rel="self" />
+<link href="{{ meta.url }}/" rel="alternate" type="text/html" />
+<id>{{ meta.url }}/</id>
+<author>
+<name>{{ meta.author }}</name>
+</author>
+{% for item in collections.all | filterByTags(["page"]) %}
+    <entry>
+    <id>{{ meta.url }}{{ item.url }}</id>
+    <title>{{ item.data.title | escape }}</title>
+    <link href="{{ item.url }}{{ post.url }}" />
+    <pubDate>{{ item.date }}</pubDate>
+    {# The first tag is always a type e.g. post, page, etc. #}
+    {%- for tag in item.data.tags %}{% if not loop.first %}<category term="{{ tag }}" />{% endif %}{%- endfor %}
+        <content type="html">{{ item.content | escape }}</content>
+        </entry>
+    {% endfor %}
+    </feed>

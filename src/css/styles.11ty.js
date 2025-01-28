@@ -30,6 +30,7 @@ export default class {
     return {
       permalink: `css/styles.css`,
       excludeFromSitemap: true,
+      eleventyExcludeFromCollections: true,
       rawFilepath,
       rawCss: css,
     };

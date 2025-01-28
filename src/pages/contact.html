@@ -26,14 +26,19 @@ permalink: "/contact/index.html"
                 <tr>
                     <td>Email</td>
                     <td>
-                        <a href="mailto:devin@wonderfulfrog.com">devin@wonderfulfrog.com</a>
+                        <a href="mailto:{{ meta.email }}">{{ meta.email }}</a>
                     </td>
                 </tr>
                 <tr>
                     <td>Signal</td>
                     <td>
-                        <a href="https://signal.me/#eu/1Gqnr33MvuJX6QvcvgEjgaFBO7nMW5sdEyFsqHrj0ajEx3HglsVC7ZiesDrO_bXQ"
-                           target="_blank">wonderfulfrog.64</a>
+                        <a href="{{ meta.signal.url }}" target="_blank">{{ meta.signal.name }}</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Mastodon</td>
+                    <td>
+                        <a href="{{ meta.mastodon.url }}" target="_blank">{{ meta.mastodon.name }}</a>
                     </td>
                 </tr>
             </tbody>
@@ -56,15 +61,9 @@ permalink: "/contact/index.html"
             </thead>
             <tbody>
                 <tr>
-                    <td>Mastodon</td>
-                    <td>
-                        <a href="https://mastodon.social/@wonderfulfrog" target="_blank">@wonderfulfrog.mastodon.social</a>
-                    </td>
-                </tr>
-                <tr>
                     <td>GitHub</td>
                     <td>
-                        <a href="https://github.com/wonderfulfrog" target="_blank">@wonderfulfrog</a>
+                        <a href="{{ meta.github.url }}" target="_blank">{{ meta.github.name }}</a>
                     </td>
                 </tr>
                 <tr>

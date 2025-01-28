@@ -7,4 +7,17 @@ export default {
   lang: "en",
   author: "Devin Haska",
   repoUrl: "https://github.com/wonderfulfrog/wonderfulfrog.com",
+  email: "devin@wonderfulfrog.com",
+  signal: {
+    name: "wonderfulfrog.64",
+    url: "https://signal.me/#eu/1Gqnr33MvuJX6QvcvgEjgaFBO7nMW5sdEyFsqHrj0ajEx3HglsVC7ZiesDrO_bXQ",
+  },
+  mastodon: {
+    name: "@wonderfulfrog@mastodon.social",
+    url: "https://mastodon.social/@wonderfulfrog",
+  },
+  github: {
+    url: "https://github.com/wonderfulfrog",
+    name: "wonderfulfrog",
+  },
 };

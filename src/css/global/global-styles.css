@@ -5,6 +5,10 @@
   project: https://cube.fyi/css.html
 */
 
+@view-transition {
+  navigation: auto;
+}
+
 html {
   scrollbar-color: var(--color-primary) var(--color-surface);
 }

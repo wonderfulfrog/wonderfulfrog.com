@@ -15,7 +15,7 @@ If preferred, the [commit log is available here][commits].
 - Upgraded to [Eleventy v3](https://www.11ty.dev/blog/eleventy-v3/)!
 - A design refresh! The overall look-and-feel is the same, but I added some playful animations here and there.
 - Restructured my catalogue by breaking sub-categories into their own sections.
-- Removed the Podcasts and Comics catalogues. Podcasts has its own respective page now that I plan to update occasionally.
+- Removed the Podcasts and Comics catalogues. [Podcasts has its own respective page now](/podroll).
 - Added [Games](/games)!
 - Added [Movies](/watching/movies/recent)!
 - Added [Shows](/watching/shows/recent)!
@@ -39,10 +39,14 @@ If preferred, the [commit log is available here][commits].
 
 - Added style for `<table>` elements.
 
+<div class="table-wrapper">
+
 | Here is         | A preview! |
 | --------------- | ---------- |
 | Super cool whoa | very rad   |
 | Super cool whoa | very bad   |
+
+</div>
 
 ## June 11th 2024
 

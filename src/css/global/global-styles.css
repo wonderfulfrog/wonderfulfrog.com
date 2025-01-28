@@ -221,6 +221,38 @@ table tbody tr:not(:last-child) td {
   border-bottom: 1px solid var(--color-border);
 }
 
+/* 
+ * Snippet from:
+ * https://nerdy.dev/6-css-snippets-every-front-end-developer-should-know-in-2025#transition-animation-for-%3Cdetails%3E
+ */
+details {
+  inline-size: 50ch;
+
+  @media (prefers-reduced-motion: no-preference) {
+    interpolate-size: allow-keywords;
+  }
+
+  &::details-content {
+    opacity: 0;
+    block-size: 0;
+    overflow-y: clip;
+    transition:
+      content-visibility 0.3s allow-discrete,
+      opacity 0.3s,
+      block-size 0.3s;
+  }
+
+  &[open]::details-content {
+    opacity: 1;
+    block-size: auto;
+  }
+
+  ul,
+  ol {
+    margin-block: 0;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   html:focus-within {
     scroll-behavior: auto;

@@ -5,22 +5,24 @@
  * https://github.com/philhawksworth/eleventyone/blob/master/src/site/css/styles.11ty.js
  */
 
-const fs = require("fs");
-const postcss = require("postcss");
-const postcssImport = require("postcss-import");
-const postcssImportExtGlob = require("postcss-import-ext-glob");
-const autoprefixer = require("autoprefixer");
-const cssnano = require("cssnano");
-const path = require("path").posix;
+import fs from "fs";
+import postcss from "postcss";
+import postcssImport from "postcss-import";
+import postcssImportExtGlob from "postcss-import-ext-glob";
+import autoprefixer from "autoprefixer";
+import cssnano from "cssnano";
+import { posix as path } from "path";
+import { fileURLToPath } from "url";
 
-const colors = require("../css-utils/colors");
-const fontFamily = require("../css-utils/font-family");
-const fontVariables = require("../css-utils/font-variables");
-const spacing = require("../css-utils/spacing");
+import colors from "../css-utils/colors.js";
+import fontFamily from "../css-utils/font-family.js";
+import fontVariables from "../css-utils/font-variables.js";
+import spacing from "../css-utils/spacing.js";
 
-module.exports = class {
+export default class {
   async data() {
-    const rawFilepath = path.join(__dirname, "./global.css");
+    const dirname = path.dirname(fileURLToPath(import.meta.url));
+    const rawFilepath = path.join(dirname, "./global.css");
     const rawCss = fs.readFileSync(rawFilepath);
 
     const css = `${rawCss}${fontFamily}${fontVariables}${colors}${spacing}`;
@@ -43,4 +45,4 @@ module.exports = class {
       .process(rawCss, { from: rawFilepath })
       .then((result) => result.css);
   }
-};
+}

@@ -1,4 +1,6 @@
-const postsByTag = (collection) => {
+import dayjs from "dayjs";
+
+export const postsByTag = (collection) => {
   const posts = collection.getFilteredByTag("post");
 
   const postsByTag = {};
@@ -13,7 +15,22 @@ const postsByTag = (collection) => {
   return postsByTag;
 };
 
-const catalogueByType = (collection) => {
+export const collectionByTag = (collection, collectionName) => {
+  const items = collection.getFilteredByTag(collectionName);
+
+  const itemsByTag = {};
+
+  for (const item of items) {
+    for (const tag of item.data.tags) {
+      itemsByTag[tag] ??= [];
+      itemsByTag[tag].push(item);
+    }
+  }
+
+  return itemsByTag;
+};
+
+export const catalogueByType = (collection) => {
   const allItems = collection.getFilteredByTag("catalogue");
 
   const catalogueByType = {};
@@ -27,9 +44,4 @@ const catalogueByType = (collection) => {
   }
 
   return catalogueByType;
-};
-
-module.exports = {
-  catalogueByType,
-  postsByTag,
 };

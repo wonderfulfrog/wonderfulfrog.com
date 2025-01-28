@@ -1,0 +1,42 @@
+---
+layout: "layouts/base"
+---
+
+{% from "macros/date.njk" import format %}
+{% from "macros/utils.njk" import stars %}
+{% from "macros/tags.njk" import tagList %}
+<header class="flow flow-space-1">
+    {{ format(page.date) }}
+    <h1>{{ title }}</h1>
+    {% if pullquote %}<p class="text-fadeText flow-space-0.25">{{ pullquote }}</p>{% endif %}
+</header>
+{% if content %}
+    <section class="flow">
+        {{ content | safe }}
+    </section>
+{% endif %}
+<hr class="my-2" />
+<footer class="media-meta-grid gap-1">
+    <div class="media-image media-image--tall">
+        <img src="{{ image }}" alt="" />
+    </div>
+    <div class="flow flex-col justify-center">
+        <h2>{{ title }}</h2>
+        {% if subtitle %}<p class="text-fadeText flow-space-0.5 line-height-m">{{ subtitle }}</p>{% endif %}
+        {% if rating %}{{ stars(rating) }}{% endif %}
+        <ul class="list-none p-0 mb-0 media-meta gap-0.5">
+            {% if author %}
+                <li class="flex-col">
+                    <strong>Author</strong><span>{{ author }}</span>
+                </li>
+            {% endif %}
+            {% if year %}
+                <li class="flex-col">
+                    <strong>Published</strong><span>{{ year }}</span>
+                </li>
+            {% endif %}
+        </ul>
+    </div>
+</footer>
+<hr class="my-2">
+{{ tagList(tags | filter("book") , "/books") }}

@@ -1,0 +1,49 @@
+---
+layout: "layouts/base"
+---
+
+{% from "macros/date.njk" import format %}
+{% from "macros/utils.njk" import stars %}
+{% from "macros/tags.njk" import tagList %}
+<header class="flow flow-space-1">
+    {{ format(page.date) }}
+    <h1>{{ title }}</h1>
+    <p class="text-fadeText flow-space-0.25">{{ pullquote }}</p>
+</header>
+{% if content %}
+    <section class="flow">
+        {{ content | safe }}
+    </section>
+{% endif %}
+<hr class="my-2" />
+<footer class="media-meta-grid gap-1">
+    <div class="media-image media-image--tall">
+        <img src="{{ image }}" alt="" />
+    </div>
+    <div class="flow flex-col justify-center">
+        <div class="flex items-center gap-0.5 flex-wrap">
+            <h2>{{ title }}</h2>
+        </div>
+        {% if subtitle %}<h2>{{ subtitle }}</h2>{% endif %}
+        {% if rating %}{{ stars(rating) }}{% endif %}
+        <ul class="list-none p-0 mb-0 media-meta gap-0.5">
+            {% if year %}
+                <li class="flex-col">
+                    <strong>Released</strong><span>{{ year }}</span>
+                </li>
+            {% endif %}
+            {% if platform %}
+                <li class="flex-col">
+                    <strong>Platform</strong><span>{{ platform }}</span>
+                </li>
+            {% endif %}
+            {% if playtime %}
+                <li class="flex-col">
+                    <strong>Playtime</strong><span>{{ playtime }}</span>
+                </li>
+            {% endif %}
+        </ul>
+    </div>
+</footer>
+<hr class="my-2">
+{{ tagList(tags | filter("game") , "/games") }}

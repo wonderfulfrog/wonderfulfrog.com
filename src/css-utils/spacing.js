@@ -1,5 +1,5 @@
-const spacing = require("../../config/design-tokens/spacing.json");
-const { helperClassesToCss } = require("./helper-classes");
+import spacing from "../../config/design-tokens/spacing.js";
+import { helperClassesToCss } from "./helper-classes.js";
 
 const spacingToCss = (variant, value) =>
   `--spacing-${variant.replace(".", "\\.")}: ${value}px;`;
@@ -48,4 +48,4 @@ const helperCss = spacingToHelperClassesCss(spacing, helperClasses);
 
 const css = `:root{${spacingVariablesCss}}${helperCss}`;
 
-module.exports = css;
+export default css;

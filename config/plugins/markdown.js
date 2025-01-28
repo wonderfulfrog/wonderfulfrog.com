@@ -1,8 +1,10 @@
-const markdownIt = require("markdown-it");
-const markdownItFootnote = require("markdown-it-footnote");
-const markdownItPrism = require("markdown-it-prism");
-const markdownItAbbr = require("markdown-it-abbr");
-const markdownItAnchor = require("markdown-it-anchor");
+import markdownIt from "markdown-it";
+import markdownItFootnote from "markdown-it-footnote";
+import markdownItPrism from "markdown-it-prism";
+import markdownItAbbr from "markdown-it-abbr";
+import markdownItAnchor from "markdown-it-anchor";
+import markdownItImplicitFigures from "markdown-it-image-figures";
+import markdownItAttrs from "markdown-it-attrs";
 
 const markdown = markdownIt({
   html: true,
@@ -13,9 +15,13 @@ const markdown = markdownIt({
   .use(markdownItFootnote)
   .use(markdownItAbbr)
   .use(markdownItAnchor)
+  .use(markdownItImplicitFigures, {
+    figcaption: true,
+  })
   .use(markdownItPrism, {
     defaultLanguage: "plaintext",
-  });
+  })
+  .use(markdownItAttrs);
 
 markdown.renderer.rules.footnote_block_open = (_tokens, _idx, options) => {
   return (
@@ -27,4 +33,4 @@ markdown.renderer.rules.footnote_block_open = (_tokens, _idx, options) => {
   );
 };
 
-module.exports = markdown;
+export default markdown;

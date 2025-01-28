@@ -12,4 +12,4 @@ const liteYoutube = (id, label) => {
 </div>`;
 };
 
-module.exports = liteYoutube;
+export default liteYoutube;

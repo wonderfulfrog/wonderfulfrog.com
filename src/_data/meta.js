@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   url: process.env.URL || "http://localhost:8080",
   siteName: "wonderfulfrog",
   siteDescription:
@@ -7,9 +7,4 @@ module.exports = {
   lang: "en",
   author: "Devin Haska",
   repoUrl: "https://github.com/wonderfulfrog/wonderfulfrog.com",
-  social: {
-    github: "https://github.com/wonderfulfrog",
-    mastodon: "https://mastodon.social/@wonderfulfrog",
-    lastfm: "https://www.last.fm/user/wonderfulfrog",
-  },
 };

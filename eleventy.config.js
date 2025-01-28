@@ -1,16 +1,15 @@
-const pluginRss = require("@11ty/eleventy-plugin-rss");
-const pluginNoRobots = require("eleventy-plugin-no-robots");
+import util from "util";
+import pluginRss from "@11ty/eleventy-plugin-rss";
+import pluginNoRobots from "eleventy-plugin-no-robots";
+import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 
-const {
-  catalogueByType,
-  postsByTag,
-} = require("./config/collections/index.js");
-const { dir } = require("./config/constants.js");
-const {
+import { collectionByTag, postsByTag } from "./config/collections/index.js";
+
+import { dir } from "./config/constants.js";
+import {
   allTagCounts,
   entries,
   filter,
-  filterCatalogueTags,
   filterFavourites,
   formatDate,
   isOld,
@@ -19,12 +18,13 @@ const {
   organizeByDate,
   pluralize,
   values,
-} = require("./config/filters/index.js");
-const markdown = require("./config/plugins/markdown.js");
-const imageShortcode = require("./config/shortcodes/image.js");
-const liteYoutube = require("./config/shortcodes/youtube.js");
+} from "./config/filters/index.js";
+import markdown from "./config/plugins/markdown.js";
+import liteYoutube from "./config/shortcodes/youtube.js";
 
-module.exports = (eleventyConfig) => {
+import htmlConfigTransform from "./config/transforms/html-config.js";
+
+export default function (eleventyConfig) {
   eleventyConfig.addWatchTarget("./src/css");
 
   // 	--------------------- Plugins ---------------------
@@ -32,14 +32,24 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addPlugin(pluginNoRobots);
 
   // 	--------------------- Custom Collections -----------------------
-  eleventyConfig.addCollection("catalogueByType", catalogueByType);
   eleventyConfig.addCollection("postsByTag", postsByTag);
+  eleventyConfig.addCollection("booksByTag", (collection) =>
+    collectionByTag(collection, "book"),
+  );
+  eleventyConfig.addCollection("gamesByTag", (collection) =>
+    collectionByTag(collection, "game"),
+  );
+  eleventyConfig.addCollection("showsByTag", (collection) =>
+    collectionByTag(collection, "tv"),
+  );
+  eleventyConfig.addCollection("moviesByTag", (collection) =>
+    collectionByTag(collection, "movie"),
+  );
 
   // 	--------------------- Custom Filters -----------------------
   eleventyConfig.addFilter("allTagCounts", allTagCounts);
   eleventyConfig.addFilter("entries", entries);
   eleventyConfig.addFilter("filter", filter);
-  eleventyConfig.addFilter("filterCatalogueTags", filterCatalogueTags);
   eleventyConfig.addFilter("filterFavourites", filterFavourites);
   eleventyConfig.addFilter("formatDate", formatDate);
   eleventyConfig.addFilter("isOld", isOld);
@@ -50,7 +60,26 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addFilter("pluralize", pluralize);
 
   // 	--------------------- Custom Transforms -----------------------
-  eleventyConfig.addPlugin(require("./config/transforms/html-config.js"));
+  eleventyConfig.addPlugin(htmlConfigTransform);
+
+  // Image Transforms
+  // Works with any <img> tag in output files.
+  eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
+    extensions: "html",
+
+    formats: ["webp", "jpeg"],
+
+    sharpOptions: {
+      animated: true,
+    },
+
+    defaultAttributes: {
+      loading: "lazy",
+      decoding: "async",
+    },
+
+    failOnError: false,
+  });
 
   // 	--------------------- Passthrough File Copy -----------------------
   ["src/assets/fonts/", "src/assets/images"].forEach((path) =>
@@ -62,8 +91,11 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.setLibrary("md", markdown);
 
   // 	--------------------- Shortcodes -----------------------
-  eleventyConfig.addShortcode("image", imageShortcode);
   eleventyConfig.addShortcode("youtube", liteYoutube);
+
+  eleventyConfig.addFilter("console", function (value) {
+    return util.inspect(value);
+  });
 
   return {
     // Optional (default is set): If your site deploys to a subdirectory, change `pathPrefix`, for example with with GitHub pages
@@ -75,4 +107,4 @@ module.exports = (eleventyConfig) => {
 
     dir,
   };
-};
+}

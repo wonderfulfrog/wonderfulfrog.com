@@ -1,6 +1,6 @@
-require("dotenv").config();
+import "dotenv/config";
 
-const EleventyFetch = require("@11ty/eleventy-fetch");
+import EleventyFetch from "@11ty/eleventy-fetch";
 
 const accessToken = process.env.DARK_VISITORS_ACCESS_TOKEN;
 
@@ -101,7 +101,7 @@ const fetchRobotsTxt = async () => {
   }
 };
 
-module.exports = async function () {
+export default async function () {
   const robotsTxt = await fetchRobotsTxt();
 
   if (!robotsTxt) {
@@ -109,4 +109,4 @@ module.exports = async function () {
   }
 
   return robotsTxt;
-};
+}

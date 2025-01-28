@@ -1,0 +1,12 @@
+---
+title: Favourite shows
+permalink: "watching/shows/favourites/index.html"
+---
+
+{% from "macros/media-grid.njk" import grid %}
+{% set data = collections.tv | filterFavourites | reverse %}
+<section class="flow">
+    <h1>Favourite shows</h1>
+    <p>A collection of my favourite shows!</p>
+    {{ grid(data) }}
+</section>

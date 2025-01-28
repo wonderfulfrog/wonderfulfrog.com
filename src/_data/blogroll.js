@@ -87,4 +87,4 @@ const blogroll = [
 
 const sortedBlogroll = blogroll.sort((a, b) => a.title.localeCompare(b.title));
 
-module.exports = sortedBlogroll;
+export default sortedBlogroll;

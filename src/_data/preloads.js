@@ -1,5 +1,5 @@
-const { getFontUrl } = require("../utils/fonts");
-const fonts = require("../../config/design-tokens/fonts.json");
+import { getFontUrl } from "../utils/fonts.js";
+import fonts from "../../config/design-tokens/fonts.js";
 
 const preloads = [
   {
@@ -19,4 +19,4 @@ const preloads = [
   },
 ];
 
-module.exports = preloads;
+export default preloads;

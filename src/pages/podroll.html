@@ -1,0 +1,38 @@
+---
+title: Podroll
+description: Some podcasts that I enjoy!
+permalink: "podroll/index.html"
+---
+
+{% set data = collections.podcast | reverse %}
+<header class="flow flow-space-1">
+    <h1>Podroll</h1>
+    <p class="text-fadeText flow-space-0.25">Some podcasts that I enjoy!</p>
+</header>
+<section class="flow">
+    {% for item in data %}
+        <div class="card flow">
+            <div class="flex items-center gap-0.5">
+                <h2>{{ item.data.title }}</h2>
+                {% if item.data.isCompleted %}<span class="pill">Completed</span>{% endif %}
+            </div>
+            <p class="flow-space-0.5">{{ item.data.description }}</p>
+            <div class="flex gap-0.5">
+                {% if item.data.url %}<a href="{{ item.data.url }}" target="_blank">Website</a>{% endif %}
+                {% if item.data.rss %}<a href="{{ item.data.rss }}" target="_blank">RSS</a>{% endif %}
+            </div>
+            {% if item.content %}
+                <details>
+                    <summary>
+                        {% if item.data.moreText %}
+                            {{ item.data.moreText }}
+                        {% else %}
+                            More info
+                        {% endif %}
+                    </summary>
+                    <div class="flow">{{ item.content | safe }}</div>
+                </details>
+            {% endif %}
+        </div>
+    {% endfor %}
+</section>

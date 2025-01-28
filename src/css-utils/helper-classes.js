@@ -2,7 +2,7 @@
  * Given an array of CSS properties, output css properties
  * with each property equal to `value`
  */
-const cssPropertiesToCss = (cssProperties, value) => {
+export const cssPropertiesToCss = (cssProperties, value) => {
   return cssProperties.reduce((css, cssProp) => {
     return css + `${cssProp}:${value};`;
   }, ``);
@@ -13,7 +13,7 @@ const cssPropertiesToCss = (cssProperties, value) => {
  * will generate a css class named helperClass that has
  * all cssProperties mapped to value.
  */
-const helperClassToCss = (helperClass, cssProperties, value) => {
+export const helperClassToCss = (helperClass, cssProperties, value) => {
   const cssProps = cssPropertiesToCss(cssProperties, value);
   return `.${helperClass}{${cssProps}}`;
 };
@@ -34,12 +34,10 @@ const helperClassToCss = (helperClass, cssProperties, value) => {
  *    color: #000;
  * }
  */
-const helperClassesToCss = (helperClasses, variant, value) => {
+export const helperClassesToCss = (helperClasses, variant, value) => {
   return helperClasses.reduce((css, [helperClass, cssProperties]) => {
     return (
       css + helperClassToCss(`${helperClass}-${variant}`, cssProperties, value)
     );
   }, ``);
 };
-
-module.exports = { cssPropertiesToCss, helperClassToCss, helperClassesToCss };

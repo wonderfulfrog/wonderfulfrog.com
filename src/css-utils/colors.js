@@ -1,5 +1,5 @@
-const colorSchemes = require("../../config/design-tokens/colors.json");
-const { helperClassesToCss } = require("./helper-classes");
+import colorSchemes from "../../config/design-tokens/colors.js";
+import { helperClassesToCss } from "./helper-classes.js";
 
 const lightScheme = colorSchemes.light;
 const darkScheme = colorSchemes.dark;
@@ -32,4 +32,4 @@ const helperClassesCss = colorSchemeToHelperClassesCss(
   helperClasses,
 );
 
-module.exports = `:root{${lightCss}}${helperClassesCss}@media (prefers-color-scheme: dark) {:root{${darkCss}}}`;
+export default `:root{${lightCss}}${helperClassesCss}@media (prefers-color-scheme: dark) {:root{${darkCss}}}`;

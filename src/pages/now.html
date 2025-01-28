@@ -6,49 +6,28 @@ description: What's going on now and all the latest with myself.
 {% set recentTrack = lastfm.recentTracks[0] %}
 <h1>/now</h1>
 <p>What am I doing right now? Everything on here is automatically generated from various data sources.</p>
-{% if recentTrack %}
-    <p>
-        🎶 <a href="{{ recentTrack.url }}"
-    target="_blank"
-    rel="external noreferrer noopener">{{ recentTrack.artist }} - {{ recentTrack.track }}</a>
-    </p>
-{% endif %}
-{% if lastfm.recentAlbums.length > 0 %}
-    <h2>💿 Albums</h2>
-    <ul class="[ media-grid square ][ p-0 ]" role="list">
-        {% for album in lastfm.recentAlbums %}
-            <li>
-                <a href="{{ album.url }}"
-                   target="_blank"
-                   rel="external noreferrer noopener">
-                    {% set textContent %}
-                        {{ album.artist }} - {{ album.album }}
-                    {% endset %}
-                    <p class="[ visually-hidden ]">{{ textContent }}</p>
-                    {% image album.imageUrl, "", "", "", textContent %}
-                </a>
-            </li>
-        {% endfor %}
-    </ul>
-{% endif %}
 {% if letterboxd.length > 0 %}
     <h2>🍿 Movies</h2>
-    <ul class="[ media-grid poster ][ p-0 ]" role="list">
+    <ul class="media-grid p-0" role="list">
         {% for movie in letterboxd %}
-            <li>
+            <li class="radius-0.5">
                 <a href="{{ movie.url }}"
                    target="_blank"
                    rel="external noreferrer noopener">
                     {% set textContent %}
                         {{ movie.title }}
                     {% endset %}
-                    <p class="[ visually-hidden ]">{{ movie.title }}</p>
-                    {% image movie.imgSrc, "", "", "" , textContent %}
+                    <p class="visually-hidden">{{ movie.title }}</p>
+                    {% if movie.imgSrc %}
+                        <img src="{{ movie.imgSrc }}" alt="" />
+                    {% else %}
+                        <div>{{ textContent }}</div>
+                    {% endif %}
                 </a>
             </li>
         {% endfor %}
     </ul>
 {% endif %}
-<p class="[ font-size-s mt-2 ]">
+<p class="font-size-s mt-2">
     What is a `/now` page? Check out <a href="https://nownownow.com/about">nownownow.com</a>.
 </p>

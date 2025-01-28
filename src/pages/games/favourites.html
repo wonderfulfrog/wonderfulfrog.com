@@ -1,0 +1,12 @@
+---
+title: Favourite games
+permalink: "games/favourites/index.html"
+---
+
+{% from "macros/media-grid.njk" import grid %}
+{% set data = collections.game | filterFavourites | reverse %}
+<section class="flow">
+    <h1>Favourite games</h1>
+    <p>A collection of my favourite games!</p>
+    {{ grid(data) }}
+</section>

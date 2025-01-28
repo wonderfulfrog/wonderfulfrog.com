@@ -1,0 +1,25 @@
+---
+title: Recent shows
+permalink: "watching/shows/recent/index.html"
+---
+
+{% from "macros/media-grid.njk" import grid %}
+{% set data = collections.tv | reverse %}
+{% set tags = collections.tv | allTagCounts(["tv"]) | limit(5) %}
+<section class="flow">
+    <h1>Recent shows</h1>
+    <p>A collection of shows I've seen recently.</p>
+    <h2>
+        <a href="../tags">Tags</a>
+    </h2>
+    <ul class="categories cluster list-none p-0 line-height-m">
+        {% for tag in tags %}
+            <li>
+                <a class="button" href="../tag/{{ tag.tag | slugify }}">
+                    {% include "svgs/frame.svg" %}
+                {{ tag.tag }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+    {{ grid(data) }}
+</section>

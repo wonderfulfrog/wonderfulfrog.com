@@ -1,35 +1,102 @@
 .button {
-  display: flex;
   align-items: center;
-  justify-content: center;
-  line-height: 1rem;
-  background-color: var(--color-white);
-  color: var(--color-shadow);
-  box-shadow:
-    1px 1px 0px var(--color-shadow),
-    2px 2px 0 var(--color-shadow);
-  padding-block: var(--spacing-0\.25);
-  padding-inline: var(--spacing-0\.5);
-  border-radius: var(--spacing-0\.25);
-  border: 1px solid var(--color-shadow);
+  color: var(--color-text);
+  display: inline-flex;
+  gap: var(--spacing-0\.5);
+  padding: var(--spacing-0\.5) var(--spacing-1);
+  position: relative;
   text-decoration: none;
-  font-size: 0.8rem;
-  transition:
-    box-shadow var(--transition-duration),
-    transform var(--transition-duration),
-    background-color var(--transition-duration),
-    color var(--transition-duration);
+  transition: transform 0.3s var(--transition-bounce);
+  z-index: 1;
+
+  &::before,
+  &::after {
+    border-radius: var(--spacing-0\.5);
+    position: absolute;
+    inset: 0;
+    content: "";
+    transition:
+      opacity 0.1s ease,
+      transform 0.3s var(--transition-bounce);
+    z-index: -1;
+  }
+
+  &::before {
+    background-color: var(--color-surface);
+  }
+
+  &::after {
+    background-color: var(--color-text);
+    opacity: 0;
+  }
+
+  svg {
+    color: var(--color-fadeText);
+    transform: scale(1);
+    transition: transform 0.3s var(--transition-bounce);
+  }
 }
 
-.button:hover {
-  background-color: color-mix(
-    in srgb,
-    var(--color-white) 90%,
-    var(--color-primary)
-  );
+@media (hover: hover) {
+  .button:not(:active):hover {
+    &::before,
+    &::after {
+      transform: scale(1.05);
+    }
+
+    &::after {
+      opacity: 1;
+    }
+
+    svg {
+      color: var(--color-border);
+      transform: rotateZ(10deg) scale(1.25);
+    }
+  }
 }
 
 .button:active {
-  box-shadow: 0 0 0 var(--color-shadow);
-  transform: translate(2px, 2px);
+  transform: scale(0.95);
+}
+
+.button--alt {
+  color: var(--color-primary);
+
+  &::before {
+    background-color: var(--color-white);
+  }
+
+  &::after {
+    background-color: color-mix(
+      in srgb,
+      var(--color-white) 90%,
+      var(--color-primary)
+    );
+  }
+
+  svg {
+    color: inherit;
+  }
+}
+
+@media (hover: hover) {
+  .button--alt:hover {
+    color: var(--color-shadow);
+
+    svg {
+      color: inherit;
+    }
+  }
+}
+
+.button__count {
+  color: var(--color-fadeText);
+}
+
+@media (hover: hover) {
+  .button:hover {
+    .button__count {
+      color: var(--color-border);
+    }
+  }
 }

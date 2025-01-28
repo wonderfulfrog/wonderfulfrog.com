@@ -1,19 +1,19 @@
-const dayjs = require("dayjs");
-const utc = require("dayjs/plugin/utc");
-const advancedFormat = require("dayjs/plugin/advancedFormat");
+import dayjs from "dayjs";
+import utc from "dayjs/plugin/utc.js";
+import advancedFormat from "dayjs/plugin/advancedFormat.js";
 
-const pluralizeBase = require("pluralize");
+import pluralizeBase from "pluralize";
 
-const keys = Object.keys;
-const values = Object.values;
-const entries = Object.entries;
+export const keys = Object.keys;
+export const values = Object.values;
+export const entries = Object.entries;
 
 dayjs.extend(utc);
 dayjs.extend(advancedFormat);
 
-const formatDate = (date, format) => dayjs.utc(date).format(format);
+export const formatDate = (date, format) => dayjs.utc(date).format(format);
 
-const organizeByDate = (collection) => {
+export const organizeByDate = (collection) => {
   const collectionByDate = {};
 
   collection.forEach((item) => {
@@ -29,15 +29,23 @@ const organizeByDate = (collection) => {
   return collectionByDate;
 };
 
-const allTags = (collection, ignore = []) => {
-  const tagSet = new Set(collection.flatMap((item) => item.data.tags));
+export const transformByDate = (collection) => {
+  const collectionByDate = {};
 
-  ignore.forEach((tag) => tagSet.delete(tag));
+  collection.forEach((item) => {
+    const year = formatDate(item.date, "YYYY");
 
-  return [...tagSet];
+    if (!collectionByDate[year]) {
+      return (collectionByDate[year] = { value: year, data: [item] });
+    }
+
+    collectionByDate[year].data.push(item);
+  });
+
+  return collectionByDate;
 };
 
-const allTagCounts = (collection, ignore = ["post"]) => {
+export const allTagCounts = (collection, ignore = ["post"]) => {
   if (!collection.length) {
     throw new Error("Invalid collection, no items");
   }
@@ -62,48 +70,27 @@ const allTagCounts = (collection, ignore = ["post"]) => {
   return tagArray;
 };
 
-const filter = (collection, filters = []) => {
+export const filter = (collection, filters = []) => {
   return collection.filter((item) => !filters.includes(item));
 };
 
-const pluralize = (string, count = 0) => {
+export const pluralize = (string, count = 0) => {
   return pluralizeBase(string, count);
 };
 
-const filterCatalogueTags = (tags) => {
-  // In the case of catalogue items, the 0-index is "catalogue"
-  // and the 1-index is the catalogueType. We don't need to
-  // show those in the front-end.
-  return filter(tags, [tags[0], tags[1]]);
+export const limit = (collection, limit = 5) => collection.slice(0, limit);
+
+export const filterFavourites = (collection) => {
+  return collection.filter(
+    (item) => item.data.favourite || item.data.isFavourite,
+  );
 };
 
-const limit = (collection, limit = 5) => collection.slice(0, limit);
-
-const filterFavourites = (collection) => {
-  return collection.filter((item) => item.data.favourite);
-};
-
-const isOld = (dateArg) => {
+export const isOld = (dateArg) => {
   const date = dayjs(dateArg);
   const now = dayjs();
 
   const diffInYears = now.diff(date, "years");
 
   return diffInYears >= 2;
-};
-
-module.exports = {
-  allTagCounts,
-  allTags,
-  entries,
-  filter,
-  filterCatalogueTags,
-  filterFavourites,
-  formatDate,
-  isOld,
-  keys,
-  limit,
-  organizeByDate,
-  pluralize,
-  values,
 };

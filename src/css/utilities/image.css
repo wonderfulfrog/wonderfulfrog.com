@@ -1,13 +1,11 @@
 .image-shrink {
-  img,
-  source {
-    max-width: 50%;
-  }
+  max-width: 50%;
+  border-radius: var(--spacing-0\.5);
+  overflow: hidden;
 }
 
 .image-tiny {
-  img,
-  source {
-    max-width: 25%;
-  }
+  max-width: 25%;
+  border-radius: var(--spacing-0\.5);
+  overflow: hidden;
 }

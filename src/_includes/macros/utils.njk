@@ -1,12 +1,13 @@
 {% macro stars(number) %}
     {% set filledStars = number %}
     {% set emptyStars = 5 - number %}
-    <ul class="[ stars ] [ flex list-none p-0 m-0 text-primary ]" aria-description="{{ number }} out of 5 stars">
-    {% for i in range(0, filledStars) %}
-        <li class="[ star-filled ]">{% include "svgs/star.svg" %}</li>
-    {% endfor %}
-    {% for i in range(0, emptyStars) %}
-        <li class="[ star-empty ]">{% include "svgs/star-empty.svg" %}</li>
-    {% endfor %}
+    <ul class="stars flex list-none p-0 mb-0 text-primary"
+        aria-description="{{ number }} out of 5 stars">
+        {% for i in range(0, filledStars) %}
+            <li class="star-filled">{% include "svgs/star.svg" %}</li>
+        {% endfor %}
+        {% for i in range(0, emptyStars) %}
+            <li class="star-empty">{% include "svgs/star-empty.svg" %}</li>
+        {% endfor %}
     </ul>
 {% endmacro %}

@@ -1,5 +1,5 @@
-const { getFontUrl } = require("../utils/fonts");
-const fonts = require("../../config/design-tokens/fonts.json");
+import { getFontUrl } from "../utils/fonts.js";
+import fonts from "../../config/design-tokens/fonts.js";
 
 const fontsToCss = (fonts) => {
   return Object.entries(fonts).reduce((css, [, fontProperties]) => {
@@ -48,4 +48,4 @@ const fontFamilyToCss = (
     src: local("${localName}"), local("${postScriptName}"), url("${url}") format("${format}")
 }\n`;
 
-module.exports = fontsToCss(fonts);
+export default fontsToCss(fonts);

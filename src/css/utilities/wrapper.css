@@ -5,6 +5,7 @@
  * https://piccalil.li/quick-tip/use-css-clamp-to-create-a-more-flexible-wrapper-utility/
  */
 .wrapper {
+  container-type: inline-size;
   width: 90vw;
   width: clamp(16rem, 90vw, 65ch);
   margin-left: auto;

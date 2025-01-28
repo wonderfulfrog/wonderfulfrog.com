@@ -49,7 +49,7 @@
     }
 
     svg {
-      color: var(--color-border);
+      color: var(--color-shadow);
       transform: rotateZ(10deg) scale(1.25);
     }
   }

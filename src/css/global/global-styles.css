@@ -226,8 +226,6 @@ table tbody tr:not(:last-child) td {
  * https://nerdy.dev/6-css-snippets-every-front-end-developer-should-know-in-2025#transition-animation-for-%3Cdetails%3E
  */
 details {
-  inline-size: 50ch;
-
   @media (prefers-reduced-motion: no-preference) {
     interpolate-size: allow-keywords;
   }

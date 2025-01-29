@@ -1,5 +1,6 @@
 ---
 title: Conversations With People Who Hate Me
+date: 2024-02-20
 image: https://cdn.wonderfulfrog.com/images/Conversations-With-People-Who-Hate-Me-Square-Logo.png
 url: https://www.dylanmarron.com/podcast
 isCompleted: true

@@ -1,5 +1,6 @@
 ---
 title: The New Gurus
+date: 2024-02-20
 image: https://cdn.wonderfulfrog.com/images/the-new-gurus.webp
 url: https://podcasts.apple.com/ca/podcast/the-new-gurus/id1659385785
 isCompleted: true

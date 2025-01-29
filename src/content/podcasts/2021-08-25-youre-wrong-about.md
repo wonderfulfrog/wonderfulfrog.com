@@ -1,5 +1,6 @@
 ---
 title: "You're Wrong About"
+date: 2021-08-25
 url: https://yourewrongabout.com/
 image: https://cdn.wonderfulfrog.com/images/youre-wrong-about.jpeg
 rss: https://feeds.buzzsprout.com/1112270.rss

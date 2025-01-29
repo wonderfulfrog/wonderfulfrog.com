@@ -1,5 +1,6 @@
 ---
 title: If Books Could Kill
+date: 2024-02-17
 url: https://www.ifbookspod.com/
 rss: https://feeds.buzzsprout.com/2040953.rss
 image: https://cdn.wonderfulfrog.com/images/if-books-could-kill.jpeg

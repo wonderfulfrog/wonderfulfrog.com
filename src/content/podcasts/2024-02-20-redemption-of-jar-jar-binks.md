@@ -1,5 +1,6 @@
 ---
 title: The Redemption of Jar Jar Binks
+date: 2024-02-20
 image: https://cdn.wonderfulfrog.com/images/Jar_Jar_250x250.jpg
 url: https://www.ted.com/podcasts/the-redemption-of-jar-jar-binks
 isCompleted: true

@@ -1,5 +1,6 @@
 ---
 title: Hunting Warhead
+date: 2021-08-25
 image: https://cdn.wonderfulfrog.com/images/hunting-warhead.webp
 url: https://www.cbc.ca/listen/cbc-podcasts/387-hunting-warhead
 isCompleted: true

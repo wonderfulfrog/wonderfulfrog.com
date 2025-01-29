@@ -1,5 +1,6 @@
 ---
 title: Maintenance Phase
+date: 2021-08-25
 image: https://cdn.wonderfulfrog.com/images/maintenance-phase.webp
 url: https://www.maintenancephase.com/
 isCompleted: false

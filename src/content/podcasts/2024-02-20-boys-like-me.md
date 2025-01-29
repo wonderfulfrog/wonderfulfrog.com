@@ -1,5 +1,6 @@
 ---
 title: Boys Like Me
+date: 2024-02-20
 image: https://cdn.wonderfulfrog.com/images/BoysLikeMe-podcast-template.avif
 url: https://www.cbc.ca/listen/cbc-podcasts/1035-boys-like-me
 isCompleted: true

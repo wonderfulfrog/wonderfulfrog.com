@@ -10,13 +10,20 @@ layout: "layouts/base"
     <h1>{{ title }}</h1>
     <p class="text-fadeText flow-space-0.25">{{ pullquote }}</p>
 </header>
+{% if hasSpoilers %}
+    <section class="bg-surface radius-0.5 p-1">
+        <span class="text-secondary">{% include "svgs/triangle-exclamation.svg" %}</span>
+        <strong>Warning!</strong>
+        The following may contain spoilers!
+    </section>
+{% endif %}
 {% if watchHistory.length > 1 %}
     <p>
         <span class="text-primary">{% include "svgs/circle-info.svg" %}</span>
         I've seen this movie <strong>{{ watchHistory.length }}</strong> {{ "time" | pluralize(watchHistory) }}!
     </p>
 {% endif %}
-{% if favourite %}
+{% if favourite or isFavourite %}
     <p>
         <span class="text-secondary">{% include "svgs/star.svg" %}</span>
         This is one of my favourite movies!

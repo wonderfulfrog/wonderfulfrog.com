@@ -8,8 +8,15 @@ layout: "layouts/base"
 <header class="flow flow-space-1">
     {{ format(page.date) }}
     <h1>{{ title }}</h1>
-    <p class="text-fadeText flow-space-0.25">{{ pullquote }}</p>
+    {% if pullquote %}<p class="text-fadeText flow-space-0.25">{{ pullquote }}</p>{% endif %}
 </header>
+{% if hasSpoilers %}
+    <section class="bg-surface radius-0.5 p-1">
+        <span class="text-secondary">{% include "svgs/triangle-exclamation.svg" %}</span>
+        <strong>Warning!</strong>
+        The following may contain spoilers!
+    </section>
+{% endif %}
 {% if content %}
     <section class="flow">
         {{ content | safe }}

@@ -1,4 +1,4 @@
-import fonts from "../../config/design-tokens/fonts.js";
+import fonts from "../../../design-tokens/fonts.js";
 
 const fallbacks = [
   "-apple-system",

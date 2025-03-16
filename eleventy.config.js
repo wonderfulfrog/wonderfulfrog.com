@@ -19,6 +19,7 @@ import {
   pluralize,
   values,
 } from "./config/filters/index.js";
+import postcss from "./config/filters/postcss/postcss.js";
 import markdown from "./config/plugins/markdown.js";
 import liteYoutube from "./config/shortcodes/youtube.js";
 
@@ -59,6 +60,8 @@ export default function (eleventyConfig) {
   eleventyConfig.addFilter("organizeByDate", organizeByDate);
   eleventyConfig.addFilter("values", values);
   eleventyConfig.addFilter("pluralize", pluralize);
+
+  eleventyConfig.addFilter("postcss", postcss);
 
   // 	--------------------- Custom Transforms -----------------------
   eleventyConfig.addPlugin(htmlConfigTransform);

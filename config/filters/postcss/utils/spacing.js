@@ -1,4 +1,4 @@
-import spacing from "../../config/design-tokens/spacing.js";
+import spacing from "../../../design-tokens/spacing.js";
 import { helperClassesToCss } from "./helper-classes.js";
 
 const spacingToCss = (variant, value) =>

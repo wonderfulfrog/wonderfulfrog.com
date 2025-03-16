@@ -1,4 +1,4 @@
-import colorSchemes from "../../config/design-tokens/colors.js";
+import colorSchemes from "../../../design-tokens/colors.js";
 import { helperClassesToCss } from "./helper-classes.js";
 
 const lightScheme = colorSchemes.light;

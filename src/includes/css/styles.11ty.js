@@ -14,10 +14,10 @@ import cssnano from "cssnano";
 import { posix as path } from "path";
 import { fileURLToPath } from "url";
 
-import colors from "../css-utils/colors.js";
-import fontFamily from "../css-utils/font-family.js";
-import fontVariables from "../css-utils/font-variables.js";
-import spacing from "../css-utils/spacing.js";
+import colors from "../../css-utils/colors.js";
+import fontFamily from "../../css-utils/font-family.js";
+import fontVariables from "../../css-utils/font-variables.js";
+import spacing from "../../css-utils/spacing.js";
 
 export default class {
   async data() {

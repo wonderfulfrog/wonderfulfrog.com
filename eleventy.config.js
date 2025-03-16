@@ -5,7 +5,6 @@ import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 
 import { collectionByTag, postsByTag } from "./config/collections/index.js";
 
-import { dir } from "./config/constants.js";
 import {
   allTagCounts,
   entries,
@@ -107,6 +106,12 @@ export default function (eleventyConfig) {
     dataTemplateEngine: "njk",
     htmlTemplateEngine: "njk",
 
-    dir,
+    dir: {
+      assets: "assets",
+      data: "data",
+      includes: "includes",
+      input: "src",
+      output: "dist",
+    },
   };
 }

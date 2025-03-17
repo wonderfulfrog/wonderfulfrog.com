@@ -83,6 +83,12 @@ export default function (eleventyConfig) {
     },
 
     failOnError: false,
+
+    cacheOptions: {
+      directory: ".cache",
+      duration: "30d",
+      removeUrlQueryParams: false,
+    },
   });
 
   // 	--------------------- Passthrough File Copy -----------------------

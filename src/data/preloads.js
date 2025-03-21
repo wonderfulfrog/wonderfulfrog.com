@@ -1,5 +1,9 @@
-import { getFontUrl } from "../utils/fonts.js";
+import path from "path";
+
+import { ASSETS_FONTS_PATH } from "../../config/constants/paths.js";
 import fonts from "../../config/design-tokens/fonts.js";
+
+const getFontUrl = (src) => path.join(ASSETS_FONTS_PATH, src);
 
 const preloads = [
   {

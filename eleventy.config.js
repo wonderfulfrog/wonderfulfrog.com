@@ -5,7 +5,6 @@ import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 
 import { collectionByTag, postsByTag } from "./config/collections/index.js";
 
-import { dir } from "./config/constants.js";
 import {
   allTagCounts,
   entries,
@@ -20,6 +19,7 @@ import {
   pluralize,
   values,
 } from "./config/filters/index.js";
+import postcss from "./config/filters/postcss/postcss.js";
 import markdown from "./config/plugins/markdown.js";
 import liteYoutube from "./config/shortcodes/youtube.js";
 
@@ -61,6 +61,8 @@ export default function (eleventyConfig) {
   eleventyConfig.addFilter("values", values);
   eleventyConfig.addFilter("pluralize", pluralize);
 
+  eleventyConfig.addFilter("postcss", postcss);
+
   // 	--------------------- Custom Transforms -----------------------
   eleventyConfig.addPlugin(htmlConfigTransform);
 
@@ -81,6 +83,12 @@ export default function (eleventyConfig) {
     },
 
     failOnError: false,
+
+    cacheOptions: {
+      directory: ".cache",
+      duration: "30d",
+      removeUrlQueryParams: false,
+    },
   });
 
   // 	--------------------- Passthrough File Copy -----------------------
@@ -107,6 +115,12 @@ export default function (eleventyConfig) {
     dataTemplateEngine: "njk",
     htmlTemplateEngine: "njk",
 
-    dir,
+    dir: {
+      assets: "assets",
+      data: "data",
+      includes: "includes",
+      input: "src",
+      output: "dist",
+    },
   };
 }

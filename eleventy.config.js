@@ -1,7 +1,7 @@
 import pluginNoRobots from "eleventy-plugin-no-robots";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 
-import { collectionByTag, postsByTag } from "./config/collections/index.js";
+import { collectionByTag } from "./config/collections/index.js";
 
 import filters from "./config/filters/index.js";
 import markdown from "./config/plugins/markdown.js";
@@ -17,7 +17,9 @@ export default function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginNoRobots);
 
   // 	--------------------- Custom Collections -----------------------
-  eleventyConfig.addCollection("postsByTag", postsByTag);
+  eleventyConfig.addCollection("postsByTag", (collection) =>
+    collectionByTag(collection, "post"),
+  );
   eleventyConfig.addCollection("booksByTag", (collection) =>
     collectionByTag(collection, "book"),
   );

@@ -1,20 +1,24 @@
-import pluginNoRobots from "eleventy-plugin-no-robots";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 
 import { collectionByTag } from "./config/collections/index.js";
-
 import filters from "./config/filters/index.js";
 import markdown from "./config/plugins/markdown.js";
 import shortcodes from "./config/shortcodes/index.js";
 import transforms from "./config/transforms/index.js";
 
 export default function (eleventyConfig) {
+  // 	--------------------- Watch Targets -----------------------
   eleventyConfig.addWatchTarget("./src/css");
 
-  // 	--------------------- Plugins ---------------------
-  eleventyConfig.addPlugin(pluginNoRobots);
+  // 	--------------------- Passthrough File Copy -----------------------
+  ["src/assets/fonts/", "src/assets/images"].forEach((path) =>
+    eleventyConfig.addPassthroughCopy(path),
+  );
 
-  // 	--------------------- Custom Collections -----------------------
+  // 	--------------------- Markdown -----------------------
+  eleventyConfig.setLibrary("md", markdown);
+
+  // 	--------------------- Collections -----------------------
   eleventyConfig.addCollection("postsByTag", (collection) =>
     collectionByTag(collection, "post"),
   );
@@ -31,18 +35,22 @@ export default function (eleventyConfig) {
     collectionByTag(collection, "movie"),
   );
 
-  // 	--------------------- Custom Filters -----------------------
+  // 	--------------------- Filters -----------------------
   Object.keys(filters).forEach((filterName) => {
     eleventyConfig.addFilter(filterName, filters[filterName]);
   });
 
-  // 	--------------------- Custom Transforms -----------------------
+  // 	--------------------- Shortcodes -----------------------
+  Object.keys(shortcodes).forEach((shortcode) => {
+    eleventyConfig.addShortcode(shortcode, shortcodes[shortcode]);
+  });
+
+  // 	--------------------- Transforms -----------------------
   Object.keys(transforms).forEach((transform) => {
     eleventyConfig.addPlugin(transforms[transform]);
   });
 
-  // Image Transforms
-  // Works with any <img> tag in output files.
+  // 	--------------------- Image Transform --------------------
   eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
     extensions: "html",
 
@@ -64,19 +72,6 @@ export default function (eleventyConfig) {
       duration: "30d",
       removeUrlQueryParams: false,
     },
-  });
-
-  // 	--------------------- Passthrough File Copy -----------------------
-  ["src/assets/fonts/", "src/assets/images"].forEach((path) =>
-    eleventyConfig.addPassthroughCopy(path),
-  );
-
-  // 	--------------------- Markdown -----------------------
-  eleventyConfig.setLibrary("md", markdown);
-
-  // 	--------------------- Shortcodes -----------------------
-  Object.keys(shortcodes).forEach((shortcode) => {
-    eleventyConfig.addShortcode(shortcode, shortcodes[shortcode]);
   });
 
   return {

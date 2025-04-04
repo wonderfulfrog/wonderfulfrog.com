@@ -5,7 +5,7 @@ import { collectionByTag } from "./config/collections/index.js";
 
 import filters from "./config/filters/index.js";
 import markdown from "./config/plugins/markdown.js";
-import liteYoutube from "./config/shortcodes/youtube.js";
+import shortcodes from "./config/shortcodes/index.js";
 
 import htmlConfigTransform from "./config/transforms/html-config.js";
 import xmlConfigTransform from "./config/transforms/xml-config.js";
@@ -76,7 +76,9 @@ export default function (eleventyConfig) {
   eleventyConfig.setLibrary("md", markdown);
 
   // 	--------------------- Shortcodes -----------------------
-  eleventyConfig.addShortcode("youtube", liteYoutube);
+  Object.keys(shortcodes).forEach((shortcode) => {
+    eleventyConfig.addShortcode(shortcode, shortcodes[shortcode]);
+  });
 
   return {
     // Optional (default is set): If your site deploys to a subdirectory, change `pathPrefix`, for example with with GitHub pages

@@ -1,26 +1,11 @@
 ---
 permalink: /feeds/posts.xml
+title: Posts
+filterTag: 
+    - post
 layout: null
 eleventyExcludeFromCollections: true
 excludeFromSitemap: true
----<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-<title>Posts • {{ meta.siteName }}</title>
-<subtitle>{{ meta.siteDescription }}</subtitle>
-<link href="{{ meta.url }}/feeds/posts.xml" rel="self" />
-<link href="{{ meta.url }}/" rel="alternate" type="text/html" />
-<id>{{ meta.url }}/</id>
-<author>
-<name>{{ meta.author }}</name>
-</author>
-{% for post in collections.post %}
-    <entry>
-    <id>{{ meta.url }}{{ post.url }}</id>
-    <title>{{ post.data.title | escape }}</title>
-    <link href="{{ meta.url }}{{ post.url }}" />
-    <pubDate>{{ post.date }}</pubDate>
-    {%- for tag in post.data.tags %}<category term="{{ tag }}" />{%- endfor %}
-        <content type="html">{{ post.content | escape }}</content>
-        </entry>
-    {% endfor %}
-    </feed>
+---
+{% from "macros/feed.njk" import feed %}
+{{ feed(meta, collections.post, page.date, permalink, title, filterTag) }}

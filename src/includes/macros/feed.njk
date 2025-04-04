@@ -1,0 +1,29 @@
+{% macro feed(meta, items, buildTime, feedPath, feedTitle, filterTag) %}
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>![CDATA[{% if feedTitle %}{{ feedTitle }} • {% endif %}{{ meta.siteName }}]]</title>
+        <link>{{ meta.url }}</link>
+        <atom:link href="{{ meta.url }}{{ feedPath }}" rel="self" type="application/rss+xml" />
+        <description>![CDATA[{{ meta.siteDescription }}]]</description>
+        <language>en-ca</language>
+        <pubDate>{{ buildTime | formatAsUTCString }}</pubDate>
+        <lastBuildDate>{{ buildTime | formatAsUTCString }}</lastBuildDate>
+        {% for item in items | reverse %}
+        <item>
+            <title>![CDATA[{{ item.data.title }}]]</title>
+            <guid>{{ meta.url }}{{ item.url }}</guid>
+            <pubDate>{{ item.date | formatAsUTCString }}</pubDate>
+            <link>{{ meta.url }}{{ item.url }}</link>
+            {% for tag in item.data.tags | filter(filterTag) %}
+            <category>{{ tag }}</category>
+            {% endfor %}
+            {% if item.content %}
+            <description>![CDATA[{{ item.content | convertRelativeLinks(meta.url) | escape }}]]</description>
+            {% elseif item.data.excerpt %}
+            <description>![CDATA[{{ item.excerpt }}]]</description>
+            {% endif %}
+        </item>
+        {% endfor %}
+    </channel>
+</rss>
+{% endmacro %}

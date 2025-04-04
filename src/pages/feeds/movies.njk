@@ -1,26 +1,11 @@
 ---
 permalink: /feeds/movies.xml
+title: Movies
+filterTag: 
+    - movie
 layout: null
 eleventyExcludeFromCollections: true
 excludeFromSitemap: true
----<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-<title>Movies • {{ meta.siteName }}</title>
-<subtitle>{{ meta.siteDescription }}</subtitle>
-<link href="{{ meta.url }}/feeds/movies.xml" rel="self" />
-<link href="{{ meta.url }}/" rel="alternate" type="text/html" />
-<id>{{ meta.url }}/</id>
-<author>
-<name>{{ meta.author }}</name>
-</author>
-{% for item in collections.movie %}
-    <entry>
-    <id>{{ meta.url }}{{ item.url }}</id>
-    <title>{{ item.data.title | escape }}</title>
-    <link href="{{ item.url }}{{ post.url }}" />
-    <pubDate>{{ item.date }}</pubDate>
-    {%- for tag in item.data.tags | filter("movie") %}<category term="{{ tag }}" />{%- endfor %}
-        <content type="html">{{ item.content | escape }}</content>
-        </entry>
-    {% endfor %}
-    </feed>
+---
+{% from "macros/feed.njk" import feed %}
+{{ feed(meta, collections.movie, page.date, permalink, title, filterTag) }}

@@ -7,11 +7,13 @@ import { collectionByTag, postsByTag } from "./config/collections/index.js";
 
 import {
   allTagCounts,
+  convertRelativeLinks,
   entries,
   filter,
   filterByTags,
   filterFavourites,
   formatDate,
+  formatAsUTCString,
   isOld,
   keys,
   limit,
@@ -24,6 +26,7 @@ import markdown from "./config/plugins/markdown.js";
 import liteYoutube from "./config/shortcodes/youtube.js";
 
 import htmlConfigTransform from "./config/transforms/html-config.js";
+import xmlConfigTransform from "./config/transforms/xml-config.js";
 
 export default function (eleventyConfig) {
   eleventyConfig.addWatchTarget("./src/css");
@@ -49,11 +52,13 @@ export default function (eleventyConfig) {
 
   // 	--------------------- Custom Filters -----------------------
   eleventyConfig.addFilter("allTagCounts", allTagCounts);
+  eleventyConfig.addFilter("convertRelativeLinks", convertRelativeLinks);
   eleventyConfig.addFilter("entries", entries);
   eleventyConfig.addFilter("filter", filter);
   eleventyConfig.addFilter("filterFavourites", filterFavourites);
   eleventyConfig.addFilter("filterByTags", filterByTags);
   eleventyConfig.addFilter("formatDate", formatDate);
+  eleventyConfig.addFilter("formatAsUTCString", formatAsUTCString);
   eleventyConfig.addFilter("isOld", isOld);
   eleventyConfig.addFilter("keys", keys);
   eleventyConfig.addFilter("limit", limit);
@@ -65,6 +70,7 @@ export default function (eleventyConfig) {
 
   // 	--------------------- Custom Transforms -----------------------
   eleventyConfig.addPlugin(htmlConfigTransform);
+  eleventyConfig.addPlugin(xmlConfigTransform);
 
   // Image Transforms
   // Works with any <img> tag in output files.

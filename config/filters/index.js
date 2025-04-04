@@ -4,6 +4,8 @@ import advancedFormat from "dayjs/plugin/advancedFormat.js";
 
 import pluralizeBase from "pluralize";
 
+import { JSDOM } from "jsdom";
+
 export const keys = Object.keys;
 export const values = Object.values;
 export const entries = Object.entries;
@@ -12,6 +14,7 @@ dayjs.extend(utc);
 dayjs.extend(advancedFormat);
 
 export const formatDate = (date, format) => dayjs.utc(date).format(format);
+export const formatAsUTCString = (date) => new Date(date).toUTCString();
 
 export const organizeByDate = (collection) => {
   const collectionByDate = {};
@@ -100,4 +103,30 @@ export const isOld = (dateArg) => {
   const diffInYears = now.diff(date, "years");
 
   return diffInYears >= 2;
+};
+
+// From coryd.dev
+// https://www.coryd.dev/posts/2025/generating-absolute-urls-in-my-rss-feeds/
+export const convertRelativeLinks = (htmlContent, url) => {
+  if (!htmlContent || !url) return htmlContent;
+
+  const dom = new JSDOM(htmlContent);
+  const document = dom.window.document;
+
+  document.querySelectorAll("a[href]").forEach((link) => {
+    let href = link.getAttribute("href");
+
+    if (href.startsWith("#")) {
+      link.remove();
+      return;
+    }
+
+    if (!href.startsWith("http://") && !href.startsWith("https://"))
+      link.setAttribute(
+        "href",
+        `${url.replace(/\/$/, "")}/${href.replace(/^\/+/, "")}`,
+      );
+  });
+
+  return document.body.innerHTML;
 };

@@ -34,5 +34,9 @@
     "postcss": "^8.5.3",
     "postcss-import": "^16.1.0",
     "postcss-import-ext-glob": "^2.1.1"
+  },
+  "dependencies": {
+    "jsdom": "^26.0.0",
+    "minify-xml": "^4.5.2"
   }
 }

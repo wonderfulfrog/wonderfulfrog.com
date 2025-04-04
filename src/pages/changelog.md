@@ -10,6 +10,15 @@ All the changes that are fit to read!
 
 If preferred, the [commit log is available here][commits].
 
+## April 4th, 2025
+
+- Updated the RSS generation scripts. I'm sorry (and in advance) for screwing with your RSS reader.
+  - I also took the time to ensure that my generated feeds comply with the RSS 2.0 spec!
+- Updated the global font to use [Atkinson Hyperlegible](https://www.brailleinstitute.org/freefont/).
+- The site is now hosted by [Bunny.net](https://bunny.net)! Also using them as the CDN.
+- Removed the [`eleventy-plugin-no-robots`](https://github.com/wkillerud/eleventy-plugin-no-robots) plugin.
+- Various organizational changes in the site's backend.
+
 ## January 27th, 2025
 
 - Upgraded to [Eleventy v3](https://www.11ty.dev/blog/eleventy-v3/)!

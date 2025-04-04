@@ -8,17 +8,17 @@ const getFontUrl = (src) => path.join(ASSETS_FONTS_PATH, src);
 const preloads = [
   {
     as: "font",
-    href: getFontUrl(fonts.display.weights.ExtraBold.path),
+    href: getFontUrl(fonts.display.styles.Regular.path),
     crossorigin: true,
   },
   {
     as: "font",
-    href: getFontUrl(fonts.display.weights.Bold.path),
+    href: getFontUrl(fonts.body.styles.Regular.path),
     crossorigin: true,
   },
   {
     as: "font",
-    href: getFontUrl(fonts.body.weights.Regular.path),
+    href: getFontUrl(fonts.monospace.styles.Regular.path),
     crossorigin: true,
   },
 ];

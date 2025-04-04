@@ -1,59 +1,37 @@
 export default {
   display: {
-    family: "Anek Latin",
-    format: "truetype",
-    weights: {
-      ExtraBold: {
-        path: "/aneklatin/AnekLatin-ExtraBold.ttf",
-        "font-style": "normal",
-        weight: 800,
-      },
-      Bold: {
-        path: "/aneklatin/AnekLatin-Bold.ttf",
-        "font-style": "normal",
-        weight: 700,
+    family: "Atikinson Hyperlegible Next",
+    format: "woff2",
+    styles: {
+      Regular: {
+        path: "/hyperlegible/AtkinsonHyperlegibleNextVF-Variable.woff2",
+        fontStyle: "normal",
+        fontWeight: "125 950",
+        fontStretch: "75% 125%",
       },
     },
   },
   body: {
-    family: "iA Writer Quattro V",
+    family: "Atikinson Hyperlegible Next",
     format: "woff2",
-    weights: {
+    styles: {
       Regular: {
-        path: "/quattro/iAWriterQuattroS-Regular.woff2",
-        "font-style": "normal",
-        weight: 400,
-      },
-      Italic: {
-        path: "/quattro/iAWriterQuattroS-Italic.woff2",
-        "font-style": "italic",
-        weight: 400,
-      },
-      Bold: {
-        path: "/quattro/iAWriterQuattroS-Bold.woff2",
-        "font-style": "normal",
-        weight: 650,
-      },
-      BoldItalic: {
-        path: "/quattro/iAWriterQuattroS-BoldItalic.woff2",
-        "font-style": "italic",
-        weight: 650,
+        path: "/hyperlegible/AtkinsonHyperlegibleNextVF-Variable.woff2",
+        fontStyle: "normal",
+        fontWeight: "125 950",
+        fontStretch: "75% 125%",
       },
     },
   },
   monospace: {
-    family: "IBM Plex Mono",
-    format: "truetype",
-    weights: {
+    family: "Atikinson Hyperlegible Mono",
+    format: "woff2",
+    styles: {
       Regular: {
-        path: "/ibmplexmono/IBMPlexMono-Regular.ttf",
-        "font-style": "normal",
-        weight: 400,
-      },
-      Italic: {
-        path: "/ibmplexmono/IBMPlexMono-Italic.ttf",
-        "font-style": "italic",
-        weight: 400,
+        path: "/hyperlegible-mono/AtkinsonHyperlegibleMonoVF-Variable.woff2",
+        fontStyle: "normal",
+        fontWeight: "125 950",
+        fontStretch: "75% 125%",
       },
     },
   },

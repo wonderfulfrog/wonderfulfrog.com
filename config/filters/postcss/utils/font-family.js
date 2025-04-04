@@ -1,22 +1,22 @@
 import path from "path";
 
-import { ASSETS_FONTS_PATH } from "../../../constants/paths.js";
 import fonts from "../../../design-tokens/fonts.js";
 
-const getFontUrl = (src) => path.join(ASSETS_FONTS_PATH, src);
+const getFontUrl = (src) => path.join("/assets/fonts", src);
 
 const fontsToCss = (fonts) => {
   return Object.entries(fonts).reduce((css, [, fontProperties]) => {
     const family = fontProperties.family;
     const format = fontProperties.format;
-    const weights = fontProperties.weights;
+    const styles = fontProperties.styles;
 
     return (
       css +
-      Object.entries(weights).reduce((css, [variant, fontFamily]) => {
+      Object.entries(styles).reduce((css, [variant, fontFamily]) => {
         const url = getFontUrl(fontFamily.path);
-        const style = fontFamily["font-style"];
-        const weight = fontFamily.weight;
+        const style = fontFamily.fontStyle;
+        const weight = fontFamily.fontWeight;
+        const stretch = fontFamily.fontStretch;
         const postScriptName = [family, variant].join("-").replaceAll(" ", "");
 
         return (
@@ -25,6 +25,7 @@ const fontsToCss = (fonts) => {
             family,
             style,
             weight,
+            stretch,
             url,
             family,
             postScriptName,
@@ -40,6 +41,7 @@ const fontFamilyToCss = (
   family,
   style,
   weight,
+  stretch,
   url,
   localName,
   postScriptName,
@@ -48,6 +50,7 @@ const fontFamilyToCss = (
     font-family: ${family};
     font-style: ${style};
     font-weight: ${weight};
+    font-stretch: ${stretch};
     font-display: swap;
     src: local("${localName}"), local("${postScriptName}"), url("${url}") format("${format}")
 }\n`;

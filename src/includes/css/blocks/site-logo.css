@@ -19,6 +19,7 @@
   color: var(--color-white);
   font-family: var(--font-family-display);
   font-size: 1.5rem;
+  font-weight: var(--font-weight-black);
   letter-spacing: -0.05em;
   position: relative;
   text-shadow:

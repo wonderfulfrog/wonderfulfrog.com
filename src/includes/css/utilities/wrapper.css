@@ -7,7 +7,7 @@
 .wrapper {
   container-type: inline-size;
   width: 90vw;
-  width: clamp(16rem, 90vw, 65ch);
+  width: clamp(16rem, 90vw, 80ch);
   margin-left: auto;
   margin-right: auto;
   padding-left: 0.5rem;

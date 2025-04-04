@@ -4,8 +4,7 @@ import { helperClassesToCss } from "./helper-classes.js";
 const lightScheme = colorSchemes.light;
 const darkScheme = colorSchemes.dark;
 
-const colorToCss = (key, value) =>
-  `--${key}: ${value}; --color-${key}: hsl(${value});`;
+const colorToCss = (key, value) => `--color-${key}: ${value};`;
 
 const colorSchemeToCss = (scheme) =>
   Object.entries(scheme).reduce(

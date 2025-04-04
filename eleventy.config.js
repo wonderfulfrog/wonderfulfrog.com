@@ -6,9 +6,7 @@ import { collectionByTag } from "./config/collections/index.js";
 import filters from "./config/filters/index.js";
 import markdown from "./config/plugins/markdown.js";
 import shortcodes from "./config/shortcodes/index.js";
-
-import htmlConfigTransform from "./config/transforms/html-config.js";
-import xmlConfigTransform from "./config/transforms/xml-config.js";
+import transforms from "./config/transforms/index.js";
 
 export default function (eleventyConfig) {
   eleventyConfig.addWatchTarget("./src/css");
@@ -39,8 +37,9 @@ export default function (eleventyConfig) {
   });
 
   // 	--------------------- Custom Transforms -----------------------
-  eleventyConfig.addPlugin(htmlConfigTransform);
-  eleventyConfig.addPlugin(xmlConfigTransform);
+  Object.keys(transforms).forEach((transform) => {
+    eleventyConfig.addPlugin(transforms[transform]);
+  });
 
   // Image Transforms
   // Works with any <img> tag in output files.

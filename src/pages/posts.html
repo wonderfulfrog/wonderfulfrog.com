@@ -8,7 +8,7 @@ description: Read all of my posts.
 <p>
     Browse all of my posts, or narrow things down <a href="/tags">via tags</a>.
 </p>
-{% set itemsByYear = collections.post | reverse | organizeByDate %}
+{% set itemsByYear = collections.post | reverse | organizeByYear %}
 {% set years = itemsByYear | keys | sort("desc") %}
 <section class="flow">
     {% for year in years %}

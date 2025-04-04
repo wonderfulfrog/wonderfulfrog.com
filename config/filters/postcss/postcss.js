@@ -4,7 +4,7 @@
  * ---
  * https://github.com/philhawksworth/eleventyone/blob/master/src/site/css/styles.11ty.js
  */
-import postcss from "postcss";
+import { default as postcssBase } from "postcss";
 import postcssImport from "postcss-import";
 import postcssImportExtGlob from "postcss-import-ext-glob";
 import autoprefixer from "autoprefixer";
@@ -15,9 +15,9 @@ import fontFamily from "./utils/font-family.js";
 import fontVariables from "./utils/font-variables.js";
 import spacing from "./utils/spacing.js";
 
-const postCss = async (rawCss) => {
+const postcss = async (rawCss) => {
   const css = `${rawCss}${fontFamily}${fontVariables}${colors}${spacing}`;
-  return await postcss([
+  return await postcssBase([
     postcssImportExtGlob,
     postcssImport,
     autoprefixer,
@@ -27,4 +27,6 @@ const postCss = async (rawCss) => {
     .then((result) => result.css);
 };
 
-export default postCss;
+export default {
+  postcss,
+};

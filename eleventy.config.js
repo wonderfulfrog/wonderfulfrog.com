@@ -1,27 +1,10 @@
-import util from "util";
 import pluginRss from "@11ty/eleventy-plugin-rss";
 import pluginNoRobots from "eleventy-plugin-no-robots";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 
 import { collectionByTag, postsByTag } from "./config/collections/index.js";
 
-import {
-  allTagCounts,
-  convertRelativeLinks,
-  entries,
-  filter,
-  filterByTags,
-  filterFavourites,
-  formatDate,
-  formatAsUTCString,
-  isOld,
-  keys,
-  limit,
-  organizeByDate,
-  pluralize,
-  values,
-} from "./config/filters/index.js";
-import postcss from "./config/filters/postcss/postcss.js";
+import filters from "./config/filters/index.js";
 import markdown from "./config/plugins/markdown.js";
 import liteYoutube from "./config/shortcodes/youtube.js";
 
@@ -32,7 +15,6 @@ export default function (eleventyConfig) {
   eleventyConfig.addWatchTarget("./src/css");
 
   // 	--------------------- Plugins ---------------------
-  eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginNoRobots);
 
   // 	--------------------- Custom Collections -----------------------
@@ -51,22 +33,9 @@ export default function (eleventyConfig) {
   );
 
   // 	--------------------- Custom Filters -----------------------
-  eleventyConfig.addFilter("allTagCounts", allTagCounts);
-  eleventyConfig.addFilter("convertRelativeLinks", convertRelativeLinks);
-  eleventyConfig.addFilter("entries", entries);
-  eleventyConfig.addFilter("filter", filter);
-  eleventyConfig.addFilter("filterFavourites", filterFavourites);
-  eleventyConfig.addFilter("filterByTags", filterByTags);
-  eleventyConfig.addFilter("formatDate", formatDate);
-  eleventyConfig.addFilter("formatAsUTCString", formatAsUTCString);
-  eleventyConfig.addFilter("isOld", isOld);
-  eleventyConfig.addFilter("keys", keys);
-  eleventyConfig.addFilter("limit", limit);
-  eleventyConfig.addFilter("organizeByDate", organizeByDate);
-  eleventyConfig.addFilter("values", values);
-  eleventyConfig.addFilter("pluralize", pluralize);
-
-  eleventyConfig.addFilter("postcss", postcss);
+  Object.keys(filters).forEach((filterName) => {
+    eleventyConfig.addFilter(filterName, filters[filterName]);
+  });
 
   // 	--------------------- Custom Transforms -----------------------
   eleventyConfig.addPlugin(htmlConfigTransform);
@@ -101,17 +70,12 @@ export default function (eleventyConfig) {
   ["src/assets/fonts/", "src/assets/images"].forEach((path) =>
     eleventyConfig.addPassthroughCopy(path),
   );
-  eleventyConfig.addPassthroughCopy("_redirects");
 
   // 	--------------------- Markdown -----------------------
   eleventyConfig.setLibrary("md", markdown);
 
   // 	--------------------- Shortcodes -----------------------
   eleventyConfig.addShortcode("youtube", liteYoutube);
-
-  eleventyConfig.addFilter("console", function (value) {
-    return util.inspect(value);
-  });
 
   return {
     // Optional (default is set): If your site deploys to a subdirectory, change `pathPrefix`, for example with with GitHub pages

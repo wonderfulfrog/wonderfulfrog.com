@@ -15,7 +15,7 @@ eleventyComputed:
 <p>
     All posts tagged with "{{ tag }}", or go back to <a href="/tags">all tags</a>.
 </p>
-{% set itemsByYear = collections.postsByTag[tag] | reverse | organizeByDate %}
+{% set itemsByYear = collections.postsByTag[tag] | reverse | organizeByYear %}
 {% set years = itemsByYear | keys | sort("desc") %}
 <section class="flow">
     {% for year in years %}

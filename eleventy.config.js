@@ -1,4 +1,3 @@
-import pluginRss from "@11ty/eleventy-plugin-rss";
 import pluginNoRobots from "eleventy-plugin-no-robots";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 

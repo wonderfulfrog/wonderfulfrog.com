@@ -8,7 +8,7 @@ import transforms from "./config/transforms/index.js";
 
 export default function (eleventyConfig) {
   // 	--------------------- Watch Targets -----------------------
-  eleventyConfig.addWatchTarget("./src/css");
+  eleventyConfig.addWatchTarget("./src/includes/css");
 
   // 	--------------------- Passthrough File Copy -----------------------
   ["src/assets/fonts/", "src/assets/images"].forEach((path) =>
